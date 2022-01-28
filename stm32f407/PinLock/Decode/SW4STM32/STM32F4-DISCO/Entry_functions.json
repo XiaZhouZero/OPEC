@@ -1,0 +1,20 @@
+{
+    "System_Init": {},
+    "Uart_Init": {},
+    "Key_Init": {},
+    "Init_Lock": {},
+    "Unlock_Task": {
+        "Stack": [
+            {
+                "Name": "unlock_count",
+                "Index": 3,
+                "Count": 1,
+                "Size": 4
+            }
+        ],
+        "Sanitization": [
+            {}
+        ]
+    },
+    "Lock_Task": {}
+}
