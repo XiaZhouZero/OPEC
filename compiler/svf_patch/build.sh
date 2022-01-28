@@ -131,6 +131,7 @@ then
    git clone "https://gitee.com/zhouxia_zju/Test-Suite.git"
    if [[ $sysOS == "Linux" ]] ; then
    	cd ./$SVFTests
+	git checkout b2f2898d2597fb0d71eb0bb4ba6a9eb924b2e711	# compatible with SVF commit: 211823750931b102f82ec6a21a6721e62a42ae5b
    	./generate_bc.sh
    	cd ..
    fi
