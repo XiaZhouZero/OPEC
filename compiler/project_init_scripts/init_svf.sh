@@ -12,6 +12,10 @@ git submodule init
 git submodule update
 cd -
 
+cd ${SVF_DIR}
+git checkout 211823750931b102f82ec6a21a6721e62a42ae5b
+cd -
+
 # patch -R -p0 ${SVF_DIR}/lib/MemoryModel/PointerAnalysis.cpp ${PATCH_DIR}/PointerAnalysis.patch
 bash ${PATCH_DIR}/setup_symlinks.sh
 
