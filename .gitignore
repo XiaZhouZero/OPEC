@@ -2,5 +2,4 @@
 *.d
 *.bc
 *.dot
-*.txt
 .vscode/
