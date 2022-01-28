@@ -1,0 +1,2439 @@
+{
+    "MemoryPool": {},
+    "Operation": {
+        "_Operation_0_": {
+            "Entry": "Unlink_Driver",
+            "ExternalData": [
+                "disk",
+                "SDPath"
+            ],
+            "ExternalDataFields": {
+                "SDPath": null,
+                "disk": [
+                    4,
+                    7,
+                    8,
+                    11
+                ]
+            },
+            "ExternalDataSan": {
+                "SDPath": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "disk": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "InternalData": [],
+            "MPU_Config": {
+                "Addr": [
+                    16,
+                    134217745,
+                    536870930,
+                    536981235,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "Attr": [
+                    302383163,
+                    100794401,
+                    319160343,
+                    319160329,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "MemoryHeap": [],
+            "MemoryPool": [],
+            "MemoryPoolNames": [],
+            "Peripheral_Namelist": [
+                "NONE"
+            ],
+            "Peripherals": [
+                [
+                    0,
+                    3,
+                    "0",
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "Sanitization": [],
+            "Stack": [],
+            "Whitelist": {
+                "None": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "Whitelist_Namelist": [
+                "None"
+            ]
+        },
+        "_Operation_1_": {
+            "Entry": "Compare_Data",
+            "ExternalData": [
+                "bytesread",
+                "byteswritten"
+            ],
+            "ExternalDataFields": {
+                "bytesread": null,
+                "byteswritten": null
+            },
+            "ExternalDataSan": {
+                "bytesread": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "byteswritten": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "InternalData": [],
+            "MPU_Config": {
+                "Addr": [
+                    16,
+                    134217745,
+                    536870930,
+                    536981203,
+                    1073883156,
+                    0,
+                    0,
+                    0
+                ],
+                "Attr": [
+                    302383163,
+                    100794401,
+                    319160343,
+                    319160329,
+                    319094803,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "MemoryHeap": [],
+            "MemoryPool": [],
+            "MemoryPoolNames": [],
+            "Peripheral_Namelist": [
+                "GPIOK"
+            ],
+            "Peripherals": [
+                [
+                    1073883136,
+                    3,
+                    "GPIOK",
+                    1024,
+                    1073883156,
+                    319094803
+                ]
+            ],
+            "Sanitization": [],
+            "Stack": [],
+            "Whitelist": {
+                "None": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "Whitelist_Namelist": [
+                "None"
+            ]
+        },
+        "_Operation_2_": {
+            "Entry": "Read_File",
+            "ExternalData": [
+                "SDFatFs",
+                "MyFile",
+                "buffer",
+                "uSdHandle",
+                "Files",
+                "disk",
+                "bytesread",
+                "uwTick",
+                "SystemCoreClock",
+                "res",
+                "Stat"
+            ],
+            "ExternalDataFields": {
+                "Files": [
+                    0,
+                    3,
+                    16,
+                    19
+                ],
+                "MyFile": [
+                    0,
+                    3,
+                    40,
+                    43,
+                    44,
+                    47
+                ],
+                "SDFatFs": null,
+                "Stat": null,
+                "SystemCoreClock": null,
+                "buffer": null,
+                "bytesread": null,
+                "disk": [
+                    4,
+                    7,
+                    8,
+                    11
+                ],
+                "res": null,
+                "uSdHandle": [
+                    0,
+                    3,
+                    32,
+                    35,
+                    40,
+                    43,
+                    60,
+                    63,
+                    64,
+                    67
+                ],
+                "uwTick": null
+            },
+            "ExternalDataSan": {
+                "Files": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "MyFile": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "SDFatFs": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "Stat": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "SystemCoreClock": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "buffer": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "bytesread": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "disk": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "res": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "uSdHandle": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "uwTick": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "InternalData": [],
+            "MPU_Config": {
+                "Addr": [
+                    16,
+                    134217745,
+                    536870930,
+                    536983571,
+                    1073741844,
+                    1073818645,
+                    1073883158,
+                    0
+                ],
+                "Attr": [
+                    302383163,
+                    100794401,
+                    319160343,
+                    319160341,
+                    319094803,
+                    319094803,
+                    319094803,
+                    0
+                ]
+            },
+            "MemoryHeap": [],
+            "MemoryPool": [],
+            "MemoryPoolNames": [],
+            "Peripheral_Namelist": [
+                "TIM2",
+                "SDIO",
+                "GPIOK"
+            ],
+            "Peripherals": [
+                [
+                    1073741824,
+                    3,
+                    "TIM2",
+                    1024,
+                    1073741844,
+                    319094803
+                ],
+                [
+                    1073818624,
+                    3,
+                    "SDIO",
+                    1024,
+                    1073818645,
+                    319094803
+                ],
+                [
+                    1073883136,
+                    3,
+                    "GPIOK",
+                    1024,
+                    1073883158,
+                    319094803
+                ]
+            ],
+            "Sanitization": [],
+            "Stack": [],
+            "Whitelist": {
+                "None": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "Whitelist_Namelist": [
+                "None"
+            ]
+        },
+        "_Operation_3_": {
+            "Entry": "Open_File_Read",
+            "ExternalData": [
+                "MyFile",
+                "SDFatFs",
+                "buffer",
+                "uSdHandle",
+                "BSP_SD_MspInit.dma_tx_handle",
+                "BSP_SD_MspInit.dma_rx_handle",
+                "heval_I2c",
+                "mfxstm32l152_io_drv",
+                "Files",
+                "disk",
+                "FatFs",
+                "SystemCoreClock",
+                "IoDrv",
+                "SDPath",
+                "uwTick",
+                "mfxstm32l152",
+                "Fsid",
+                "UseExtiModeDetection",
+                "uwTickFreq",
+                "MFX_IO_ITConfig.MFX_IO_IT_Enabled",
+                "Stat"
+            ],
+            "ExternalDataFields": {
+                "BSP_SD_MspInit.dma_rx_handle": [
+                    0,
+                    3,
+                    56,
+                    59
+                ],
+                "BSP_SD_MspInit.dma_tx_handle": [
+                    0,
+                    3,
+                    56,
+                    59
+                ],
+                "FatFs": [
+                    0,
+                    3,
+                    4,
+                    7
+                ],
+                "Files": [
+                    0,
+                    3,
+                    16,
+                    19
+                ],
+                "Fsid": null,
+                "IoDrv": null,
+                "MFX_IO_ITConfig.MFX_IO_IT_Enabled": null,
+                "MyFile": [
+                    0,
+                    3,
+                    40,
+                    43,
+                    44,
+                    47
+                ],
+                "SDFatFs": null,
+                "SDPath": null,
+                "Stat": null,
+                "SystemCoreClock": null,
+                "UseExtiModeDetection": null,
+                "buffer": null,
+                "disk": [
+                    4,
+                    7,
+                    8,
+                    11
+                ],
+                "heval_I2c": [
+                    0,
+                    3,
+                    36,
+                    39,
+                    52,
+                    55,
+                    56,
+                    59
+                ],
+                "mfxstm32l152": null,
+                "mfxstm32l152_io_drv": null,
+                "uSdHandle": [
+                    0,
+                    3,
+                    32,
+                    35,
+                    40,
+                    43,
+                    60,
+                    63,
+                    64,
+                    67
+                ],
+                "uwTick": null,
+                "uwTickFreq": null
+            },
+            "ExternalDataSan": {
+                "BSP_SD_MspInit.dma_rx_handle": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "BSP_SD_MspInit.dma_tx_handle": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "FatFs": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "Files": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "Fsid": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "IoDrv": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "MFX_IO_ITConfig.MFX_IO_IT_Enabled": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "MyFile": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "SDFatFs": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "SDPath": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "Stat": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "SystemCoreClock": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "UseExtiModeDetection": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "buffer": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "disk": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "heval_I2c": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "mfxstm32l152": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "mfxstm32l152_io_drv": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "uSdHandle": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "uwTick": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "uwTickFreq": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "InternalData": [],
+            "MPU_Config": {
+                "Addr": [
+                    16,
+                    134217745,
+                    536870930,
+                    536997907,
+                    1073741844,
+                    1073763349,
+                    1073818646,
+                    1073821719
+                ],
+                "Attr": [
+                    302383163,
+                    100794401,
+                    319160343,
+                    319160343,
+                    319094803,
+                    319094803,
+                    319094803,
+                    319094805
+                ]
+            },
+            "MemoryHeap": [],
+            "MemoryPool": [],
+            "MemoryPoolNames": [],
+            "Peripheral_Namelist": [
+                "TIM2",
+                "I2C1",
+                "SDIO",
+                "SYSCFG__EXTI",
+                "GPIOI__GPIOJ",
+                "GPIOK",
+                "RCC",
+                "DMA2",
+                "SDIO_bit_band",
+                "EXT_DEV",
+                "GPIOA_H"
+            ],
+            "Peripherals": [
+                [
+                    1073741824,
+                    3,
+                    "TIM2",
+                    1024,
+                    1073741844,
+                    319094803
+                ],
+                [
+                    1073763328,
+                    3,
+                    "I2C1",
+                    1024,
+                    1073763349,
+                    319094803
+                ],
+                [
+                    1073818624,
+                    3,
+                    "SDIO",
+                    1024,
+                    1073818646,
+                    319094803
+                ],
+                [
+                    1073821696,
+                    3,
+                    "SYSCFG__EXTI",
+                    2048,
+                    1073821719,
+                    319094805
+                ],
+                [
+                    1073881088,
+                    3,
+                    "GPIOI__GPIOJ",
+                    2048,
+                    1073881104,
+                    319094805
+                ],
+                [
+                    1073883136,
+                    3,
+                    "GPIOK",
+                    1024,
+                    1073883152,
+                    319094803
+                ],
+                [
+                    1073887232,
+                    3,
+                    "RCC",
+                    1024,
+                    1073887248,
+                    319094803
+                ],
+                [
+                    1073898496,
+                    3,
+                    "DMA2",
+                    1024,
+                    1073898512,
+                    319094803
+                ],
+                [
+                    1109753856,
+                    3,
+                    "SDIO_bit_band",
+                    4096,
+                    1109753872,
+                    319094807
+                ],
+                [
+                    3221225472,
+                    3,
+                    "EXT_DEV",
+                    268435456,
+                    3221225488,
+                    319094839
+                ],
+                [
+                    1073872896,
+                    3,
+                    "GPIOA_H",
+                    8192,
+                    1073872912,
+                    319094809
+                ]
+            ],
+            "Sanitization": [],
+            "Stack": [],
+            "Whitelist": {
+                "SCB": [
+                    3758157056,
+                    144,
+                    3
+                ],
+                "SysTick": [
+                    3758153744,
+                    368,
+                    3
+                ]
+            },
+            "Whitelist_Namelist": [
+                "SCB",
+                "SysTick"
+            ]
+        },
+        "_Operation_4_": {
+            "Entry": "Write_to_File",
+            "ExternalData": [
+                "SDFatFs",
+                "MyFile",
+                "buffer",
+                "uSdHandle",
+                "Files",
+                "disk",
+                "byteswritten",
+                "uwTick",
+                "SystemCoreClock",
+                "res",
+                "Stat"
+            ],
+            "ExternalDataFields": {
+                "Files": [
+                    0,
+                    3,
+                    16,
+                    19
+                ],
+                "MyFile": [
+                    0,
+                    3,
+                    40,
+                    43,
+                    44,
+                    47
+                ],
+                "SDFatFs": null,
+                "Stat": null,
+                "SystemCoreClock": null,
+                "buffer": null,
+                "byteswritten": null,
+                "disk": [
+                    4,
+                    7,
+                    8,
+                    11
+                ],
+                "res": null,
+                "uSdHandle": [
+                    0,
+                    3,
+                    32,
+                    35,
+                    40,
+                    43,
+                    60,
+                    63,
+                    64,
+                    67
+                ],
+                "uwTick": null
+            },
+            "ExternalDataSan": {
+                "Files": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "MyFile": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "SDFatFs": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "Stat": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "SystemCoreClock": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "buffer": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "byteswritten": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "disk": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "res": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "uSdHandle": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "uwTick": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "InternalData": [],
+            "MPU_Config": {
+                "Addr": [
+                    16,
+                    134217745,
+                    536870930,
+                    536981523,
+                    1073741844,
+                    1073818645,
+                    1073883158,
+                    0
+                ],
+                "Attr": [
+                    302383163,
+                    100794401,
+                    319160343,
+                    319160341,
+                    319094803,
+                    319094803,
+                    319094803,
+                    0
+                ]
+            },
+            "MemoryHeap": [],
+            "MemoryPool": [],
+            "MemoryPoolNames": [],
+            "Peripheral_Namelist": [
+                "TIM2",
+                "SDIO",
+                "GPIOK"
+            ],
+            "Peripherals": [
+                [
+                    1073741824,
+                    3,
+                    "TIM2",
+                    1024,
+                    1073741844,
+                    319094803
+                ],
+                [
+                    1073818624,
+                    3,
+                    "SDIO",
+                    1024,
+                    1073818645,
+                    319094803
+                ],
+                [
+                    1073883136,
+                    3,
+                    "GPIOK",
+                    1024,
+                    1073883158,
+                    319094803
+                ]
+            ],
+            "Sanitization": [],
+            "Stack": [],
+            "Whitelist": {
+                "None": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "Whitelist_Namelist": []
+        },
+        "_Operation_5_": {
+            "Entry": "Open_File",
+            "ExternalData": [
+                "MyFile",
+                "SDFatFs",
+                "buffer",
+                "uSdHandle",
+                "BSP_SD_MspInit.dma_tx_handle",
+                "BSP_SD_MspInit.dma_rx_handle",
+                "heval_I2c",
+                "mfxstm32l152_io_drv",
+                "Files",
+                "disk",
+                "FatFs",
+                "SystemCoreClock",
+                "IoDrv",
+                "SDPath",
+                "uwTick",
+                "mfxstm32l152",
+                "Fsid",
+                "UseExtiModeDetection",
+                "uwTickFreq",
+                "MFX_IO_ITConfig.MFX_IO_IT_Enabled",
+                "Stat"
+            ],
+            "ExternalDataFields": {
+                "BSP_SD_MspInit.dma_rx_handle": [
+                    0,
+                    3,
+                    56,
+                    59
+                ],
+                "BSP_SD_MspInit.dma_tx_handle": [
+                    0,
+                    3,
+                    56,
+                    59
+                ],
+                "FatFs": [
+                    0,
+                    3,
+                    4,
+                    7
+                ],
+                "Files": [
+                    0,
+                    3,
+                    16,
+                    19
+                ],
+                "Fsid": null,
+                "IoDrv": null,
+                "MFX_IO_ITConfig.MFX_IO_IT_Enabled": null,
+                "MyFile": [
+                    0,
+                    3,
+                    40,
+                    43,
+                    44,
+                    47
+                ],
+                "SDFatFs": null,
+                "SDPath": null,
+                "Stat": null,
+                "SystemCoreClock": null,
+                "UseExtiModeDetection": null,
+                "buffer": null,
+                "disk": [
+                    4,
+                    7,
+                    8,
+                    11
+                ],
+                "heval_I2c": [
+                    0,
+                    3,
+                    36,
+                    39,
+                    52,
+                    55,
+                    56,
+                    59
+                ],
+                "mfxstm32l152": null,
+                "mfxstm32l152_io_drv": null,
+                "uSdHandle": [
+                    0,
+                    3,
+                    32,
+                    35,
+                    40,
+                    43,
+                    60,
+                    63,
+                    64,
+                    67
+                ],
+                "uwTick": null,
+                "uwTickFreq": null
+            },
+            "ExternalDataSan": {
+                "BSP_SD_MspInit.dma_rx_handle": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "BSP_SD_MspInit.dma_tx_handle": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "FatFs": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "Files": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "Fsid": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "IoDrv": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "MFX_IO_ITConfig.MFX_IO_IT_Enabled": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "MyFile": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "SDFatFs": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "SDPath": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "Stat": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "SystemCoreClock": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "UseExtiModeDetection": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "buffer": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "disk": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "heval_I2c": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "mfxstm32l152": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "mfxstm32l152_io_drv": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "uSdHandle": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "uwTick": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "uwTickFreq": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "InternalData": [],
+            "MPU_Config": {
+                "Addr": [
+                    16,
+                    134217745,
+                    536870930,
+                    536993811,
+                    1073741844,
+                    1073763349,
+                    1073818646,
+                    1073821719
+                ],
+                "Attr": [
+                    302383163,
+                    100794401,
+                    319160343,
+                    319160343,
+                    319094803,
+                    319094803,
+                    319094803,
+                    319094805
+                ]
+            },
+            "MemoryHeap": [],
+            "MemoryPool": [],
+            "MemoryPoolNames": [],
+            "Peripheral_Namelist": [
+                "TIM2",
+                "I2C1",
+                "SDIO",
+                "SYSCFG__EXTI",
+                "GPIOI__GPIOJ",
+                "GPIOK",
+                "RCC",
+                "DMA2",
+                "SDIO_bit_band",
+                "EXT_DEV",
+                "GPIOA_H"
+            ],
+            "Peripherals": [
+                [
+                    1073741824,
+                    3,
+                    "TIM2",
+                    1024,
+                    1073741844,
+                    319094803
+                ],
+                [
+                    1073763328,
+                    3,
+                    "I2C1",
+                    1024,
+                    1073763349,
+                    319094803
+                ],
+                [
+                    1073818624,
+                    3,
+                    "SDIO",
+                    1024,
+                    1073818646,
+                    319094803
+                ],
+                [
+                    1073821696,
+                    3,
+                    "SYSCFG__EXTI",
+                    2048,
+                    1073821719,
+                    319094805
+                ],
+                [
+                    1073881088,
+                    3,
+                    "GPIOI__GPIOJ",
+                    2048,
+                    1073881104,
+                    319094805
+                ],
+                [
+                    1073883136,
+                    3,
+                    "GPIOK",
+                    1024,
+                    1073883152,
+                    319094803
+                ],
+                [
+                    1073887232,
+                    3,
+                    "RCC",
+                    1024,
+                    1073887248,
+                    319094803
+                ],
+                [
+                    1073898496,
+                    3,
+                    "DMA2",
+                    1024,
+                    1073898512,
+                    319094803
+                ],
+                [
+                    1109753856,
+                    3,
+                    "SDIO_bit_band",
+                    4096,
+                    1109753872,
+                    319094807
+                ],
+                [
+                    3221225472,
+                    3,
+                    "EXT_DEV",
+                    268435456,
+                    3221225488,
+                    319094839
+                ],
+                [
+                    1073872896,
+                    3,
+                    "GPIOA_H",
+                    8192,
+                    1073872912,
+                    319094809
+                ]
+            ],
+            "Sanitization": [],
+            "Stack": [],
+            "Whitelist": {
+                "SCB": [
+                    3758157056,
+                    144,
+                    3
+                ],
+                "SysTick": [
+                    3758153744,
+                    368,
+                    3
+                ]
+            },
+            "Whitelist_Namelist": [
+                "SCB",
+                "SysTick"
+            ]
+        },
+        "_Operation_6_": {
+            "Entry": "Create_FAT_FS",
+            "ExternalData": [
+                "SDFatFs",
+                "MyFile",
+                "buffer",
+                "uSdHandle",
+                "BSP_SD_MspInit.dma_tx_handle",
+                "BSP_SD_MspInit.dma_rx_handle",
+                "heval_I2c",
+                "mfxstm32l152_io_drv",
+                "disk",
+                "FatFs",
+                "IoDrv",
+                "SDPath",
+                "uwTick",
+                "SystemCoreClock",
+                "mfxstm32l152",
+                "UseExtiModeDetection",
+                "uwTickFreq",
+                "MFX_IO_ITConfig.MFX_IO_IT_Enabled",
+                "Stat"
+            ],
+            "ExternalDataFields": {
+                "BSP_SD_MspInit.dma_rx_handle": [
+                    0,
+                    3,
+                    56,
+                    59
+                ],
+                "BSP_SD_MspInit.dma_tx_handle": [
+                    0,
+                    3,
+                    56,
+                    59
+                ],
+                "FatFs": [
+                    0,
+                    3,
+                    4,
+                    7
+                ],
+                "IoDrv": null,
+                "MFX_IO_ITConfig.MFX_IO_IT_Enabled": null,
+                "MyFile": [
+                    0,
+                    3,
+                    40,
+                    43,
+                    44,
+                    47
+                ],
+                "SDFatFs": null,
+                "SDPath": null,
+                "Stat": null,
+                "SystemCoreClock": null,
+                "UseExtiModeDetection": null,
+                "buffer": null,
+                "disk": [
+                    4,
+                    7,
+                    8,
+                    11
+                ],
+                "heval_I2c": [
+                    0,
+                    3,
+                    36,
+                    39,
+                    52,
+                    55,
+                    56,
+                    59
+                ],
+                "mfxstm32l152": null,
+                "mfxstm32l152_io_drv": null,
+                "uSdHandle": [
+                    0,
+                    3,
+                    32,
+                    35,
+                    40,
+                    43,
+                    60,
+                    63,
+                    64,
+                    67
+                ],
+                "uwTick": null,
+                "uwTickFreq": null
+            },
+            "ExternalDataSan": {
+                "BSP_SD_MspInit.dma_rx_handle": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "BSP_SD_MspInit.dma_tx_handle": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "FatFs": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "IoDrv": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "MFX_IO_ITConfig.MFX_IO_IT_Enabled": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "MyFile": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "SDFatFs": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "SDPath": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "Stat": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "SystemCoreClock": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "UseExtiModeDetection": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "buffer": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "disk": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "heval_I2c": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "mfxstm32l152": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "mfxstm32l152_io_drv": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "uSdHandle": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "uwTick": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "uwTickFreq": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "InternalData": [],
+            "MPU_Config": {
+                "Addr": [
+                    16,
+                    134217745,
+                    536870930,
+                    536989715,
+                    1073741844,
+                    1073763349,
+                    1073818646,
+                    1073821719
+                ],
+                "Attr": [
+                    302383163,
+                    100794401,
+                    319160343,
+                    319160343,
+                    319094803,
+                    319094803,
+                    319094803,
+                    319094805
+                ]
+            },
+            "MemoryHeap": [],
+            "MemoryPool": [],
+            "MemoryPoolNames": [],
+            "Peripheral_Namelist": [
+                "TIM2",
+                "I2C1",
+                "SDIO",
+                "SYSCFG__EXTI",
+                "GPIOI__GPIOJ",
+                "GPIOK",
+                "RCC",
+                "DMA2",
+                "SDIO_bit_band",
+                "EXT_DEV",
+                "GPIOA_H"
+            ],
+            "Peripherals": [
+                [
+                    1073741824,
+                    3,
+                    "TIM2",
+                    1024,
+                    1073741844,
+                    319094803
+                ],
+                [
+                    1073763328,
+                    3,
+                    "I2C1",
+                    1024,
+                    1073763349,
+                    319094803
+                ],
+                [
+                    1073818624,
+                    3,
+                    "SDIO",
+                    1024,
+                    1073818646,
+                    319094803
+                ],
+                [
+                    1073821696,
+                    3,
+                    "SYSCFG__EXTI",
+                    2048,
+                    1073821719,
+                    319094805
+                ],
+                [
+                    1073881088,
+                    3,
+                    "GPIOI__GPIOJ",
+                    2048,
+                    1073881104,
+                    319094805
+                ],
+                [
+                    1073883136,
+                    3,
+                    "GPIOK",
+                    1024,
+                    1073883152,
+                    319094803
+                ],
+                [
+                    1073887232,
+                    3,
+                    "RCC",
+                    1024,
+                    1073887248,
+                    319094803
+                ],
+                [
+                    1073898496,
+                    3,
+                    "DMA2",
+                    1024,
+                    1073898512,
+                    319094803
+                ],
+                [
+                    1109753856,
+                    3,
+                    "SDIO_bit_band",
+                    4096,
+                    1109753872,
+                    319094807
+                ],
+                [
+                    3221225472,
+                    3,
+                    "EXT_DEV",
+                    268435456,
+                    3221225488,
+                    319094839
+                ],
+                [
+                    1073872896,
+                    3,
+                    "GPIOA_H",
+                    8192,
+                    1073872912,
+                    319094809
+                ]
+            ],
+            "Sanitization": [],
+            "Stack": [],
+            "Whitelist": {
+                "SCB": [
+                    3758157056,
+                    144,
+                    3
+                ],
+                "SysTick": [
+                    3758153744,
+                    368,
+                    3
+                ]
+            },
+            "Whitelist_Namelist": [
+                "SCB",
+                "SysTick"
+            ]
+        },
+        "_Operation_7_": {
+            "Entry": "System_Init",
+            "ExternalData": [
+                "heval_I2c",
+                "mfxstm32l152_io_drv",
+                "IoDrv",
+                "uwTick",
+                "SystemCoreClock",
+                "mfxstm32l152",
+                "uwTickFreq",
+                "MFX_IO_ITConfig.MFX_IO_IT_Enabled"
+            ],
+            "ExternalDataFields": {
+                "IoDrv": null,
+                "MFX_IO_ITConfig.MFX_IO_IT_Enabled": null,
+                "SystemCoreClock": null,
+                "heval_I2c": [
+                    0,
+                    3,
+                    36,
+                    39,
+                    52,
+                    55,
+                    56,
+                    59
+                ],
+                "mfxstm32l152": null,
+                "mfxstm32l152_io_drv": null,
+                "uwTick": null,
+                "uwTickFreq": null
+            },
+            "ExternalDataSan": {
+                "IoDrv": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "MFX_IO_ITConfig.MFX_IO_IT_Enabled": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "SystemCoreClock": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "heval_I2c": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "mfxstm32l152": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "mfxstm32l152_io_drv": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "uwTick": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "uwTickFreq": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "InternalData": [
+                "uwTickPrio"
+            ],
+            "MPU_Config": {
+                "Addr": [
+                    16,
+                    134217745,
+                    536870930,
+                    536981267,
+                    1073763348,
+                    1073770517,
+                    1073821718,
+                    1073881111
+                ],
+                "Attr": [
+                    302383163,
+                    100794401,
+                    319160343,
+                    319160335,
+                    319094803,
+                    319094803,
+                    319094805,
+                    319094805
+                ]
+            },
+            "MemoryHeap": [],
+            "MemoryPool": [],
+            "MemoryPoolNames": [],
+            "Peripheral_Namelist": [
+                "I2C1",
+                "PWR",
+                "SYSCFG__EXTI",
+                "GPIOI__GPIOJ",
+                "GPIOK",
+                "RCC__FLASH-Inte",
+                "PWR_bit_band",
+                "RCC_bit_band",
+                "GPIOA_H"
+            ],
+            "Peripherals": [
+                [
+                    1073763328,
+                    3,
+                    "I2C1",
+                    1024,
+                    1073763348,
+                    319094803
+                ],
+                [
+                    1073770496,
+                    3,
+                    "PWR",
+                    1024,
+                    1073770517,
+                    319094803
+                ],
+                [
+                    1073821696,
+                    3,
+                    "SYSCFG__EXTI",
+                    2048,
+                    1073821718,
+                    319094805
+                ],
+                [
+                    1073881088,
+                    3,
+                    "GPIOI__GPIOJ",
+                    2048,
+                    1073881111,
+                    319094805
+                ],
+                [
+                    1073883136,
+                    3,
+                    "GPIOK",
+                    1024,
+                    1073883152,
+                    319094803
+                ],
+                [
+                    1073887232,
+                    3,
+                    "RCC__FLASH-Inte",
+                    2048,
+                    1073887248,
+                    319094805
+                ],
+                [
+                    1108213760,
+                    3,
+                    "PWR_bit_band",
+                    32768,
+                    1108213776,
+                    319094813
+                ],
+                [
+                    1111949312,
+                    3,
+                    "RCC_bit_band",
+                    65536,
+                    1111949328,
+                    319094815
+                ],
+                [
+                    1073872896,
+                    3,
+                    "GPIOA_H",
+                    8192,
+                    1073872912,
+                    319094809
+                ]
+            ],
+            "Sanitization": [],
+            "Stack": [],
+            "Whitelist": {
+                "SCB": [
+                    3758157056,
+                    144,
+                    3
+                ],
+                "SysTick": [
+                    3758153744,
+                    368,
+                    3
+                ]
+            },
+            "Whitelist_Namelist": [
+                "SCB",
+                "SysTick"
+            ]
+        },
+        "_Operation_8_": {
+            "Entry": "Link_Driver",
+            "ExternalData": [
+                "disk",
+                "SDPath"
+            ],
+            "ExternalDataFields": {
+                "SDPath": null,
+                "disk": [
+                    4,
+                    7,
+                    8,
+                    11
+                ]
+            },
+            "ExternalDataSan": {
+                "SDPath": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "disk": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "InternalData": [],
+            "MPU_Config": {
+                "Addr": [
+                    16,
+                    134217745,
+                    536870930,
+                    536981171,
+                    1073883156,
+                    0,
+                    0,
+                    0
+                ],
+                "Attr": [
+                    302383163,
+                    100794401,
+                    319160343,
+                    319160329,
+                    319094803,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "MemoryHeap": [],
+            "MemoryPool": [],
+            "MemoryPoolNames": [],
+            "Peripheral_Namelist": [
+                "GPIOK"
+            ],
+            "Peripherals": [
+                [
+                    1073883136,
+                    3,
+                    "GPIOK",
+                    1024,
+                    1073883156,
+                    319094803
+                ]
+            ],
+            "Sanitization": [],
+            "Stack": [],
+            "Whitelist": {
+                "None": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "Whitelist_Namelist": [
+                "None"
+            ]
+        },
+        "_Operation_9_": {
+            "Entry": "Register_FS",
+            "ExternalData": [
+                "MyFile",
+                "SDFatFs",
+                "buffer",
+                "uSdHandle",
+                "BSP_SD_MspInit.dma_tx_handle",
+                "BSP_SD_MspInit.dma_rx_handle",
+                "heval_I2c",
+                "mfxstm32l152_io_drv",
+                "Files",
+                "disk",
+                "FatFs",
+                "SystemCoreClock",
+                "IoDrv",
+                "SDPath",
+                "uwTick",
+                "mfxstm32l152",
+                "Fsid",
+                "UseExtiModeDetection",
+                "uwTickFreq",
+                "MFX_IO_ITConfig.MFX_IO_IT_Enabled",
+                "Stat"
+            ],
+            "ExternalDataFields": {
+                "BSP_SD_MspInit.dma_rx_handle": [
+                    0,
+                    3,
+                    56,
+                    59
+                ],
+                "BSP_SD_MspInit.dma_tx_handle": [
+                    0,
+                    3,
+                    56,
+                    59
+                ],
+                "FatFs": [
+                    0,
+                    3,
+                    4,
+                    7
+                ],
+                "Files": [
+                    0,
+                    3,
+                    16,
+                    19
+                ],
+                "Fsid": null,
+                "IoDrv": null,
+                "MFX_IO_ITConfig.MFX_IO_IT_Enabled": null,
+                "MyFile": [
+                    0,
+                    3,
+                    40,
+                    43,
+                    44,
+                    47
+                ],
+                "SDFatFs": null,
+                "SDPath": null,
+                "Stat": null,
+                "SystemCoreClock": null,
+                "UseExtiModeDetection": null,
+                "buffer": null,
+                "disk": [
+                    4,
+                    7,
+                    8,
+                    11
+                ],
+                "heval_I2c": [
+                    0,
+                    3,
+                    36,
+                    39,
+                    52,
+                    55,
+                    56,
+                    59
+                ],
+                "mfxstm32l152": null,
+                "mfxstm32l152_io_drv": null,
+                "uSdHandle": [
+                    0,
+                    3,
+                    32,
+                    35,
+                    40,
+                    43,
+                    60,
+                    63,
+                    64,
+                    67
+                ],
+                "uwTick": null,
+                "uwTickFreq": null
+            },
+            "ExternalDataSan": {
+                "BSP_SD_MspInit.dma_rx_handle": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "BSP_SD_MspInit.dma_tx_handle": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "FatFs": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "Files": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "Fsid": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "IoDrv": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "MFX_IO_ITConfig.MFX_IO_IT_Enabled": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "MyFile": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "SDFatFs": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "SDPath": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "Stat": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "SystemCoreClock": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "UseExtiModeDetection": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "buffer": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "disk": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "heval_I2c": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "mfxstm32l152": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "mfxstm32l152_io_drv": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "uSdHandle": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "uwTick": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "uwTickFreq": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "InternalData": [],
+            "MPU_Config": {
+                "Addr": [
+                    16,
+                    134217745,
+                    536870930,
+                    536985619,
+                    1073741844,
+                    1073763349,
+                    1073818646,
+                    1073821719
+                ],
+                "Attr": [
+                    302383163,
+                    100794401,
+                    319160343,
+                    319160343,
+                    319094803,
+                    319094803,
+                    319094803,
+                    319094805
+                ]
+            },
+            "MemoryHeap": [],
+            "MemoryPool": [],
+            "MemoryPoolNames": [],
+            "Peripheral_Namelist": [
+                "TIM2",
+                "I2C1",
+                "SDIO",
+                "SYSCFG__EXTI",
+                "GPIOI__GPIOJ",
+                "GPIOK",
+                "RCC",
+                "DMA2",
+                "SDIO_bit_band",
+                "EXT_DEV",
+                "GPIOA_H"
+            ],
+            "Peripherals": [
+                [
+                    1073741824,
+                    3,
+                    "TIM2",
+                    1024,
+                    1073741844,
+                    319094803
+                ],
+                [
+                    1073763328,
+                    3,
+                    "I2C1",
+                    1024,
+                    1073763349,
+                    319094803
+                ],
+                [
+                    1073818624,
+                    3,
+                    "SDIO",
+                    1024,
+                    1073818646,
+                    319094803
+                ],
+                [
+                    1073821696,
+                    3,
+                    "SYSCFG__EXTI",
+                    2048,
+                    1073821719,
+                    319094805
+                ],
+                [
+                    1073881088,
+                    3,
+                    "GPIOI__GPIOJ",
+                    2048,
+                    1073881104,
+                    319094805
+                ],
+                [
+                    1073883136,
+                    3,
+                    "GPIOK",
+                    1024,
+                    1073883152,
+                    319094803
+                ],
+                [
+                    1073887232,
+                    3,
+                    "RCC",
+                    1024,
+                    1073887248,
+                    319094803
+                ],
+                [
+                    1073898496,
+                    3,
+                    "DMA2",
+                    1024,
+                    1073898512,
+                    319094803
+                ],
+                [
+                    1109753856,
+                    3,
+                    "SDIO_bit_band",
+                    4096,
+                    1109753872,
+                    319094807
+                ],
+                [
+                    3221225472,
+                    3,
+                    "EXT_DEV",
+                    268435456,
+                    3221225488,
+                    319094839
+                ],
+                [
+                    1073872896,
+                    3,
+                    "GPIOA_H",
+                    8192,
+                    1073872912,
+                    319094809
+                ]
+            ],
+            "Sanitization": [],
+            "Stack": [],
+            "Whitelist": {
+                "SCB": [
+                    3758157056,
+                    144,
+                    3
+                ],
+                "SysTick": [
+                    3758153744,
+                    368,
+                    3
+                ]
+            },
+            "Whitelist_Namelist": [
+                "SCB",
+                "SysTick"
+            ]
+        },
+        "_default_": {
+            "Entry": "main",
+            "ExternalData": [],
+            "ExternalDataFields": {},
+            "ExternalDataSan": {},
+            "InternalData": [],
+            "MPU_Config": {
+                "Addr": [
+                    16,
+                    134217745,
+                    536870930,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "Attr": [
+                    302383163,
+                    100794401,
+                    319160343,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "MemoryHeap": [],
+            "MemoryPool": [],
+            "MemoryPoolNames": [],
+            "Peripheral_Namelist": [
+                "NONE"
+            ],
+            "Peripherals": [
+                [
+                    0,
+                    3,
+                    "0",
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "Sanitization": [],
+            "Stack": [],
+            "Whitelist": {
+                "None": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "Whitelist_Namelist": [
+                "None"
+            ]
+        }
+    },
+    "OperationDataSectionInfo": [
+        [
+            536997888,
+            4096,
+            3
+        ],
+        [
+            536993792,
+            4096,
+            5
+        ],
+        [
+            536989696,
+            4096,
+            6
+        ],
+        [
+            536985600,
+            4096,
+            9
+        ],
+        [
+            536983552,
+            2048,
+            2
+        ],
+        [
+            536981504,
+            2048,
+            4
+        ],
+        [
+            536981248,
+            256,
+            7
+        ],
+        [
+            536981216,
+            32,
+            0
+        ],
+        [
+            536981184,
+            32,
+            1
+        ],
+        [
+            536981152,
+            32,
+            8
+        ],
+        [
+            0,
+            0,
+            68
+        ]
+    ]
+}

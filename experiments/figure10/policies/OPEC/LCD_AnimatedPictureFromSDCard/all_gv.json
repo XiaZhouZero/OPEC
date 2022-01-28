@@ -1,0 +1,1180 @@
+{
+	".str" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 1
+	},
+	".str.1" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 3
+	},
+	".str.1.143" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 30
+	},
+	".str.145" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 26
+	},
+	".str.2" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 6
+	},
+	".str.3" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 15
+	},
+	".str.3.144" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 27
+	},
+	".str.4" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 15
+	},
+	".str.5" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 30
+	},
+	".str.6" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 5
+	},
+	".str.7" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 29
+	},
+	".str.8" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 13
+	},
+	"AHBPrescTable" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 16
+	},
+	"APBPrescTable" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 8
+	},
+	"ActiveLayer" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 4
+	},
+	"BSP_SDRAM_Init.sdramstatus" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 1
+	},
+	"BSP_SDRAM_MspInit.dma_handle" : 
+	{
+		"PointerField" : 
+		[
+			0,
+			3,
+			56,
+			59
+		],
+		"isConstant" : false,
+		"isStruct" : true,
+		"size" : 96
+	},
+	"BSP_SD_MspInit.dma_rx_handle" : 
+	{
+		"PointerField" : 
+		[
+			0,
+			3,
+			56,
+			59
+		],
+		"isConstant" : false,
+		"isStruct" : true,
+		"size" : 96
+	},
+	"BSP_SD_MspInit.dma_tx_handle" : 
+	{
+		"PointerField" : 
+		[
+			0,
+			3,
+			56,
+			59
+		],
+		"isConstant" : false,
+		"isStruct" : true,
+		"size" : 96
+	},
+	"BytesRead" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 4
+	},
+	"Command" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : true,
+		"size" : 16
+	},
+	"DMA_CalcBaseAndBitshift.flagBitshiftOffset" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 8
+	},
+	"DrawProp" : 
+	{
+		"PointerField" : 
+		[
+			8,
+			11,
+			20,
+			23
+		],
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 24
+	},
+	"ExCvt" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 128
+	},
+	"F" : 
+	{
+		"PointerField" : 
+		[
+			0,
+			3,
+			40,
+			43,
+			44,
+			47
+		],
+		"isConstant" : false,
+		"isStruct" : true,
+		"size" : 560
+	},
+	"FatFs" : 
+	{
+		"PointerField" : 
+		[
+			0,
+			3,
+			4,
+			7
+		],
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 8
+	},
+	"Files" : 
+	{
+		"PointerField" : 
+		[
+			0,
+			3,
+			16,
+			19
+		],
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 32
+	},
+	"Font24" : 
+	{
+		"PointerField" : 
+		[
+			0,
+			3
+		],
+		"isConstant" : false,
+		"isStruct" : true,
+		"size" : 8
+	},
+	"Font24_Table" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : true,
+		"size" : 6840
+	},
+	"Fsid" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 2
+	},
+	"GPIO_PIN" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 16
+	},
+	"IoDrv" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 4
+	},
+	"LCD_Init.PeriphClkInitStruct" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : true,
+		"size" : 60
+	},
+	"Layercfg" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : true,
+		"size" : 52
+	},
+	"MFX_IO_ITConfig.MFX_IO_IT_Enabled" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 1
+	},
+	"SD_Driver" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : true,
+		"size" : 20
+	},
+	"SD_FatFs" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : true,
+		"size" : 560
+	},
+	"SD_Path" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 4
+	},
+	"ShortRegData1" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 2
+	},
+	"ShortRegData10" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 2
+	},
+	"ShortRegData11" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 2
+	},
+	"ShortRegData12" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 2
+	},
+	"ShortRegData13" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 2
+	},
+	"ShortRegData14" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 2
+	},
+	"ShortRegData15" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 2
+	},
+	"ShortRegData16" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 2
+	},
+	"ShortRegData17" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 2
+	},
+	"ShortRegData18" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 2
+	},
+	"ShortRegData19" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 2
+	},
+	"ShortRegData2" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 2
+	},
+	"ShortRegData20" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 2
+	},
+	"ShortRegData21" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 2
+	},
+	"ShortRegData22" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 2
+	},
+	"ShortRegData23" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 2
+	},
+	"ShortRegData24" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 2
+	},
+	"ShortRegData25" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 2
+	},
+	"ShortRegData26" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 2
+	},
+	"ShortRegData27" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 2
+	},
+	"ShortRegData28" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 2
+	},
+	"ShortRegData29" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 2
+	},
+	"ShortRegData3" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 2
+	},
+	"ShortRegData30" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 2
+	},
+	"ShortRegData31" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 2
+	},
+	"ShortRegData32" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 2
+	},
+	"ShortRegData33" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 2
+	},
+	"ShortRegData34" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 2
+	},
+	"ShortRegData35" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 2
+	},
+	"ShortRegData36" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 2
+	},
+	"ShortRegData37" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 2
+	},
+	"ShortRegData38" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 2
+	},
+	"ShortRegData39" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 2
+	},
+	"ShortRegData4" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 2
+	},
+	"ShortRegData40" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 2
+	},
+	"ShortRegData41" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 2
+	},
+	"ShortRegData42" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 2
+	},
+	"ShortRegData43" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 2
+	},
+	"ShortRegData44" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 2
+	},
+	"ShortRegData45" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 2
+	},
+	"ShortRegData46" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 2
+	},
+	"ShortRegData47" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 2
+	},
+	"ShortRegData48" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 2
+	},
+	"ShortRegData49" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 2
+	},
+	"ShortRegData5" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 2
+	},
+	"ShortRegData50" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 2
+	},
+	"ShortRegData51" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 2
+	},
+	"ShortRegData6" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 2
+	},
+	"ShortRegData7" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 2
+	},
+	"ShortRegData8" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 2
+	},
+	"ShortRegData9" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 2
+	},
+	"SlidesCheck" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 2
+	},
+	"Stat" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 1
+	},
+	"SystemCoreClock" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 4
+	},
+	"Timing" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : true,
+		"size" : 28
+	},
+	"UseExtiModeDetection" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 1
+	},
+	"counter" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 4
+	},
+	"directory" : 
+	{
+		"PointerField" : 
+		[
+			0,
+			3,
+			32,
+			35
+		],
+		"isConstant" : false,
+		"isStruct" : true,
+		"size" : 48
+	},
+	"disk" : 
+	{
+		"PointerField" : 
+		[
+			4,
+			7,
+			8,
+			11
+		],
+		"isConstant" : false,
+		"isStruct" : true,
+		"size" : 16
+	},
+	"fs" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : true,
+		"size" : 560
+	},
+	"hdma2d_eval" : 
+	{
+		"PointerField" : 
+		[
+			0,
+			3,
+			16,
+			19,
+			20,
+			23
+		],
+		"isConstant" : false,
+		"isStruct" : true,
+		"size" : 64
+	},
+	"hdsi_eval" : 
+	{
+		"PointerField" : 
+		[
+			0,
+			3
+		],
+		"isConstant" : false,
+		"isStruct" : true,
+		"size" : 28
+	},
+	"hdsivideo_handle" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : true,
+		"size" : 108
+	},
+	"hdsivideo_handle_0" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : true,
+		"size" : 108
+	},
+	"heval_I2c" : 
+	{
+		"PointerField" : 
+		[
+			0,
+			3,
+			36,
+			39,
+			52,
+			55,
+			56,
+			59
+		],
+		"isConstant" : false,
+		"isStruct" : true,
+		"size" : 84
+	},
+	"hltdc_eval" : 
+	{
+		"PointerField" : 
+		[
+			0,
+			3
+		],
+		"isConstant" : false,
+		"isStruct" : true,
+		"size" : 168
+	},
+	"lcdRegData1" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 4
+	},
+	"lcdRegData10" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 11
+	},
+	"lcdRegData11" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 11
+	},
+	"lcdRegData12" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 16
+	},
+	"lcdRegData13" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 16
+	},
+	"lcdRegData14" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 11
+	},
+	"lcdRegData15" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 16
+	},
+	"lcdRegData16" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 16
+	},
+	"lcdRegData17" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 11
+	},
+	"lcdRegData18" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 11
+	},
+	"lcdRegData19" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 11
+	},
+	"lcdRegData2" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 3
+	},
+	"lcdRegData20" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 16
+	},
+	"lcdRegData21" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 16
+	},
+	"lcdRegData22" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 11
+	},
+	"lcdRegData23" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 16
+	},
+	"lcdRegData24" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 16
+	},
+	"lcdRegData25" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 4
+	},
+	"lcdRegData27" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 5
+	},
+	"lcdRegData28" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 5
+	},
+	"lcdRegData3" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 17
+	},
+	"lcdRegData4" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 17
+	},
+	"lcdRegData5" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 3
+	},
+	"lcdRegData6" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 3
+	},
+	"lcdRegData7" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 7
+	},
+	"lcdRegData8" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 15
+	},
+	"lcdRegData9" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 15
+	},
+	"lcd_x_size" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 4
+	},
+	"lcd_y_size" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 4
+	},
+	"mfxstm32l152" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 3
+	},
+	"mfxstm32l152_io_drv" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : true,
+		"size" : 44
+	},
+	"pDirectoryFileNames" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 275
+	},
+	"pDirectoryFiles" : 
+	{
+		"PointerField" : 
+		[
+			0,
+			3,
+			4,
+			7,
+			8,
+			11,
+			12,
+			15,
+			16,
+			19,
+			20,
+			23,
+			24,
+			27,
+			28,
+			31,
+			32,
+			35,
+			36,
+			39,
+			40,
+			43,
+			44,
+			47,
+			48,
+			51,
+			52,
+			55,
+			56,
+			59,
+			60,
+			63,
+			64,
+			67,
+			68,
+			71,
+			72,
+			75,
+			76,
+			79,
+			80,
+			83,
+			84,
+			87,
+			88,
+			91,
+			92,
+			95,
+			96,
+			99
+		],
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 100
+	},
+	"sdramHandle" : 
+	{
+		"PointerField" : 
+		[
+			0,
+			3,
+			48,
+			51
+		],
+		"isConstant" : false,
+		"isStruct" : true,
+		"size" : 52
+	},
+	"sector" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 512
+	},
+	"uSdHandle" : 
+	{
+		"PointerField" : 
+		[
+			0,
+			3,
+			32,
+			35,
+			40,
+			43,
+			60,
+			63,
+			64,
+			67
+		],
+		"isConstant" : false,
+		"isStruct" : true,
+		"size" : 132
+	},
+	"ubNumberOfFiles" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 1
+	},
+	"uwBmplen" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 4
+	},
+	"uwInternalBuffer" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 4
+	},
+	"uwTick" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 4
+	},
+	"uwTickFreq" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 1
+	},
+	"uwTickPrio" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 4
+	}
+}

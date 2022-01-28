@@ -1,0 +1,941 @@
+{
+	".str" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 8
+	},
+	".str.1" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 8
+	},
+	".str.2" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 15
+	},
+	".str.3" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 8
+	},
+	".str.4" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 10
+	},
+	".str.5" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 10
+	},
+	".str.6" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 12
+	},
+	".str.7" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 13
+	},
+	".str.8" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 10
+	},
+	"APBAHBPrescTable" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 16
+	},
+	"DMARxDscrTab" : 
+	{
+		"PointerField" : 
+		[
+			12,
+			15,
+			44,
+			47,
+			76,
+			79,
+			108,
+			111
+		],
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 128
+	},
+	"DMATxDscrTab" : 
+	{
+		"PointerField" : 
+		[
+			12,
+			15,
+			44,
+			47,
+			76,
+			79,
+			108,
+			111
+		],
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 128
+	},
+	"EthHandle" : 
+	{
+		"PointerField" : 
+		[
+			0,
+			3,
+			20,
+			23,
+			40,
+			43,
+			44,
+			47,
+			48,
+			51,
+			52,
+			55
+		],
+		"isConstant" : false,
+		"isStruct" : true,
+		"size" : 72
+	},
+	"GPIO_PIN" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 16
+	},
+	"IoDrv" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 4
+	},
+	"MFX_IO_ITConfig.MFX_IO_IT_Enabled" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 1
+	},
+	"Rx_Buff" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 6096
+	},
+	"SystemCoreClock" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 4
+	},
+	"Tx_Buff" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 6096
+	},
+	"__const.low_level_init.macaddress" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 6
+	},
+	"ackno" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 4
+	},
+	"arp_table" : 
+	{
+		"PointerField" : 
+		[
+			0,
+			3,
+			8,
+			11,
+			24,
+			27,
+			32,
+			35,
+			48,
+			51,
+			56,
+			59,
+			72,
+			75,
+			80,
+			83,
+			96,
+			99,
+			104,
+			107,
+			120,
+			123,
+			128,
+			131,
+			144,
+			147,
+			152,
+			155,
+			168,
+			171,
+			176,
+			179,
+			192,
+			195,
+			200,
+			203,
+			216,
+			219,
+			224,
+			227
+		],
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 240
+	},
+	"dhcp_create_msg.xid" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 4
+	},
+	"dhcp_discover_select_options" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 4
+	},
+	"etharp_cached_entry" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 1
+	},
+	"ethbroadcast" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : true,
+		"size" : 6
+	},
+	"ethzero" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : true,
+		"size" : 6
+	},
+	"flags" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 1
+	},
+	"gnetif" : 
+	{
+		"PointerField" : 
+		[
+			0,
+			3,
+			28,
+			31,
+			32,
+			35,
+			36,
+			39
+		],
+		"isConstant" : false,
+		"isStruct" : true,
+		"size" : 56
+	},
+	"heval_I2c" : 
+	{
+		"PointerField" : 
+		[
+			0,
+			3,
+			36,
+			39,
+			52,
+			55,
+			56,
+			59
+		],
+		"isConstant" : false,
+		"isStruct" : true,
+		"size" : 84
+	},
+	"inseg" : 
+	{
+		"PointerField" : 
+		[
+			0,
+			3,
+			4,
+			7,
+			16,
+			19
+		],
+		"isConstant" : false,
+		"isStruct" : true,
+		"size" : 20
+	},
+	"ip_addr_any" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : true,
+		"size" : 4
+	},
+	"ip_addr_broadcast" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : true,
+		"size" : 4
+	},
+	"ip_data" : 
+	{
+		"PointerField" : 
+		[
+			0,
+			3,
+			4,
+			7,
+			8,
+			11
+		],
+		"isConstant" : false,
+		"isStruct" : true,
+		"size" : 24
+	},
+	"ip_id" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 2
+	},
+	"ip_reass_pbufcount" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 2
+	},
+	"lfree" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 4
+	},
+	"memp_FRAG_PBUF" : 
+	{
+		"PointerField" : 
+		[
+			4,
+			7,
+			8,
+			11,
+			12,
+			15
+		],
+		"isConstant" : true,
+		"isStruct" : true,
+		"size" : 16
+	},
+	"memp_PBUF" : 
+	{
+		"PointerField" : 
+		[
+			4,
+			7,
+			8,
+			11,
+			12,
+			15
+		],
+		"isConstant" : true,
+		"isStruct" : true,
+		"size" : 16
+	},
+	"memp_PBUF_POOL" : 
+	{
+		"PointerField" : 
+		[
+			4,
+			7,
+			8,
+			11,
+			12,
+			15
+		],
+		"isConstant" : true,
+		"isStruct" : true,
+		"size" : 16
+	},
+	"memp_REASSDATA" : 
+	{
+		"PointerField" : 
+		[
+			4,
+			7,
+			8,
+			11,
+			12,
+			15
+		],
+		"isConstant" : true,
+		"isStruct" : true,
+		"size" : 16
+	},
+	"memp_SYS_TIMEOUT" : 
+	{
+		"PointerField" : 
+		[
+			4,
+			7,
+			8,
+			11,
+			12,
+			15
+		],
+		"isConstant" : true,
+		"isStruct" : true,
+		"size" : 16
+	},
+	"memp_TCP_PCB" : 
+	{
+		"PointerField" : 
+		[
+			4,
+			7,
+			8,
+			11,
+			12,
+			15
+		],
+		"isConstant" : true,
+		"isStruct" : true,
+		"size" : 16
+	},
+	"memp_TCP_PCB_LISTEN" : 
+	{
+		"PointerField" : 
+		[
+			4,
+			7,
+			8,
+			11,
+			12,
+			15
+		],
+		"isConstant" : true,
+		"isStruct" : true,
+		"size" : 16
+	},
+	"memp_TCP_SEG" : 
+	{
+		"PointerField" : 
+		[
+			4,
+			7,
+			8,
+			11,
+			12,
+			15
+		],
+		"isConstant" : true,
+		"isStruct" : true,
+		"size" : 16
+	},
+	"memp_UDP_PCB" : 
+	{
+		"PointerField" : 
+		[
+			4,
+			7,
+			8,
+			11,
+			12,
+			15
+		],
+		"isConstant" : true,
+		"isStruct" : true,
+		"size" : 16
+	},
+	"memp_memory_FRAG_PBUF_base" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 360
+	},
+	"memp_memory_PBUF_POOL_base" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 6336
+	},
+	"memp_memory_PBUF_base" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 160
+	},
+	"memp_memory_REASSDATA_base" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 160
+	},
+	"memp_memory_SYS_TIMEOUT_base" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 160
+	},
+	"memp_memory_TCP_PCB_LISTEN_base" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 168
+	},
+	"memp_memory_TCP_PCB_base" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 1480
+	},
+	"memp_memory_TCP_SEG_base" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 240
+	},
+	"memp_memory_UDP_PCB_base" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 192
+	},
+	"memp_pools" : 
+	{
+		"PointerField" : 
+		[
+			0,
+			3,
+			4,
+			7,
+			8,
+			11,
+			12,
+			15,
+			16,
+			19,
+			20,
+			23,
+			24,
+			27,
+			28,
+			31,
+			32,
+			35
+		],
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 36
+	},
+	"memp_tab_FRAG_PBUF" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 4
+	},
+	"memp_tab_PBUF" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 4
+	},
+	"memp_tab_PBUF_POOL" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 4
+	},
+	"memp_tab_REASSDATA" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 4
+	},
+	"memp_tab_SYS_TIMEOUT" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 4
+	},
+	"memp_tab_TCP_PCB" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 4
+	},
+	"memp_tab_TCP_PCB_LISTEN" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 4
+	},
+	"memp_tab_TCP_SEG" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 4
+	},
+	"memp_tab_UDP_PCB" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 4
+	},
+	"mfxstm32l152" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 3
+	},
+	"mfxstm32l152_io_drv" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : true,
+		"size" : 44
+	},
+	"netif_default" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 4
+	},
+	"netif_list" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 4
+	},
+	"netif_num" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 1
+	},
+	"next_timeout" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 4
+	},
+	"ram" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 4
+	},
+	"ram_end" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 4
+	},
+	"ram_heap" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 10260
+	},
+	"reassdatagrams" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 4
+	},
+	"recv_data" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 4
+	},
+	"recv_flags" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 1
+	},
+	"seqno" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 4
+	},
+	"tcp_active_pcbs" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 4
+	},
+	"tcp_active_pcbs_changed" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 1
+	},
+	"tcp_backoff" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 13
+	},
+	"tcp_bound_pcbs" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 4
+	},
+	"tcp_echoserver_pcb" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 4
+	},
+	"tcp_input_pcb" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 4
+	},
+	"tcp_listen_pcbs" : 
+	{
+		"PointerField" : 
+		[
+			0,
+			3
+		],
+		"isConstant" : false,
+		"isStruct" : true,
+		"size" : 4
+	},
+	"tcp_next_iss.iss" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 4
+	},
+	"tcp_optidx" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 2
+	},
+	"tcp_pcb_lists" : 
+	{
+		"PointerField" : 
+		[
+			0,
+			3,
+			4,
+			7,
+			8,
+			11,
+			12,
+			15
+		],
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 16
+	},
+	"tcp_persist_backoff" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 7
+	},
+	"tcp_port" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 2
+	},
+	"tcp_ticks" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 4
+	},
+	"tcp_timer" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 1
+	},
+	"tcp_timer_ctr" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 1
+	},
+	"tcp_tw_pcbs" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 4
+	},
+	"tcphdr" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 4
+	},
+	"tcphdr_opt1len" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 2
+	},
+	"tcphdr_opt2" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 4
+	},
+	"tcpip_tcp_timer_active" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 4
+	},
+	"tcplen" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 2
+	},
+	"timeouts_last_time" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 4
+	},
+	"udp_pcbs" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 4
+	},
+	"udp_port" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 2
+	},
+	"uwTick" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 4
+	}
+}

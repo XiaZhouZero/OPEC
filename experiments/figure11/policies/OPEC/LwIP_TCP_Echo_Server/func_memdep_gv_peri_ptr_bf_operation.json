@@ -1,0 +1,2918 @@
+{
+    "BSP_Config": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "BSP_IO_ConfigPin": {
+        "Peripherals": [],
+        "Variables": [
+            "IoDrv",
+            "mfxstm32l152_io_drv"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "BSP_IO_ITClear": {
+        "Peripherals": [],
+        "Variables": [
+            "IoDrv",
+            "mfxstm32l152_io_drv"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "BSP_IO_ITGetStatus": {
+        "Peripherals": [],
+        "Variables": [
+            "IoDrv",
+            "mfxstm32l152_io_drv"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "BSP_IO_Init": {
+        "Peripherals": [],
+        "Variables": [
+            "IoDrv",
+            "mfxstm32l152_io_drv"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "BSP_LED_Init": {
+        "Peripherals": [
+            [
+                "0x40023800",
+                "rw",
+                "RCC",
+                "0x400"
+            ]
+        ],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "BSP_LED_Off": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "BSP_LED_On": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "ETH_DMAReceptionDisable": {
+        "Peripherals": [],
+        "Variables": [
+            "EthHandle"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "ETH_DMAReceptionEnable": {
+        "Peripherals": [],
+        "Variables": [
+            "EthHandle"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "ETH_DMATransmissionDisable": {
+        "Peripherals": [],
+        "Variables": [
+            "EthHandle"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "ETH_DMATransmissionEnable": {
+        "Peripherals": [],
+        "Variables": [
+            "EthHandle"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "ETH_Delay": {
+        "Peripherals": [],
+        "Variables": [
+            "SystemCoreClock"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "ETH_FlushTransmitFIFO": {
+        "Peripherals": [],
+        "Variables": [
+            "EthHandle"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "ETH_MACAddressConfig": {
+        "Peripherals": [
+            [
+                "0x40028000",
+                "rw",
+                "ETHERNET-MAC",
+                "0x1400"
+            ]
+        ],
+        "Variables": [
+            "EthHandle"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "ETH_MACDMAConfig": {
+        "Peripherals": [],
+        "Variables": [
+            "EthHandle"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "ETH_MACReceptionDisable": {
+        "Peripherals": [],
+        "Variables": [
+            "EthHandle"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "ETH_MACReceptionEnable": {
+        "Peripherals": [],
+        "Variables": [
+            "EthHandle"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "ETH_MACTransmissionDisable": {
+        "Peripherals": [],
+        "Variables": [
+            "EthHandle"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "ETH_MACTransmissionEnable": {
+        "Peripherals": [],
+        "Variables": [
+            "EthHandle"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "Error_Handler": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_Delay": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_ETH_ConfigMAC": {
+        "Peripherals": [],
+        "Variables": [
+            "EthHandle"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_ETH_DMARxDescListInit": {
+        "Peripherals": [],
+        "Variables": [
+            "EthHandle",
+            "DMARxDscrTab",
+            "Rx_Buff"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_ETH_DMATxDescListInit": {
+        "Peripherals": [],
+        "Variables": [
+            "EthHandle",
+            "Tx_Buff",
+            "DMATxDscrTab"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_ETH_GetReceivedFrame": {
+        "Peripherals": [],
+        "Variables": [
+            "EthHandle",
+            "DMARxDscrTab"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_ETH_Init": {
+        "Peripherals": [
+            [
+                "0x40013800",
+                "rw",
+                "SYSCFG",
+                "0x400"
+            ],
+            [
+                "0x40023800",
+                "rw",
+                "RCC",
+                "0x400"
+            ]
+        ],
+        "Variables": [
+            "EthHandle"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_ETH_MspInit": {
+        "Peripherals": [
+            [
+                "0x40023800",
+                "rw",
+                "RCC",
+                "0x400"
+            ]
+        ],
+        "Variables": [
+            "EthHandle"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_ETH_ReadPHYRegister": {
+        "Peripherals": [],
+        "Variables": [
+            "EthHandle"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_ETH_Start": {
+        "Peripherals": [],
+        "Variables": [
+            "EthHandle"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_ETH_Stop": {
+        "Peripherals": [],
+        "Variables": [
+            "EthHandle"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_ETH_TransmitFrame": {
+        "Peripherals": [
+            [
+                "0xc0000000",
+                "rw",
+                "EXT_DEV",
+                "0x10000000"
+            ]
+        ],
+        "Variables": [
+            "EthHandle",
+            "DMATxDscrTab"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_ETH_WritePHYRegister": {
+        "Peripherals": [],
+        "Variables": [
+            "EthHandle"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_GPIO_EXTI_Callback": {
+        "Peripherals": [],
+        "Variables": [
+            "gnetif"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_GPIO_EXTI_IRQHandler": {
+        "Peripherals": [
+            [
+                "0x40013c00",
+                "rw",
+                "EXTI",
+                "0x400"
+            ]
+        ],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_GPIO_Init": {
+        "Peripherals": [
+            [
+                "0x40020000",
+                "rw",
+                "GPIOA",
+                "0x400"
+            ],
+            [
+                "0x40022000",
+                "rw",
+                "GPIOI",
+                "0x400"
+            ],
+            [
+                "0x40021c00",
+                "rw",
+                "GPIOH",
+                "0x400"
+            ],
+            [
+                "0x40020800",
+                "rw",
+                "GPIOC",
+                "0x400"
+            ],
+            [
+                "0x40020400",
+                "rw",
+                "GPIOB",
+                "0x400"
+            ],
+            [
+                "0x40020c00",
+                "rw",
+                "GPIOD",
+                "0x400"
+            ],
+            [
+                "0x40021400",
+                "rw",
+                "GPIOF",
+                "0x400"
+            ],
+            [
+                "0x40013800",
+                "rw",
+                "SYSCFG",
+                "0x400"
+            ],
+            [
+                "0x40021800",
+                "rw",
+                "GPIOG",
+                "0x400"
+            ],
+            [
+                "0x40021000",
+                "rw",
+                "GPIOE",
+                "0x400"
+            ],
+            [
+                "0x40013c00",
+                "rw",
+                "EXTI",
+                "0x400"
+            ],
+            [
+                "0x40022400",
+                "rw",
+                "GPIOJ",
+                "0x400"
+            ],
+            [
+                "0x40023800",
+                "rw",
+                "RCC",
+                "0x400"
+            ]
+        ],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": [],
+        "caller": {
+            "BSP_LED_Init": {
+                "Peripherals": [
+                    [
+                        "0x40022800",
+                        "rw",
+                        "GPIOK",
+                        "0x400"
+                    ]
+                ],
+                "Whitelist": {},
+                "Whitelist_Namelist": []
+            },
+            "HAL_ETH_MspInit": {
+                "Peripherals": [
+                    [
+                        "0x40020000",
+                        "rw",
+                        "GPIOA",
+                        "0x400"
+                    ],
+                    [
+                        "0x40020400",
+                        "rw",
+                        "GPIOB",
+                        "0x400"
+                    ],
+                    [
+                        "0x40021000",
+                        "rw",
+                        "GPIOE",
+                        "0x400"
+                    ],
+                    [
+                        "0x40020800",
+                        "rw",
+                        "GPIOC",
+                        "0x400"
+                    ],
+                    [
+                        "0x40021800",
+                        "rw",
+                        "GPIOG",
+                        "0x400"
+                    ],
+                    [
+                        "0x40021c00",
+                        "rw",
+                        "GPIOH",
+                        "0x400"
+                    ]
+                ],
+                "Whitelist": {},
+                "Whitelist_Namelist": []
+            },
+            "I2Cx_MspInit": {
+                "Peripherals": [
+                    [
+                        "0x40020400",
+                        "rw",
+                        "GPIOB",
+                        "0x400"
+                    ],
+                    [
+                        "0x40020400",
+                        "rw",
+                        "GPIOB",
+                        "0x400"
+                    ]
+                ],
+                "Whitelist": {},
+                "Whitelist_Namelist": []
+            },
+            "MFX_IO_ITConfig": {
+                "Peripherals": [
+                    [
+                        "0x40022000",
+                        "rw",
+                        "GPIOI",
+                        "0x400"
+                    ]
+                ],
+                "Whitelist": {},
+                "Whitelist_Namelist": []
+            }
+        }
+    },
+    "HAL_GPIO_WritePin": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": [],
+        "caller": {
+            "BSP_LED_Init": {
+                "Peripherals": [
+                    [
+                        "0x40022800",
+                        "rw",
+                        "GPIOK",
+                        "0x400"
+                    ]
+                ],
+                "Whitelist": {},
+                "Whitelist_Namelist": []
+            },
+            "BSP_LED_Off": {
+                "Peripherals": [
+                    [
+                        "0x40022800",
+                        "rw",
+                        "GPIOK",
+                        "0x400"
+                    ]
+                ],
+                "Whitelist": {},
+                "Whitelist_Namelist": []
+            },
+            "BSP_LED_On": {
+                "Peripherals": [
+                    [
+                        "0x40022800",
+                        "rw",
+                        "GPIOK",
+                        "0x400"
+                    ]
+                ],
+                "Whitelist": {},
+                "Whitelist_Namelist": []
+            }
+        }
+    },
+    "HAL_GetTick": {
+        "Peripherals": [],
+        "Variables": [
+            "uwTick"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_I2C_DeInit": {
+        "Peripherals": [],
+        "Variables": [
+            "heval_I2c"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_I2C_GetState": {
+        "Peripherals": [],
+        "Variables": [
+            "heval_I2c"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_I2C_Init": {
+        "Peripherals": [],
+        "Variables": [
+            "heval_I2c"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_I2C_Mem_Read": {
+        "Peripherals": [],
+        "Variables": [
+            "heval_I2c"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_I2C_Mem_Write": {
+        "Peripherals": [],
+        "Variables": [
+            "heval_I2c"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_I2C_MspDeInit": {
+        "Peripherals": [],
+        "Variables": [
+            "heval_I2c"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_I2C_MspInit": {
+        "Peripherals": [],
+        "Variables": [
+            "heval_I2c"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_IncTick": {
+        "Peripherals": [],
+        "Variables": [
+            "uwTick"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_Init": {
+        "Peripherals": [
+            [
+                "0x40023c00",
+                "rw",
+                "FLASH-Inte",
+                "0x400"
+            ]
+        ],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_InitTick": {
+        "Peripherals": [],
+        "Variables": [
+            "SystemCoreClock"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_MspInit": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_NVIC_EnableIRQ": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_NVIC_SetPriority": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_NVIC_SetPriorityGrouping": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_PWREx_EnableOverDrive": {
+        "Peripherals": [
+            [
+                "0x40007000",
+                "rw",
+                "PWR",
+                "0x400"
+            ],
+            [
+                "0x40023800",
+                "rw",
+                "RCC",
+                "0x400"
+            ],
+            [
+                "0x420e0000",
+                "rw",
+                "PWR_bit_band",
+                "0x8000"
+            ]
+        ],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_RCC_ClockConfig": {
+        "Peripherals": [
+            [
+                "0x40023c00",
+                "rw",
+                "FLASH-Inte",
+                "0x400"
+            ],
+            [
+                "0x40023800",
+                "rw",
+                "RCC",
+                "0x400"
+            ]
+        ],
+        "Variables": [
+            "SystemCoreClock"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_RCC_GetHCLKFreq": {
+        "Peripherals": [],
+        "Variables": [
+            "SystemCoreClock"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_RCC_GetPCLK1Freq": {
+        "Peripherals": [
+            [
+                "0x40023800",
+                "rw",
+                "RCC",
+                "0x400"
+            ]
+        ],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_RCC_GetSysClockFreq": {
+        "Peripherals": [
+            [
+                "0x40023800",
+                "rw",
+                "RCC",
+                "0x400"
+            ]
+        ],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_RCC_OscConfig": {
+        "Peripherals": [
+            [
+                "0x42470000",
+                "rw",
+                "RCC_bit_band",
+                "0x10000"
+            ],
+            [
+                "0x40023800",
+                "rw",
+                "RCC",
+                "0x400"
+            ],
+            [
+                "0x40007000",
+                "rw",
+                "PWR",
+                "0x400"
+            ]
+        ],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_SYSTICK_Config": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "I2C_IsAcknowledgeFailed": {
+        "Peripherals": [],
+        "Variables": [
+            "heval_I2c"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "I2C_RequestMemoryRead": {
+        "Peripherals": [],
+        "Variables": [
+            "heval_I2c"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "I2C_RequestMemoryWrite": {
+        "Peripherals": [],
+        "Variables": [
+            "heval_I2c"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "I2C_WaitOnBTFFlagUntilTimeout": {
+        "Peripherals": [],
+        "Variables": [
+            "heval_I2c"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "I2C_WaitOnFlagUntilTimeout": {
+        "Peripherals": [],
+        "Variables": [
+            "heval_I2c"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "I2C_WaitOnMasterAddressFlagUntilTimeout": {
+        "Peripherals": [],
+        "Variables": [
+            "heval_I2c"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "I2C_WaitOnRXNEFlagUntilTimeout": {
+        "Peripherals": [],
+        "Variables": [
+            "heval_I2c"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "I2C_WaitOnTXEFlagUntilTimeout": {
+        "Peripherals": [],
+        "Variables": [
+            "heval_I2c"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "I2Cx_Error": {
+        "Peripherals": [],
+        "Variables": [
+            "heval_I2c"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "I2Cx_Init": {
+        "Peripherals": [
+            [
+                "0x40005400",
+                "rw",
+                "I2C1",
+                "0x400"
+            ]
+        ],
+        "Variables": [
+            "heval_I2c"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "I2Cx_MspInit": {
+        "Peripherals": [
+            [
+                "0x40023800",
+                "rw",
+                "RCC",
+                "0x400"
+            ]
+        ],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "I2Cx_Read": {
+        "Peripherals": [],
+        "Variables": [
+            "heval_I2c"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "I2Cx_Write": {
+        "Peripherals": [],
+        "Variables": [
+            "heval_I2c"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "MFX_IO_Delay": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "MFX_IO_ITConfig": {
+        "Peripherals": [
+            [
+                "0x40023800",
+                "rw",
+                "RCC",
+                "0x400"
+            ]
+        ],
+        "Variables": [
+            "MFX_IO_ITConfig.MFX_IO_IT_Enabled"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "MFX_IO_Init": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "MFX_IO_Read": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "MFX_IO_Write": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "NVIC_EnableIRQ": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {
+            "SysTick": [
+                3758153744,
+                368,
+                3
+            ]
+        },
+        "Whitelist_Namelist": [
+            "SysTick"
+        ]
+    },
+    "NVIC_EncodePriority": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "NVIC_GetPriorityGrouping": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {
+            "SCB": [
+                3758157056,
+                144,
+                3
+            ]
+        },
+        "Whitelist_Namelist": [
+            "SCB"
+        ]
+    },
+    "NVIC_SetPriority": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {
+            "SCB": [
+                3758157056,
+                144,
+                3
+            ],
+            "SysTick": [
+                3758153744,
+                368,
+                3
+            ]
+        },
+        "Whitelist_Namelist": [
+            "SCB",
+            "SysTick"
+        ]
+    },
+    "NVIC_SetPriorityGrouping": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {
+            "SCB": [
+                3758157056,
+                144,
+                3
+            ]
+        },
+        "Whitelist_Namelist": [
+            "SCB"
+        ]
+    },
+    "Netif_Config": {
+        "Peripherals": [],
+        "Variables": [
+            "gnetif"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "SysTick_Config": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {
+            "SysTick": [
+                3758153744,
+                368,
+                3
+            ]
+        },
+        "Whitelist_Namelist": [
+            "SysTick",
+            "SysTick",
+            "SysTick"
+        ]
+    },
+    "SystemClock_Config": {
+        "Peripherals": [
+            [
+                "0x40007000",
+                "rw",
+                "PWR",
+                "0x400"
+            ],
+            [
+                "0x40023800",
+                "rw",
+                "RCC",
+                "0x400"
+            ]
+        ],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "SystemInit": {
+        "Peripherals": [
+            [
+                "0x40023800",
+                "rw",
+                "RCC",
+                "0x400"
+            ]
+        ],
+        "Variables": [],
+        "Whitelist": {
+            "SCB": [
+                3758157056,
+                144,
+                3
+            ]
+        },
+        "Whitelist_Namelist": [
+            "SCB"
+        ]
+    },
+    "User_notification": {
+        "Peripherals": [],
+        "Variables": [
+            "gnetif"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "User_notification_0": {
+        "Peripherals": [],
+        "Variables": [
+            "gnetif"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "arp_timer": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "dhcp_arp_reply": {
+        "Peripherals": [],
+        "Variables": [
+            "gnetif"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "dhcp_bind": {
+        "Peripherals": [],
+        "Variables": [
+            "gnetif"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "dhcp_check": {
+        "Peripherals": [],
+        "Variables": [
+            "gnetif"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "dhcp_coarse_tmr": {
+        "Peripherals": [],
+        "Variables": [
+            "netif_list",
+            "gnetif"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "dhcp_create_msg": {
+        "Peripherals": [],
+        "Variables": [
+            "dhcp_create_msg.xid",
+            "gnetif"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "dhcp_decline": {
+        "Peripherals": [],
+        "Variables": [
+            "gnetif"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "dhcp_delete_msg": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "dhcp_discover": {
+        "Peripherals": [],
+        "Variables": [
+            "dhcp_discover_select_options",
+            "gnetif"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "dhcp_fine_tmr": {
+        "Peripherals": [],
+        "Variables": [
+            "netif_list",
+            "gnetif"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "dhcp_network_changed": {
+        "Peripherals": [],
+        "Variables": [
+            "gnetif"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "dhcp_option": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "dhcp_option_byte": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "dhcp_option_long": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "dhcp_option_short": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "dhcp_option_trailer": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "dhcp_rebind": {
+        "Peripherals": [],
+        "Variables": [
+            "gnetif"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "dhcp_reboot": {
+        "Peripherals": [],
+        "Variables": [
+            "gnetif"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "dhcp_release": {
+        "Peripherals": [],
+        "Variables": [
+            "gnetif"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "dhcp_renew": {
+        "Peripherals": [],
+        "Variables": [
+            "gnetif"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "dhcp_select": {
+        "Peripherals": [],
+        "Variables": [
+            "dhcp_discover_select_options",
+            "gnetif"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "dhcp_set_state": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "dhcp_supplied_address": {
+        "Peripherals": [],
+        "Variables": [
+            "gnetif"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "dhcp_t1_timeout": {
+        "Peripherals": [],
+        "Variables": [
+            "gnetif"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "dhcp_t2_timeout": {
+        "Peripherals": [],
+        "Variables": [
+            "gnetif"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "dhcp_timeout": {
+        "Peripherals": [],
+        "Variables": [
+            "gnetif"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "dhcp_timer_coarse": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "dhcp_timer_fine": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "do_memp_free_pool": {
+        "Peripherals": [],
+        "Variables": [
+            "memp_tab_FRAG_PBUF",
+            "memp_tab_TCP_PCB_LISTEN",
+            "memp_tab_PBUF",
+            "memp_tab_UDP_PCB",
+            "memp_tab_TCP_PCB",
+            "memp_tab_PBUF_POOL",
+            "memp_tab_REASSDATA",
+            "memp_tab_SYS_TIMEOUT",
+            "memp_tab_TCP_SEG"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "etharp_arp_input": {
+        "Peripherals": [],
+        "Variables": [
+            "gnetif"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "etharp_cleanup_netif": {
+        "Peripherals": [],
+        "Variables": [
+            "arp_table",
+            "gnetif"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "etharp_find_entry": {
+        "Peripherals": [],
+        "Variables": [
+            "arp_table",
+            "ip_data",
+            "gnetif"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "etharp_free_entry": {
+        "Peripherals": [],
+        "Variables": [
+            "arp_table"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "etharp_output": {
+        "Peripherals": [],
+        "Variables": [
+            "arp_table",
+            "ip_data",
+            "gnetif",
+            "etharp_cached_entry"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "etharp_output_to_arp_index": {
+        "Peripherals": [],
+        "Variables": [
+            "arp_table",
+            "gnetif"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "etharp_query": {
+        "Peripherals": [],
+        "Variables": [
+            "arp_table",
+            "ip_data",
+            "gnetif",
+            "etharp_cached_entry"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "etharp_raw": {
+        "Peripherals": [],
+        "Variables": [
+            "arp_table",
+            "ip_data",
+            "gnetif"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "etharp_request": {
+        "Peripherals": [],
+        "Variables": [
+            "arp_table",
+            "ip_data",
+            "gnetif"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "etharp_request_dst": {
+        "Peripherals": [],
+        "Variables": [
+            "arp_table",
+            "ip_data",
+            "gnetif"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "etharp_send_ip": {
+        "Peripherals": [],
+        "Variables": [
+            "arp_table",
+            "gnetif"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "etharp_tmr": {
+        "Peripherals": [],
+        "Variables": [
+            "arp_table",
+            "gnetif"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "etharp_update_arp_entry": {
+        "Peripherals": [],
+        "Variables": [
+            "arp_table",
+            "gnetif"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "ethernet_input": {
+        "Peripherals": [],
+        "Variables": [
+            "gnetif"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "ethernetif_init": {
+        "Peripherals": [],
+        "Variables": [
+            "gnetif"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "ethernetif_input": {
+        "Peripherals": [],
+        "Variables": [
+            "gnetif"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "ethernetif_input_0": {
+        "Peripherals": [],
+        "Variables": [
+            "gnetif"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "ethernetif_notify_conn_changed": {
+        "Peripherals": [],
+        "Variables": [
+            "gnetif"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "ethernetif_set_link": {
+        "Peripherals": [],
+        "Variables": [
+            "EthHandle",
+            "gnetif"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "ethernetif_update_config": {
+        "Peripherals": [],
+        "Variables": [
+            "EthHandle",
+            "gnetif"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "icmp_dest_unreach": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "icmp_input": {
+        "Peripherals": [],
+        "Variables": [
+            "ip_data",
+            "gnetif"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "icmp_send_response": {
+        "Peripherals": [],
+        "Variables": [
+            "gnetif"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "icmp_time_exceeded": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "inet_chksum_pbuf": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "ip4_addr_isbroadcast_u32": {
+        "Peripherals": [],
+        "Variables": [
+            "gnetif"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "ip4_frag": {
+        "Peripherals": [],
+        "Variables": [
+            "ip_data",
+            "gnetif"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "ip4_input": {
+        "Peripherals": [],
+        "Variables": [
+            "ip_data",
+            "netif_list",
+            "gnetif"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "ip4_output_if": {
+        "Peripherals": [],
+        "Variables": [
+            "ip_data",
+            "gnetif"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "ip4_output_if_src": {
+        "Peripherals": [],
+        "Variables": [
+            "ip_id",
+            "ip_data",
+            "gnetif"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "ip4_reass": {
+        "Peripherals": [],
+        "Variables": [
+            "reassdatagrams",
+            "ip_reass_pbufcount"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "ip4_route": {
+        "Peripherals": [],
+        "Variables": [
+            "ip_data",
+            "gnetif",
+            "netif_default",
+            "netif_list"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "ip_frag_alloc_pbuf_custom_ref": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "ip_frag_free_pbuf_custom_ref": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "ip_reass_chain_frag_into_datagram_and_validate": {
+        "Peripherals": [],
+        "Variables": [
+            "ip_reass_pbufcount"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "ip_reass_dequeue_datagram": {
+        "Peripherals": [],
+        "Variables": [
+            "reassdatagrams"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "ip_reass_enqueue_new_datagram": {
+        "Peripherals": [],
+        "Variables": [
+            "reassdatagrams"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "ip_reass_free_complete_datagram": {
+        "Peripherals": [],
+        "Variables": [
+            "ip_reass_pbufcount"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "ip_reass_remove_oldest_datagram": {
+        "Peripherals": [],
+        "Variables": [
+            "reassdatagrams"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "ip_reass_timer": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "ip_reass_tmr": {
+        "Peripherals": [],
+        "Variables": [
+            "reassdatagrams"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "ipfrag_free_pbuf_custom": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "llvm.memcpy.p0i8.p0i8.i32": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "low_level_init": {
+        "Peripherals": [
+            [
+                "0x40028000",
+                "rw",
+                "ETHERNET-MAC",
+                "0x1400"
+            ]
+        ],
+        "Variables": [
+            "Tx_Buff",
+            "EthHandle",
+            "Rx_Buff",
+            "DMARxDscrTab",
+            "DMATxDscrTab",
+            "gnetif"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "low_level_input": {
+        "Peripherals": [],
+        "Variables": [
+            "EthHandle",
+            "gnetif",
+            "DMARxDscrTab"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "low_level_output": {
+        "Peripherals": [],
+        "Variables": [
+            "EthHandle",
+            "DMATxDscrTab",
+            "gnetif"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "lwip_htonl": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "lwip_htons": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "lwip_init": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "lwip_ntohl": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "lwip_ntohs": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "lwip_standard_chksum": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "main": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "mem_free": {
+        "Peripherals": [],
+        "Variables": [
+            "lfree",
+            "ram",
+            "ram_end"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "mem_init": {
+        "Peripherals": [],
+        "Variables": [
+            "lfree",
+            "ram",
+            "ram_end",
+            "ram_heap"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "mem_malloc": {
+        "Peripherals": [],
+        "Variables": [
+            "lfree",
+            "ram",
+            "ram_end"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "mem_trim": {
+        "Peripherals": [],
+        "Variables": [
+            "lfree",
+            "ram",
+            "ram_end"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "memcmp": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "memcpy": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "memp_free": {
+        "Peripherals": [],
+        "Variables": [
+            "memp_memory_PBUF_base",
+            "memp_tab_FRAG_PBUF",
+            "memp_memory_REASSDATA_base",
+            "memp_memory_TCP_PCB_base",
+            "memp_pools",
+            "memp_tab_TCP_PCB_LISTEN",
+            "memp_tab_PBUF",
+            "memp_tab_UDP_PCB",
+            "memp_tab_TCP_PCB",
+            "memp_memory_FRAG_PBUF_base",
+            "memp_memory_TCP_SEG_base",
+            "memp_tab_PBUF_POOL",
+            "memp_tab_TCP_SEG",
+            "memp_tab_SYS_TIMEOUT",
+            "memp_tab_REASSDATA",
+            "memp_memory_UDP_PCB_base",
+            "memp_memory_PBUF_POOL_base",
+            "memp_memory_SYS_TIMEOUT_base",
+            "memp_memory_TCP_PCB_LISTEN_base"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "memp_init": {
+        "Peripherals": [],
+        "Variables": [
+            "memp_memory_PBUF_base",
+            "memp_tab_FRAG_PBUF",
+            "memp_memory_REASSDATA_base",
+            "memp_memory_TCP_PCB_base",
+            "memp_pools",
+            "memp_tab_TCP_PCB_LISTEN",
+            "memp_tab_PBUF",
+            "memp_tab_UDP_PCB",
+            "memp_tab_TCP_PCB",
+            "memp_memory_FRAG_PBUF_base",
+            "memp_memory_TCP_SEG_base",
+            "memp_tab_PBUF_POOL",
+            "memp_tab_TCP_SEG",
+            "memp_tab_SYS_TIMEOUT",
+            "memp_tab_REASSDATA",
+            "memp_memory_UDP_PCB_base",
+            "memp_memory_PBUF_POOL_base",
+            "memp_memory_SYS_TIMEOUT_base",
+            "memp_memory_TCP_PCB_LISTEN_base"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "memp_init_pool": {
+        "Peripherals": [],
+        "Variables": [
+            "memp_memory_PBUF_base",
+            "memp_tab_FRAG_PBUF",
+            "memp_memory_REASSDATA_base",
+            "memp_memory_TCP_PCB_base",
+            "memp_tab_TCP_PCB_LISTEN",
+            "memp_tab_PBUF",
+            "memp_tab_UDP_PCB",
+            "memp_tab_TCP_PCB",
+            "memp_memory_FRAG_PBUF_base",
+            "memp_memory_TCP_SEG_base",
+            "memp_tab_PBUF_POOL",
+            "memp_tab_TCP_SEG",
+            "memp_tab_SYS_TIMEOUT",
+            "memp_tab_REASSDATA",
+            "memp_memory_UDP_PCB_base",
+            "memp_memory_PBUF_POOL_base",
+            "memp_memory_SYS_TIMEOUT_base",
+            "memp_memory_TCP_PCB_LISTEN_base"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "memp_malloc": {
+        "Peripherals": [],
+        "Variables": [
+            "memp_memory_PBUF_base",
+            "memp_tab_FRAG_PBUF",
+            "memp_memory_REASSDATA_base",
+            "memp_memory_TCP_PCB_base",
+            "memp_pools",
+            "memp_tab_TCP_PCB_LISTEN",
+            "memp_tab_PBUF",
+            "memp_tab_UDP_PCB",
+            "memp_tab_TCP_PCB",
+            "memp_memory_FRAG_PBUF_base",
+            "memp_memory_TCP_SEG_base",
+            "memp_tab_PBUF_POOL",
+            "memp_tab_TCP_SEG",
+            "memp_tab_SYS_TIMEOUT",
+            "memp_tab_REASSDATA",
+            "memp_memory_UDP_PCB_base",
+            "memp_memory_PBUF_POOL_base",
+            "memp_memory_SYS_TIMEOUT_base",
+            "memp_memory_TCP_PCB_LISTEN_base"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "memp_malloc_pool": {
+        "Peripherals": [],
+        "Variables": [
+            "memp_tab_FRAG_PBUF",
+            "memp_tab_TCP_PCB_LISTEN",
+            "memp_tab_PBUF",
+            "memp_tab_UDP_PCB",
+            "memp_tab_TCP_PCB",
+            "memp_tab_PBUF_POOL",
+            "memp_tab_REASSDATA",
+            "memp_tab_SYS_TIMEOUT",
+            "memp_tab_TCP_SEG"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "memset": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "mfxstm32l152_DisableITSource": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "mfxstm32l152_EnableITSource": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "mfxstm32l152_GetInstance": {
+        "Peripherals": [],
+        "Variables": [
+            "mfxstm32l152"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "mfxstm32l152_IO_ClearIT": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "mfxstm32l152_IO_Config": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "mfxstm32l152_IO_DisableIT": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "mfxstm32l152_IO_DisablePinIT": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "mfxstm32l152_IO_EnableIT": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "mfxstm32l152_IO_EnablePinIT": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "mfxstm32l152_IO_ITStatus": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "mfxstm32l152_IO_InitPin": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "mfxstm32l152_IO_ReadPin": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "mfxstm32l152_IO_SetIrqEvtMode": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "mfxstm32l152_IO_SetIrqTypeMode": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "mfxstm32l152_IO_Start": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "mfxstm32l152_IO_WritePin": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "mfxstm32l152_Init": {
+        "Peripherals": [],
+        "Variables": [
+            "mfxstm32l152"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "mfxstm32l152_ReadID": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "mfxstm32l152_Reset": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "mfxstm32l152_SetIrqOutPinPolarity": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "mfxstm32l152_SetIrqOutPinType": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "mfxstm32l152_reg24_setPinValue": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "netif_add": {
+        "Peripherals": [],
+        "Variables": [
+            "netif_num",
+            "netif_list",
+            "gnetif"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "netif_init": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "netif_issue_reports": {
+        "Peripherals": [],
+        "Variables": [
+            "gnetif"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "netif_set_addr": {
+        "Peripherals": [],
+        "Variables": [
+            "gnetif"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "netif_set_default": {
+        "Peripherals": [],
+        "Variables": [
+            "gnetif",
+            "netif_default"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "netif_set_down": {
+        "Peripherals": [],
+        "Variables": [
+            "gnetif"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "netif_set_gw": {
+        "Peripherals": [],
+        "Variables": [
+            "gnetif"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "netif_set_ipaddr": {
+        "Peripherals": [],
+        "Variables": [
+            "gnetif"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "netif_set_link_callback": {
+        "Peripherals": [],
+        "Variables": [
+            "gnetif"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "netif_set_link_down": {
+        "Peripherals": [],
+        "Variables": [
+            "gnetif"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "netif_set_link_up": {
+        "Peripherals": [],
+        "Variables": [
+            "gnetif"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "netif_set_netmask": {
+        "Peripherals": [],
+        "Variables": [
+            "gnetif"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "netif_set_up": {
+        "Peripherals": [],
+        "Variables": [
+            "gnetif"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "pbuf_alloc": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "pbuf_alloced_custom": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "pbuf_cat": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "pbuf_chain": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "pbuf_clen": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "pbuf_copy": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "pbuf_copy_partial": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "pbuf_free": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "pbuf_header": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "pbuf_header_force": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "pbuf_header_impl": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "pbuf_realloc": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "pbuf_ref": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "plug_holes": {
+        "Peripherals": [],
+        "Variables": [
+            "lfree",
+            "ram",
+            "ram_end"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "rand": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "sys_check_timeouts": {
+        "Peripherals": [],
+        "Variables": [
+            "next_timeout",
+            "timeouts_last_time"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "sys_now": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "sys_timeout": {
+        "Peripherals": [],
+        "Variables": [
+            "next_timeout",
+            "timeouts_last_time"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "sys_timeouts_init": {
+        "Peripherals": [],
+        "Variables": [
+            "timeouts_last_time"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "tcp_abandon": {
+        "Peripherals": [],
+        "Variables": [
+            "tcp_tw_pcbs",
+            "tcp_active_pcbs_changed",
+            "tcp_active_pcbs",
+            "tcp_bound_pcbs"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "tcp_abort": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "tcp_accept": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "tcp_accept_null": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "tcp_alloc": {
+        "Peripherals": [],
+        "Variables": [
+            "tcp_timer_ctr",
+            "tcp_ticks"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "tcp_arg": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "tcp_bind": {
+        "Peripherals": [],
+        "Variables": [
+            "tcp_tw_pcbs",
+            "tcp_listen_pcbs",
+            "tcp_bound_pcbs",
+            "tcp_active_pcbs"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "tcp_close": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "tcp_close_shutdown": {
+        "Peripherals": [],
+        "Variables": [
+            "tcp_active_pcbs_changed",
+            "tcp_active_pcbs",
+            "tcp_bound_pcbs",
+            "tcp_tw_pcbs",
+            "tcp_listen_pcbs",
+            "tcp_input_pcb"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "tcp_create_segment": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "tcp_echoserver_accept": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "tcp_echoserver_connection_close": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "tcp_echoserver_error": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "tcp_echoserver_init": {
+        "Peripherals": [],
+        "Variables": [
+            "tcp_echoserver_pcb"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "tcp_echoserver_poll": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "tcp_echoserver_recv": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "tcp_echoserver_send": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "tcp_echoserver_sent": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "tcp_eff_send_mss_impl": {
+        "Peripherals": [],
+        "Variables": [
+            "gnetif"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "tcp_enqueue_flags": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "tcp_err": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "tcp_fasttmr": {
+        "Peripherals": [],
+        "Variables": [
+            "tcp_timer_ctr",
+            "tcp_active_pcbs_changed",
+            "tcp_active_pcbs"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "tcp_getoptbyte": {
+        "Peripherals": [],
+        "Variables": [
+            "tcphdr_opt1len",
+            "tcphdr_opt2",
+            "tcphdr",
+            "tcp_optidx"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "tcp_init": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "tcp_input": {
+        "Peripherals": [],
+        "Variables": [
+            "tcphdr_opt1len",
+            "recv_data",
+            "seqno",
+            "inseg",
+            "flags",
+            "tcphdr_opt2",
+            "ackno",
+            "tcp_active_pcbs",
+            "tcp_tw_pcbs",
+            "ip_data",
+            "tcphdr",
+            "tcplen",
+            "tcp_listen_pcbs",
+            "gnetif",
+            "tcp_input_pcb",
+            "recv_flags"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "tcp_keepalive": {
+        "Peripherals": [],
+        "Variables": [
+            "gnetif"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "tcp_kill_prio": {
+        "Peripherals": [],
+        "Variables": [
+            "tcp_ticks",
+            "tcp_active_pcbs"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "tcp_kill_state": {
+        "Peripherals": [],
+        "Variables": [
+            "tcp_ticks",
+            "tcp_active_pcbs"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "tcp_kill_timewait": {
+        "Peripherals": [],
+        "Variables": [
+            "tcp_tw_pcbs",
+            "tcp_ticks"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "tcp_listen_input": {
+        "Peripherals": [],
+        "Variables": [
+            "seqno",
+            "flags",
+            "tcp_active_pcbs_changed",
+            "ackno",
+            "tcp_active_pcbs",
+            "ip_data",
+            "tcphdr",
+            "tcplen"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "tcp_listen_with_backlog": {
+        "Peripherals": [],
+        "Variables": [
+            "tcp_listen_pcbs",
+            "tcp_bound_pcbs"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "tcp_netif_ipv4_addr_changed": {
+        "Peripherals": [],
+        "Variables": [
+            "tcp_listen_pcbs",
+            "tcp_bound_pcbs",
+            "gnetif",
+            "tcp_active_pcbs"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "tcp_netif_ipv4_addr_changed_pcblist": {
+        "Peripherals": [],
+        "Variables": [
+            "gnetif"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "tcp_new": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "tcp_new_port": {
+        "Peripherals": [],
+        "Variables": [
+            "tcp_bound_pcbs",
+            "tcp_active_pcbs",
+            "tcp_tw_pcbs",
+            "tcp_port",
+            "tcp_listen_pcbs"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "tcp_next_iss": {
+        "Peripherals": [],
+        "Variables": [
+            "tcp_ticks",
+            "tcp_next_iss.iss"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "tcp_output": {
+        "Peripherals": [],
+        "Variables": [
+            "tcp_input_pcb"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "tcp_output_alloc_header": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "tcp_output_segment": {
+        "Peripherals": [],
+        "Variables": [
+            "tcp_ticks",
+            "gnetif"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "tcp_parseopt": {
+        "Peripherals": [],
+        "Variables": [
+            "tcphdr",
+            "tcp_optidx"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "tcp_pbuf_prealloc": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "tcp_pcb_purge": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "tcp_pcb_remove": {
+        "Peripherals": [],
+        "Variables": [
+            "tcp_tw_pcbs",
+            "tcp_listen_pcbs",
+            "tcp_active_pcbs"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "tcp_poll": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "tcp_process": {
+        "Peripherals": [],
+        "Variables": [
+            "seqno",
+            "flags",
+            "tcp_active_pcbs_changed",
+            "tcp_ticks",
+            "tcp_active_pcbs",
+            "ackno",
+            "tcp_tw_pcbs",
+            "ip_data",
+            "tcphdr",
+            "tcplen",
+            "recv_flags"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "tcp_process_refused_data": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "tcp_receive": {
+        "Peripherals": [],
+        "Variables": [
+            "recv_data",
+            "seqno",
+            "inseg",
+            "flags",
+            "tcp_ticks",
+            "ackno",
+            "tcphdr",
+            "tcplen",
+            "recv_flags"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "tcp_recv": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "tcp_recv_null": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "tcp_recved": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "tcp_rexmit": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "tcp_rexmit_fast": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "tcp_rexmit_rto": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "tcp_rst": {
+        "Peripherals": [],
+        "Variables": [
+            "ip_data",
+            "gnetif"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "tcp_seg_free": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "tcp_segs_free": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "tcp_send_empty_ack": {
+        "Peripherals": [],
+        "Variables": [
+            "gnetif"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "tcp_send_fin": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "tcp_sent": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "tcp_setprio": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "tcp_slowtmr": {
+        "Peripherals": [],
+        "Variables": [
+            "tcp_timer_ctr",
+            "tcp_ticks",
+            "tcp_active_pcbs_changed",
+            "tcp_active_pcbs",
+            "tcp_tw_pcbs"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "tcp_timer_needed": {
+        "Peripherals": [],
+        "Variables": [
+            "tcp_tw_pcbs",
+            "tcpip_tcp_timer_active",
+            "tcp_active_pcbs"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "tcp_timewait_input": {
+        "Peripherals": [],
+        "Variables": [
+            "seqno",
+            "flags",
+            "tcp_ticks",
+            "ackno",
+            "ip_data",
+            "tcphdr",
+            "tcplen"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "tcp_tmr": {
+        "Peripherals": [],
+        "Variables": [
+            "tcp_timer"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "tcp_trigger_input_pcb_close": {
+        "Peripherals": [],
+        "Variables": [
+            "recv_flags"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "tcp_update_rcv_ann_wnd": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "tcp_write": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "tcp_write_checks": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "tcp_zero_window_probe": {
+        "Peripherals": [],
+        "Variables": [
+            "gnetif"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "tcpip_tcp_timer": {
+        "Peripherals": [],
+        "Variables": [
+            "tcp_tw_pcbs",
+            "tcpip_tcp_timer_active",
+            "tcp_active_pcbs"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "udp_bind": {
+        "Peripherals": [],
+        "Variables": [
+            "udp_pcbs"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "udp_init": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "udp_input": {
+        "Peripherals": [],
+        "Variables": [
+            "ip_data",
+            "gnetif",
+            "udp_pcbs"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "udp_netif_ipv4_addr_changed": {
+        "Peripherals": [],
+        "Variables": [
+            "gnetif",
+            "udp_pcbs"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "udp_new_port": {
+        "Peripherals": [],
+        "Variables": [
+            "udp_port",
+            "udp_pcbs"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "udp_sendto_if": {
+        "Peripherals": [],
+        "Variables": [
+            "gnetif"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "udp_sendto_if_src": {
+        "Peripherals": [],
+        "Variables": [
+            "gnetif"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    }
+}

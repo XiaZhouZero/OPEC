@@ -1,0 +1,23 @@
+{
+    "PinLock": {
+        "ratio": 0.01
+    },
+    "Camera_To_USBDisk": {
+        "ratio": 0.05
+    },
+    "LCD_AnimatedPictureFromSDCard": {
+        "ratio": 0.26
+    },
+    "FatFs_uSD": {
+        "ratio": 0.08
+    },
+    "LCD_PicturesFromSDCard": {
+        "ratio": 0.07
+    },
+    "LwIP_TCP_Echo_Server": {
+        "ratio": 1.10
+    },
+    "CoreMark": {
+        "ratio": 0.23
+    }
+}

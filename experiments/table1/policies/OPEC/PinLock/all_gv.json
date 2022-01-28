@@ -1,0 +1,164 @@
+{
+	"APBAHBPrescTable" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 16
+	},
+	"GPIO_PIN" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 8
+	},
+	"GPIO_PORT" : 
+	{
+		"PointerField" : 
+		[
+			0,
+			3,
+			4,
+			7,
+			8,
+			11,
+			12,
+			15
+		],
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 16
+	},
+	"K" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 256
+	},
+	"PinRxBuffer" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 5
+	},
+	"SystemCoreClock" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 4
+	},
+	"UartHandle" : 
+	{
+		"PointerField" : 
+		[
+			0,
+			3,
+			32,
+			35,
+			40,
+			43,
+			48,
+			51,
+			52,
+			55
+		],
+		"isConstant" : false,
+		"isStruct" : true,
+		"size" : 64
+	},
+	"UartReady" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 1
+	},
+	"__const.Init_Lock.locked" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 22
+	},
+	"__const.Lock_Task.locked" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 21
+	},
+	"__const.Unlock_Task.enter" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 12
+	},
+	"__const.Unlock_Task.incorrect" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 15
+	},
+	"__const.Unlock_Task.lockout" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 16
+	},
+	"__const.Unlock_Task.unlocked" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 10
+	},
+	"__const.Unlock_Task.waiting" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 12
+	},
+	"key" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 32
+	},
+	"key_in" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 32
+	},
+	"pin" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 6
+	},
+	"sha256_padding" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : true,
+		"size" : 64
+	},
+	"uwTick" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 4
+	}
+}

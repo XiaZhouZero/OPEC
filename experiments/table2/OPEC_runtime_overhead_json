@@ -1,0 +1,17 @@
+{
+    "FatFs_uSD": {
+        "ratio": 1.00
+    },
+    "LCD_AnimatedPictureFromSDCard": {
+        "ratio": 1.00
+    },
+    "LCD_PicturesFromSDCard": {
+        "ratio": 1.00
+    },
+    "LwIP_TCP_Echo_Server": {
+        "ratio": 1.01
+    },
+    "PinLock": {
+        "ratio": 1.00
+    }
+}

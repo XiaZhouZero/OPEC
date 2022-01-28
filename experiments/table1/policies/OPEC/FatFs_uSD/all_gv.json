@@ -1,0 +1,335 @@
+{
+	".str" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 10
+	},
+	".str.1" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 20
+	},
+	".str.2" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 20
+	},
+	".str.3" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 15
+	},
+	".str.83" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 12
+	},
+	"AHBPrescTable" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 16
+	},
+	"APBPrescTable" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 8
+	},
+	"BSP_SD_MspInit.dma_rx_handle" : 
+	{
+		"PointerField" : 
+		[
+			0,
+			3,
+			56,
+			59
+		],
+		"isConstant" : false,
+		"isStruct" : true,
+		"size" : 96
+	},
+	"BSP_SD_MspInit.dma_tx_handle" : 
+	{
+		"PointerField" : 
+		[
+			0,
+			3,
+			56,
+			59
+		],
+		"isConstant" : false,
+		"isStruct" : true,
+		"size" : 96
+	},
+	"DMA_CalcBaseAndBitshift.flagBitshiftOffset" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 8
+	},
+	"ExCvt" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 128
+	},
+	"FatFs" : 
+	{
+		"PointerField" : 
+		[
+			0,
+			3,
+			4,
+			7
+		],
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 8
+	},
+	"Files" : 
+	{
+		"PointerField" : 
+		[
+			0,
+			3,
+			16,
+			19
+		],
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 32
+	},
+	"Fsid" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 2
+	},
+	"GPIO_PIN" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 16
+	},
+	"IoDrv" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 4
+	},
+	"MFX_IO_ITConfig.MFX_IO_IT_Enabled" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 1
+	},
+	"MyFile" : 
+	{
+		"PointerField" : 
+		[
+			0,
+			3,
+			40,
+			43,
+			44,
+			47
+		],
+		"isConstant" : false,
+		"isStruct" : true,
+		"size" : 560
+	},
+	"SDFatFs" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : true,
+		"size" : 560
+	},
+	"SDPath" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 4
+	},
+	"SD_Driver" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : true,
+		"size" : 20
+	},
+	"Stat" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 1
+	},
+	"SystemCoreClock" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 4
+	},
+	"UseExtiModeDetection" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 1
+	},
+	"__const.Write_to_File.wtext" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 39
+	},
+	"buffer" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 512
+	},
+	"bytesread" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 4
+	},
+	"byteswritten" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 4
+	},
+	"disk" : 
+	{
+		"PointerField" : 
+		[
+			4,
+			7,
+			8,
+			11
+		],
+		"isConstant" : false,
+		"isStruct" : true,
+		"size" : 16
+	},
+	"f_mkfs.cst" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 14
+	},
+	"f_mkfs.cst32" : 
+	{
+		"PointerField" : null,
+		"isConstant" : true,
+		"isStruct" : false,
+		"size" : 14
+	},
+	"heval_I2c" : 
+	{
+		"PointerField" : 
+		[
+			0,
+			3,
+			36,
+			39,
+			52,
+			55,
+			56,
+			59
+		],
+		"isConstant" : false,
+		"isStruct" : true,
+		"size" : 84
+	},
+	"mfxstm32l152" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 3
+	},
+	"mfxstm32l152_io_drv" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : true,
+		"size" : 44
+	},
+	"res" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 1
+	},
+	"uSdHandle" : 
+	{
+		"PointerField" : 
+		[
+			0,
+			3,
+			32,
+			35,
+			40,
+			43,
+			60,
+			63,
+			64,
+			67
+		],
+		"isConstant" : false,
+		"isStruct" : true,
+		"size" : 132
+	},
+	"uwTick" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 4
+	},
+	"uwTickFreq" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 1
+	},
+	"uwTickPrio" : 
+	{
+		"PointerField" : null,
+		"isConstant" : false,
+		"isStruct" : false,
+		"size" : 4
+	}
+}

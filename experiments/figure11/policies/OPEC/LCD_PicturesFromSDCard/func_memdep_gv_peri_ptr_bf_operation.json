@@ -1,0 +1,2740 @@
+{
+    "BSP_IO_ConfigPin": {
+        "Peripherals": [],
+        "Variables": [
+            "IoDrv",
+            "mfxstm32l152_io_drv"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "BSP_IO_Init": {
+        "Peripherals": [],
+        "Variables": [
+            "IoDrv",
+            "mfxstm32l152_io_drv"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "BSP_IO_ReadPin": {
+        "Peripherals": [],
+        "Variables": [
+            "IoDrv",
+            "mfxstm32l152_io_drv"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "BSP_IO_WritePin": {
+        "Peripherals": [],
+        "Variables": [
+            "IoDrv",
+            "mfxstm32l152_io_drv"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "BSP_LCD_Clear": {
+        "Peripherals": [],
+        "Variables": [
+            "hltdc_eval",
+            "ActiveLayer"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "BSP_LCD_DisplayChar": {
+        "Peripherals": [],
+        "Variables": [
+            "Font24",
+            "DrawProp",
+            "ActiveLayer"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "BSP_LCD_DisplayStringAt": {
+        "Peripherals": [],
+        "Variables": [
+            "Font24",
+            "DrawProp",
+            "str",
+            "ActiveLayer"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "BSP_LCD_DisplayStringAtLine": {
+        "Peripherals": [],
+        "Variables": [
+            "Font24",
+            "str"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "BSP_LCD_DrawBitmap": {
+        "Peripherals": [],
+        "Variables": [
+            "hltdc_eval",
+            "ActiveLayer"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "BSP_LCD_DrawPixel": {
+        "Peripherals": [],
+        "Variables": [
+            "hltdc_eval",
+            "ActiveLayer"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "BSP_LCD_GetFont": {
+        "Peripherals": [],
+        "Variables": [
+            "Font24",
+            "DrawProp",
+            "ActiveLayer"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "BSP_LCD_GetXSize": {
+        "Peripherals": [],
+        "Variables": [
+            "lcd_x_size"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "BSP_LCD_GetYSize": {
+        "Peripherals": [],
+        "Variables": [
+            "lcd_y_size"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "BSP_LCD_Init": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "BSP_LCD_InitEx": {
+        "Peripherals": [
+            [
+                "0x40016c00",
+                "rw",
+                "DSI-Host",
+                "0x400"
+            ],
+            [
+                "0x40016800",
+                "rw",
+                "LCD-TFT",
+                "0x400"
+            ]
+        ],
+        "Variables": [
+            "lcd_y_size",
+            "BSP_LCD_InitEx.PeriphClkInitStruct",
+            "hdsivideo_handle",
+            "lcd_x_size",
+            "Font24",
+            "hltdc_eval",
+            "hdsi_eval"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "BSP_LCD_LayerDefaultInit": {
+        "Peripherals": [],
+        "Variables": [
+            "Font24",
+            "DrawProp",
+            "hltdc_eval"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "BSP_LCD_MspInit": {
+        "Peripherals": [
+            [
+                "0x40023800",
+                "rw",
+                "RCC",
+                "0x400"
+            ]
+        ],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "BSP_LCD_Reset": {
+        "Peripherals": [
+            [
+                "0x40023800",
+                "rw",
+                "RCC",
+                "0x400"
+            ]
+        ],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "BSP_LCD_SelectLayer": {
+        "Peripherals": [],
+        "Variables": [
+            "ActiveLayer"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "BSP_LCD_SetFont": {
+        "Peripherals": [],
+        "Variables": [
+            "Font24",
+            "DrawProp",
+            "ActiveLayer"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "BSP_LCD_SetTextColor": {
+        "Peripherals": [],
+        "Variables": [
+            "DrawProp",
+            "ActiveLayer"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "BSP_LCD_SetTransparency": {
+        "Peripherals": [],
+        "Variables": [
+            "hltdc_eval"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "BSP_LED_Init": {
+        "Peripherals": [
+            [
+                "0x40023800",
+                "rw",
+                "RCC",
+                "0x400"
+            ]
+        ],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "BSP_LED_Init_0": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "BSP_LED_On": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "BSP_SDRAM_Init": {
+        "Peripherals": [
+            [
+                "0xa0000000",
+                "rw",
+                "FSMC",
+                "0x1000"
+            ]
+        ],
+        "Variables": [
+            "BSP_SDRAM_Init.sdramstatus",
+            "Timing",
+            "sdramHandle"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "BSP_SDRAM_Initialization_sequence": {
+        "Peripherals": [],
+        "Variables": [
+            "Command",
+            "sdramHandle"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "BSP_SDRAM_MspInit": {
+        "Peripherals": [
+            [
+                "0x40023800",
+                "rw",
+                "RCC",
+                "0x400"
+            ],
+            [
+                "0x40026400",
+                "rw",
+                "DMA2",
+                "0x400"
+            ]
+        ],
+        "Variables": [
+            "BSP_SDRAM_MspInit.dma_handle",
+            "sdramHandle"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "BSP_SD_DMA_Rx_IRQHandler": {
+        "Peripherals": [],
+        "Variables": [
+            "BSP_SD_MspInit.dma_rx_handle",
+            "uSdHandle"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "BSP_SD_GetCardInfo": {
+        "Peripherals": [],
+        "Variables": [
+            "uSdHandle"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "BSP_SD_GetStatus": {
+        "Peripherals": [],
+        "Variables": [
+            "uSdHandle"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "BSP_SD_IRQHandler": {
+        "Peripherals": [],
+        "Variables": [
+            "uSdHandle"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "BSP_SD_Init": {
+        "Peripherals": [
+            [
+                "0x40012c00",
+                "rw",
+                "SDIO",
+                "0x400"
+            ]
+        ],
+        "Variables": [
+            "uSdHandle",
+            "uSdCardInfo"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "BSP_SD_IsDetected": {
+        "Peripherals": [],
+        "Variables": [
+            "UseExtiModeDetection"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "BSP_SD_MspInit": {
+        "Peripherals": [
+            [
+                "0x40023800",
+                "rw",
+                "RCC",
+                "0x400"
+            ],
+            [
+                "0x40026400",
+                "rw",
+                "DMA2",
+                "0x400"
+            ]
+        ],
+        "Variables": [
+            "BSP_SD_MspInit.dma_rx_handle",
+            "uSdHandle",
+            "BSP_SD_MspInit.dma_tx_handle"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "BSP_SD_ReadBlocks": {
+        "Peripherals": [],
+        "Variables": [
+            "sector",
+            "fs",
+            "uSdHandle",
+            "F"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "BSP_SD_WriteBlocks": {
+        "Peripherals": [],
+        "Variables": [
+            "fs",
+            "uSdHandle",
+            "F"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "Buffercmp": {
+        "Peripherals": [],
+        "Variables": [
+            "sector"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "Configure_Transparency": {
+        "Peripherals": [],
+        "Variables": [
+            "transparency",
+            "counter",
+            "ubNumberOfFiles"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "DMA2D_SetConfig": {
+        "Peripherals": [
+            [
+                "0xc0000000",
+                "rw",
+                "EXT_DEV",
+                "0x10000000"
+            ]
+        ],
+        "Variables": [
+            "hdma2d_eval"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "DMA_CalcBaseAndBitshift": {
+        "Peripherals": [],
+        "Variables": [
+            "BSP_SD_MspInit.dma_rx_handle",
+            "BSP_SDRAM_MspInit.dma_handle",
+            "BSP_SD_MspInit.dma_tx_handle"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "DMA_CheckFifoParam": {
+        "Peripherals": [],
+        "Variables": [
+            "BSP_SD_MspInit.dma_rx_handle",
+            "BSP_SDRAM_MspInit.dma_handle",
+            "BSP_SD_MspInit.dma_tx_handle"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "DSI_ConfigPacketHeader": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "DSI_IO_WriteCmd": {
+        "Peripherals": [],
+        "Variables": [
+            "hdsi_eval"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "Display_Background": {
+        "Peripherals": [],
+        "Variables": [
+            "counter",
+            "transparency",
+            "str",
+            "pDirectoryFiles",
+            "uwInternalBuffer",
+            "pDirectoryFileNames"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "Display_Forground": {
+        "Peripherals": [],
+        "Variables": [
+            "counter",
+            "uwBmplen",
+            "transparency",
+            "str",
+            "pDirectoryFiles",
+            "uwInternalBuffer",
+            "pDirectoryFileNames",
+            "ubNumberOfFiles"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "DrawChar": {
+        "Peripherals": [],
+        "Variables": [
+            "Font24",
+            "DrawProp",
+            "ActiveLayer"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "Error_Handler": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "FATFS_LinkDriver": {
+        "Peripherals": [],
+        "Variables": [
+            "SD_Path"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "FATFS_LinkDriverEx": {
+        "Peripherals": [],
+        "Variables": [
+            "SD_Path",
+            "disk"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "FMC_SDRAM_Init": {
+        "Peripherals": [
+            [
+                "0xa0000000",
+                "rw",
+                "FSMC",
+                "0x1000"
+            ]
+        ],
+        "Variables": [
+            "sdramHandle"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "FMC_SDRAM_ProgramRefreshRate": {
+        "Peripherals": [
+            [
+                "0xa0000000",
+                "rw",
+                "FSMC",
+                "0x1000"
+            ]
+        ],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "FMC_SDRAM_SendCommand": {
+        "Peripherals": [
+            [
+                "0xa0000000",
+                "rw",
+                "FSMC",
+                "0x1000"
+            ]
+        ],
+        "Variables": [
+            "Command"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "FMC_SDRAM_Timing_Init": {
+        "Peripherals": [
+            [
+                "0xa0000000",
+                "rw",
+                "FSMC",
+                "0x1000"
+            ]
+        ],
+        "Variables": [
+            "Timing"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "Format_String": {
+        "Peripherals": [],
+        "Variables": [
+            "counter",
+            "uwBmplen",
+            "str",
+            "pDirectoryFiles",
+            "pDirectoryFileNames",
+            "ubNumberOfFiles"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "Get_BMP_Filenames": {
+        "Peripherals": [],
+        "Variables": [
+            "ubNumberOfFiles",
+            "pDirectoryFiles"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_DMA2D_ConfigLayer": {
+        "Peripherals": [],
+        "Variables": [
+            "hdma2d_eval"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_DMA2D_Init": {
+        "Peripherals": [
+            [
+                "0x4002b000",
+                "rw",
+                "DMA2D",
+                "0xc00"
+            ]
+        ],
+        "Variables": [
+            "hdma2d_eval"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_DMA2D_MspInit": {
+        "Peripherals": [],
+        "Variables": [
+            "hdma2d_eval"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_DMA2D_PollForTransfer": {
+        "Peripherals": [],
+        "Variables": [
+            "hdma2d_eval"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_DMA2D_Start": {
+        "Peripherals": [],
+        "Variables": [
+            "hdma2d_eval"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_DMA_DeInit": {
+        "Peripherals": [
+            [
+                "0x40026000",
+                "rw",
+                "DMA1",
+                "0x400"
+            ],
+            [
+                "0x40026400",
+                "rw",
+                "DMA2",
+                "0x400"
+            ]
+        ],
+        "Variables": [
+            "BSP_SD_MspInit.dma_rx_handle",
+            "BSP_SDRAM_MspInit.dma_handle",
+            "BSP_SD_MspInit.dma_tx_handle"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_DMA_IRQHandler": {
+        "Peripherals": [],
+        "Variables": [
+            "BSP_SD_MspInit.dma_rx_handle",
+            "SystemCoreClock"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_DMA_Init": {
+        "Peripherals": [
+            [
+                "0x40026000",
+                "rw",
+                "DMA1",
+                "0x400"
+            ],
+            [
+                "0x40026400",
+                "rw",
+                "DMA2",
+                "0x400"
+            ]
+        ],
+        "Variables": [
+            "BSP_SD_MspInit.dma_rx_handle",
+            "BSP_SDRAM_MspInit.dma_handle",
+            "BSP_SD_MspInit.dma_tx_handle"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_DSI_ConfigPhyTimer": {
+        "Peripherals": [],
+        "Variables": [
+            "hdsi_eval"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_DSI_ConfigVideoMode": {
+        "Peripherals": [],
+        "Variables": [
+            "hdsi_eval",
+            "hdsivideo_handle"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_DSI_DeInit": {
+        "Peripherals": [],
+        "Variables": [
+            "hdsi_eval"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_DSI_Init": {
+        "Peripherals": [],
+        "Variables": [
+            "hdsi_eval"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_DSI_LongWrite": {
+        "Peripherals": [],
+        "Variables": [
+            "hdsi_eval"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_DSI_MspDeInit": {
+        "Peripherals": [],
+        "Variables": [
+            "hdsi_eval"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_DSI_MspInit": {
+        "Peripherals": [],
+        "Variables": [
+            "hdsi_eval"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_DSI_ShortWrite": {
+        "Peripherals": [],
+        "Variables": [
+            "hdsi_eval"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_DSI_Start": {
+        "Peripherals": [],
+        "Variables": [
+            "hdsi_eval"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_Delay": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_GPIO_Init": {
+        "Peripherals": [
+            [
+                "0x40022400",
+                "rw",
+                "GPIOJ",
+                "0x400"
+            ],
+            [
+                "0x40021800",
+                "rw",
+                "GPIOG",
+                "0x400"
+            ],
+            [
+                "0x40020800",
+                "rw",
+                "GPIOC",
+                "0x400"
+            ],
+            [
+                "0x40020400",
+                "rw",
+                "GPIOB",
+                "0x400"
+            ],
+            [
+                "0x40020c00",
+                "rw",
+                "GPIOD",
+                "0x400"
+            ],
+            [
+                "0x40021400",
+                "rw",
+                "GPIOF",
+                "0x400"
+            ],
+            [
+                "0x40023800",
+                "rw",
+                "RCC",
+                "0x400"
+            ],
+            [
+                "0x40021c00",
+                "rw",
+                "GPIOH",
+                "0x400"
+            ],
+            [
+                "0x40020000",
+                "rw",
+                "GPIOA",
+                "0x400"
+            ],
+            [
+                "0x40021000",
+                "rw",
+                "GPIOE",
+                "0x400"
+            ],
+            [
+                "0x40013c00",
+                "rw",
+                "EXTI",
+                "0x400"
+            ],
+            [
+                "0x40013800",
+                "rw",
+                "SYSCFG",
+                "0x400"
+            ],
+            [
+                "0x40022000",
+                "rw",
+                "GPIOI",
+                "0x400"
+            ],
+            [
+                "0x40022800",
+                "rw",
+                "GPIOK",
+                "0x400"
+            ]
+        ],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": [],
+        "caller": {
+            "BSP_LCD_Reset": {
+                "Peripherals": [
+                    [
+                        "0x40022800",
+                        "rw",
+                        "GPIOK",
+                        "0x400"
+                    ]
+                ],
+                "Whitelist": {},
+                "Whitelist_Namelist": []
+            },
+            "BSP_LED_Init": {
+                "Peripherals": [
+                    [
+                        "0x40022800",
+                        "rw",
+                        "GPIOK",
+                        "0x400"
+                    ]
+                ],
+                "Whitelist": {},
+                "Whitelist_Namelist": []
+            },
+            "BSP_SDRAM_MspInit": {
+                "Peripherals": [
+                    [
+                        "0x40020c00",
+                        "rw",
+                        "GPIOD",
+                        "0x400"
+                    ],
+                    [
+                        "0x40021000",
+                        "rw",
+                        "GPIOE",
+                        "0x400"
+                    ],
+                    [
+                        "0x40021400",
+                        "rw",
+                        "GPIOF",
+                        "0x400"
+                    ],
+                    [
+                        "0x40021800",
+                        "rw",
+                        "GPIOG",
+                        "0x400"
+                    ],
+                    [
+                        "0x40021c00",
+                        "rw",
+                        "GPIOH",
+                        "0x400"
+                    ],
+                    [
+                        "0x40022000",
+                        "rw",
+                        "GPIOI",
+                        "0x400"
+                    ]
+                ],
+                "Whitelist": {},
+                "Whitelist_Namelist": []
+            },
+            "BSP_SD_MspInit": {
+                "Peripherals": [
+                    [
+                        "0x40020800",
+                        "rw",
+                        "GPIOC",
+                        "0x400"
+                    ],
+                    [
+                        "0x40020c00",
+                        "rw",
+                        "GPIOD",
+                        "0x400"
+                    ]
+                ],
+                "Whitelist": {},
+                "Whitelist_Namelist": []
+            },
+            "I2Cx_MspInit": {
+                "Peripherals": [
+                    [
+                        "0x40020400",
+                        "rw",
+                        "GPIOB",
+                        "0x400"
+                    ],
+                    [
+                        "0x40020400",
+                        "rw",
+                        "GPIOB",
+                        "0x400"
+                    ]
+                ],
+                "Whitelist": {},
+                "Whitelist_Namelist": []
+            },
+            "MFX_IO_ITConfig": {
+                "Peripherals": [
+                    [
+                        "0x40022000",
+                        "rw",
+                        "GPIOI",
+                        "0x400"
+                    ]
+                ],
+                "Whitelist": {},
+                "Whitelist_Namelist": []
+            }
+        }
+    },
+    "HAL_GPIO_WritePin": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": [],
+        "caller": {
+            "BSP_LCD_Reset": {
+                "Peripherals": [
+                    [
+                        "0x40022800",
+                        "rw",
+                        "GPIOK",
+                        "0x400"
+                    ],
+                    [
+                        "0x40022800",
+                        "rw",
+                        "GPIOK",
+                        "0x400"
+                    ]
+                ],
+                "Whitelist": {},
+                "Whitelist_Namelist": []
+            },
+            "BSP_LED_Init": {
+                "Peripherals": [
+                    [
+                        "0x40022800",
+                        "rw",
+                        "GPIOK",
+                        "0x400"
+                    ]
+                ],
+                "Whitelist": {},
+                "Whitelist_Namelist": []
+            },
+            "BSP_LED_On": {
+                "Peripherals": [
+                    [
+                        "0x40022800",
+                        "rw",
+                        "GPIOK",
+                        "0x400"
+                    ]
+                ],
+                "Whitelist": {},
+                "Whitelist_Namelist": []
+            }
+        }
+    },
+    "HAL_GetTick": {
+        "Peripherals": [],
+        "Variables": [
+            "uwTick"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_I2C_DeInit": {
+        "Peripherals": [
+            [
+                "0x40005c00",
+                "rw",
+                "I2C3",
+                "0x400"
+            ],
+            [
+                "0x40005800",
+                "rw",
+                "I2C2",
+                "0x400"
+            ],
+            [
+                "0x40005400",
+                "rw",
+                "I2C1",
+                "0x400"
+            ]
+        ],
+        "Variables": [
+            "heval_I2c"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_I2C_GetState": {
+        "Peripherals": [],
+        "Variables": [
+            "heval_I2c"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_I2C_Init": {
+        "Peripherals": [
+            [
+                "0x40005c00",
+                "rw",
+                "I2C3",
+                "0x400"
+            ],
+            [
+                "0x40005800",
+                "rw",
+                "I2C2",
+                "0x400"
+            ],
+            [
+                "0x40005400",
+                "rw",
+                "I2C1",
+                "0x400"
+            ]
+        ],
+        "Variables": [
+            "heval_I2c"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_I2C_Mem_Read": {
+        "Peripherals": [],
+        "Variables": [
+            "heval_I2c"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_I2C_Mem_Write": {
+        "Peripherals": [],
+        "Variables": [
+            "heval_I2c"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_I2C_MspDeInit": {
+        "Peripherals": [],
+        "Variables": [
+            "heval_I2c"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_I2C_MspInit": {
+        "Peripherals": [],
+        "Variables": [
+            "heval_I2c"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_IncTick": {
+        "Peripherals": [],
+        "Variables": [
+            "uwTick"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_Init": {
+        "Peripherals": [
+            [
+                "0x40023c00",
+                "rw",
+                "FLASH-Inte",
+                "0x400"
+            ]
+        ],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_InitTick": {
+        "Peripherals": [],
+        "Variables": [
+            "SystemCoreClock"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_LTDC_ConfigLayer": {
+        "Peripherals": [],
+        "Variables": [
+            "hltdc_eval"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_LTDC_Init": {
+        "Peripherals": [
+            [
+                "0x40000000",
+                "rw",
+                "TIM2",
+                "0x400"
+            ],
+            [
+                "0x40016800",
+                "rw",
+                "LCD-TFT",
+                "0x400"
+            ]
+        ],
+        "Variables": [
+            "hltdc_eval"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_LTDC_MspInit": {
+        "Peripherals": [],
+        "Variables": [
+            "hltdc_eval"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_LTDC_SetAlpha": {
+        "Peripherals": [],
+        "Variables": [
+            "hltdc_eval"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_LTDC_StructInitFromVideoConfig": {
+        "Peripherals": [
+            [
+                "0x40000000",
+                "rw",
+                "TIM2",
+                "0x400"
+            ]
+        ],
+        "Variables": [
+            "hltdc_eval",
+            "hdsivideo_handle"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_MspInit": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_NVIC_EnableIRQ": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_NVIC_SetPriority": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_NVIC_SetPriorityGrouping": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_PWREx_EnableOverDrive": {
+        "Peripherals": [
+            [
+                "0x40023800",
+                "rw",
+                "RCC",
+                "0x400"
+            ],
+            [
+                "0x40007000",
+                "rw",
+                "PWR",
+                "0x400"
+            ],
+            [
+                "0x420e0000",
+                "rw",
+                "PWR_bit_band",
+                "0x8000"
+            ]
+        ],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_RCCEx_PeriphCLKConfig": {
+        "Peripherals": [
+            [
+                "0x42470000",
+                "rw",
+                "RCC_bit_band",
+                "0x10000"
+            ],
+            [
+                "0x40023800",
+                "rw",
+                "RCC",
+                "0x400"
+            ],
+            [
+                "0x40007000",
+                "rw",
+                "PWR",
+                "0x400"
+            ]
+        ],
+        "Variables": [
+            "BSP_LCD_InitEx.PeriphClkInitStruct"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_RCC_ClockConfig": {
+        "Peripherals": [
+            [
+                "0x40023800",
+                "rw",
+                "RCC",
+                "0x400"
+            ],
+            [
+                "0x40023c00",
+                "rw",
+                "FLASH-Inte",
+                "0x400"
+            ]
+        ],
+        "Variables": [
+            "SystemCoreClock"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_RCC_GetHCLKFreq": {
+        "Peripherals": [],
+        "Variables": [
+            "SystemCoreClock"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_RCC_GetPCLK1Freq": {
+        "Peripherals": [
+            [
+                "0x40023800",
+                "rw",
+                "RCC",
+                "0x400"
+            ]
+        ],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_RCC_GetSysClockFreq": {
+        "Peripherals": [
+            [
+                "0x40023800",
+                "rw",
+                "RCC",
+                "0x400"
+            ]
+        ],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_RCC_OscConfig": {
+        "Peripherals": [
+            [
+                "0x42470000",
+                "rw",
+                "RCC_bit_band",
+                "0x10000"
+            ],
+            [
+                "0x40023800",
+                "rw",
+                "RCC",
+                "0x400"
+            ],
+            [
+                "0x40007000",
+                "rw",
+                "PWR",
+                "0x400"
+            ]
+        ],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_SDRAM_Init": {
+        "Peripherals": [],
+        "Variables": [
+            "Timing",
+            "sdramHandle"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_SDRAM_MspInit": {
+        "Peripherals": [],
+        "Variables": [
+            "sdramHandle"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_SDRAM_ProgramRefreshRate": {
+        "Peripherals": [],
+        "Variables": [
+            "sdramHandle"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_SDRAM_SendCommand": {
+        "Peripherals": [],
+        "Variables": [
+            "Command",
+            "sdramHandle"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_SD_GetStatus": {
+        "Peripherals": [],
+        "Variables": [
+            "uSdHandle"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_SD_Get_CardInfo": {
+        "Peripherals": [],
+        "Variables": [
+            "uSdHandle",
+            "uSdCardInfo"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_SD_IRQHandler": {
+        "Peripherals": [],
+        "Variables": [
+            "uSdHandle"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_SD_Init": {
+        "Peripherals": [],
+        "Variables": [
+            "uSdHandle",
+            "uSdCardInfo"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_SD_MspInit": {
+        "Peripherals": [],
+        "Variables": [
+            "uSdHandle"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_SD_ReadBlocks": {
+        "Peripherals": [],
+        "Variables": [
+            "sector",
+            "fs",
+            "uSdHandle",
+            "F"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_SD_StopTransfer": {
+        "Peripherals": [],
+        "Variables": [
+            "uSdHandle"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_SD_WideBusOperation_Config": {
+        "Peripherals": [],
+        "Variables": [
+            "uSdHandle"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_SD_WriteBlocks": {
+        "Peripherals": [],
+        "Variables": [
+            "fs",
+            "uSdHandle",
+            "F"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_SD_XferCpltCallback": {
+        "Peripherals": [],
+        "Variables": [
+            "uSdHandle"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_SD_XferErrorCallback": {
+        "Peripherals": [],
+        "Variables": [
+            "uSdHandle"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_SYSTICK_Config": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "I2C_IsAcknowledgeFailed": {
+        "Peripherals": [],
+        "Variables": [
+            "heval_I2c"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "I2C_RequestMemoryRead": {
+        "Peripherals": [],
+        "Variables": [
+            "heval_I2c"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "I2C_RequestMemoryWrite": {
+        "Peripherals": [],
+        "Variables": [
+            "heval_I2c"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "I2C_WaitOnBTFFlagUntilTimeout": {
+        "Peripherals": [],
+        "Variables": [
+            "heval_I2c"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "I2C_WaitOnFlagUntilTimeout": {
+        "Peripherals": [],
+        "Variables": [
+            "heval_I2c"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "I2C_WaitOnMasterAddressFlagUntilTimeout": {
+        "Peripherals": [],
+        "Variables": [
+            "heval_I2c"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "I2C_WaitOnRXNEFlagUntilTimeout": {
+        "Peripherals": [],
+        "Variables": [
+            "heval_I2c"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "I2C_WaitOnTXEFlagUntilTimeout": {
+        "Peripherals": [],
+        "Variables": [
+            "heval_I2c"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "I2Cx_Error": {
+        "Peripherals": [],
+        "Variables": [
+            "heval_I2c"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "I2Cx_Init": {
+        "Peripherals": [
+            [
+                "0x40005400",
+                "rw",
+                "I2C1",
+                "0x400"
+            ]
+        ],
+        "Variables": [
+            "heval_I2c"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "I2Cx_MspInit": {
+        "Peripherals": [
+            [
+                "0x40023800",
+                "rw",
+                "RCC",
+                "0x400"
+            ]
+        ],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "I2Cx_Read": {
+        "Peripherals": [],
+        "Variables": [
+            "heval_I2c"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "I2Cx_Write": {
+        "Peripherals": [],
+        "Variables": [
+            "heval_I2c"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "Init_Directory_File_Pointers": {
+        "Peripherals": [],
+        "Variables": [
+            "pDirectoryFileNames",
+            "pDirectoryFiles"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "LCD_Config": {
+        "Peripherals": [
+            [
+                "0xc0000000",
+                "rw",
+                "EXT_DEV",
+                "0x10000000"
+            ]
+        ],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "LL_ConvertLineToARGB8888": {
+        "Peripherals": [
+            [
+                "0x4002b000",
+                "rw",
+                "DMA2D",
+                "0xc00"
+            ]
+        ],
+        "Variables": [
+            "hdma2d_eval"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "LL_FillBuffer": {
+        "Peripherals": [
+            [
+                "0x4002b000",
+                "rw",
+                "DMA2D",
+                "0xc00"
+            ]
+        ],
+        "Variables": [
+            "hdma2d_eval"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "LTDC_SetConfig": {
+        "Peripherals": [],
+        "Variables": [
+            "hltdc_eval"
+        ],
+        "Whitelist": {
+            "FP": [
+                3758104576,
+                49156,
+                3
+            ]
+        },
+        "Whitelist_Namelist": [
+            "FP"
+        ]
+    },
+    "Link_Driver": {
+        "Peripherals": [],
+        "Variables": [
+            "SD_Path"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "MFX_IO_Delay": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "MFX_IO_ITConfig": {
+        "Peripherals": [
+            [
+                "0x40023800",
+                "rw",
+                "RCC",
+                "0x400"
+            ]
+        ],
+        "Variables": [
+            "MFX_IO_ITConfig.MFX_IO_IT_Enabled"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "MFX_IO_Init": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "MFX_IO_Read": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "MFX_IO_Write": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "NVIC_EnableIRQ": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {
+            "SysTick": [
+                3758153744,
+                368,
+                3
+            ]
+        },
+        "Whitelist_Namelist": [
+            "SysTick"
+        ]
+    },
+    "NVIC_EncodePriority": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "NVIC_GetPriorityGrouping": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {
+            "SCB": [
+                3758157056,
+                144,
+                3
+            ]
+        },
+        "Whitelist_Namelist": [
+            "SCB"
+        ]
+    },
+    "NVIC_SetPriority": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {
+            "SCB": [
+                3758157056,
+                144,
+                3
+            ],
+            "SysTick": [
+                3758153744,
+                368,
+                3
+            ]
+        },
+        "Whitelist_Namelist": [
+            "SCB",
+            "SysTick"
+        ]
+    },
+    "NVIC_SetPriorityGrouping": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {
+            "SCB": [
+                3758157056,
+                144,
+                3
+            ]
+        },
+        "Whitelist_Namelist": [
+            "SCB"
+        ]
+    },
+    "OTM8009A_IO_Delay": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "OTM8009A_Init": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "SDIO_DataConfig": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "SDIO_GetCommandResponse": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "SDIO_GetPowerState": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "SDIO_GetResponse": {
+        "Peripherals": [
+            [
+                "0x40012c00",
+                "rw",
+                "SDIO",
+                "0x400"
+            ]
+        ],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "SDIO_Init": {
+        "Peripherals": [
+            [
+                "0x40012c00",
+                "rw",
+                "SDIO",
+                "0x400"
+            ]
+        ],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "SDIO_PowerState_ON": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "SDIO_ReadFIFO": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "SDIO_SendCommand": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "SDIO_WriteFIFO": {
+        "Peripherals": [],
+        "Variables": [
+            "fs",
+            "F"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "SD_CmdError": {
+        "Peripherals": [],
+        "Variables": [
+            "uSdHandle"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "SD_CmdResp1Error": {
+        "Peripherals": [
+            [
+                "0x40000000",
+                "rw",
+                "TIM2",
+                "0x400"
+            ]
+        ],
+        "Variables": [
+            "uSdHandle"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "SD_CmdResp2Error": {
+        "Peripherals": [],
+        "Variables": [
+            "uSdHandle"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "SD_CmdResp3Error": {
+        "Peripherals": [],
+        "Variables": [
+            "uSdHandle"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "SD_CmdResp6Error": {
+        "Peripherals": [],
+        "Variables": [
+            "uSdHandle"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "SD_CmdResp7Error": {
+        "Peripherals": [],
+        "Variables": [
+            "uSdHandle"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "SD_FindSCR": {
+        "Peripherals": [],
+        "Variables": [
+            "uSdHandle"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "SD_GetState": {
+        "Peripherals": [],
+        "Variables": [
+            "uSdHandle"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "SD_Initialize_Cards": {
+        "Peripherals": [],
+        "Variables": [
+            "uSdHandle"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "SD_IsCardProgramming": {
+        "Peripherals": [
+            [
+                "0x40000000",
+                "rw",
+                "TIM2",
+                "0x400"
+            ]
+        ],
+        "Variables": [
+            "uSdHandle"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "SD_PowerON": {
+        "Peripherals": [
+            [
+                "0x40000000",
+                "rw",
+                "TIM2",
+                "0x400"
+            ],
+            [
+                "0x42258000",
+                "rw",
+                "SDIO_bit_band",
+                "0x1000"
+            ]
+        ],
+        "Variables": [
+            "uSdHandle"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "SD_Select_Deselect": {
+        "Peripherals": [],
+        "Variables": [
+            "uSdHandle"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "SD_SendStatus": {
+        "Peripherals": [],
+        "Variables": [
+            "uSdHandle"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "SD_WideBus_Disable": {
+        "Peripherals": [],
+        "Variables": [
+            "uSdHandle"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "SD_WideBus_Enable": {
+        "Peripherals": [],
+        "Variables": [
+            "uSdHandle"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "SD_initialize": {
+        "Peripherals": [],
+        "Variables": [
+            "Stat"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "SD_ioctl": {
+        "Peripherals": [],
+        "Variables": [
+            "Stat"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "SD_read": {
+        "Peripherals": [],
+        "Variables": [
+            "sector",
+            "fs",
+            "F"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "SD_status": {
+        "Peripherals": [],
+        "Variables": [
+            "Stat"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "SD_write": {
+        "Peripherals": [],
+        "Variables": [
+            "fs",
+            "F"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "Storage_CheckBitmapFile": {
+        "Peripherals": [],
+        "Variables": [
+            "sector",
+            "fs",
+            "uwBmplen",
+            "F",
+            "str",
+            "BytesRead"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "Storage_GetDirectoryBitmapFiles": {
+        "Peripherals": [],
+        "Variables": [
+            "fs",
+            "pDirectoryFileNames",
+            "pDirectoryFiles"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "Storage_OpenReadFile": {
+        "Peripherals": [],
+        "Variables": [
+            "sector",
+            "fs",
+            "BytesRead",
+            "str"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "SysTick_Config": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {
+            "SysTick": [
+                3758153744,
+                368,
+                3
+            ]
+        },
+        "Whitelist_Namelist": [
+            "SysTick",
+            "SysTick",
+            "SysTick"
+        ]
+    },
+    "SystemClock_Config": {
+        "Peripherals": [
+            [
+                "0x40023800",
+                "rw",
+                "RCC",
+                "0x400"
+            ],
+            [
+                "0x40007000",
+                "rw",
+                "PWR",
+                "0x400"
+            ]
+        ],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "SystemInit": {
+        "Peripherals": [
+            [
+                "0x40023800",
+                "rw",
+                "RCC",
+                "0x400"
+            ]
+        ],
+        "Variables": [],
+        "Whitelist": {
+            "SCB": [
+                3758157056,
+                144,
+                3
+            ]
+        },
+        "Whitelist_Namelist": [
+            "SCB"
+        ]
+    },
+    "assert_failed": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "check_fs": {
+        "Peripherals": [],
+        "Variables": [
+            "fs"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "chk_chr": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "chk_lock": {
+        "Peripherals": [],
+        "Variables": [
+            "fs",
+            "Files"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "clear_lock": {
+        "Peripherals": [],
+        "Variables": [
+            "fs",
+            "Files"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "clmt_clust": {
+        "Peripherals": [],
+        "Variables": [
+            "fs",
+            "F"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "clust2sect": {
+        "Peripherals": [],
+        "Variables": [
+            "fs"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "create_chain": {
+        "Peripherals": [],
+        "Variables": [
+            "fs"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "create_name": {
+        "Peripherals": [],
+        "Variables": [
+            "str"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "dec_lock": {
+        "Peripherals": [],
+        "Variables": [
+            "Files"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "dir_alloc": {
+        "Peripherals": [],
+        "Variables": [
+            "fs"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "dir_find": {
+        "Peripherals": [],
+        "Variables": [
+            "fs"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "dir_next": {
+        "Peripherals": [],
+        "Variables": [
+            "fs"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "dir_read": {
+        "Peripherals": [],
+        "Variables": [
+            "fs"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "dir_register": {
+        "Peripherals": [],
+        "Variables": [
+            "fs"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "dir_sdi": {
+        "Peripherals": [],
+        "Variables": [
+            "fs"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "disk_initialize": {
+        "Peripherals": [],
+        "Variables": [
+            "disk"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "disk_ioctl": {
+        "Peripherals": [],
+        "Variables": [
+            "disk"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "disk_read": {
+        "Peripherals": [],
+        "Variables": [
+            "sector",
+            "fs",
+            "disk",
+            "F"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "disk_status": {
+        "Peripherals": [],
+        "Variables": [
+            "disk"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "disk_write": {
+        "Peripherals": [],
+        "Variables": [
+            "fs",
+            "disk",
+            "F"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "enq_lock": {
+        "Peripherals": [],
+        "Variables": [
+            "fs",
+            "Files"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "f_close": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "f_mount": {
+        "Peripherals": [],
+        "Variables": [
+            "str",
+            "fs",
+            "FatFs"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "f_open": {
+        "Peripherals": [],
+        "Variables": [
+            "fs",
+            "str",
+            "F"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "f_opendir": {
+        "Peripherals": [],
+        "Variables": [
+            "fs",
+            "str"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "f_read": {
+        "Peripherals": [],
+        "Variables": [
+            "sector",
+            "fs",
+            "BytesRead",
+            "F"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "f_readdir": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "f_sync": {
+        "Peripherals": [],
+        "Variables": [
+            "fs"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "find_volume": {
+        "Peripherals": [],
+        "Variables": [
+            "fs",
+            "FatFs",
+            "Fsid"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "follow_path": {
+        "Peripherals": [],
+        "Variables": [
+            "fs",
+            "str"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "get_fat": {
+        "Peripherals": [],
+        "Variables": [
+            "fs"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "get_fattime": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "get_fileinfo": {
+        "Peripherals": [],
+        "Variables": [
+            "fs"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "get_ldnumber": {
+        "Peripherals": [],
+        "Variables": [
+            "str"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "inc_lock": {
+        "Peripherals": [],
+        "Variables": [
+            "fs",
+            "Files"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "ld_clust": {
+        "Peripherals": [],
+        "Variables": [
+            "fs"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "llvm.memcpy.p0i8.p0i8.i32": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "llvm.memset.p0i8.i32": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "main": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "mem_cmp": {
+        "Peripherals": [],
+        "Variables": [
+            "fs"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "mem_cpy": {
+        "Peripherals": [],
+        "Variables": [
+            "sector",
+            "fs",
+            "F"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "mem_set": {
+        "Peripherals": [],
+        "Variables": [
+            "fs"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "mfxstm32l152_DisableITSource": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "mfxstm32l152_EnableITSource": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "mfxstm32l152_GetInstance": {
+        "Peripherals": [],
+        "Variables": [
+            "mfxstm32l152"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "mfxstm32l152_IO_ClearIT": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "mfxstm32l152_IO_Config": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "mfxstm32l152_IO_DisableIT": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "mfxstm32l152_IO_DisablePinIT": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "mfxstm32l152_IO_EnableIT": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "mfxstm32l152_IO_EnablePinIT": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "mfxstm32l152_IO_ITStatus": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "mfxstm32l152_IO_InitPin": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "mfxstm32l152_IO_ReadPin": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "mfxstm32l152_IO_SetIrqEvtMode": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "mfxstm32l152_IO_SetIrqTypeMode": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "mfxstm32l152_IO_Start": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "mfxstm32l152_IO_WritePin": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "mfxstm32l152_Init": {
+        "Peripherals": [],
+        "Variables": [
+            "mfxstm32l152"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "mfxstm32l152_ReadID": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "mfxstm32l152_Reset": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "mfxstm32l152_SetIrqOutPinPolarity": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "mfxstm32l152_SetIrqOutPinType": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "mfxstm32l152_reg24_setPinValue": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "move_window": {
+        "Peripherals": [],
+        "Variables": [
+            "fs"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "put_fat": {
+        "Peripherals": [],
+        "Variables": [
+            "fs"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "remove_chain": {
+        "Peripherals": [],
+        "Variables": [
+            "fs"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "sprintf": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "st_clust": {
+        "Peripherals": [],
+        "Variables": [
+            "fs"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "sync_fs": {
+        "Peripherals": [],
+        "Variables": [
+            "fs"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "sync_window": {
+        "Peripherals": [],
+        "Variables": [
+            "fs"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "validate": {
+        "Peripherals": [],
+        "Variables": [
+            "fs",
+            "F"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    }
+}

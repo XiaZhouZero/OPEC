@@ -1,0 +1,57 @@
+{
+    "Animation": {
+        "ACES1": {
+            "ratio": 1.19
+        },
+        "ACES2": {
+            "ratio": 5.70
+        },
+        "ACES3": {
+            "ratio": 1.13
+        }
+    },
+    "FatFs-uSD": {
+        "ACES1": {
+            "ratio": 1.90
+        },
+        "ACES2": {
+            "ratio": 1.95
+        },
+        "ACES3": {
+            "ratio": 1.25
+        }
+    },
+    "LCD-uSD": {
+        "ACES1": {
+            "ratio": 1.78
+        },
+        "ACES2": {
+            "ratio": 5.69
+        },
+        "ACES3": {
+            "ratio": 1.72
+        }
+    },
+    "PinLock": {
+        "ACES1": {
+            "ratio": 1.00
+        },
+        "ACES2": {
+            "ratio": 1.01
+        },
+        "ACES3": {
+            "ratio": 1.00
+        }
+    },
+    "TCP-Echo": {
+        "ACES1": {
+            "ratio": 2.17
+        },
+        "ACES2": {
+            "ratio": 3.69
+        },
+        "ACES3": {
+            "ratio": 1.22
+        }
+    }
+}

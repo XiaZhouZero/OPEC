@@ -1,0 +1,3962 @@
+{
+	"  call void %58(%struct.__DMA_HandleTypeDef* %60) #5, !dbg !1930" : 
+	{
+		"Attr" : 
+		{
+			"Function" : "HAL_UART_IRQHandler",
+			"LLVMType" : "void (%struct.__DMA_HandleTypeDef*)",
+			"Type" : "Indirect"
+		},
+		"Connections" : 
+		{
+			"UART_DMAAbortOnError" : 
+			{
+				"Count" : 1,
+				"Type" : "Indirect Call"
+			}
+		}
+	},
+	".Peripheral_0" : 
+	{
+		"Attr" : 
+		{
+			"Addr" : 1073881088,
+			"ArgNum" : 0,
+			"DataSize" : 40,
+			"DataType" : "%struct.GPIO_TypeDef*",
+			"IsArg" : false,
+			"IsParam" : false,
+			"LLVM::Value" : "%struct.GPIO_TypeDef* inttoptr (i32 1073881088 to %struct.GPIO_TypeDef*)",
+			"Read" : false,
+			"Type" : "Peripheral",
+			"Write" : false
+		},
+		"Connections" : 
+		{
+			"HAL_GPIO_Init" : 
+			{
+				"Type" : "Peripheral"
+			}
+		}
+	},
+	".Peripheral_1" : 
+	{
+		"Attr" : 
+		{
+			"Addr" : 1073887232,
+			"ArgNum" : 0,
+			"DataSize" : 136,
+			"DataType" : "%struct.RCC_TypeDef*",
+			"IsArg" : false,
+			"IsParam" : false,
+			"LLVM::Value" : "i32* getelementptr inbounds (%struct.RCC_TypeDef, %struct.RCC_TypeDef* inttoptr (i32 1073887232 to %struct.RCC_TypeDef*), i32 0, i32 25)",
+			"Read" : true,
+			"Type" : "Peripheral",
+			"Write" : false
+		},
+		"Connections" : 
+		{
+			"HAL_RCC_OscConfig" : 
+			{
+				"Type" : "Peripheral"
+			}
+		}
+	},
+	".Peripheral_10" : 
+	{
+		"Attr" : 
+		{
+			"Addr" : 1073887232,
+			"ArgNum" : 0,
+			"DataSize" : 136,
+			"DataType" : "%struct.RCC_TypeDef*",
+			"IsArg" : false,
+			"IsParam" : false,
+			"LLVM::Value" : "i32* getelementptr inbounds (%struct.RCC_TypeDef, %struct.RCC_TypeDef* inttoptr (i32 1073887232 to %struct.RCC_TypeDef*), i32 0, i32 2)",
+			"Read" : true,
+			"Type" : "Peripheral",
+			"Write" : true
+		},
+		"Connections" : 
+		{
+			"HAL_RCC_ClockConfig" : 
+			{
+				"Type" : "Peripheral"
+			},
+			"HAL_RCC_GetPCLK1Freq" : 
+			{
+				"Type" : "Peripheral"
+			},
+			"HAL_RCC_GetPCLK2Freq" : 
+			{
+				"Type" : "Peripheral"
+			},
+			"HAL_RCC_GetSysClockFreq" : 
+			{
+				"Type" : "Peripheral"
+			},
+			"HAL_RCC_OscConfig" : 
+			{
+				"Type" : "Peripheral"
+			},
+			"SystemInit" : 
+			{
+				"Type" : "Peripheral"
+			}
+		}
+	},
+	".Peripheral_11" : 
+	{
+		"Attr" : 
+		{
+			"Addr" : 3758153744,
+			"ArgNum" : 0,
+			"DataSize" : 16,
+			"DataType" : "%struct.SysTick_Type*",
+			"IsArg" : false,
+			"IsParam" : false,
+			"LLVM::Value" : "i32* getelementptr inbounds (%struct.SysTick_Type, %struct.SysTick_Type* inttoptr (i32 -536813552 to %struct.SysTick_Type*), i32 0, i32 2)",
+			"Read" : false,
+			"Type" : "Peripheral",
+			"Write" : true
+		},
+		"Connections" : 
+		{
+			"SysTick_Config" : 
+			{
+				"Type" : "Peripheral"
+			}
+		}
+	},
+	".Peripheral_12" : 
+	{
+		"Attr" : 
+		{
+			"Addr" : 1073822720,
+			"ArgNum" : 0,
+			"DataSize" : 24,
+			"DataType" : "%struct.DMA_Stream_TypeDef*",
+			"IsArg" : false,
+			"IsParam" : false,
+			"LLVM::Value" : "i32* getelementptr inbounds (%struct.DMA_Stream_TypeDef, %struct.DMA_Stream_TypeDef* inttoptr (i32 1073822720 to %struct.DMA_Stream_TypeDef*), i32 0, i32 2)",
+			"Read" : true,
+			"Type" : "Peripheral",
+			"Write" : true
+		},
+		"Connections" : 
+		{
+			"HAL_GPIO_Init" : 
+			{
+				"Type" : "Peripheral"
+			}
+		}
+	},
+	".Peripheral_13" : 
+	{
+		"Attr" : 
+		{
+			"Addr" : 1073887232,
+			"ArgNum" : 0,
+			"DataSize" : 136,
+			"DataType" : "%struct.RCC_TypeDef*",
+			"IsArg" : false,
+			"IsParam" : false,
+			"LLVM::Value" : "i32* getelementptr inbounds (%struct.RCC_TypeDef, %struct.RCC_TypeDef* inttoptr (i32 1073887232 to %struct.RCC_TypeDef*), i32 0, i32 0)",
+			"Read" : true,
+			"Type" : "Peripheral",
+			"Write" : true
+		},
+		"Connections" : 
+		{
+			"HAL_RCC_ClockConfig" : 
+			{
+				"Type" : "Peripheral"
+			},
+			"HAL_RCC_OscConfig" : 
+			{
+				"Type" : "Peripheral"
+			},
+			"SystemInit" : 
+			{
+				"Type" : "Peripheral"
+			}
+		}
+	},
+	".Peripheral_14" : 
+	{
+		"Attr" : 
+		{
+			"Addr" : 1073873920,
+			"ArgNum" : 0,
+			"DataSize" : 40,
+			"DataType" : "%struct.GPIO_TypeDef*",
+			"IsArg" : false,
+			"IsParam" : false,
+			"LLVM::Value" : "%struct.GPIO_TypeDef* inttoptr (i32 1073873920 to %struct.GPIO_TypeDef*)",
+			"Read" : false,
+			"Type" : "Peripheral",
+			"Write" : false
+		},
+		"Connections" : 
+		{
+			"HAL_GPIO_Init" : 
+			{
+				"Type" : "Peripheral"
+			}
+		}
+	},
+	".Peripheral_15" : 
+	{
+		"Attr" : 
+		{
+			"Addr" : 1073887232,
+			"ArgNum" : 0,
+			"DataSize" : 136,
+			"DataType" : "%struct.RCC_TypeDef*",
+			"IsArg" : false,
+			"IsParam" : false,
+			"LLVM::Value" : "i32* getelementptr inbounds (%struct.RCC_TypeDef, %struct.RCC_TypeDef* inttoptr (i32 1073887232 to %struct.RCC_TypeDef*), i32 0, i32 15)",
+			"Read" : true,
+			"Type" : "Peripheral",
+			"Write" : true
+		},
+		"Connections" : 
+		{
+			"HAL_RCC_OscConfig" : 
+			{
+				"Type" : "Peripheral"
+			},
+			"HAL_UART_MspInit" : 
+			{
+				"Type" : "Peripheral"
+			},
+			"SystemClock_Config" : 
+			{
+				"Type" : "Peripheral"
+			}
+		}
+	},
+	".Peripheral_16" : 
+	{
+		"Attr" : 
+		{
+			"Addr" : 3758153744,
+			"ArgNum" : 0,
+			"DataSize" : 16,
+			"DataType" : "%struct.SysTick_Type*",
+			"IsArg" : false,
+			"IsParam" : false,
+			"LLVM::Value" : "i32* getelementptr inbounds (%struct.SysTick_Type, %struct.SysTick_Type* inttoptr (i32 -536813552 to %struct.SysTick_Type*), i32 0, i32 1)",
+			"Read" : false,
+			"Type" : "Peripheral",
+			"Write" : true
+		},
+		"Connections" : 
+		{
+			"SysTick_Config" : 
+			{
+				"Type" : "Peripheral"
+			}
+		}
+	},
+	".Peripheral_17" : 
+	{
+		"Attr" : 
+		{
+			"Addr" : 1073822720,
+			"ArgNum" : 0,
+			"DataSize" : 24,
+			"DataType" : "%struct.DMA_Stream_TypeDef*",
+			"IsArg" : false,
+			"IsParam" : false,
+			"LLVM::Value" : "i32* getelementptr inbounds (%struct.DMA_Stream_TypeDef, %struct.DMA_Stream_TypeDef* inttoptr (i32 1073822720 to %struct.DMA_Stream_TypeDef*), i32 0, i32 3)",
+			"Read" : true,
+			"Type" : "Peripheral",
+			"Write" : true
+		},
+		"Connections" : 
+		{
+			"HAL_GPIO_Init" : 
+			{
+				"Type" : "Peripheral"
+			}
+		}
+	},
+	".Peripheral_18" : 
+	{
+		"Attr" : 
+		{
+			"Addr" : 1073770496,
+			"ArgNum" : 0,
+			"DataSize" : 8,
+			"DataType" : "%struct.PWR_TypeDef*",
+			"IsArg" : false,
+			"IsParam" : false,
+			"LLVM::Value" : "i32* getelementptr inbounds (%struct.PWR_TypeDef, %struct.PWR_TypeDef* inttoptr (i32 1073770496 to %struct.PWR_TypeDef*), i32 0, i32 0)",
+			"Read" : true,
+			"Type" : "Peripheral",
+			"Write" : true
+		},
+		"Connections" : 
+		{
+			"HAL_RCC_OscConfig" : 
+			{
+				"Type" : "Peripheral"
+			},
+			"SystemClock_Config" : 
+			{
+				"Type" : "Peripheral"
+			}
+		}
+	},
+	".Peripheral_19" : 
+	{
+		"Attr" : 
+		{
+			"Addr" : 1073876992,
+			"ArgNum" : 0,
+			"DataSize" : 40,
+			"DataType" : "%struct.GPIO_TypeDef*",
+			"IsArg" : false,
+			"IsParam" : false,
+			"LLVM::Value" : "%struct.GPIO_TypeDef* inttoptr (i32 1073876992 to %struct.GPIO_TypeDef*)",
+			"Read" : false,
+			"Type" : "Peripheral",
+			"Write" : false
+		},
+		"Connections" : 
+		{
+			"HAL_GPIO_Init" : 
+			{
+				"Type" : "Peripheral"
+			}
+		}
+	},
+	".Peripheral_2" : 
+	{
+		"Attr" : 
+		{
+			"Addr" : 1073880064,
+			"ArgNum" : 0,
+			"DataSize" : 40,
+			"DataType" : "%struct.GPIO_TypeDef*",
+			"IsArg" : false,
+			"IsParam" : false,
+			"LLVM::Value" : "%struct.GPIO_TypeDef* inttoptr (i32 1073880064 to %struct.GPIO_TypeDef*)",
+			"Read" : false,
+			"Type" : "Peripheral",
+			"Write" : false
+		},
+		"Connections" : 
+		{
+			"HAL_GPIO_Init" : 
+			{
+				"Type" : "Peripheral"
+			}
+		}
+	},
+	".Peripheral_20" : 
+	{
+		"Attr" : 
+		{
+			"Addr" : 1073887234,
+			"ArgNum" : 0,
+			"DataSize" : 1,
+			"DataType" : "i8*",
+			"IsArg" : false,
+			"IsParam" : false,
+			"LLVM::Value" : "i8* inttoptr (i32 1073887234 to i8*)",
+			"Read" : false,
+			"Type" : "Peripheral",
+			"Write" : true
+		},
+		"Connections" : 
+		{
+			"HAL_RCC_OscConfig" : 
+			{
+				"Type" : "Peripheral"
+			}
+		}
+	},
+	".Peripheral_21" : 
+	{
+		"Attr" : 
+		{
+			"Addr" : 1073759232,
+			"ArgNum" : 0,
+			"DataSize" : 28,
+			"DataType" : "%struct.USART_TypeDef*",
+			"IsArg" : false,
+			"IsParam" : false,
+			"LLVM::Value" : "%struct.USART_TypeDef* inttoptr (i32 1073759232 to %struct.USART_TypeDef*)",
+			"Read" : false,
+			"Type" : "Peripheral",
+			"Write" : true
+		},
+		"Connections" : 
+		{
+			"Uart_Init" : 
+			{
+				"Type" : "Peripheral"
+			}
+		}
+	},
+	".Peripheral_22" : 
+	{
+		"Attr" : 
+		{
+			"Addr" : 1073874944,
+			"ArgNum" : 0,
+			"DataSize" : 40,
+			"DataType" : "%struct.GPIO_TypeDef*",
+			"IsArg" : false,
+			"IsParam" : false,
+			"LLVM::Value" : "%struct.GPIO_TypeDef* inttoptr (i32 1073874944 to %struct.GPIO_TypeDef*)",
+			"Read" : false,
+			"Type" : "Peripheral",
+			"Write" : false
+		},
+		"Connections" : 
+		{
+			"HAL_GPIO_Init" : 
+			{
+				"Type" : "Peripheral"
+			}
+		}
+	},
+	".Peripheral_23" : 
+	{
+		"Attr" : 
+		{
+			"Addr" : 1073887344,
+			"ArgNum" : 0,
+			"DataSize" : 1,
+			"DataType" : "i8*",
+			"IsArg" : false,
+			"IsParam" : false,
+			"LLVM::Value" : "i8* inttoptr (i32 1073887344 to i8*)",
+			"Read" : false,
+			"Type" : "Peripheral",
+			"Write" : true
+		},
+		"Connections" : 
+		{
+			"HAL_RCC_OscConfig" : 
+			{
+				"Type" : "Peripheral"
+			}
+		}
+	},
+	".Peripheral_24" : 
+	{
+		"Attr" : 
+		{
+			"Addr" : 1073888256,
+			"ArgNum" : 0,
+			"DataSize" : 28,
+			"DataType" : "%struct.USART_TypeDef*",
+			"IsArg" : false,
+			"IsParam" : false,
+			"LLVM::Value" : "i32* getelementptr inbounds (%struct.USART_TypeDef, %struct.USART_TypeDef* inttoptr (i32 1073888256 to %struct.USART_TypeDef*), i32 0, i32 0)",
+			"Read" : true,
+			"Type" : "Peripheral",
+			"Write" : true
+		},
+		"Connections" : 
+		{
+			"HAL_Init" : 
+			{
+				"Type" : "Peripheral"
+			},
+			"HAL_RCC_ClockConfig" : 
+			{
+				"Type" : "Peripheral"
+			},
+			"SystemClock_Config" : 
+			{
+				"Type" : "Peripheral"
+			}
+		}
+	},
+	".Peripheral_25" : 
+	{
+		"Attr" : 
+		{
+			"Addr" : 1073879040,
+			"ArgNum" : 0,
+			"DataSize" : 40,
+			"DataType" : "%struct.GPIO_TypeDef*",
+			"IsArg" : false,
+			"IsParam" : false,
+			"LLVM::Value" : "%struct.GPIO_TypeDef* inttoptr (i32 1073879040 to %struct.GPIO_TypeDef*)",
+			"Read" : false,
+			"Type" : "Peripheral",
+			"Write" : false
+		},
+		"Connections" : 
+		{
+			"HAL_GPIO_Init" : 
+			{
+				"Type" : "Peripheral"
+			}
+		}
+	},
+	".Peripheral_26" : 
+	{
+		"Attr" : 
+		{
+			"Addr" : 3758153744,
+			"ArgNum" : 0,
+			"DataSize" : 16,
+			"DataType" : "%struct.SysTick_Type*",
+			"IsArg" : false,
+			"IsParam" : false,
+			"LLVM::Value" : "i32* getelementptr inbounds (%struct.SysTick_Type, %struct.SysTick_Type* inttoptr (i32 -536813552 to %struct.SysTick_Type*), i32 0, i32 0)",
+			"Read" : false,
+			"Type" : "Peripheral",
+			"Write" : true
+		},
+		"Connections" : 
+		{
+			"SysTick_Config" : 
+			{
+				"Type" : "Peripheral"
+			}
+		}
+	},
+	".Peripheral_27" : 
+	{
+		"Attr" : 
+		{
+			"Addr" : 1073878016,
+			"ArgNum" : 0,
+			"DataSize" : 40,
+			"DataType" : "%struct.GPIO_TypeDef*",
+			"IsArg" : false,
+			"IsParam" : false,
+			"LLVM::Value" : "%struct.GPIO_TypeDef* inttoptr (i32 1073878016 to %struct.GPIO_TypeDef*)",
+			"Read" : false,
+			"Type" : "Peripheral",
+			"Write" : false
+		},
+		"Connections" : 
+		{
+			"HAL_GPIO_Init" : 
+			{
+				"Type" : "Peripheral"
+			}
+		}
+	},
+	".Peripheral_28" : 
+	{
+		"Attr" : 
+		{
+			"Addr" : 3758157056,
+			"ArgNum" : 0,
+			"DataSize" : 140,
+			"DataType" : "%struct.SCB_Type*",
+			"IsArg" : false,
+			"IsParam" : false,
+			"LLVM::Value" : "i32* getelementptr inbounds (%struct.SCB_Type, %struct.SCB_Type* inttoptr (i32 -536810240 to %struct.SCB_Type*), i32 0, i32 3)",
+			"Read" : true,
+			"Type" : "Peripheral",
+			"Write" : true
+		},
+		"Connections" : 
+		{
+			"NVIC_GetPriorityGrouping" : 
+			{
+				"Type" : "Peripheral"
+			},
+			"NVIC_SetPriorityGrouping" : 
+			{
+				"Type" : "Peripheral"
+			}
+		}
+	},
+	".Peripheral_29" : 
+	{
+		"Attr" : 
+		{
+			"Addr" : 1073887232,
+			"ArgNum" : 0,
+			"DataSize" : 136,
+			"DataType" : "%struct.RCC_TypeDef*",
+			"IsArg" : false,
+			"IsParam" : false,
+			"LLVM::Value" : "i32* getelementptr inbounds (%struct.RCC_TypeDef, %struct.RCC_TypeDef* inttoptr (i32 1073887232 to %struct.RCC_TypeDef*), i32 0, i32 3)",
+			"Read" : false,
+			"Type" : "Peripheral",
+			"Write" : true
+		},
+		"Connections" : 
+		{
+			"SystemInit" : 
+			{
+				"Type" : "Peripheral"
+			}
+		}
+	},
+	".Peripheral_3" : 
+	{
+		"Attr" : 
+		{
+			"Addr" : 1073872896,
+			"ArgNum" : 0,
+			"DataSize" : 40,
+			"DataType" : "%struct.GPIO_TypeDef*",
+			"IsArg" : false,
+			"IsParam" : false,
+			"LLVM::Value" : "%struct.GPIO_TypeDef* inttoptr (i32 1073872896 to %struct.GPIO_TypeDef*)",
+			"Read" : false,
+			"Type" : "Peripheral",
+			"Write" : false
+		},
+		"Connections" : 
+		{
+			"HAL_GPIO_Init" : 
+			{
+				"Type" : "Peripheral"
+			},
+			"HAL_UART_MspInit" : 
+			{
+				"Type" : "Peripheral"
+			}
+		}
+	},
+	".Peripheral_30" : 
+	{
+		"Attr" : 
+		{
+			"Addr" : 1073822720,
+			"ArgNum" : 0,
+			"DataSize" : 24,
+			"DataType" : "%struct.DMA_Stream_TypeDef*",
+			"IsArg" : false,
+			"IsParam" : false,
+			"LLVM::Value" : "i32* getelementptr inbounds (%struct.DMA_Stream_TypeDef, %struct.DMA_Stream_TypeDef* inttoptr (i32 1073822720 to %struct.DMA_Stream_TypeDef*), i32 0, i32 0)",
+			"Read" : true,
+			"Type" : "Peripheral",
+			"Write" : true
+		},
+		"Connections" : 
+		{
+			"HAL_GPIO_Init" : 
+			{
+				"Type" : "Peripheral"
+			}
+		}
+	},
+	".Peripheral_31" : 
+	{
+		"Attr" : 
+		{
+			"Addr" : 3758153984,
+			"ArgNum" : 0,
+			"DataSize" : 3588,
+			"DataType" : "%struct.NVIC_Type*",
+			"IsArg" : false,
+			"IsParam" : false,
+			"LLVM::Value" : "[8 x i32]* getelementptr inbounds (%struct.NVIC_Type, %struct.NVIC_Type* inttoptr (i32 -536813312 to %struct.NVIC_Type*), i32 0, i32 0)",
+			"Read" : false,
+			"Type" : "Peripheral",
+			"Write" : false
+		},
+		"Connections" : 
+		{
+			"NVIC_EnableIRQ" : 
+			{
+				"Type" : "Peripheral"
+			}
+		}
+	},
+	".Peripheral_32" : 
+	{
+		"Attr" : 
+		{
+			"Addr" : 1073822720,
+			"ArgNum" : 0,
+			"DataSize" : 24,
+			"DataType" : "%struct.DMA_Stream_TypeDef*",
+			"IsArg" : false,
+			"IsParam" : false,
+			"LLVM::Value" : "i32* getelementptr inbounds (%struct.DMA_Stream_TypeDef, %struct.DMA_Stream_TypeDef* inttoptr (i32 1073822720 to %struct.DMA_Stream_TypeDef*), i32 0, i32 1)",
+			"Read" : true,
+			"Type" : "Peripheral",
+			"Write" : true
+		},
+		"Connections" : 
+		{
+			"HAL_GPIO_Init" : 
+			{
+				"Type" : "Peripheral"
+			}
+		}
+	},
+	".Peripheral_33" : 
+	{
+		"Attr" : 
+		{
+			"Addr" : 3758157056,
+			"ArgNum" : 0,
+			"DataSize" : 140,
+			"DataType" : "%struct.SCB_Type*",
+			"IsArg" : false,
+			"IsParam" : false,
+			"LLVM::Value" : "[12 x i8]* getelementptr inbounds (%struct.SCB_Type, %struct.SCB_Type* inttoptr (i32 -536810240 to %struct.SCB_Type*), i32 0, i32 6)",
+			"Read" : false,
+			"Type" : "Peripheral",
+			"Write" : false
+		},
+		"Connections" : 
+		{
+			"NVIC_SetPriority" : 
+			{
+				"Type" : "Peripheral"
+			}
+		}
+	},
+	".Peripheral_34" : 
+	{
+		"Attr" : 
+		{
+			"Addr" : 1073821696,
+			"ArgNum" : 0,
+			"DataSize" : 36,
+			"DataType" : "%struct.SYSCFG_TypeDef*",
+			"IsArg" : false,
+			"IsParam" : false,
+			"LLVM::Value" : "[4 x i32]* getelementptr inbounds (%struct.SYSCFG_TypeDef, %struct.SYSCFG_TypeDef* inttoptr (i32 1073821696 to %struct.SYSCFG_TypeDef*), i32 0, i32 2)",
+			"Read" : false,
+			"Type" : "Peripheral",
+			"Write" : false
+		},
+		"Connections" : 
+		{
+			"HAL_GPIO_Init" : 
+			{
+				"Type" : "Peripheral"
+			}
+		}
+	},
+	".Peripheral_35" : 
+	{
+		"Attr" : 
+		{
+			"Addr" : 1073888256,
+			"ArgNum" : 0,
+			"DataSize" : 1,
+			"DataType" : "i8*",
+			"IsArg" : false,
+			"IsParam" : false,
+			"LLVM::Value" : "i8* inttoptr (i32 1073888256 to i8*)",
+			"Read" : false,
+			"Type" : "Peripheral",
+			"Write" : true
+		},
+		"Connections" : 
+		{
+			"HAL_RCC_ClockConfig" : 
+			{
+				"Type" : "Peripheral"
+			}
+		}
+	},
+	".Peripheral_36" : 
+	{
+		"Attr" : 
+		{
+			"Addr" : 3758100480,
+			"ArgNum" : 0,
+			"DataSize" : 4,
+			"DataType" : "i32*",
+			"IsArg" : false,
+			"IsParam" : false,
+			"LLVM::Value" : "i32* inttoptr (i32 -536866816 to i32*)",
+			"Read" : true,
+			"Type" : "Peripheral",
+			"Write" : true
+		},
+		"Connections" : 
+		{
+			"SVC_Handler" : 
+			{
+				"Type" : "Peripheral"
+			}
+		}
+	},
+	".Peripheral_37" : 
+	{
+		"Attr" : 
+		{
+			"Addr" : 1073812480,
+			"ArgNum" : 0,
+			"DataSize" : 28,
+			"DataType" : "%struct.USART_TypeDef*",
+			"IsArg" : false,
+			"IsParam" : false,
+			"LLVM::Value" : "%struct.USART_TypeDef* inttoptr (i32 1073812480 to %struct.USART_TypeDef*)",
+			"Read" : false,
+			"Type" : "Peripheral",
+			"Write" : false
+		},
+		"Connections" : 
+		{
+			"UART_SetConfig" : 
+			{
+				"Type" : "Peripheral"
+			}
+		}
+	},
+	".Peripheral_38" : 
+	{
+		"Attr" : 
+		{
+			"Addr" : 3758153984,
+			"ArgNum" : 0,
+			"DataSize" : 3588,
+			"DataType" : "%struct.NVIC_Type*",
+			"IsArg" : false,
+			"IsParam" : false,
+			"LLVM::Value" : "[240 x i8]* getelementptr inbounds (%struct.NVIC_Type, %struct.NVIC_Type* inttoptr (i32 -536813312 to %struct.NVIC_Type*), i32 0, i32 10)",
+			"Read" : false,
+			"Type" : "Peripheral",
+			"Write" : false
+		},
+		"Connections" : 
+		{
+			"NVIC_SetPriority" : 
+			{
+				"Type" : "Peripheral"
+			}
+		}
+	},
+	".Peripheral_39" : 
+	{
+		"Attr" : 
+		{
+			"Addr" : 1111953024,
+			"ArgNum" : 0,
+			"DataSize" : 4,
+			"DataType" : "i32*",
+			"IsArg" : false,
+			"IsParam" : false,
+			"LLVM::Value" : "i32* inttoptr (i32 1111953024 to i32*)",
+			"Read" : false,
+			"Type" : "Peripheral",
+			"Write" : true
+		},
+		"Connections" : 
+		{
+			"HAL_RCC_OscConfig" : 
+			{
+				"Type" : "Peripheral"
+			}
+		}
+	},
+	".Peripheral_4" : 
+	{
+		"Attr" : 
+		{
+			"Addr" : 1111949408,
+			"ArgNum" : 0,
+			"DataSize" : 4,
+			"DataType" : "i32*",
+			"IsArg" : false,
+			"IsParam" : false,
+			"LLVM::Value" : "i32* inttoptr (i32 1111949408 to i32*)",
+			"Read" : false,
+			"Type" : "Peripheral",
+			"Write" : true
+		},
+		"Connections" : 
+		{
+			"HAL_RCC_OscConfig" : 
+			{
+				"Type" : "Peripheral"
+			}
+		}
+	},
+	".Peripheral_40" : 
+	{
+		"Attr" : 
+		{
+			"Addr" : 1073811456,
+			"ArgNum" : 0,
+			"DataSize" : 28,
+			"DataType" : "%struct.USART_TypeDef*",
+			"IsArg" : false,
+			"IsParam" : false,
+			"LLVM::Value" : "%struct.USART_TypeDef* inttoptr (i32 1073811456 to %struct.USART_TypeDef*)",
+			"Read" : false,
+			"Type" : "Peripheral",
+			"Write" : false
+		},
+		"Connections" : 
+		{
+			"UART_SetConfig" : 
+			{
+				"Type" : "Peripheral"
+			}
+		}
+	},
+	".Peripheral_41" : 
+	{
+		"Attr" : 
+		{
+			"Addr" : 3758157308,
+			"ArgNum" : 0,
+			"DataSize" : 4,
+			"DataType" : "i32*",
+			"IsArg" : false,
+			"IsParam" : false,
+			"LLVM::Value" : "i32* inttoptr (i32 -536809988 to i32*)",
+			"Read" : true,
+			"Type" : "Peripheral",
+			"Write" : true
+		},
+		"Connections" : 
+		{
+			"SVC_Handler" : 
+			{
+				"Type" : "Peripheral"
+			}
+		}
+	},
+	".Peripheral_42" : 
+	{
+		"Attr" : 
+		{
+			"Addr" : 1073887232,
+			"ArgNum" : 0,
+			"DataSize" : 136,
+			"DataType" : "%struct.RCC_TypeDef*",
+			"IsArg" : false,
+			"IsParam" : false,
+			"LLVM::Value" : "i32* getelementptr inbounds (%struct.RCC_TypeDef, %struct.RCC_TypeDef* inttoptr (i32 1073887232 to %struct.RCC_TypeDef*), i32 0, i32 26)",
+			"Read" : true,
+			"Type" : "Peripheral",
+			"Write" : false
+		},
+		"Connections" : 
+		{
+			"HAL_RCC_OscConfig" : 
+			{
+				"Type" : "Peripheral"
+			}
+		}
+	},
+	".Peripheral_43" : 
+	{
+		"Attr" : 
+		{
+			"Addr" : 3758100484,
+			"ArgNum" : 0,
+			"DataSize" : 4,
+			"DataType" : "i32*",
+			"IsArg" : false,
+			"IsParam" : false,
+			"LLVM::Value" : "i32* inttoptr (i32 -536866812 to i32*)",
+			"Read" : true,
+			"Type" : "Peripheral",
+			"Write" : true
+		},
+		"Connections" : 
+		{
+			"SVC_Handler" : 
+			{
+				"Type" : "Peripheral"
+			}
+		}
+	},
+	".Peripheral_44" : 
+	{
+		"Attr" : 
+		{
+			"Addr" : 3758157056,
+			"ArgNum" : 0,
+			"DataSize" : 140,
+			"DataType" : "%struct.SCB_Type*",
+			"IsArg" : false,
+			"IsParam" : false,
+			"LLVM::Value" : "i32* getelementptr inbounds (%struct.SCB_Type, %struct.SCB_Type* inttoptr (i32 -536810240 to %struct.SCB_Type*), i32 0, i32 2)",
+			"Read" : false,
+			"Type" : "Peripheral",
+			"Write" : true
+		},
+		"Connections" : 
+		{
+			"SystemInit" : 
+			{
+				"Type" : "Peripheral"
+			}
+		}
+	},
+	".Peripheral_5" : 
+	{
+		"Attr" : 
+		{
+			"Addr" : 1073875968,
+			"ArgNum" : 0,
+			"DataSize" : 40,
+			"DataType" : "%struct.GPIO_TypeDef*",
+			"IsArg" : false,
+			"IsParam" : false,
+			"LLVM::Value" : "%struct.GPIO_TypeDef* inttoptr (i32 1073875968 to %struct.GPIO_TypeDef*)",
+			"Read" : false,
+			"Type" : "Peripheral",
+			"Write" : false
+		},
+		"Connections" : 
+		{
+			"BSP_LED_Init" : 
+			{
+				"Type" : "Peripheral"
+			},
+			"BSP_LED_Off" : 
+			{
+				"Type" : "Peripheral"
+			},
+			"BSP_LED_On" : 
+			{
+				"Type" : "Peripheral"
+			},
+			"HAL_GPIO_Init" : 
+			{
+				"Type" : "Peripheral"
+			}
+		}
+	},
+	".Peripheral_6" : 
+	{
+		"Attr" : 
+		{
+			"Addr" : 1111949312,
+			"ArgNum" : 0,
+			"DataSize" : 4,
+			"DataType" : "i32*",
+			"IsArg" : false,
+			"IsParam" : false,
+			"LLVM::Value" : "i32* inttoptr (i32 1111949312 to i32*)",
+			"Read" : false,
+			"Type" : "Peripheral",
+			"Write" : true
+		},
+		"Connections" : 
+		{
+			"HAL_RCC_OscConfig" : 
+			{
+				"Type" : "Peripheral"
+			}
+		}
+	},
+	".Peripheral_7" : 
+	{
+		"Attr" : 
+		{
+			"Addr" : 1073887232,
+			"ArgNum" : 0,
+			"DataSize" : 136,
+			"DataType" : "%struct.RCC_TypeDef*",
+			"IsArg" : false,
+			"IsParam" : false,
+			"LLVM::Value" : "i32* getelementptr inbounds (%struct.RCC_TypeDef, %struct.RCC_TypeDef* inttoptr (i32 1073887232 to %struct.RCC_TypeDef*), i32 0, i32 1)",
+			"Read" : true,
+			"Type" : "Peripheral",
+			"Write" : true
+		},
+		"Connections" : 
+		{
+			"HAL_RCC_GetSysClockFreq" : 
+			{
+				"Type" : "Peripheral"
+			},
+			"HAL_RCC_OscConfig" : 
+			{
+				"Type" : "Peripheral"
+			},
+			"SystemInit" : 
+			{
+				"Type" : "Peripheral"
+			}
+		}
+	},
+	".Peripheral_8" : 
+	{
+		"Attr" : 
+		{
+			"Addr" : 1073887232,
+			"ArgNum" : 0,
+			"DataSize" : 136,
+			"DataType" : "%struct.RCC_TypeDef*",
+			"IsArg" : false,
+			"IsParam" : false,
+			"LLVM::Value" : "i32* getelementptr inbounds (%struct.RCC_TypeDef, %struct.RCC_TypeDef* inttoptr (i32 1073887232 to %struct.RCC_TypeDef*), i32 0, i32 16)",
+			"Read" : true,
+			"Type" : "Peripheral",
+			"Write" : true
+		},
+		"Connections" : 
+		{
+			"HAL_GPIO_Init" : 
+			{
+				"Type" : "Peripheral"
+			}
+		}
+	},
+	".Peripheral_9" : 
+	{
+		"Attr" : 
+		{
+			"Addr" : 1073887232,
+			"ArgNum" : 0,
+			"DataSize" : 136,
+			"DataType" : "%struct.RCC_TypeDef*",
+			"IsArg" : false,
+			"IsParam" : false,
+			"LLVM::Value" : "i32* getelementptr inbounds (%struct.RCC_TypeDef, %struct.RCC_TypeDef* inttoptr (i32 1073887232 to %struct.RCC_TypeDef*), i32 0, i32 11)",
+			"Read" : true,
+			"Type" : "Peripheral",
+			"Write" : true
+		},
+		"Connections" : 
+		{
+			"BSP_LED_Init" : 
+			{
+				"Type" : "Peripheral"
+			},
+			"HAL_UART_MspInit" : 
+			{
+				"Type" : "Peripheral"
+			}
+		}
+	},
+	"APBAHBPrescTable" : 
+	{
+		"Attr" : 
+		{
+			"Filename" : "../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c",
+			"Size" : 4,
+			"Type" : "Global"
+		},
+		"Connections" : 
+		{
+			"HAL_RCC_ClockConfig" : 
+			{
+				"Count" : 1,
+				"Type" : "Data"
+			},
+			"HAL_RCC_GetPCLK1Freq" : 
+			{
+				"Count" : 1,
+				"Type" : "Data"
+			},
+			"HAL_RCC_GetPCLK2Freq" : 
+			{
+				"Count" : 1,
+				"Type" : "Data"
+			}
+		}
+	},
+	"BSP_LED_Init" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : false,
+			"Filename" : "../../../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c",
+			"LLVM_Type" : "void (i8)*",
+			"Type" : "Function"
+		},
+		"Connections" : 
+		{
+			"HAL_GPIO_Init" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			},
+			"HAL_GPIO_WritePin" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			},
+			"System_Init" : 
+			{
+				"Count" : 1,
+				"Type" : "Caller"
+			},
+			"llvm.dbg.declare" : 
+			{
+				"Count" : 6,
+				"Type" : "Callee"
+			}
+		}
+	},
+	"BSP_LED_Off" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : false,
+			"Filename" : "../../../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c",
+			"LLVM_Type" : "void (i8)*",
+			"Type" : "Function"
+		},
+		"Connections" : 
+		{
+			"HAL_GPIO_WritePin" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			},
+			"do_lock" : 
+			{
+				"Count" : 1,
+				"Type" : "Caller"
+			},
+			"llvm.dbg.declare" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			}
+		}
+	},
+	"BSP_LED_On" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : false,
+			"Filename" : "../../../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c",
+			"LLVM_Type" : "void (i8)*",
+			"Type" : "Function"
+		},
+		"Connections" : 
+		{
+			"Error_Handler" : 
+			{
+				"Count" : 1,
+				"Type" : "Caller"
+			},
+			"HAL_GPIO_WritePin" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			},
+			"do_unlock" : 
+			{
+				"Count" : 1,
+				"Type" : "Caller"
+			},
+			"llvm.dbg.declare" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			}
+		}
+	},
+	"BusFault_Handler" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : false,
+			"Filename" : "../../Src/stm32f4xx_it.c",
+			"LLVM_Type" : "void ()*",
+			"Type" : "Function"
+		}
+	},
+	"Error_Handler" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : false,
+			"Filename" : "../../Src/main.c",
+			"LLVM_Type" : "void ()*",
+			"Type" : "Function"
+		},
+		"Connections" : 
+		{
+			"BSP_LED_On" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			},
+			"SystemClock_Config" : 
+			{
+				"Count" : 2,
+				"Type" : "Caller"
+			},
+			"Uart_Init" : 
+			{
+				"Count" : 1,
+				"Type" : "Caller"
+			},
+			"print" : 
+			{
+				"Count" : 1,
+				"Type" : "Caller"
+			},
+			"rx_from_uart" : 
+			{
+				"Count" : 2,
+				"Type" : "Caller"
+			}
+		}
+	},
+	"GPIO_PIN" : 
+	{
+		"Attr" : 
+		{
+			"Filename" : "../../../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c",
+			"Size" : 4,
+			"Type" : "Global"
+		},
+		"Connections" : 
+		{
+			"BSP_LED_Init" : 
+			{
+				"Count" : 2,
+				"Type" : "Data"
+			},
+			"BSP_LED_Off" : 
+			{
+				"Count" : 1,
+				"Type" : "Data"
+			},
+			"BSP_LED_On" : 
+			{
+				"Count" : 1,
+				"Type" : "Data"
+			}
+		}
+	},
+	"GPIO_PORT" : 
+	{
+		"Attr" : 
+		{
+			"Filename" : "../../../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c",
+			"Size" : 4,
+			"Type" : "Global"
+		},
+		"Connections" : 
+		{
+			"BSP_LED_Init" : 
+			{
+				"Count" : 2,
+				"Type" : "Data"
+			},
+			"BSP_LED_Off" : 
+			{
+				"Count" : 1,
+				"Type" : "Data"
+			},
+			"BSP_LED_On" : 
+			{
+				"Count" : 1,
+				"Type" : "Data"
+			}
+		}
+	},
+	"HAL_DMA_Abort_IT" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : false,
+			"Filename" : "../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c",
+			"LLVM_Type" : "i8 (%struct.__DMA_HandleTypeDef*)*",
+			"Type" : "Function"
+		},
+		"Connections" : 
+		{
+			"HAL_UART_IRQHandler" : 
+			{
+				"Count" : 1,
+				"Type" : "Caller"
+			},
+			"llvm.dbg.declare" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			}
+		}
+	},
+	"HAL_Delay" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : false,
+			"Filename" : "../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c",
+			"LLVM_Type" : "void (i32)*",
+			"Type" : "Function"
+		},
+		"Connections" : 
+		{
+			"HAL_GetTick" : 
+			{
+				"Count" : 2,
+				"Type" : "Callee"
+			},
+			"Unlock_Task" : 
+			{
+				"Count" : 1,
+				"Type" : "Caller"
+			},
+			"llvm.dbg.declare" : 
+			{
+				"Count" : 2,
+				"Type" : "Callee"
+			}
+		}
+	},
+	"HAL_GPIO_Init" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : false,
+			"Filename" : "../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c",
+			"LLVM_Type" : "void (%struct.GPIO_TypeDef*, %struct.RCC_ClkInitTypeDef*)*",
+			"Type" : "Function"
+		},
+		"Connections" : 
+		{
+			"BSP_LED_Init" : 
+			{
+				"Count" : 1,
+				"Type" : "Caller"
+			},
+			"HAL_UART_MspInit" : 
+			{
+				"Count" : 2,
+				"Type" : "Caller"
+			},
+			"llvm.dbg.declare" : 
+			{
+				"Count" : 7,
+				"Type" : "Callee"
+			}
+		}
+	},
+	"HAL_GPIO_WritePin" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : false,
+			"Filename" : "../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c",
+			"LLVM_Type" : "void (%struct.GPIO_TypeDef*, i16, i8)*",
+			"Type" : "Function"
+		},
+		"Connections" : 
+		{
+			"BSP_LED_Init" : 
+			{
+				"Count" : 1,
+				"Type" : "Caller"
+			},
+			"BSP_LED_Off" : 
+			{
+				"Count" : 1,
+				"Type" : "Caller"
+			},
+			"BSP_LED_On" : 
+			{
+				"Count" : 1,
+				"Type" : "Caller"
+			},
+			"llvm.dbg.declare" : 
+			{
+				"Count" : 3,
+				"Type" : "Callee"
+			}
+		}
+	},
+	"HAL_GetREVID" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : false,
+			"Filename" : "../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c",
+			"LLVM_Type" : "i32 ()*",
+			"Type" : "Function"
+		},
+		"Connections" : 
+		{
+			"SystemClock_Config" : 
+			{
+				"Count" : 1,
+				"Type" : "Caller"
+			}
+		}
+	},
+	"HAL_GetTick" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : false,
+			"Filename" : "../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c",
+			"LLVM_Type" : "i32 ()*",
+			"Type" : "Function"
+		},
+		"Connections" : 
+		{
+			"HAL_Delay" : 
+			{
+				"Count" : 2,
+				"Type" : "Caller"
+			},
+			"HAL_RCC_ClockConfig" : 
+			{
+				"Count" : 5,
+				"Type" : "Caller"
+			},
+			"HAL_RCC_OscConfig" : 
+			{
+				"Count" : 24,
+				"Type" : "Caller"
+			}
+		}
+	},
+	"HAL_IncTick" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : false,
+			"Filename" : "../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c",
+			"LLVM_Type" : "void ()*",
+			"Type" : "Function"
+		},
+		"Connections" : 
+		{
+			"SysTick_Handler" : 
+			{
+				"Count" : 1,
+				"Type" : "Caller"
+			}
+		}
+	},
+	"HAL_Init" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : false,
+			"Filename" : "../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c",
+			"LLVM_Type" : "i8 ()*",
+			"Type" : "Function"
+		},
+		"Connections" : 
+		{
+			"HAL_InitTick" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			},
+			"HAL_MspInit" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			},
+			"HAL_NVIC_SetPriorityGrouping" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			},
+			"System_Init" : 
+			{
+				"Count" : 1,
+				"Type" : "Caller"
+			}
+		}
+	},
+	"HAL_InitTick" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : false,
+			"Filename" : "../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c",
+			"LLVM_Type" : "i8 (i32)*",
+			"Type" : "Function"
+		},
+		"Connections" : 
+		{
+			"HAL_Init" : 
+			{
+				"Count" : 1,
+				"Type" : "Caller"
+			},
+			"HAL_NVIC_SetPriority" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			},
+			"HAL_RCC_ClockConfig" : 
+			{
+				"Count" : 1,
+				"Type" : "Caller"
+			},
+			"HAL_SYSTICK_Config" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			},
+			"llvm.dbg.declare" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			}
+		}
+	},
+	"HAL_MspInit" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : false,
+			"Filename" : "../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c",
+			"LLVM_Type" : "void ()*",
+			"Type" : "Function"
+		},
+		"Connections" : 
+		{
+			"HAL_Init" : 
+			{
+				"Count" : 1,
+				"Type" : "Caller"
+			}
+		}
+	},
+	"HAL_NVIC_EnableIRQ" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : false,
+			"Filename" : "../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c",
+			"LLVM_Type" : "void (i8)*",
+			"Type" : "Function"
+		},
+		"Connections" : 
+		{
+			"HAL_UART_MspInit" : 
+			{
+				"Count" : 1,
+				"Type" : "Caller"
+			},
+			"NVIC_EnableIRQ" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			},
+			"llvm.dbg.declare" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			}
+		}
+	},
+	"HAL_NVIC_SetPriority" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : false,
+			"Filename" : "../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c",
+			"LLVM_Type" : "void (i8, i32, i32)*",
+			"Type" : "Function"
+		},
+		"Connections" : 
+		{
+			"HAL_InitTick" : 
+			{
+				"Count" : 1,
+				"Type" : "Caller"
+			},
+			"HAL_UART_MspInit" : 
+			{
+				"Count" : 1,
+				"Type" : "Caller"
+			},
+			"NVIC_EncodePriority" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			},
+			"NVIC_GetPriorityGrouping" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			},
+			"NVIC_SetPriority" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			},
+			"llvm.dbg.declare" : 
+			{
+				"Count" : 4,
+				"Type" : "Callee"
+			}
+		}
+	},
+	"HAL_NVIC_SetPriorityGrouping" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : false,
+			"Filename" : "../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c",
+			"LLVM_Type" : "void (i32)*",
+			"Type" : "Function"
+		},
+		"Connections" : 
+		{
+			"HAL_Init" : 
+			{
+				"Count" : 1,
+				"Type" : "Caller"
+			},
+			"NVIC_SetPriorityGrouping" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			},
+			"llvm.dbg.declare" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			}
+		}
+	},
+	"HAL_RCC_ClockConfig" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : false,
+			"Filename" : "../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c",
+			"LLVM_Type" : "i8 (%struct.RCC_ClkInitTypeDef*, i32)*",
+			"Type" : "Function"
+		},
+		"Connections" : 
+		{
+			"  %55 = call i32 asm sideeffect \"rbit $0, $1\", \"=r,r\"(i32 %54) #6, !dbg !1998, !srcloc !1999" : 
+			{
+				"Count" : 1,
+				"Type" : "Asm Callee"
+			},
+			"HAL_GetTick" : 
+			{
+				"Count" : 5,
+				"Type" : "Callee"
+			},
+			"HAL_InitTick" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			},
+			"HAL_RCC_GetSysClockFreq" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			},
+			"SystemClock_Config" : 
+			{
+				"Count" : 1,
+				"Type" : "Caller"
+			},
+			"llvm.ctlz.i32" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			},
+			"llvm.dbg.declare" : 
+			{
+				"Count" : 5,
+				"Type" : "Callee"
+			}
+		}
+	},
+	"HAL_RCC_GetHCLKFreq" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : false,
+			"Filename" : "../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c",
+			"LLVM_Type" : "i32 ()*",
+			"Type" : "Function"
+		},
+		"Connections" : 
+		{
+			"HAL_RCC_GetPCLK1Freq" : 
+			{
+				"Count" : 1,
+				"Type" : "Caller"
+			},
+			"HAL_RCC_GetPCLK2Freq" : 
+			{
+				"Count" : 1,
+				"Type" : "Caller"
+			}
+		}
+	},
+	"HAL_RCC_GetPCLK1Freq" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : false,
+			"Filename" : "../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c",
+			"LLVM_Type" : "i32 ()*",
+			"Type" : "Function"
+		},
+		"Connections" : 
+		{
+			"  %2 = call i32 asm sideeffect \"rbit $0, $1\", \"=r,r\"(i32 %1) #6, !dbg !1777, !srcloc !1778" : 
+			{
+				"Count" : 1,
+				"Type" : "Asm Callee"
+			},
+			"HAL_RCC_GetHCLKFreq" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			},
+			"UART_SetConfig" : 
+			{
+				"Count" : 10,
+				"Type" : "Caller"
+			},
+			"llvm.ctlz.i32" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			},
+			"llvm.dbg.declare" : 
+			{
+				"Count" : 2,
+				"Type" : "Callee"
+			}
+		}
+	},
+	"HAL_RCC_GetPCLK2Freq" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : false,
+			"Filename" : "../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c",
+			"LLVM_Type" : "i32 ()*",
+			"Type" : "Function"
+		},
+		"Connections" : 
+		{
+			"  %2 = call i32 asm sideeffect \"rbit $0, $1\", \"=r,r\"(i32 %1) #6, !dbg !1777, !srcloc !1778" : 
+			{
+				"Count" : 1,
+				"Type" : "Asm Callee"
+			},
+			"HAL_RCC_GetHCLKFreq" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			},
+			"UART_SetConfig" : 
+			{
+				"Count" : 10,
+				"Type" : "Caller"
+			},
+			"llvm.ctlz.i32" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			},
+			"llvm.dbg.declare" : 
+			{
+				"Count" : 2,
+				"Type" : "Callee"
+			}
+		}
+	},
+	"HAL_RCC_GetSysClockFreq" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : false,
+			"Filename" : "../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c",
+			"LLVM_Type" : "i32 ()*",
+			"Type" : "Function"
+		},
+		"Connections" : 
+		{
+			"  %12 = call i32 asm sideeffect \"rbit $0, $1\", \"=r,r\"(i32 %11) #5, !dbg !1824, !srcloc !1812" : 
+			{
+				"Count" : 1,
+				"Type" : "Asm Callee"
+			},
+			"  %17 = call i32 asm sideeffect \"rbit $0, $1\", \"=r,r\"(i32 %16) #5, !dbg !1833, !srcloc !1812" : 
+			{
+				"Count" : 1,
+				"Type" : "Asm Callee"
+			},
+			"  %6 = call i32 asm sideeffect \"rbit $0, $1\", \"=r,r\"(i32 %5) #5, !dbg !1811, !srcloc !1812" : 
+			{
+				"Count" : 1,
+				"Type" : "Asm Callee"
+			},
+			"HAL_RCC_ClockConfig" : 
+			{
+				"Count" : 1,
+				"Type" : "Caller"
+			},
+			"llvm.ctlz.i32" : 
+			{
+				"Count" : 3,
+				"Type" : "Callee"
+			},
+			"llvm.dbg.declare" : 
+			{
+				"Count" : 10,
+				"Type" : "Callee"
+			}
+		}
+	},
+	"HAL_RCC_OscConfig" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : false,
+			"Filename" : "../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c",
+			"LLVM_Type" : "i8 (%struct.RCC_OscInitTypeDef*)*",
+			"Type" : "Function"
+		},
+		"Connections" : 
+		{
+			"  %28 = call i32 asm sideeffect \"rbit $0, $1\", \"=r,r\"(i32 %27) #6, !dbg !1943, !srcloc !1944" : 
+			{
+				"Count" : 1,
+				"Type" : "Asm Callee"
+			},
+			"  %39 = call i32 asm sideeffect \"rbit $0, $1\", \"=r,r\"(i32 %38) #6, !dbg !1974, !srcloc !1944" : 
+			{
+				"Count" : 1,
+				"Type" : "Asm Callee"
+			},
+			"  %82 = call i32 asm sideeffect \"rbit $0, $1\", \"=r,r\"(i32 %81) #6, !dbg !2178, !srcloc !1944" : 
+			{
+				"Count" : 1,
+				"Type" : "Asm Callee"
+			},
+			"  %88 = call i32 asm sideeffect \"rbit $0, $1\", \"=r,r\"(i32 %87) #6, !dbg !2181, !srcloc !1944" : 
+			{
+				"Count" : 1,
+				"Type" : "Asm Callee"
+			},
+			"  %94 = call i32 asm sideeffect \"rbit $0, $1\", \"=r,r\"(i32 %93) #6, !dbg !2184, !srcloc !1944" : 
+			{
+				"Count" : 1,
+				"Type" : "Asm Callee"
+			},
+			"HAL_GetTick" : 
+			{
+				"Count" : 24,
+				"Type" : "Callee"
+			},
+			"SystemClock_Config" : 
+			{
+				"Count" : 1,
+				"Type" : "Caller"
+			},
+			"llvm.ctlz.i32" : 
+			{
+				"Count" : 5,
+				"Type" : "Callee"
+			},
+			"llvm.dbg.declare" : 
+			{
+				"Count" : 13,
+				"Type" : "Callee"
+			}
+		}
+	},
+	"HAL_SYSTICK_Config" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : false,
+			"Filename" : "../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c",
+			"LLVM_Type" : "i32 (i32)*",
+			"Type" : "Function"
+		},
+		"Connections" : 
+		{
+			"HAL_InitTick" : 
+			{
+				"Count" : 1,
+				"Type" : "Caller"
+			},
+			"SysTick_Config" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			},
+			"llvm.dbg.declare" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			}
+		}
+	},
+	"HAL_UART_ErrorCallback" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : false,
+			"Filename" : "../../Src/main.c",
+			"LLVM_Type" : "void (%struct.UART_HandleTypeDef*)*",
+			"Type" : "Function"
+		},
+		"Connections" : 
+		{
+			"HAL_UART_IRQHandler" : 
+			{
+				"Count" : 3,
+				"Type" : "Caller"
+			},
+			"UART_DMAAbortOnError" : 
+			{
+				"Count" : 1,
+				"Type" : "Caller"
+			},
+			"llvm.dbg.declare" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			}
+		}
+	},
+	"HAL_UART_IRQHandler" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : false,
+			"Filename" : "../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c",
+			"LLVM_Type" : "void (%struct.UART_HandleTypeDef*)*",
+			"Type" : "Function"
+		},
+		"Connections" : 
+		{
+			"  call void %58(%struct.__DMA_HandleTypeDef* %60) #5, !dbg !1930" : 
+			{
+				"Count" : 1,
+				"Type" : "Indirect Call Type"
+			},
+			"HAL_DMA_Abort_IT" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			},
+			"HAL_UART_ErrorCallback" : 
+			{
+				"Count" : 3,
+				"Type" : "Callee"
+			},
+			"UART_DMAAbortOnError" : 
+			{
+				"Count" : 1,
+				"Type" : "Indirect Call"
+			},
+			"UART_EndRxTransfer" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			},
+			"UART_EndTransmit_IT" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			},
+			"UART_Receive_IT" : 
+			{
+				"Count" : 2,
+				"Type" : "Callee"
+			},
+			"UART_Transmit_IT" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			},
+			"USART2_IRQHandler" : 
+			{
+				"Count" : 1,
+				"Type" : "Caller"
+			},
+			"llvm.dbg.declare" : 
+			{
+				"Count" : 6,
+				"Type" : "Callee"
+			}
+		}
+	},
+	"HAL_UART_Init" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : false,
+			"Filename" : "../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c",
+			"LLVM_Type" : "i8 (%struct.UART_HandleTypeDef*)*",
+			"Type" : "Function"
+		},
+		"Connections" : 
+		{
+			"HAL_UART_MspInit" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			},
+			"UART_SetConfig" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			},
+			"Uart_Init" : 
+			{
+				"Count" : 1,
+				"Type" : "Caller"
+			},
+			"llvm.dbg.declare" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			}
+		}
+	},
+	"HAL_UART_MspInit" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : false,
+			"Filename" : "../../Src/stm32f4xx_hal_msp.c",
+			"LLVM_Type" : "void (%struct.UART_HandleTypeDef*)*",
+			"Type" : "Function"
+		},
+		"Connections" : 
+		{
+			"HAL_GPIO_Init" : 
+			{
+				"Count" : 2,
+				"Type" : "Callee"
+			},
+			"HAL_NVIC_EnableIRQ" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			},
+			"HAL_NVIC_SetPriority" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			},
+			"HAL_UART_Init" : 
+			{
+				"Count" : 1,
+				"Type" : "Caller"
+			},
+			"llvm.dbg.declare" : 
+			{
+				"Count" : 5,
+				"Type" : "Callee"
+			}
+		}
+	},
+	"HAL_UART_Receive_IT" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : false,
+			"Filename" : "../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c",
+			"LLVM_Type" : "i8 (%struct.UART_HandleTypeDef*, i8*, i16)*",
+			"Type" : "Function"
+		},
+		"Connections" : 
+		{
+			"llvm.dbg.declare" : 
+			{
+				"Count" : 3,
+				"Type" : "Callee"
+			},
+			"rx_from_uart" : 
+			{
+				"Count" : 1,
+				"Type" : "Caller"
+			}
+		}
+	},
+	"HAL_UART_RxCpltCallback" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : false,
+			"Filename" : "../../Src/main.c",
+			"LLVM_Type" : "void (%struct.UART_HandleTypeDef*)*",
+			"Type" : "Function"
+		},
+		"Connections" : 
+		{
+			"UART_Receive_IT" : 
+			{
+				"Count" : 1,
+				"Type" : "Caller"
+			},
+			"llvm.dbg.declare" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			}
+		}
+	},
+	"HAL_UART_Transmit_IT" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : false,
+			"Filename" : "../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c",
+			"LLVM_Type" : "i8 (%struct.UART_HandleTypeDef*, i8*, i16)*",
+			"Type" : "Function"
+		},
+		"Connections" : 
+		{
+			"llvm.dbg.declare" : 
+			{
+				"Count" : 3,
+				"Type" : "Callee"
+			},
+			"print" : 
+			{
+				"Count" : 1,
+				"Type" : "Caller"
+			}
+		}
+	},
+	"HAL_UART_TxCpltCallback" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : false,
+			"Filename" : "../../Src/main.c",
+			"LLVM_Type" : "void (%struct.UART_HandleTypeDef*)*",
+			"Type" : "Function"
+		},
+		"Connections" : 
+		{
+			"UART_EndTransmit_IT" : 
+			{
+				"Count" : 1,
+				"Type" : "Caller"
+			},
+			"llvm.dbg.declare" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			}
+		}
+	},
+	"Init_Lock" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : false,
+			"Filename" : "../../Src/main.c",
+			"LLVM_Type" : "void ()*",
+			"Type" : "Function"
+		},
+		"Connections" : 
+		{
+			"do_lock" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			},
+			"main" : 
+			{
+				"Count" : 1,
+				"Type" : "Caller"
+			},
+			"print" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			}
+		}
+	},
+	"Init_Lock.locked" : 
+	{
+		"Attr" : 
+		{
+			"Filename" : "../../Src/main.c",
+			"Size" : 4,
+			"Type" : "Global"
+		},
+		"Connections" : 
+		{
+			"Init_Lock" : 
+			{
+				"Count" : 1,
+				"Type" : "Data"
+			}
+		}
+	},
+	"K" : 
+	{
+		"Attr" : 
+		{
+			"Filename" : "../../../mbedtls-2.2.1/library/sha256.c",
+			"Size" : 4,
+			"Type" : "Global"
+		},
+		"Connections" : 
+		{
+			"mbedtls_sha256_process" : 
+			{
+				"Count" : 16,
+				"Type" : "Data"
+			}
+		}
+	},
+	"Key_Init" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : false,
+			"Filename" : "../../Src/main.c",
+			"LLVM_Type" : "void ()*",
+			"Type" : "Function"
+		},
+		"Connections" : 
+		{
+			"main" : 
+			{
+				"Count" : 1,
+				"Type" : "Caller"
+			},
+			"mbedtls_sha256" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			}
+		}
+	},
+	"Lock_Task" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : false,
+			"Filename" : "../../Src/main.c",
+			"LLVM_Type" : "void ()*",
+			"Type" : "Function"
+		},
+		"Connections" : 
+		{
+			"do_lock" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			},
+			"main" : 
+			{
+				"Count" : 1,
+				"Type" : "Caller"
+			},
+			"print" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			},
+			"rx_from_uart" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			}
+		}
+	},
+	"Lock_Task.locked" : 
+	{
+		"Attr" : 
+		{
+			"Filename" : "../../Src/main.c",
+			"Size" : 4,
+			"Type" : "Global"
+		},
+		"Connections" : 
+		{
+			"Lock_Task" : 
+			{
+				"Count" : 1,
+				"Type" : "Data"
+			}
+		}
+	},
+	"NMI_Handler" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : false,
+			"Filename" : "../../Src/stm32f4xx_it.c",
+			"LLVM_Type" : "void ()*",
+			"Type" : "Function"
+		}
+	},
+	"NVIC_EnableIRQ" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : false,
+			"Filename" : "../../../Drivers/CMSIS/Include/core_cm4_org.h",
+			"LLVM_Type" : "void (i8)*",
+			"Type" : "Function"
+		},
+		"Connections" : 
+		{
+			"HAL_NVIC_EnableIRQ" : 
+			{
+				"Count" : 1,
+				"Type" : "Caller"
+			},
+			"llvm.dbg.declare" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			}
+		}
+	},
+	"NVIC_EncodePriority" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : false,
+			"Filename" : "../../../Drivers/CMSIS/Include/core_cm4_org.h",
+			"LLVM_Type" : "i32 (i32, i32, i32)*",
+			"Type" : "Function"
+		},
+		"Connections" : 
+		{
+			"HAL_NVIC_SetPriority" : 
+			{
+				"Count" : 1,
+				"Type" : "Caller"
+			},
+			"llvm.dbg.declare" : 
+			{
+				"Count" : 6,
+				"Type" : "Callee"
+			}
+		}
+	},
+	"NVIC_GetPriorityGrouping" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : false,
+			"Filename" : "../../../Drivers/CMSIS/Include/core_cm4_org.h",
+			"LLVM_Type" : "i32 ()*",
+			"Type" : "Function"
+		},
+		"Connections" : 
+		{
+			"HAL_NVIC_SetPriority" : 
+			{
+				"Count" : 1,
+				"Type" : "Caller"
+			}
+		}
+	},
+	"NVIC_SetPriority" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : false,
+			"Filename" : "../../../Drivers/CMSIS/Include/core_cm4_org.h",
+			"LLVM_Type" : "void (i8, i32)*",
+			"Type" : "Function"
+		},
+		"Connections" : 
+		{
+			"HAL_NVIC_SetPriority" : 
+			{
+				"Count" : 1,
+				"Type" : "Caller"
+			},
+			"SysTick_Config" : 
+			{
+				"Count" : 1,
+				"Type" : "Caller"
+			},
+			"llvm.dbg.declare" : 
+			{
+				"Count" : 2,
+				"Type" : "Callee"
+			}
+		}
+	},
+	"NVIC_SetPriorityGrouping" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : false,
+			"Filename" : "../../../Drivers/CMSIS/Include/core_cm4_org.h",
+			"LLVM_Type" : "void (i32)*",
+			"Type" : "Function"
+		},
+		"Connections" : 
+		{
+			"HAL_NVIC_SetPriorityGrouping" : 
+			{
+				"Count" : 1,
+				"Type" : "Caller"
+			},
+			"llvm.dbg.declare" : 
+			{
+				"Count" : 3,
+				"Type" : "Callee"
+			}
+		}
+	},
+	"PendSV_Handler" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : false,
+			"Filename" : "../../Src/stm32f4xx_it.c",
+			"LLVM_Type" : "void ()*",
+			"Type" : "Function"
+		}
+	},
+	"PinRxBuffer" : 
+	{
+		"Attr" : 
+		{
+			"Filename" : "../../Src/main.c",
+			"Size" : 4,
+			"Type" : "Global"
+		},
+		"Connections" : 
+		{
+			"Lock_Task" : 
+			{
+				"Count" : 1,
+				"Type" : "Data"
+			},
+			"Unlock_Task" : 
+			{
+				"Count" : 1,
+				"Type" : "Data"
+			},
+			"rx_from_uart" : 
+			{
+				"Count" : 1,
+				"Type" : "Data"
+			}
+		}
+	},
+	"SVC_Handler" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : false,
+			"Filename" : "../../Src/stm32f4xx_it.c",
+			"LLVM_Type" : "void (i32)*",
+			"Type" : "Function"
+		},
+		"Connections" : 
+		{
+			"llvm.dbg.declare" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			}
+		}
+	},
+	"SysTick_Config" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : false,
+			"Filename" : "../../../Drivers/CMSIS/Include/core_cm4_org.h",
+			"LLVM_Type" : "i32 (i32)*",
+			"Type" : "Function"
+		},
+		"Connections" : 
+		{
+			"HAL_SYSTICK_Config" : 
+			{
+				"Count" : 1,
+				"Type" : "Caller"
+			},
+			"NVIC_SetPriority" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			},
+			"llvm.dbg.declare" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			}
+		}
+	},
+	"SysTick_Handler" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : false,
+			"Filename" : "../../Src/stm32f4xx_it.c",
+			"LLVM_Type" : "void ()*",
+			"Type" : "Function"
+		},
+		"Connections" : 
+		{
+			"HAL_IncTick" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			}
+		}
+	},
+	"SystemClock_Config" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : false,
+			"Filename" : "../../Src/main.c",
+			"LLVM_Type" : "void ()*",
+			"Type" : "Function"
+		},
+		"Connections" : 
+		{
+			"Error_Handler" : 
+			{
+				"Count" : 2,
+				"Type" : "Callee"
+			},
+			"HAL_GetREVID" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			},
+			"HAL_RCC_ClockConfig" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			},
+			"HAL_RCC_OscConfig" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			},
+			"System_Init" : 
+			{
+				"Count" : 1,
+				"Type" : "Caller"
+			},
+			"llvm.dbg.declare" : 
+			{
+				"Count" : 4,
+				"Type" : "Callee"
+			}
+		}
+	},
+	"SystemCoreClock" : 
+	{
+		"Attr" : 
+		{
+			"Filename" : "../../Src/system_stm32f4xx.c",
+			"Size" : 4,
+			"Type" : "Global"
+		},
+		"Connections" : 
+		{
+			"HAL_InitTick" : 
+			{
+				"Count" : 1,
+				"Type" : "Data"
+			},
+			"HAL_RCC_ClockConfig" : 
+			{
+				"Count" : 1,
+				"Type" : "Data"
+			},
+			"HAL_RCC_GetHCLKFreq" : 
+			{
+				"Count" : 1,
+				"Type" : "Data"
+			}
+		}
+	},
+	"SystemInit" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : false,
+			"Filename" : "../../Src/system_stm32f4xx.c",
+			"LLVM_Type" : "void ()*",
+			"Type" : "Function"
+		}
+	},
+	"System_Init" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : false,
+			"Filename" : "../../Src/main.c",
+			"LLVM_Type" : "void (i32, i32, i32, i32, i32)*",
+			"Type" : "Function"
+		},
+		"Connections" : 
+		{
+			"BSP_LED_Init" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			},
+			"HAL_Init" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			},
+			"SystemClock_Config" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			},
+			"llvm.dbg.declare" : 
+			{
+				"Count" : 5,
+				"Type" : "Callee"
+			},
+			"main" : 
+			{
+				"Count" : 1,
+				"Type" : "Caller"
+			}
+		}
+	},
+	"UART_DMAAbortOnError" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : true,
+			"Filename" : "../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c",
+			"LLVM_Type" : "void (%struct.__DMA_HandleTypeDef*)*",
+			"Type" : "Function"
+		},
+		"Connections" : 
+		{
+			"HAL_UART_ErrorCallback" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			},
+			"llvm.dbg.declare" : 
+			{
+				"Count" : 2,
+				"Type" : "Callee"
+			}
+		}
+	},
+	"UART_EndRxTransfer" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : false,
+			"Filename" : "../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c",
+			"LLVM_Type" : "void (%struct.UART_HandleTypeDef*)*",
+			"Type" : "Function"
+		},
+		"Connections" : 
+		{
+			"HAL_UART_IRQHandler" : 
+			{
+				"Count" : 1,
+				"Type" : "Caller"
+			},
+			"llvm.dbg.declare" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			}
+		}
+	},
+	"UART_EndTransmit_IT" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : false,
+			"Filename" : "../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c",
+			"LLVM_Type" : "i8 (%struct.UART_HandleTypeDef*)*",
+			"Type" : "Function"
+		},
+		"Connections" : 
+		{
+			"HAL_UART_IRQHandler" : 
+			{
+				"Count" : 1,
+				"Type" : "Caller"
+			},
+			"HAL_UART_TxCpltCallback" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			},
+			"llvm.dbg.declare" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			}
+		}
+	},
+	"UART_Receive_IT" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : false,
+			"Filename" : "../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c",
+			"LLVM_Type" : "i8 (%struct.UART_HandleTypeDef*)*",
+			"Type" : "Function"
+		},
+		"Connections" : 
+		{
+			"HAL_UART_IRQHandler" : 
+			{
+				"Count" : 2,
+				"Type" : "Caller"
+			},
+			"HAL_UART_RxCpltCallback" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			},
+			"llvm.dbg.declare" : 
+			{
+				"Count" : 2,
+				"Type" : "Callee"
+			}
+		}
+	},
+	"UART_SetConfig" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : false,
+			"Filename" : "../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c",
+			"LLVM_Type" : "void (%struct.UART_HandleTypeDef*)*",
+			"Type" : "Function"
+		},
+		"Connections" : 
+		{
+			"HAL_RCC_GetPCLK1Freq" : 
+			{
+				"Count" : 10,
+				"Type" : "Callee"
+			},
+			"HAL_RCC_GetPCLK2Freq" : 
+			{
+				"Count" : 10,
+				"Type" : "Callee"
+			},
+			"HAL_UART_Init" : 
+			{
+				"Count" : 1,
+				"Type" : "Caller"
+			},
+			"llvm.dbg.declare" : 
+			{
+				"Count" : 2,
+				"Type" : "Callee"
+			}
+		}
+	},
+	"UART_Transmit_IT" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : false,
+			"Filename" : "../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c",
+			"LLVM_Type" : "i8 (%struct.UART_HandleTypeDef*)*",
+			"Type" : "Function"
+		},
+		"Connections" : 
+		{
+			"HAL_UART_IRQHandler" : 
+			{
+				"Count" : 1,
+				"Type" : "Caller"
+			},
+			"llvm.dbg.declare" : 
+			{
+				"Count" : 2,
+				"Type" : "Callee"
+			}
+		}
+	},
+	"USART2_IRQHandler" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : false,
+			"Filename" : "../../Src/stm32f4xx_it.c",
+			"LLVM_Type" : "void ()*",
+			"Type" : "Function"
+		},
+		"Connections" : 
+		{
+			"HAL_UART_IRQHandler" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			}
+		}
+	},
+	"UartHandle" : 
+	{
+		"Attr" : 
+		{
+			"Filename" : "../../Src/main.c",
+			"Size" : 4,
+			"Type" : "Global"
+		},
+		"Connections" : 
+		{
+			"USART2_IRQHandler" : 
+			{
+				"Count" : 1,
+				"Type" : "Data"
+			},
+			"Uart_Init" : 
+			{
+				"Count" : 9,
+				"Type" : "Data"
+			},
+			"print" : 
+			{
+				"Count" : 1,
+				"Type" : "Data"
+			},
+			"rx_from_uart" : 
+			{
+				"Count" : 1,
+				"Type" : "Data"
+			}
+		}
+	},
+	"UartReady" : 
+	{
+		"Attr" : 
+		{
+			"Filename" : "../../Src/main.c",
+			"Size" : 4,
+			"Type" : "Global"
+		},
+		"Connections" : 
+		{
+			"HAL_UART_RxCpltCallback" : 
+			{
+				"Count" : 1,
+				"Type" : "Data"
+			},
+			"HAL_UART_TxCpltCallback" : 
+			{
+				"Count" : 1,
+				"Type" : "Data"
+			},
+			"print" : 
+			{
+				"Count" : 3,
+				"Type" : "Data"
+			},
+			"rx_from_uart" : 
+			{
+				"Count" : 2,
+				"Type" : "Data"
+			}
+		}
+	},
+	"Uart_Init" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : false,
+			"Filename" : "../../Src/main.c",
+			"LLVM_Type" : "void ()*",
+			"Type" : "Function"
+		},
+		"Connections" : 
+		{
+			"Error_Handler" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			},
+			"HAL_UART_Init" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			},
+			"main" : 
+			{
+				"Count" : 1,
+				"Type" : "Caller"
+			}
+		}
+	},
+	"Unlock_Task" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : false,
+			"Filename" : "../../Src/main.c",
+			"LLVM_Type" : "void (i32, i32, i32, i32*, i32)*",
+			"Type" : "Function"
+		},
+		"Connections" : 
+		{
+			"HAL_Delay" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			},
+			"do_unlock" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			},
+			"llvm.dbg.declare" : 
+			{
+				"Count" : 7,
+				"Type" : "Callee"
+			},
+			"main" : 
+			{
+				"Count" : 1,
+				"Type" : "Caller"
+			},
+			"mbedtls_sha256" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			},
+			"print" : 
+			{
+				"Count" : 5,
+				"Type" : "Callee"
+			},
+			"rx_from_uart" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			}
+		}
+	},
+	"Unlock_Task.enter" : 
+	{
+		"Attr" : 
+		{
+			"Filename" : "../../Src/main.c",
+			"Size" : 4,
+			"Type" : "Global"
+		},
+		"Connections" : 
+		{
+			"Unlock_Task" : 
+			{
+				"Count" : 1,
+				"Type" : "Data"
+			}
+		}
+	},
+	"Unlock_Task.incorrect" : 
+	{
+		"Attr" : 
+		{
+			"Filename" : "../../Src/main.c",
+			"Size" : 4,
+			"Type" : "Global"
+		},
+		"Connections" : 
+		{
+			"Unlock_Task" : 
+			{
+				"Count" : 1,
+				"Type" : "Data"
+			}
+		}
+	},
+	"Unlock_Task.lockout" : 
+	{
+		"Attr" : 
+		{
+			"Filename" : "../../Src/main.c",
+			"Size" : 4,
+			"Type" : "Global"
+		},
+		"Connections" : 
+		{
+			"Unlock_Task" : 
+			{
+				"Count" : 1,
+				"Type" : "Data"
+			}
+		}
+	},
+	"Unlock_Task.unlocked" : 
+	{
+		"Attr" : 
+		{
+			"Filename" : "../../Src/main.c",
+			"Size" : 4,
+			"Type" : "Global"
+		},
+		"Connections" : 
+		{
+			"Unlock_Task" : 
+			{
+				"Count" : 1,
+				"Type" : "Data"
+			}
+		}
+	},
+	"Unlock_Task.waiting" : 
+	{
+		"Attr" : 
+		{
+			"Filename" : "../../Src/main.c",
+			"Size" : 4,
+			"Type" : "Global"
+		},
+		"Connections" : 
+		{
+			"Unlock_Task" : 
+			{
+				"Count" : 1,
+				"Type" : "Data"
+			}
+		}
+	},
+	"UsageFault_Handler" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : false,
+			"Filename" : "../../Src/stm32f4xx_it.c",
+			"LLVM_Type" : "void ()*",
+			"Type" : "Function"
+		}
+	},
+	"_close" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : false,
+			"Filename" : "syscalls.c",
+			"LLVM_Type" : "i32 (i32)*",
+			"Type" : "Function"
+		},
+		"Connections" : 
+		{
+			"llvm.dbg.value" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			}
+		}
+	},
+	"_exit" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : true,
+			"Filename" : "syscalls.c",
+			"LLVM_Type" : "void (i32)*",
+			"Type" : "Function"
+		},
+		"Connections" : 
+		{
+			"_kill" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			},
+			"llvm.dbg.value" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			}
+		}
+	},
+	"_fstat" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : false,
+			"Filename" : "syscalls.c",
+			"LLVM_Type" : "i32 (i32, %struct.stat*)*",
+			"Type" : "Function"
+		},
+		"Connections" : 
+		{
+			"llvm.dbg.value" : 
+			{
+				"Count" : 2,
+				"Type" : "Callee"
+			}
+		}
+	},
+	"_getpid" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : true,
+			"Filename" : "syscalls.c",
+			"LLVM_Type" : "i32 ()*",
+			"Type" : "Function"
+		}
+	},
+	"_init" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : false,
+			"Filename" : "syscalls.c",
+			"LLVM_Type" : "void ()*",
+			"Type" : "Function"
+		}
+	},
+	"_isatty" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : false,
+			"Filename" : "syscalls.c",
+			"LLVM_Type" : "i32 (i32)*",
+			"Type" : "Function"
+		},
+		"Connections" : 
+		{
+			"llvm.dbg.value" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			}
+		}
+	},
+	"_kill" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : true,
+			"Filename" : "syscalls.c",
+			"LLVM_Type" : "i32 (i32, i32)*",
+			"Type" : "Function"
+		},
+		"Connections" : 
+		{
+			"_exit" : 
+			{
+				"Count" : 1,
+				"Type" : "Caller"
+			},
+			"llvm.dbg.value" : 
+			{
+				"Count" : 2,
+				"Type" : "Callee"
+			}
+		}
+	},
+	"_lseek" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : false,
+			"Filename" : "syscalls.c",
+			"LLVM_Type" : "i32 (i32, i32, i32)*",
+			"Type" : "Function"
+		},
+		"Connections" : 
+		{
+			"llvm.dbg.value" : 
+			{
+				"Count" : 3,
+				"Type" : "Callee"
+			}
+		}
+	},
+	"_read" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : false,
+			"Filename" : "syscalls.c",
+			"LLVM_Type" : "i32 (i32, i8*, i32)*",
+			"Type" : "Function"
+		},
+		"Connections" : 
+		{
+			"llvm.dbg.value" : 
+			{
+				"Count" : 3,
+				"Type" : "Callee"
+			}
+		}
+	},
+	"_sbrk" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : false,
+			"Filename" : "syscalls.c",
+			"LLVM_Type" : "i8* (i32)*",
+			"Type" : "Function"
+		},
+		"Connections" : 
+		{
+			"llvm.dbg.value" : 
+			{
+				"Count" : 2,
+				"Type" : "Callee"
+			}
+		}
+	},
+	"_sbrk.heap_end" : 
+	{
+		"Attr" : 
+		{
+			"Filename" : "syscalls.c",
+			"Size" : 4,
+			"Type" : "Global"
+		},
+		"Connections" : 
+		{
+			"_sbrk" : 
+			{
+				"Count" : 3,
+				"Type" : "Data"
+			}
+		}
+	},
+	"_write" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : false,
+			"Filename" : "syscalls.c",
+			"LLVM_Type" : "i32 (i32, i8*, i32)*",
+			"Type" : "Function"
+		},
+		"Connections" : 
+		{
+			"llvm.dbg.value" : 
+			{
+				"Count" : 3,
+				"Type" : "Callee"
+			}
+		}
+	},
+	"do_lock" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : false,
+			"Filename" : "../../Src/main.c",
+			"LLVM_Type" : "void ()*",
+			"Type" : "Function"
+		},
+		"Connections" : 
+		{
+			"BSP_LED_Off" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			},
+			"Init_Lock" : 
+			{
+				"Count" : 1,
+				"Type" : "Caller"
+			},
+			"Lock_Task" : 
+			{
+				"Count" : 1,
+				"Type" : "Caller"
+			}
+		}
+	},
+	"do_unlock" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : false,
+			"Filename" : "../../Src/main.c",
+			"LLVM_Type" : "void ()*",
+			"Type" : "Function"
+		},
+		"Connections" : 
+		{
+			"BSP_LED_On" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			},
+			"Unlock_Task" : 
+			{
+				"Count" : 1,
+				"Type" : "Caller"
+			}
+		}
+	},
+	"key" : 
+	{
+		"Attr" : 
+		{
+			"Filename" : "../../Src/main.c",
+			"Size" : 4,
+			"Type" : "Global"
+		},
+		"Connections" : 
+		{
+			"Key_Init" : 
+			{
+				"Count" : 1,
+				"Type" : "Data"
+			},
+			"Unlock_Task" : 
+			{
+				"Count" : 1,
+				"Type" : "Data"
+			}
+		}
+	},
+	"key_in" : 
+	{
+		"Attr" : 
+		{
+			"Filename" : "../../Src/main.c",
+			"Size" : 4,
+			"Type" : "Global"
+		},
+		"Connections" : 
+		{
+			"Unlock_Task" : 
+			{
+				"Count" : 2,
+				"Type" : "Data"
+			}
+		}
+	},
+	"llvm.ctlz.i32" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : false,
+			"LLVM_Type" : "i32 (i32, i1)*",
+			"Type" : "Function"
+		},
+		"Connections" : 
+		{
+			"HAL_RCC_ClockConfig" : 
+			{
+				"Count" : 1,
+				"Type" : "Caller"
+			},
+			"HAL_RCC_GetPCLK1Freq" : 
+			{
+				"Count" : 1,
+				"Type" : "Caller"
+			},
+			"HAL_RCC_GetPCLK2Freq" : 
+			{
+				"Count" : 1,
+				"Type" : "Caller"
+			},
+			"HAL_RCC_GetSysClockFreq" : 
+			{
+				"Count" : 3,
+				"Type" : "Caller"
+			},
+			"HAL_RCC_OscConfig" : 
+			{
+				"Count" : 5,
+				"Type" : "Caller"
+			}
+		}
+	},
+	"main" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : false,
+			"Filename" : "../../Src/main.c",
+			"LLVM_Type" : "i32 ()*",
+			"Type" : "Function"
+		},
+		"Connections" : 
+		{
+			"  call void asm sideeffect \"mov r0, 0xFF \\0A\\09svc 0xFF \\0A\\09\", \"~{r0},~{memory}\"() #6, !dbg !1783, !srcloc !1784" : 
+			{
+				"Count" : 1,
+				"Type" : "Asm Callee"
+			},
+			"Init_Lock" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			},
+			"Key_Init" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			},
+			"Lock_Task" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			},
+			"System_Init" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			},
+			"Uart_Init" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			},
+			"Unlock_Task" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			},
+			"llvm.dbg.declare" : 
+			{
+				"Count" : 5,
+				"Type" : "Callee"
+			}
+		}
+	},
+	"mbedtls_sha256" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : false,
+			"Filename" : "../../../mbedtls-2.2.1/library/sha256.c",
+			"LLVM_Type" : "void (i8*, i32, i8*, i32)*",
+			"Type" : "Function"
+		},
+		"Connections" : 
+		{
+			"Key_Init" : 
+			{
+				"Count" : 1,
+				"Type" : "Caller"
+			},
+			"Unlock_Task" : 
+			{
+				"Count" : 1,
+				"Type" : "Caller"
+			},
+			"llvm.dbg.declare" : 
+			{
+				"Count" : 5,
+				"Type" : "Callee"
+			},
+			"mbedtls_sha256_finish" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			},
+			"mbedtls_sha256_free" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			},
+			"mbedtls_sha256_init" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			},
+			"mbedtls_sha256_starts" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			},
+			"mbedtls_sha256_update" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			}
+		}
+	},
+	"mbedtls_sha256_finish" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : false,
+			"Filename" : "../../../mbedtls-2.2.1/library/sha256.c",
+			"LLVM_Type" : "void (%struct.mbedtls_sha256_context*, i8*)*",
+			"Type" : "Function"
+		},
+		"Connections" : 
+		{
+			"llvm.dbg.declare" : 
+			{
+				"Count" : 7,
+				"Type" : "Callee"
+			},
+			"mbedtls_sha256" : 
+			{
+				"Count" : 1,
+				"Type" : "Caller"
+			},
+			"mbedtls_sha256_update" : 
+			{
+				"Count" : 2,
+				"Type" : "Callee"
+			}
+		}
+	},
+	"mbedtls_sha256_free" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : false,
+			"Filename" : "../../../mbedtls-2.2.1/library/sha256.c",
+			"LLVM_Type" : "void (%struct.mbedtls_sha256_context*)*",
+			"Type" : "Function"
+		},
+		"Connections" : 
+		{
+			"llvm.dbg.declare" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			},
+			"mbedtls_sha256" : 
+			{
+				"Count" : 1,
+				"Type" : "Caller"
+			},
+			"mbedtls_zeroize" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			}
+		}
+	},
+	"mbedtls_sha256_init" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : false,
+			"Filename" : "../../../mbedtls-2.2.1/library/sha256.c",
+			"LLVM_Type" : "void (%struct.mbedtls_sha256_context*)*",
+			"Type" : "Function"
+		},
+		"Connections" : 
+		{
+			"llvm.dbg.declare" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			},
+			"mbedtls_sha256" : 
+			{
+				"Count" : 1,
+				"Type" : "Caller"
+			},
+			"memset" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			}
+		}
+	},
+	"mbedtls_sha256_process" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : false,
+			"Filename" : "../../../mbedtls-2.2.1/library/sha256.c",
+			"LLVM_Type" : "void (%struct.mbedtls_sha256_context*, i8*)*",
+			"Type" : "Function"
+		},
+		"Connections" : 
+		{
+			"llvm.dbg.declare" : 
+			{
+				"Count" : 7,
+				"Type" : "Callee"
+			},
+			"mbedtls_sha256_update" : 
+			{
+				"Count" : 2,
+				"Type" : "Caller"
+			}
+		}
+	},
+	"mbedtls_sha256_starts" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : false,
+			"Filename" : "../../../mbedtls-2.2.1/library/sha256.c",
+			"LLVM_Type" : "void (%struct.mbedtls_sha256_context*, i32)*",
+			"Type" : "Function"
+		},
+		"Connections" : 
+		{
+			"llvm.dbg.declare" : 
+			{
+				"Count" : 2,
+				"Type" : "Callee"
+			},
+			"mbedtls_sha256" : 
+			{
+				"Count" : 1,
+				"Type" : "Caller"
+			}
+		}
+	},
+	"mbedtls_sha256_update" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : false,
+			"Filename" : "../../../mbedtls-2.2.1/library/sha256.c",
+			"LLVM_Type" : "void (%struct.mbedtls_sha256_context*, i8*, i32)*",
+			"Type" : "Function"
+		},
+		"Connections" : 
+		{
+			"llvm.dbg.declare" : 
+			{
+				"Count" : 5,
+				"Type" : "Callee"
+			},
+			"mbedtls_sha256" : 
+			{
+				"Count" : 1,
+				"Type" : "Caller"
+			},
+			"mbedtls_sha256_finish" : 
+			{
+				"Count" : 2,
+				"Type" : "Caller"
+			},
+			"mbedtls_sha256_process" : 
+			{
+				"Count" : 2,
+				"Type" : "Callee"
+			},
+			"memcpy" : 
+			{
+				"Count" : 2,
+				"Type" : "Callee"
+			}
+		}
+	},
+	"mbedtls_zeroize" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : false,
+			"Filename" : "../../../mbedtls-2.2.1/library/sha256.c",
+			"LLVM_Type" : "void (i8*, i32)*",
+			"Type" : "Function"
+		},
+		"Connections" : 
+		{
+			"llvm.dbg.declare" : 
+			{
+				"Count" : 3,
+				"Type" : "Callee"
+			},
+			"mbedtls_sha256_free" : 
+			{
+				"Count" : 1,
+				"Type" : "Caller"
+			}
+		}
+	},
+	"memcpy" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : false,
+			"LLVM_Type" : "i8* (i8*, i8*, i32)*",
+			"Type" : "Function"
+		},
+		"Connections" : 
+		{
+			"mbedtls_sha256_update" : 
+			{
+				"Count" : 2,
+				"Type" : "Caller"
+			}
+		}
+	},
+	"memset" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : false,
+			"LLVM_Type" : "i8* (i8*, i32, i32)*",
+			"Type" : "Function"
+		},
+		"Connections" : 
+		{
+			"mbedtls_sha256_init" : 
+			{
+				"Count" : 1,
+				"Type" : "Caller"
+			}
+		}
+	},
+	"pin" : 
+	{
+		"Attr" : 
+		{
+			"Filename" : "../../Src/main.c",
+			"Size" : 4,
+			"Type" : "Global"
+		},
+		"Connections" : 
+		{
+			"Key_Init" : 
+			{
+				"Count" : 1,
+				"Type" : "Data"
+			}
+		}
+	},
+	"print" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : false,
+			"Filename" : "../../Src/main.c",
+			"LLVM_Type" : "void (i8*, i32)*",
+			"Type" : "Function"
+		},
+		"Connections" : 
+		{
+			"Error_Handler" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			},
+			"HAL_UART_Transmit_IT" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			},
+			"Init_Lock" : 
+			{
+				"Count" : 1,
+				"Type" : "Caller"
+			},
+			"Lock_Task" : 
+			{
+				"Count" : 1,
+				"Type" : "Caller"
+			},
+			"Unlock_Task" : 
+			{
+				"Count" : 5,
+				"Type" : "Caller"
+			},
+			"llvm.dbg.declare" : 
+			{
+				"Count" : 2,
+				"Type" : "Callee"
+			}
+		}
+	},
+	"runtime" : 
+	{
+		"Attr" : 
+		{
+			"Filename" : "../../Src/stm32f4xx_it.c",
+			"Size" : 4,
+			"Type" : "Global"
+		},
+		"Connections" : 
+		{
+			"SVC_Handler" : 
+			{
+				"Count" : 2,
+				"Type" : "Data"
+			}
+		}
+	},
+	"rx_from_uart" : 
+	{
+		"Attr" : 
+		{
+			"Address Taken" : false,
+			"Filename" : "../../Src/main.c",
+			"LLVM_Type" : "void (i32)*",
+			"Type" : "Function"
+		},
+		"Connections" : 
+		{
+			"Error_Handler" : 
+			{
+				"Count" : 2,
+				"Type" : "Callee"
+			},
+			"HAL_UART_Receive_IT" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			},
+			"Lock_Task" : 
+			{
+				"Count" : 1,
+				"Type" : "Caller"
+			},
+			"Unlock_Task" : 
+			{
+				"Count" : 1,
+				"Type" : "Caller"
+			},
+			"llvm.dbg.declare" : 
+			{
+				"Count" : 1,
+				"Type" : "Callee"
+			}
+		}
+	},
+	"sha256_padding" : 
+	{
+		"Attr" : 
+		{
+			"Filename" : "../../../mbedtls-2.2.1/library/sha256.c",
+			"Size" : 4,
+			"Type" : "Global"
+		},
+		"Connections" : 
+		{
+			"mbedtls_sha256_finish" : 
+			{
+				"Count" : 1,
+				"Type" : "Data"
+			}
+		}
+	},
+	"uwTick" : 
+	{
+		"Attr" : 
+		{
+			"Filename" : "../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c",
+			"Size" : 4,
+			"Type" : "Global"
+		},
+		"Connections" : 
+		{
+			"HAL_GetTick" : 
+			{
+				"Count" : 1,
+				"Type" : "Data"
+			},
+			"HAL_IncTick" : 
+			{
+				"Count" : 2,
+				"Type" : "Data"
+			}
+		}
+	}
+}

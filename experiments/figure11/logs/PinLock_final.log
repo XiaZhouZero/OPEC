@@ -1,0 +1,1888 @@
+293	../../Src/main.c: No such file or directory.
+297	in ../../Src/main.c
+308	in ../../Src/main.c
+System_Init (a=1, b=2, c=3, d=4, f=5) at ../../Src/main.c:155
+155	in ../../Src/main.c
+HAL_Init () at ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c:171
+171	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c: No such file or directory.
+175	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
+183	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
+HAL_NVIC_SetPriorityGrouping (PriorityGroup=3) at ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c:198
+198	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c: No such file or directory.
+NVIC_SetPriorityGrouping (PriorityGroup=3) at ../../../Drivers/CMSIS/Include/core_cm4_org.h:1599
+1599	../../../Drivers/CMSIS/Include/core_cm4_org.h: No such file or directory.
+1601	in ../../../Drivers/CMSIS/Include/core_cm4_org.h
+1602	in ../../../Drivers/CMSIS/Include/core_cm4_org.h
+1603	in ../../../Drivers/CMSIS/Include/core_cm4_org.h
+1605	in ../../../Drivers/CMSIS/Include/core_cm4_org.h
+1603	in ../../../Drivers/CMSIS/Include/core_cm4_org.h
+1604	in ../../../Drivers/CMSIS/Include/core_cm4_org.h
+1603	in ../../../Drivers/CMSIS/Include/core_cm4_org.h
+1606	in ../../../Drivers/CMSIS/Include/core_cm4_org.h
+1607	in ../../../Drivers/CMSIS/Include/core_cm4_org.h
+HAL_NVIC_SetPriorityGrouping (PriorityGroup=3) at ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c:199
+199	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c: No such file or directory.
+HAL_Init () at ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c:186
+186	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c: No such file or directory.
+HAL_InitTick (TickPriority=15) at ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c:266
+266	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
+HAL_SYSTICK_Config (TicksNumb=16000) at ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c:280
+280	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c: No such file or directory.
+SysTick_Config (ticks=16000) at ../../../Drivers/CMSIS/Include/core_cm4_org.h:1832
+1832	../../../Drivers/CMSIS/Include/core_cm4_org.h: No such file or directory.
+1837	in ../../../Drivers/CMSIS/Include/core_cm4_org.h
+1838	in ../../../Drivers/CMSIS/Include/core_cm4_org.h
+NVIC_SetPriority (IRQn=SysTick_IRQn, priority=15) at ../../../Drivers/CMSIS/Include/core_cm4_org.h:1700
+1700	in ../../../Drivers/CMSIS/Include/core_cm4_org.h
+1702	in ../../../Drivers/CMSIS/Include/core_cm4_org.h
+1703	in ../../../Drivers/CMSIS/Include/core_cm4_org.h
+1708	in ../../../Drivers/CMSIS/Include/core_cm4_org.h
+SysTick_Config (ticks=16000) at ../../../Drivers/CMSIS/Include/core_cm4_org.h:1839
+1839	in ../../../Drivers/CMSIS/Include/core_cm4_org.h
+1840	in ../../../Drivers/CMSIS/Include/core_cm4_org.h
+1843	in ../../../Drivers/CMSIS/Include/core_cm4_org.h
+1844	in ../../../Drivers/CMSIS/Include/core_cm4_org.h
+HAL_InitTick (TickPriority=15) at ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c:269
+269	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c: No such file or directory.
+HAL_NVIC_SetPriority (IRQn=SysTick_IRQn, PreemptPriority=15, SubPriority=0) at ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c:216
+216	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c: No such file or directory.
+222	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
+NVIC_GetPriorityGrouping () at ../../../Drivers/CMSIS/Include/core_cm4_org.h:1617
+1617	../../../Drivers/CMSIS/Include/core_cm4_org.h: No such file or directory.
+HAL_NVIC_SetPriority (IRQn=SysTick_IRQn, PreemptPriority=15, SubPriority=0) at ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c:224
+224	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c: No such file or directory.
+NVIC_EncodePriority (PriorityGroup=3, PreemptPriority=15, SubPriority=0) at ../../../Drivers/CMSIS/Include/core_cm4_org.h:1747
+1747	../../../Drivers/CMSIS/Include/core_cm4_org.h: No such file or directory.
+1751	in ../../../Drivers/CMSIS/Include/core_cm4_org.h
+1752	in ../../../Drivers/CMSIS/Include/core_cm4_org.h
+1755	in ../../../Drivers/CMSIS/Include/core_cm4_org.h
+1756	in ../../../Drivers/CMSIS/Include/core_cm4_org.h
+1755	in ../../../Drivers/CMSIS/Include/core_cm4_org.h
+1754	in ../../../Drivers/CMSIS/Include/core_cm4_org.h
+NVIC_SetPriority (IRQn=SysTick_IRQn, priority=15) at ../../../Drivers/CMSIS/Include/core_cm4_org.h:1700
+1700	in ../../../Drivers/CMSIS/Include/core_cm4_org.h
+1702	in ../../../Drivers/CMSIS/Include/core_cm4_org.h
+1703	in ../../../Drivers/CMSIS/Include/core_cm4_org.h
+1708	in ../../../Drivers/CMSIS/Include/core_cm4_org.h
+HAL_NVIC_SetPriority (IRQn=SysTick_IRQn, PreemptPriority=15, SubPriority=0) at ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c:225
+225	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c: No such file or directory.
+HAL_InitTick (TickPriority=15) at ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c:272
+272	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c: No such file or directory.
+HAL_Init () at ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c:189
+189	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
+HAL_MspInit () at ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c:234
+234	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
+HAL_Init () at ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c:192
+192	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
+System_Init (a=1, b=2, c=3, d=4, f=5) at ../../Src/main.c:158
+158	../../Src/main.c: No such file or directory.
+BSP_LED_Init (Led=LED4) at ../../../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c:177
+177	../../../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c: No such file or directory.
+180	in ../../../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c
+181	in ../../../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c
+182	in ../../../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c
+183	in ../../../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c
+185	in ../../../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c
+HAL_GPIO_Init (GPIOx=0x40020c00, GPIO_Init=0x20003fa0) at ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c:192
+192	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c: No such file or directory.
+193	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+194	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+203	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+206	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+208	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+210	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+303	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+203	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+206	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+208	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+210	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+303	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+203	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+206	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+208	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+210	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+303	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+203	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+206	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+208	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+210	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+303	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+203	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+206	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+208	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+210	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+303	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+203	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+206	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+208	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+210	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+303	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+203	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+206	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+208	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+210	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+303	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+203	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+206	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+208	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+210	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+303	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+203	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+206	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+208	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+210	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+303	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+203	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+206	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+208	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+210	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+303	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+203	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+206	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+208	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+210	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+303	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+203	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+206	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+208	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+210	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+303	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+203	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+206	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+208	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+210	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+214	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+226	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+227	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+228	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+229	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+232	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+238	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+239	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+240	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+241	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+244	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+245	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+246	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+247	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+248	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+251	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+252	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+253	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+254	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+258	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+302	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+303	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+203	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+206	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+208	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+210	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+303	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+203	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+206	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+208	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+210	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+303	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+203	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+206	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+208	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+210	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+303	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+203	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+304	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+BSP_LED_Init (Led=LED4) at ../../../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c:187
+187	../../../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c: No such file or directory.
+HAL_GPIO_WritePin (GPIOx=0x40020c00, GPIO_Pin=4096, PinState=GPIO_PIN_RESET) at ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c:436
+436	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c: No such file or directory.
+442	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+444	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+BSP_LED_Init (Led=LED4) at ../../../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c:188
+188	../../../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c: No such file or directory.
+System_Init (a=1, b=2, c=3, d=4, f=5) at ../../Src/main.c:164
+164	../../Src/main.c: No such file or directory.
+SystemClock_Config () at ../../Src/main.c:398
+398	in ../../Src/main.c
+403	in ../../Src/main.c
+406	in ../../Src/main.c
+407	in ../../Src/main.c
+408	in ../../Src/main.c
+409	in ../../Src/main.c
+410	in ../../Src/main.c
+411	in ../../Src/main.c
+412	in ../../Src/main.c
+413	in ../../Src/main.c
+414	in ../../Src/main.c
+HAL_RCC_OscConfig (RCC_OscInitStruct=0x20003f74) at ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c:242
+242	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c: No such file or directory.
+247	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+252	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+253	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+263	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+266	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+269	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+HAL_GetTick () at ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c:324
+324	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c: No such file or directory.
+HAL_RCC_OscConfig (RCC_OscInitStruct=0x20003f74) at ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c:272
+272	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c: No such file or directory.
+279	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+295	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+297	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+362	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+404	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+461	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+464	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+466	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+476	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+479	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+HAL_GetTick () at ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c:324
+324	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c: No such file or directory.
+HAL_RCC_OscConfig (RCC_OscInitStruct=0x20003f74) at ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c:482
+482	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c: No such file or directory.
+491	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+__RBIT (value=32704) at ../../../Drivers/CMSIS/Include/cmsis_armcc_V6.h:880
+880	../../../Drivers/CMSIS/Include/cmsis_armcc_V6.h: No such file or directory.
+893	in ../../../Drivers/CMSIS/Include/cmsis_armcc_V6.h
+HAL_RCC_OscConfig (RCC_OscInitStruct=0x20003f74) at ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c:491
+491	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c: No such file or directory.
+__RBIT (value=196608) at ../../../Drivers/CMSIS/Include/cmsis_armcc_V6.h:880
+880	../../../Drivers/CMSIS/Include/cmsis_armcc_V6.h: No such file or directory.
+893	in ../../../Drivers/CMSIS/Include/cmsis_armcc_V6.h
+HAL_RCC_OscConfig (RCC_OscInitStruct=0x20003f74) at ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c:491
+491	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c: No such file or directory.
+__RBIT (value=251658240) at ../../../Drivers/CMSIS/Include/cmsis_armcc_V6.h:880
+880	../../../Drivers/CMSIS/Include/cmsis_armcc_V6.h: No such file or directory.
+893	in ../../../Drivers/CMSIS/Include/cmsis_armcc_V6.h
+HAL_RCC_OscConfig (RCC_OscInitStruct=0x20003f74) at ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c:491
+491	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c: No such file or directory.
+497	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+500	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+HAL_GetTick () at ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c:324
+324	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c: No such file or directory.
+HAL_RCC_OscConfig (RCC_OscInitStruct=0x20003f74) at ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c:503
+503	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c: No such file or directory.
+510	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+528	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+533	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+534	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+535	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+SystemClock_Config () at ../../Src/main.c:421
+421	../../Src/main.c: No such file or directory.
+422	in ../../Src/main.c
+423	in ../../Src/main.c
+424	in ../../Src/main.c
+425	in ../../Src/main.c
+426	in ../../Src/main.c
+HAL_RCC_ClockConfig (RCC_ClkInitStruct=0x20003fa4, FLatency=5) at ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c:564
+564	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c: No such file or directory.
+575	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+578	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+582	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+586	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+589	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+592	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+593	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+596	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+601	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+610	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+614	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+618	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+629	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+631	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+HAL_GetTick () at ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c:324
+324	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c: No such file or directory.
+HAL_RCC_ClockConfig (RCC_ClkInitStruct=0x20003fa4, FLatency=5) at ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c:633
+633	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c: No such file or directory.
+643	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+645	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+652	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+673	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+676	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+690	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+693	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+694	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+697	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+700	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+701	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+704	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+HAL_RCC_GetSysClockFreq () at ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c:872
+872	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+873	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+876	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+892	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+893	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+896	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+__RBIT (value=32704) at ../../../Drivers/CMSIS/Include/cmsis_armcc_V6.h:880
+880	../../../Drivers/CMSIS/Include/cmsis_armcc_V6.h: No such file or directory.
+893	in ../../../Drivers/CMSIS/Include/cmsis_armcc_V6.h
+HAL_RCC_GetSysClockFreq () at ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c:896
+896	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c: No such file or directory.
+897	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+903	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+__RBIT (value=196608) at ../../../Drivers/CMSIS/Include/cmsis_armcc_V6.h:880
+880	../../../Drivers/CMSIS/Include/cmsis_armcc_V6.h: No such file or directory.
+893	in ../../../Drivers/CMSIS/Include/cmsis_armcc_V6.h
+HAL_RCC_GetSysClockFreq () at ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c:903
+903	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c: No such file or directory.
+905	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+906	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+914	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+__RBIT (value=240) at ../../../Drivers/CMSIS/Include/cmsis_armcc_V6.h:880
+880	../../../Drivers/CMSIS/Include/cmsis_armcc_V6.h: No such file or directory.
+893	in ../../../Drivers/CMSIS/Include/cmsis_armcc_V6.h
+HAL_RCC_ClockConfig (RCC_ClkInitStruct=0x20003fa4, FLatency=5) at ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c:704
+704	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c: No such file or directory.
+707	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+HAL_InitTick (TickPriority=15) at ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c:266
+266	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c: No such file or directory.
+HAL_SYSTICK_Config (TicksNumb=168000) at ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c:280
+280	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c: No such file or directory.
+SysTick_Config (ticks=168000) at ../../../Drivers/CMSIS/Include/core_cm4_org.h:1832
+1832	../../../Drivers/CMSIS/Include/core_cm4_org.h: No such file or directory.
+1837	in ../../../Drivers/CMSIS/Include/core_cm4_org.h
+1838	in ../../../Drivers/CMSIS/Include/core_cm4_org.h
+NVIC_SetPriority (IRQn=SysTick_IRQn, priority=15) at ../../../Drivers/CMSIS/Include/core_cm4_org.h:1700
+1700	in ../../../Drivers/CMSIS/Include/core_cm4_org.h
+1702	in ../../../Drivers/CMSIS/Include/core_cm4_org.h
+1703	in ../../../Drivers/CMSIS/Include/core_cm4_org.h
+1708	in ../../../Drivers/CMSIS/Include/core_cm4_org.h
+SysTick_Config (ticks=168000) at ../../../Drivers/CMSIS/Include/core_cm4_org.h:1839
+1839	in ../../../Drivers/CMSIS/Include/core_cm4_org.h
+1840	in ../../../Drivers/CMSIS/Include/core_cm4_org.h
+1843	in ../../../Drivers/CMSIS/Include/core_cm4_org.h
+1844	in ../../../Drivers/CMSIS/Include/core_cm4_org.h
+HAL_InitTick (TickPriority=15) at ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c:269
+269	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c: No such file or directory.
+HAL_NVIC_SetPriority (IRQn=SysTick_IRQn, PreemptPriority=15, SubPriority=0) at ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c:216
+216	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c: No such file or directory.
+222	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
+NVIC_GetPriorityGrouping () at ../../../Drivers/CMSIS/Include/core_cm4_org.h:1617
+1617	../../../Drivers/CMSIS/Include/core_cm4_org.h: No such file or directory.
+HAL_NVIC_SetPriority (IRQn=SysTick_IRQn, PreemptPriority=15, SubPriority=0) at ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c:224
+224	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c: No such file or directory.
+NVIC_EncodePriority (PriorityGroup=3, PreemptPriority=15, SubPriority=0) at ../../../Drivers/CMSIS/Include/core_cm4_org.h:1747
+1747	../../../Drivers/CMSIS/Include/core_cm4_org.h: No such file or directory.
+1751	in ../../../Drivers/CMSIS/Include/core_cm4_org.h
+1752	in ../../../Drivers/CMSIS/Include/core_cm4_org.h
+1755	in ../../../Drivers/CMSIS/Include/core_cm4_org.h
+1756	in ../../../Drivers/CMSIS/Include/core_cm4_org.h
+1755	in ../../../Drivers/CMSIS/Include/core_cm4_org.h
+1754	in ../../../Drivers/CMSIS/Include/core_cm4_org.h
+NVIC_SetPriority (IRQn=SysTick_IRQn, priority=15) at ../../../Drivers/CMSIS/Include/core_cm4_org.h:1700
+1700	in ../../../Drivers/CMSIS/Include/core_cm4_org.h
+1702	in ../../../Drivers/CMSIS/Include/core_cm4_org.h
+1703	in ../../../Drivers/CMSIS/Include/core_cm4_org.h
+1708	in ../../../Drivers/CMSIS/Include/core_cm4_org.h
+HAL_NVIC_SetPriority (IRQn=SysTick_IRQn, PreemptPriority=15, SubPriority=0) at ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c:225
+225	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c: No such file or directory.
+HAL_InitTick (TickPriority=15) at ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c:272
+272	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c: No such file or directory.
+HAL_RCC_ClockConfig (RCC_ClkInitStruct=0x20003fa4, FLatency=5) at ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c:709
+709	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c: No such file or directory.
+710	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+SystemClock_Config () at ../../Src/main.c:432
+432	../../Src/main.c: No such file or directory.
+HAL_GetREVID () at ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c:395
+395	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c: No such file or directory.
+SystemClock_Config () at ../../Src/main.c:435
+435	../../Src/main.c: No such file or directory.
+436	in ../../Src/main.c
+437	in ../../Src/main.c
+System_Init (a=1, b=2, c=3, d=4, f=5) at ../../Src/main.c:165
+165	in ../../Src/main.c
+main () at ../../Src/main.c:318
+318	in ../../Src/main.c
+Uart_Init () at ../../Src/main.c:177
+177	in ../../Src/main.c
+179	in ../../Src/main.c
+180	in ../../Src/main.c
+181	in ../../Src/main.c
+182	in ../../Src/main.c
+183	in ../../Src/main.c
+184	in ../../Src/main.c
+185	in ../../Src/main.c
+187	in ../../Src/main.c
+HAL_UART_Init (huart=0x20004088 <UartHandle>) at ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c:245
+245	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c: No such file or directory.
+251	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+264	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+267	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+269	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+HAL_UART_MspInit (huart=0x20004088 <UartHandle>) at ../../Src/stm32f4xx_hal_msp.c:75
+75	../../Src/stm32f4xx_hal_msp.c: No such file or directory.
+76	in ../../Src/stm32f4xx_hal_msp.c
+78	in ../../Src/stm32f4xx_hal_msp.c
+82	in ../../Src/stm32f4xx_hal_msp.c
+83	in ../../Src/stm32f4xx_hal_msp.c
+84	in ../../Src/stm32f4xx_hal_msp.c
+85	in ../../Src/stm32f4xx_hal_msp.c
+86	in ../../Src/stm32f4xx_hal_msp.c
+88	in ../../Src/stm32f4xx_hal_msp.c
+HAL_GPIO_Init (GPIOx=0x40020000, GPIO_Init=0x20003fa8) at ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c:192
+192	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c: No such file or directory.
+193	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+194	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+203	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+206	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+208	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+210	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+303	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+203	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+206	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+208	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+210	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+303	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+203	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+206	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+208	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+210	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+214	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+219	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+220	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+221	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+222	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+223	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+226	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+227	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+228	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+229	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+232	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+238	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+239	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+240	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+241	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+244	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+245	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+246	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+247	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+248	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+251	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+252	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+253	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+254	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+258	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+302	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+303	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+203	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+206	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+208	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+210	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+303	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+203	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+206	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+208	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+210	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+303	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+203	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+206	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+208	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+210	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+303	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+203	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+206	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+208	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+210	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+303	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+203	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+206	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+208	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+210	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+303	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+203	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+206	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+208	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+210	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+303	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+203	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+206	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+208	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+210	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+303	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+203	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+206	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+208	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+210	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+303	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+203	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+206	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+208	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+210	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+303	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+203	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+206	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+208	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+210	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+303	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+203	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+206	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+208	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+210	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+303	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+203	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+206	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+208	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+210	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+303	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+203	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+206	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+208	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+210	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+303	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+203	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+304	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+HAL_UART_MspInit (huart=0x20004088 <UartHandle>) at ../../Src/stm32f4xx_hal_msp.c:91
+91	../../Src/stm32f4xx_hal_msp.c: No such file or directory.
+92	in ../../Src/stm32f4xx_hal_msp.c
+94	in ../../Src/stm32f4xx_hal_msp.c
+HAL_GPIO_Init (GPIOx=0x40020000, GPIO_Init=0x20003fa8) at ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c:192
+192	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c: No such file or directory.
+193	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+194	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+203	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+206	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+208	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+210	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+303	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+203	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+206	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+208	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+210	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+303	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+203	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+206	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+208	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+210	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+303	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+203	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+206	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+208	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+210	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+214	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+219	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+220	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+221	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+222	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+223	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+226	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+227	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+228	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+229	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+232	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+238	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+239	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+240	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+241	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+244	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+245	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+246	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+247	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+248	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+251	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+252	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+253	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+254	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+258	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+302	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+303	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+203	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+206	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+208	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+210	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+303	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+203	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+206	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+208	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+210	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+303	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+203	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+206	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+208	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+210	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+303	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+203	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+206	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+208	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+210	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+303	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+203	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+206	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+208	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+210	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+303	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+203	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+206	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+208	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+210	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+303	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+203	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+206	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+208	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+210	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+303	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+203	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+206	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+208	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+210	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+303	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+203	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+206	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+208	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+210	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+303	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+203	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+206	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+208	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+210	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+303	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+203	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+206	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+208	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+210	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+303	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+203	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+206	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+208	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+210	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+303	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+203	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+304	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+HAL_UART_MspInit (huart=0x20004088 <UartHandle>) at ../../Src/stm32f4xx_hal_msp.c:98
+98	../../Src/stm32f4xx_hal_msp.c: No such file or directory.
+HAL_NVIC_SetPriority (IRQn=USART2_IRQn, PreemptPriority=1, SubPriority=1) at ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c:216
+216	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c: No such file or directory.
+222	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
+NVIC_GetPriorityGrouping () at ../../../Drivers/CMSIS/Include/core_cm4_org.h:1617
+1617	../../../Drivers/CMSIS/Include/core_cm4_org.h: No such file or directory.
+HAL_NVIC_SetPriority (IRQn=USART2_IRQn, PreemptPriority=1, SubPriority=1) at ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c:224
+224	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c: No such file or directory.
+NVIC_EncodePriority (PriorityGroup=3, PreemptPriority=1, SubPriority=1) at ../../../Drivers/CMSIS/Include/core_cm4_org.h:1747
+1747	../../../Drivers/CMSIS/Include/core_cm4_org.h: No such file or directory.
+1751	in ../../../Drivers/CMSIS/Include/core_cm4_org.h
+1752	in ../../../Drivers/CMSIS/Include/core_cm4_org.h
+1755	in ../../../Drivers/CMSIS/Include/core_cm4_org.h
+1756	in ../../../Drivers/CMSIS/Include/core_cm4_org.h
+1755	in ../../../Drivers/CMSIS/Include/core_cm4_org.h
+1754	in ../../../Drivers/CMSIS/Include/core_cm4_org.h
+NVIC_SetPriority (IRQn=USART2_IRQn, priority=1) at ../../../Drivers/CMSIS/Include/core_cm4_org.h:1700
+1700	in ../../../Drivers/CMSIS/Include/core_cm4_org.h
+1706	in ../../../Drivers/CMSIS/Include/core_cm4_org.h
+1708	in ../../../Drivers/CMSIS/Include/core_cm4_org.h
+HAL_NVIC_SetPriority (IRQn=USART2_IRQn, PreemptPriority=1, SubPriority=1) at ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c:225
+225	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c: No such file or directory.
+HAL_UART_MspInit (huart=0x20004088 <UartHandle>) at ../../Src/stm32f4xx_hal_msp.c:99
+99	../../Src/stm32f4xx_hal_msp.c: No such file or directory.
+HAL_NVIC_EnableIRQ (IRQn=USART2_IRQn) at ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c:242
+242	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c: No such file or directory.
+NVIC_EnableIRQ (IRQn=USART2_IRQn) at ../../../Drivers/CMSIS/Include/core_cm4_org.h:1628
+1628	../../../Drivers/CMSIS/Include/core_cm4_org.h: No such file or directory.
+1629	in ../../../Drivers/CMSIS/Include/core_cm4_org.h
+HAL_NVIC_EnableIRQ (IRQn=USART2_IRQn) at ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c:243
+243	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c: No such file or directory.
+HAL_UART_MspInit (huart=0x20004088 <UartHandle>) at ../../Src/stm32f4xx_hal_msp.c:100
+100	../../Src/stm32f4xx_hal_msp.c: No such file or directory.
+HAL_UART_Init (huart=0x20004088 <UartHandle>) at ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c:270
+270	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c: No such file or directory.
+272	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+275	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+278	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+UART_SetConfig (huart=0x20004088 <UartHandle>) at ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c:1868
+1868	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+1877	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+1880	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+1883	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+1886	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+1889	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+1892	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+1900	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+1903	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+1906	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+1909	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+1912	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+1915	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+1918	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+1933	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+1939	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+HAL_RCC_GetPCLK1Freq () at ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c:940
+940	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c: No such file or directory.
+HAL_RCC_GetHCLKFreq () at ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c:928
+928	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+__RBIT (value=7168) at ../../../Drivers/CMSIS/Include/cmsis_armcc_V6.h:880
+880	../../../Drivers/CMSIS/Include/cmsis_armcc_V6.h: No such file or directory.
+893	in ../../../Drivers/CMSIS/Include/cmsis_armcc_V6.h
+HAL_RCC_GetPCLK1Freq () at ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c:940
+940	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c: No such file or directory.
+HAL_RCC_GetPCLK1Freq () at ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c:940
+940	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+HAL_RCC_GetHCLKFreq () at ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c:928
+928	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+__RBIT (value=7168) at ../../../Drivers/CMSIS/Include/cmsis_armcc_V6.h:880
+880	../../../Drivers/CMSIS/Include/cmsis_armcc_V6.h: No such file or directory.
+893	in ../../../Drivers/CMSIS/Include/cmsis_armcc_V6.h
+HAL_RCC_GetPCLK1Freq () at ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c:940
+940	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c: No such file or directory.
+HAL_RCC_GetPCLK1Freq () at ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c:940
+940	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+HAL_RCC_GetHCLKFreq () at ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c:928
+928	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+__RBIT (value=7168) at ../../../Drivers/CMSIS/Include/cmsis_armcc_V6.h:880
+880	../../../Drivers/CMSIS/Include/cmsis_armcc_V6.h: No such file or directory.
+893	in ../../../Drivers/CMSIS/Include/cmsis_armcc_V6.h
+HAL_RCC_GetPCLK1Freq () at ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c:940
+940	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c: No such file or directory.
+HAL_RCC_GetPCLK1Freq () at ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c:940
+940	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+HAL_RCC_GetHCLKFreq () at ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c:928
+928	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+__RBIT (value=7168) at ../../../Drivers/CMSIS/Include/cmsis_armcc_V6.h:880
+880	../../../Drivers/CMSIS/Include/cmsis_armcc_V6.h: No such file or directory.
+893	in ../../../Drivers/CMSIS/Include/cmsis_armcc_V6.h
+HAL_RCC_GetPCLK1Freq () at ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c:940
+940	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c: No such file or directory.
+HAL_RCC_GetPCLK1Freq () at ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c:940
+940	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+HAL_RCC_GetHCLKFreq () at ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c:928
+928	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+__RBIT (value=7168) at ../../../Drivers/CMSIS/Include/cmsis_armcc_V6.h:880
+880	../../../Drivers/CMSIS/Include/cmsis_armcc_V6.h: No such file or directory.
+893	in ../../../Drivers/CMSIS/Include/cmsis_armcc_V6.h
+HAL_RCC_GetPCLK1Freq () at ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c:940
+940	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c: No such file or directory.
+UART_SetConfig (huart=0x20004088 <UartHandle>) at ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c:1942
+1942	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c: No such file or directory.
+HAL_UART_Init (huart=0x20004088 <UartHandle>) at ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c:283
+283	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+284	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+287	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+290	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+291	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+292	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+294	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+295	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+Uart_Init () at ../../Src/main.c:193
+193	../../Src/main.c: No such file or directory.
+main () at ../../Src/main.c:328
+328	in ../../Src/main.c
+Key_Init () at ../../Src/main.c:202
+202	in ../../Src/main.c
+mbedtls_sha256 (input=0x20004000 <pin> "1995\n", ilen=5, output=0x200040ce <key> "", is224=0) at ../../../mbedtls-2.2.1/library/sha256.c:328
+328	../../../mbedtls-2.2.1/library/sha256.c: No such file or directory.
+mbedtls_sha256_init (ctx=0x20003f54) at ../../../mbedtls-2.2.1/library/sha256.c:80
+80	in ../../../mbedtls-2.2.1/library/sha256.c
+81	in ../../../mbedtls-2.2.1/library/sha256.c
+mbedtls_sha256 (input=0x20004000 <pin> "1995\n", ilen=5, output=0x200040ce <key> "", is224=0) at ../../../mbedtls-2.2.1/library/sha256.c:329
+329	in ../../../mbedtls-2.2.1/library/sha256.c
+mbedtls_sha256_starts (ctx=0x20003f54, is224=0) at ../../../mbedtls-2.2.1/library/sha256.c:102
+102	in ../../../mbedtls-2.2.1/library/sha256.c
+103	in ../../../mbedtls-2.2.1/library/sha256.c
+105	in ../../../mbedtls-2.2.1/library/sha256.c
+108	in ../../../mbedtls-2.2.1/library/sha256.c
+109	in ../../../mbedtls-2.2.1/library/sha256.c
+110	in ../../../mbedtls-2.2.1/library/sha256.c
+111	in ../../../mbedtls-2.2.1/library/sha256.c
+112	in ../../../mbedtls-2.2.1/library/sha256.c
+113	in ../../../mbedtls-2.2.1/library/sha256.c
+114	in ../../../mbedtls-2.2.1/library/sha256.c
+115	in ../../../mbedtls-2.2.1/library/sha256.c
+116	in ../../../mbedtls-2.2.1/library/sha256.c
+130	in ../../../mbedtls-2.2.1/library/sha256.c
+131	in ../../../mbedtls-2.2.1/library/sha256.c
+mbedtls_sha256 (input=0x20004000 <pin> "1995\n", ilen=5, output=0x200040ce <key> "", is224=0) at ../../../mbedtls-2.2.1/library/sha256.c:330
+330	in ../../../mbedtls-2.2.1/library/sha256.c
+mbedtls_sha256_update (ctx=0x20003f54, input=0x20004000 <pin> "1995\n", ilen=5) at ../../../mbedtls-2.2.1/library/sha256.c:244
+244	in ../../../mbedtls-2.2.1/library/sha256.c
+247	in ../../../mbedtls-2.2.1/library/sha256.c
+248	in ../../../mbedtls-2.2.1/library/sha256.c
+250	in ../../../mbedtls-2.2.1/library/sha256.c
+251	in ../../../mbedtls-2.2.1/library/sha256.c
+253	in ../../../mbedtls-2.2.1/library/sha256.c
+256	in ../../../mbedtls-2.2.1/library/sha256.c
+265	in ../../../mbedtls-2.2.1/library/sha256.c
+272	in ../../../mbedtls-2.2.1/library/sha256.c
+273	in ../../../mbedtls-2.2.1/library/sha256.c
+274	in ../../../mbedtls-2.2.1/library/sha256.c
+mbedtls_sha256 (input=0x20004000 <pin> "1995\n", ilen=5, output=0x200040ce <key> "", is224=0) at ../../../mbedtls-2.2.1/library/sha256.c:331
+331	in ../../../mbedtls-2.2.1/library/sha256.c
+mbedtls_sha256_finish (ctx=0x20003f54, output=0x200040ce <key> "") at ../../../mbedtls-2.2.1/library/sha256.c:293
+293	in ../../../mbedtls-2.2.1/library/sha256.c
+294	in ../../../mbedtls-2.2.1/library/sha256.c
+293	in ../../../mbedtls-2.2.1/library/sha256.c
+294	in ../../../mbedtls-2.2.1/library/sha256.c
+293	in ../../../mbedtls-2.2.1/library/sha256.c
+295	in ../../../mbedtls-2.2.1/library/sha256.c
+297	in ../../../mbedtls-2.2.1/library/sha256.c
+298	in ../../../mbedtls-2.2.1/library/sha256.c
+300	in ../../../mbedtls-2.2.1/library/sha256.c
+301	in ../../../mbedtls-2.2.1/library/sha256.c
+303	in ../../../mbedtls-2.2.1/library/sha256.c
+mbedtls_sha256_update (ctx=0x20003f54, input=0x8003530 <sha256_padding> "\200", ilen=51) at ../../../mbedtls-2.2.1/library/sha256.c:244
+244	in ../../../mbedtls-2.2.1/library/sha256.c
+247	in ../../../mbedtls-2.2.1/library/sha256.c
+248	in ../../../mbedtls-2.2.1/library/sha256.c
+250	in ../../../mbedtls-2.2.1/library/sha256.c
+251	in ../../../mbedtls-2.2.1/library/sha256.c
+253	in ../../../mbedtls-2.2.1/library/sha256.c
+256	in ../../../mbedtls-2.2.1/library/sha256.c
+265	in ../../../mbedtls-2.2.1/library/sha256.c
+272	in ../../../mbedtls-2.2.1/library/sha256.c
+273	in ../../../mbedtls-2.2.1/library/sha256.c
+274	in ../../../mbedtls-2.2.1/library/sha256.c
+mbedtls_sha256_finish (ctx=0x20003f54, output=0x200040ce <key> "") at ../../../mbedtls-2.2.1/library/sha256.c:304
+304	in ../../../mbedtls-2.2.1/library/sha256.c
+mbedtls_sha256_update (ctx=0x20003f54, input=0x20003f28 "", ilen=8) at ../../../mbedtls-2.2.1/library/sha256.c:244
+244	in ../../../mbedtls-2.2.1/library/sha256.c
+247	in ../../../mbedtls-2.2.1/library/sha256.c
+248	in ../../../mbedtls-2.2.1/library/sha256.c
+250	in ../../../mbedtls-2.2.1/library/sha256.c
+251	in ../../../mbedtls-2.2.1/library/sha256.c
+253	in ../../../mbedtls-2.2.1/library/sha256.c
+256	in ../../../mbedtls-2.2.1/library/sha256.c
+258	in ../../../mbedtls-2.2.1/library/sha256.c
+259	in ../../../mbedtls-2.2.1/library/sha256.c
+mbedtls_sha256_process (ctx=0x20003f54, data=0x20003f7c "1995\n\200") at ../../../mbedtls-2.2.1/library/sha256.c:185
+185	in ../../../mbedtls-2.2.1/library/sha256.c
+186	in ../../../mbedtls-2.2.1/library/sha256.c
+185	in ../../../mbedtls-2.2.1/library/sha256.c
+186	in ../../../mbedtls-2.2.1/library/sha256.c
+185	in ../../../mbedtls-2.2.1/library/sha256.c
+186	in ../../../mbedtls-2.2.1/library/sha256.c
+185	in ../../../mbedtls-2.2.1/library/sha256.c
+186	in ../../../mbedtls-2.2.1/library/sha256.c
+185	in ../../../mbedtls-2.2.1/library/sha256.c
+186	in ../../../mbedtls-2.2.1/library/sha256.c
+185	in ../../../mbedtls-2.2.1/library/sha256.c
+186	in ../../../mbedtls-2.2.1/library/sha256.c
+185	in ../../../mbedtls-2.2.1/library/sha256.c
+186	in ../../../mbedtls-2.2.1/library/sha256.c
+185	in ../../../mbedtls-2.2.1/library/sha256.c
+186	in ../../../mbedtls-2.2.1/library/sha256.c
+185	in ../../../mbedtls-2.2.1/library/sha256.c
+202	in ../../../mbedtls-2.2.1/library/sha256.c
+203	in ../../../mbedtls-2.2.1/library/sha256.c
+202	in ../../../mbedtls-2.2.1/library/sha256.c
+203	in ../../../mbedtls-2.2.1/library/sha256.c
+202	in ../../../mbedtls-2.2.1/library/sha256.c
+203	in ../../../mbedtls-2.2.1/library/sha256.c
+202	in ../../../mbedtls-2.2.1/library/sha256.c
+203	in ../../../mbedtls-2.2.1/library/sha256.c
+202	in ../../../mbedtls-2.2.1/library/sha256.c
+203	in ../../../mbedtls-2.2.1/library/sha256.c
+202	in ../../../mbedtls-2.2.1/library/sha256.c
+203	in ../../../mbedtls-2.2.1/library/sha256.c
+202	in ../../../mbedtls-2.2.1/library/sha256.c
+203	in ../../../mbedtls-2.2.1/library/sha256.c
+202	in ../../../mbedtls-2.2.1/library/sha256.c
+203	in ../../../mbedtls-2.2.1/library/sha256.c
+202	in ../../../mbedtls-2.2.1/library/sha256.c
+203	in ../../../mbedtls-2.2.1/library/sha256.c
+202	in ../../../mbedtls-2.2.1/library/sha256.c
+203	in ../../../mbedtls-2.2.1/library/sha256.c
+202	in ../../../mbedtls-2.2.1/library/sha256.c
+203	in ../../../mbedtls-2.2.1/library/sha256.c
+202	in ../../../mbedtls-2.2.1/library/sha256.c
+203	in ../../../mbedtls-2.2.1/library/sha256.c
+202	in ../../../mbedtls-2.2.1/library/sha256.c
+203	in ../../../mbedtls-2.2.1/library/sha256.c
+202	in ../../../mbedtls-2.2.1/library/sha256.c
+203	in ../../../mbedtls-2.2.1/library/sha256.c
+202	in ../../../mbedtls-2.2.1/library/sha256.c
+203	in ../../../mbedtls-2.2.1/library/sha256.c
+202	in ../../../mbedtls-2.2.1/library/sha256.c
+203	in ../../../mbedtls-2.2.1/library/sha256.c
+202	in ../../../mbedtls-2.2.1/library/sha256.c
+205	in ../../../mbedtls-2.2.1/library/sha256.c
+207	in ../../../mbedtls-2.2.1/library/sha256.c
+208	in ../../../mbedtls-2.2.1/library/sha256.c
+209	in ../../../mbedtls-2.2.1/library/sha256.c
+210	in ../../../mbedtls-2.2.1/library/sha256.c
+211	in ../../../mbedtls-2.2.1/library/sha256.c
+212	in ../../../mbedtls-2.2.1/library/sha256.c
+213	in ../../../mbedtls-2.2.1/library/sha256.c
+214	in ../../../mbedtls-2.2.1/library/sha256.c
+215	in ../../../mbedtls-2.2.1/library/sha256.c
+205	in ../../../mbedtls-2.2.1/library/sha256.c
+207	in ../../../mbedtls-2.2.1/library/sha256.c
+208	in ../../../mbedtls-2.2.1/library/sha256.c
+209	in ../../../mbedtls-2.2.1/library/sha256.c
+210	in ../../../mbedtls-2.2.1/library/sha256.c
+211	in ../../../mbedtls-2.2.1/library/sha256.c
+212	in ../../../mbedtls-2.2.1/library/sha256.c
+213	in ../../../mbedtls-2.2.1/library/sha256.c
+214	in ../../../mbedtls-2.2.1/library/sha256.c
+215	in ../../../mbedtls-2.2.1/library/sha256.c
+205	in ../../../mbedtls-2.2.1/library/sha256.c
+217	in ../../../mbedtls-2.2.1/library/sha256.c
+219	in ../../../mbedtls-2.2.1/library/sha256.c
+220	in ../../../mbedtls-2.2.1/library/sha256.c
+221	in ../../../mbedtls-2.2.1/library/sha256.c
+222	in ../../../mbedtls-2.2.1/library/sha256.c
+223	in ../../../mbedtls-2.2.1/library/sha256.c
+224	in ../../../mbedtls-2.2.1/library/sha256.c
+225	in ../../../mbedtls-2.2.1/library/sha256.c
+226	in ../../../mbedtls-2.2.1/library/sha256.c
+227	in ../../../mbedtls-2.2.1/library/sha256.c
+217	in ../../../mbedtls-2.2.1/library/sha256.c
+219	in ../../../mbedtls-2.2.1/library/sha256.c
+220	in ../../../mbedtls-2.2.1/library/sha256.c
+221	in ../../../mbedtls-2.2.1/library/sha256.c
+222	in ../../../mbedtls-2.2.1/library/sha256.c
+223	in ../../../mbedtls-2.2.1/library/sha256.c
+224	in ../../../mbedtls-2.2.1/library/sha256.c
+225	in ../../../mbedtls-2.2.1/library/sha256.c
+226	in ../../../mbedtls-2.2.1/library/sha256.c
+227	in ../../../mbedtls-2.2.1/library/sha256.c
+217	in ../../../mbedtls-2.2.1/library/sha256.c
+219	in ../../../mbedtls-2.2.1/library/sha256.c
+220	in ../../../mbedtls-2.2.1/library/sha256.c
+221	in ../../../mbedtls-2.2.1/library/sha256.c
+222	in ../../../mbedtls-2.2.1/library/sha256.c
+223	in ../../../mbedtls-2.2.1/library/sha256.c
+224	in ../../../mbedtls-2.2.1/library/sha256.c
+225	in ../../../mbedtls-2.2.1/library/sha256.c
+226	in ../../../mbedtls-2.2.1/library/sha256.c
+227	in ../../../mbedtls-2.2.1/library/sha256.c
+217	in ../../../mbedtls-2.2.1/library/sha256.c
+219	in ../../../mbedtls-2.2.1/library/sha256.c
+220	in ../../../mbedtls-2.2.1/library/sha256.c
+221	in ../../../mbedtls-2.2.1/library/sha256.c
+222	in ../../../mbedtls-2.2.1/library/sha256.c
+223	in ../../../mbedtls-2.2.1/library/sha256.c
+224	in ../../../mbedtls-2.2.1/library/sha256.c
+225	in ../../../mbedtls-2.2.1/library/sha256.c
+226	in ../../../mbedtls-2.2.1/library/sha256.c
+227	in ../../../mbedtls-2.2.1/library/sha256.c
+217	in ../../../mbedtls-2.2.1/library/sha256.c
+219	in ../../../mbedtls-2.2.1/library/sha256.c
+220	in ../../../mbedtls-2.2.1/library/sha256.c
+221	in ../../../mbedtls-2.2.1/library/sha256.c
+222	in ../../../mbedtls-2.2.1/library/sha256.c
+223	in ../../../mbedtls-2.2.1/library/sha256.c
+224	in ../../../mbedtls-2.2.1/library/sha256.c
+225	in ../../../mbedtls-2.2.1/library/sha256.c
+226	in ../../../mbedtls-2.2.1/library/sha256.c
+227	in ../../../mbedtls-2.2.1/library/sha256.c
+217	in ../../../mbedtls-2.2.1/library/sha256.c
+219	in ../../../mbedtls-2.2.1/library/sha256.c
+220	in ../../../mbedtls-2.2.1/library/sha256.c
+221	in ../../../mbedtls-2.2.1/library/sha256.c
+222	in ../../../mbedtls-2.2.1/library/sha256.c
+223	in ../../../mbedtls-2.2.1/library/sha256.c
+224	in ../../../mbedtls-2.2.1/library/sha256.c
+225	in ../../../mbedtls-2.2.1/library/sha256.c
+226	in ../../../mbedtls-2.2.1/library/sha256.c
+227	in ../../../mbedtls-2.2.1/library/sha256.c
+217	in ../../../mbedtls-2.2.1/library/sha256.c
+230	in ../../../mbedtls-2.2.1/library/sha256.c
+231	in ../../../mbedtls-2.2.1/library/sha256.c
+230	in ../../../mbedtls-2.2.1/library/sha256.c
+231	in ../../../mbedtls-2.2.1/library/sha256.c
+230	in ../../../mbedtls-2.2.1/library/sha256.c
+231	in ../../../mbedtls-2.2.1/library/sha256.c
+230	in ../../../mbedtls-2.2.1/library/sha256.c
+231	in ../../../mbedtls-2.2.1/library/sha256.c
+230	in ../../../mbedtls-2.2.1/library/sha256.c
+231	in ../../../mbedtls-2.2.1/library/sha256.c
+230	in ../../../mbedtls-2.2.1/library/sha256.c
+231	in ../../../mbedtls-2.2.1/library/sha256.c
+230	in ../../../mbedtls-2.2.1/library/sha256.c
+231	in ../../../mbedtls-2.2.1/library/sha256.c
+230	in ../../../mbedtls-2.2.1/library/sha256.c
+231	in ../../../mbedtls-2.2.1/library/sha256.c
+230	in ../../../mbedtls-2.2.1/library/sha256.c
+232	in ../../../mbedtls-2.2.1/library/sha256.c
+mbedtls_sha256_update (ctx=0x20003f54, input=0x20003f28 "", ilen=8) at ../../../mbedtls-2.2.1/library/sha256.c:260
+260	in ../../../mbedtls-2.2.1/library/sha256.c
+261	in ../../../mbedtls-2.2.1/library/sha256.c
+262	in ../../../mbedtls-2.2.1/library/sha256.c
+263	in ../../../mbedtls-2.2.1/library/sha256.c
+265	in ../../../mbedtls-2.2.1/library/sha256.c
+272	in ../../../mbedtls-2.2.1/library/sha256.c
+274	in ../../../mbedtls-2.2.1/library/sha256.c
+mbedtls_sha256_finish (ctx=0x20003f54, output=0x200040ce <key> "") at ../../../mbedtls-2.2.1/library/sha256.c:306
+306	in ../../../mbedtls-2.2.1/library/sha256.c
+307	in ../../../mbedtls-2.2.1/library/sha256.c
+308	in ../../../mbedtls-2.2.1/library/sha256.c
+309	in ../../../mbedtls-2.2.1/library/sha256.c
+310	in ../../../mbedtls-2.2.1/library/sha256.c
+311	in ../../../mbedtls-2.2.1/library/sha256.c
+312	in ../../../mbedtls-2.2.1/library/sha256.c
+314	in ../../../mbedtls-2.2.1/library/sha256.c
+315	in ../../../mbedtls-2.2.1/library/sha256.c
+316	in ../../../mbedtls-2.2.1/library/sha256.c
+mbedtls_sha256 (input=0x20004000 <pin> "1995\n", ilen=5, output=0x200040ce <key> "\273\226HΣ\001\210~J\213\302\346\063?\374\260ާ\005\352\377\070Lk0\032\"\336\025\a\212=", is224=0) at ../../../mbedtls-2.2.1/library/sha256.c:332
+332	in ../../../mbedtls-2.2.1/library/sha256.c
+mbedtls_sha256_free (ctx=0x20003f54) at ../../../mbedtls-2.2.1/library/sha256.c:85
+85	in ../../../mbedtls-2.2.1/library/sha256.c
+88	in ../../../mbedtls-2.2.1/library/sha256.c
+mbedtls_zeroize (v=0x20003f54, n=108) at ../../../mbedtls-2.2.1/library/sha256.c:52
+52	in ../../../mbedtls-2.2.1/library/sha256.c
+53	in ../../../mbedtls-2.2.1/library/sha256.c
+mbedtls_sha256_free (ctx=0x20003f54) at ../../../mbedtls-2.2.1/library/sha256.c:89
+89	in ../../../mbedtls-2.2.1/library/sha256.c
+mbedtls_sha256 (input=0x20004000 <pin> "1995\n", ilen=5, output=0x200040ce <key> "\273\226HΣ\001\210~J\213\302\346\063?\374\260ާ\005\352\377\070Lk0\032\"\336\025\a\212=", is224=0) at ../../../mbedtls-2.2.1/library/sha256.c:333
+333	in ../../../mbedtls-2.2.1/library/sha256.c
+Key_Init () at ../../Src/main.c:204
+204	../../Src/main.c: No such file or directory.
+main () at ../../Src/main.c:338
+338	in ../../Src/main.c
+Init_Lock () at ../../Src/main.c:210
+210	in ../../Src/main.c
+print (str=0x20004006 <Init_Lock.locked> "System Intial Locked\n", len=22) at ../../Src/main.c:511
+511	../../Src/main.c: No such file or directory.
+513	in ../../Src/main.c
+HAL_UART_Transmit_IT (huart=0x20004088 <UartHandle>, pData=0x20004006 <Init_Lock.locked> "System Intial Locked\n", Size=22) at ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c:787
+787	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+789	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+792	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+795	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+797	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+798	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+799	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+801	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+802	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+805	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+808	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+810	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+811	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+816	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+print (str=0x20004006 <Init_Lock.locked> "System Intial Locked\n", len=22) at ../../Src/main.c:517
+517	../../Src/main.c: No such file or directory.
+211	in ../../Src/main.c
+do_lock () at ../../Src/main.c:123
+123	in ../../Src/main.c
+BSP_LED_Off (Led=LED4) at ../../../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c:215
+215	../../../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c: No such file or directory.
+HAL_GPIO_WritePin (GPIOx=0x40020c00, GPIO_Pin=4096, PinState=GPIO_PIN_RESET) at ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c:436
+436	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c: No such file or directory.
+442	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+444	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+BSP_LED_Off (Led=LED4) at ../../../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c:216
+216	../../../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c: No such file or directory.
+do_lock () at ../../Src/main.c:124
+124	../../Src/main.c: No such file or directory.
+Init_Lock () at ../../Src/main.c:212
+212	in ../../Src/main.c
+main () at ../../Src/main.c:349
+349	in ../../Src/main.c
+Unlock_Task (one=1, exp=4294967295, ms=4294967293, unlock_count=0x20003fe8, unused=134219467) at ../../Src/main.c:233
+233	in ../../Src/main.c
+234	in ../../Src/main.c
+235	in ../../Src/main.c
+print (str=0x2000401c <Unlock_Task.enter> "Enter Pin:\n", len=12) at ../../Src/main.c:511
+511	../../Src/main.c: No such file or directory.
+513	in ../../Src/main.c
+HAL_UART_Transmit_IT (huart=0x20004088 <UartHandle>, pData=0x2000401c <Unlock_Task.enter> "Enter Pin:\n", Size=12) at ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c:787
+787	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+789	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+792	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+795	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+797	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+798	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+799	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+801	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+802	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+805	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+808	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+810	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+811	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+816	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+print (str=0x2000401c <Unlock_Task.enter> "Enter Pin:\n", len=12) at ../../Src/main.c:517
+517	../../Src/main.c: No such file or directory.
+236	in ../../Src/main.c
+
+rx_from_uart (size=5) at ../../Src/main.c:132
+132	in ../../Src/main.c
+133	in ../../Src/main.c
+136	in ../../Src/main.c
+HAL_UART_Receive_IT (huart=0x20004088 <UartHandle>, pData=PinRxBuffer, Size=5) ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+829 ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+831 ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+837 ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+839 ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+840 ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+841 ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+843 ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+844 ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+847 ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+850 ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+853 ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+856 ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+858 ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+rx_from_uart (size=5) at ../../Src/main.c:141
+141	in ../../Src/main.c
+143	in ../../Src/main.c
+144	in ../../Src/main.c
+
+Unlock_Task (one=1, exp=4294967295, ms=4294967293, unlock_count=0x20003fe8, unused=134219467) at ../../Src/main.c:238
+238	in ../../Src/main.c
+mbedtls_sha256 (input=0x200040c8 <PinRxBuffer> "1234\n", ilen=5, output=0x200040ee <key_in> "", is224=0) at ../../../mbedtls-2.2.1/library/sha256.c:328
+328	../../../mbedtls-2.2.1/library/sha256.c: No such file or directory.
+mbedtls_sha256_init (ctx=0x20003f34) at ../../../mbedtls-2.2.1/library/sha256.c:80
+80	in ../../../mbedtls-2.2.1/library/sha256.c
+81	in ../../../mbedtls-2.2.1/library/sha256.c
+mbedtls_sha256 (input=0x200040c8 <PinRxBuffer> "1234\n", ilen=5, output=0x200040ee <key_in> "", is224=0) at ../../../mbedtls-2.2.1/library/sha256.c:329
+329	in ../../../mbedtls-2.2.1/library/sha256.c
+mbedtls_sha256_starts (ctx=0x20003f34, is224=0) at ../../../mbedtls-2.2.1/library/sha256.c:102
+102	in ../../../mbedtls-2.2.1/library/sha256.c
+103	in ../../../mbedtls-2.2.1/library/sha256.c
+105	in ../../../mbedtls-2.2.1/library/sha256.c
+108	in ../../../mbedtls-2.2.1/library/sha256.c
+109	in ../../../mbedtls-2.2.1/library/sha256.c
+110	in ../../../mbedtls-2.2.1/library/sha256.c
+111	in ../../../mbedtls-2.2.1/library/sha256.c
+112	in ../../../mbedtls-2.2.1/library/sha256.c
+113	in ../../../mbedtls-2.2.1/library/sha256.c
+114	in ../../../mbedtls-2.2.1/library/sha256.c
+115	in ../../../mbedtls-2.2.1/library/sha256.c
+116	in ../../../mbedtls-2.2.1/library/sha256.c
+130	in ../../../mbedtls-2.2.1/library/sha256.c
+131	in ../../../mbedtls-2.2.1/library/sha256.c
+mbedtls_sha256 (input=0x200040c8 <PinRxBuffer> "1234\n", ilen=5, output=0x200040ee <key_in> "", is224=0) at ../../../mbedtls-2.2.1/library/sha256.c:330
+330	in ../../../mbedtls-2.2.1/library/sha256.c
+mbedtls_sha256_update (ctx=0x20003f34, input=0x200040c8 <PinRxBuffer> "1234\n", ilen=5) at ../../../mbedtls-2.2.1/library/sha256.c:244
+244	in ../../../mbedtls-2.2.1/library/sha256.c
+247	in ../../../mbedtls-2.2.1/library/sha256.c
+248	in ../../../mbedtls-2.2.1/library/sha256.c
+250	in ../../../mbedtls-2.2.1/library/sha256.c
+251	in ../../../mbedtls-2.2.1/library/sha256.c
+253	in ../../../mbedtls-2.2.1/library/sha256.c
+256	in ../../../mbedtls-2.2.1/library/sha256.c
+265	in ../../../mbedtls-2.2.1/library/sha256.c
+272	in ../../../mbedtls-2.2.1/library/sha256.c
+273	in ../../../mbedtls-2.2.1/library/sha256.c
+274	in ../../../mbedtls-2.2.1/library/sha256.c
+mbedtls_sha256 (input=0x200040c8 <PinRxBuffer> "1234\n", ilen=5, output=0x200040ee <key_in> "", is224=0) at ../../../mbedtls-2.2.1/library/sha256.c:331
+331	in ../../../mbedtls-2.2.1/library/sha256.c
+mbedtls_sha256_finish (ctx=0x20003f34, output=0x200040ee <key_in> "") at ../../../mbedtls-2.2.1/library/sha256.c:293
+293	in ../../../mbedtls-2.2.1/library/sha256.c
+294	in ../../../mbedtls-2.2.1/library/sha256.c
+293	in ../../../mbedtls-2.2.1/library/sha256.c
+294	in ../../../mbedtls-2.2.1/library/sha256.c
+293	in ../../../mbedtls-2.2.1/library/sha256.c
+295	in ../../../mbedtls-2.2.1/library/sha256.c
+297	in ../../../mbedtls-2.2.1/library/sha256.c
+298	in ../../../mbedtls-2.2.1/library/sha256.c
+300	in ../../../mbedtls-2.2.1/library/sha256.c
+301	in ../../../mbedtls-2.2.1/library/sha256.c
+303	in ../../../mbedtls-2.2.1/library/sha256.c
+mbedtls_sha256_update (ctx=0x20003f34, input=0x8003530 <sha256_padding> "\200", ilen=51) at ../../../mbedtls-2.2.1/library/sha256.c:244
+244	in ../../../mbedtls-2.2.1/library/sha256.c
+247	in ../../../mbedtls-2.2.1/library/sha256.c
+248	in ../../../mbedtls-2.2.1/library/sha256.c
+250	in ../../../mbedtls-2.2.1/library/sha256.c
+251	in ../../../mbedtls-2.2.1/library/sha256.c
+253	in ../../../mbedtls-2.2.1/library/sha256.c
+256	in ../../../mbedtls-2.2.1/library/sha256.c
+265	in ../../../mbedtls-2.2.1/library/sha256.c
+272	in ../../../mbedtls-2.2.1/library/sha256.c
+273	in ../../../mbedtls-2.2.1/library/sha256.c
+274	in ../../../mbedtls-2.2.1/library/sha256.c
+mbedtls_sha256_finish (ctx=0x20003f34, output=0x200040ee <key_in> "") at ../../../mbedtls-2.2.1/library/sha256.c:304
+304	in ../../../mbedtls-2.2.1/library/sha256.c
+mbedtls_sha256_update (ctx=0x20003f34, input=0x20003f08 "", ilen=8) at ../../../mbedtls-2.2.1/library/sha256.c:244
+244	in ../../../mbedtls-2.2.1/library/sha256.c
+247	in ../../../mbedtls-2.2.1/library/sha256.c
+248	in ../../../mbedtls-2.2.1/library/sha256.c
+250	in ../../../mbedtls-2.2.1/library/sha256.c
+251	in ../../../mbedtls-2.2.1/library/sha256.c
+253	in ../../../mbedtls-2.2.1/library/sha256.c
+256	in ../../../mbedtls-2.2.1/library/sha256.c
+258	in ../../../mbedtls-2.2.1/library/sha256.c
+259	in ../../../mbedtls-2.2.1/library/sha256.c
+mbedtls_sha256_process (ctx=0x20003f34, data=0x20003f5c "1234\n\200") at ../../../mbedtls-2.2.1/library/sha256.c:185
+185	in ../../../mbedtls-2.2.1/library/sha256.c
+186	in ../../../mbedtls-2.2.1/library/sha256.c
+185	in ../../../mbedtls-2.2.1/library/sha256.c
+186	in ../../../mbedtls-2.2.1/library/sha256.c
+185	in ../../../mbedtls-2.2.1/library/sha256.c
+186	in ../../../mbedtls-2.2.1/library/sha256.c
+185	in ../../../mbedtls-2.2.1/library/sha256.c
+186	in ../../../mbedtls-2.2.1/library/sha256.c
+185	in ../../../mbedtls-2.2.1/library/sha256.c
+186	in ../../../mbedtls-2.2.1/library/sha256.c
+185	in ../../../mbedtls-2.2.1/library/sha256.c
+186	in ../../../mbedtls-2.2.1/library/sha256.c
+185	in ../../../mbedtls-2.2.1/library/sha256.c
+186	in ../../../mbedtls-2.2.1/library/sha256.c
+185	in ../../../mbedtls-2.2.1/library/sha256.c
+186	in ../../../mbedtls-2.2.1/library/sha256.c
+185	in ../../../mbedtls-2.2.1/library/sha256.c
+202	in ../../../mbedtls-2.2.1/library/sha256.c
+203	in ../../../mbedtls-2.2.1/library/sha256.c
+202	in ../../../mbedtls-2.2.1/library/sha256.c
+203	in ../../../mbedtls-2.2.1/library/sha256.c
+202	in ../../../mbedtls-2.2.1/library/sha256.c
+203	in ../../../mbedtls-2.2.1/library/sha256.c
+202	in ../../../mbedtls-2.2.1/library/sha256.c
+203	in ../../../mbedtls-2.2.1/library/sha256.c
+202	in ../../../mbedtls-2.2.1/library/sha256.c
+203	in ../../../mbedtls-2.2.1/library/sha256.c
+202	in ../../../mbedtls-2.2.1/library/sha256.c
+203	in ../../../mbedtls-2.2.1/library/sha256.c
+202	in ../../../mbedtls-2.2.1/library/sha256.c
+203	in ../../../mbedtls-2.2.1/library/sha256.c
+202	in ../../../mbedtls-2.2.1/library/sha256.c
+203	in ../../../mbedtls-2.2.1/library/sha256.c
+202	in ../../../mbedtls-2.2.1/library/sha256.c
+203	in ../../../mbedtls-2.2.1/library/sha256.c
+202	in ../../../mbedtls-2.2.1/library/sha256.c
+203	in ../../../mbedtls-2.2.1/library/sha256.c
+202	in ../../../mbedtls-2.2.1/library/sha256.c
+203	in ../../../mbedtls-2.2.1/library/sha256.c
+202	in ../../../mbedtls-2.2.1/library/sha256.c
+203	in ../../../mbedtls-2.2.1/library/sha256.c
+202	in ../../../mbedtls-2.2.1/library/sha256.c
+203	in ../../../mbedtls-2.2.1/library/sha256.c
+202	in ../../../mbedtls-2.2.1/library/sha256.c
+203	in ../../../mbedtls-2.2.1/library/sha256.c
+202	in ../../../mbedtls-2.2.1/library/sha256.c
+203	in ../../../mbedtls-2.2.1/library/sha256.c
+202	in ../../../mbedtls-2.2.1/library/sha256.c
+203	in ../../../mbedtls-2.2.1/library/sha256.c
+202	in ../../../mbedtls-2.2.1/library/sha256.c
+205	in ../../../mbedtls-2.2.1/library/sha256.c
+207	in ../../../mbedtls-2.2.1/library/sha256.c
+208	in ../../../mbedtls-2.2.1/library/sha256.c
+209	in ../../../mbedtls-2.2.1/library/sha256.c
+210	in ../../../mbedtls-2.2.1/library/sha256.c
+211	in ../../../mbedtls-2.2.1/library/sha256.c
+212	in ../../../mbedtls-2.2.1/library/sha256.c
+213	in ../../../mbedtls-2.2.1/library/sha256.c
+214	in ../../../mbedtls-2.2.1/library/sha256.c
+215	in ../../../mbedtls-2.2.1/library/sha256.c
+205	in ../../../mbedtls-2.2.1/library/sha256.c
+207	in ../../../mbedtls-2.2.1/library/sha256.c
+208	in ../../../mbedtls-2.2.1/library/sha256.c
+209	in ../../../mbedtls-2.2.1/library/sha256.c
+210	in ../../../mbedtls-2.2.1/library/sha256.c
+211	in ../../../mbedtls-2.2.1/library/sha256.c
+212	in ../../../mbedtls-2.2.1/library/sha256.c
+213	in ../../../mbedtls-2.2.1/library/sha256.c
+214	in ../../../mbedtls-2.2.1/library/sha256.c
+215	in ../../../mbedtls-2.2.1/library/sha256.c
+205	in ../../../mbedtls-2.2.1/library/sha256.c
+217	in ../../../mbedtls-2.2.1/library/sha256.c
+219	in ../../../mbedtls-2.2.1/library/sha256.c
+220	in ../../../mbedtls-2.2.1/library/sha256.c
+221	in ../../../mbedtls-2.2.1/library/sha256.c
+222	in ../../../mbedtls-2.2.1/library/sha256.c
+223	in ../../../mbedtls-2.2.1/library/sha256.c
+224	in ../../../mbedtls-2.2.1/library/sha256.c
+225	in ../../../mbedtls-2.2.1/library/sha256.c
+226	in ../../../mbedtls-2.2.1/library/sha256.c
+227	in ../../../mbedtls-2.2.1/library/sha256.c
+217	in ../../../mbedtls-2.2.1/library/sha256.c
+219	in ../../../mbedtls-2.2.1/library/sha256.c
+220	in ../../../mbedtls-2.2.1/library/sha256.c
+221	in ../../../mbedtls-2.2.1/library/sha256.c
+222	in ../../../mbedtls-2.2.1/library/sha256.c
+223	in ../../../mbedtls-2.2.1/library/sha256.c
+224	in ../../../mbedtls-2.2.1/library/sha256.c
+225	in ../../../mbedtls-2.2.1/library/sha256.c
+226	in ../../../mbedtls-2.2.1/library/sha256.c
+227	in ../../../mbedtls-2.2.1/library/sha256.c
+217	in ../../../mbedtls-2.2.1/library/sha256.c
+219	in ../../../mbedtls-2.2.1/library/sha256.c
+220	in ../../../mbedtls-2.2.1/library/sha256.c
+221	in ../../../mbedtls-2.2.1/library/sha256.c
+222	in ../../../mbedtls-2.2.1/library/sha256.c
+223	in ../../../mbedtls-2.2.1/library/sha256.c
+224	in ../../../mbedtls-2.2.1/library/sha256.c
+225	in ../../../mbedtls-2.2.1/library/sha256.c
+226	in ../../../mbedtls-2.2.1/library/sha256.c
+227	in ../../../mbedtls-2.2.1/library/sha256.c
+217	in ../../../mbedtls-2.2.1/library/sha256.c
+219	in ../../../mbedtls-2.2.1/library/sha256.c
+220	in ../../../mbedtls-2.2.1/library/sha256.c
+221	in ../../../mbedtls-2.2.1/library/sha256.c
+222	in ../../../mbedtls-2.2.1/library/sha256.c
+223	in ../../../mbedtls-2.2.1/library/sha256.c
+224	in ../../../mbedtls-2.2.1/library/sha256.c
+225	in ../../../mbedtls-2.2.1/library/sha256.c
+226	in ../../../mbedtls-2.2.1/library/sha256.c
+227	in ../../../mbedtls-2.2.1/library/sha256.c
+217	in ../../../mbedtls-2.2.1/library/sha256.c
+219	in ../../../mbedtls-2.2.1/library/sha256.c
+220	in ../../../mbedtls-2.2.1/library/sha256.c
+221	in ../../../mbedtls-2.2.1/library/sha256.c
+222	in ../../../mbedtls-2.2.1/library/sha256.c
+223	in ../../../mbedtls-2.2.1/library/sha256.c
+224	in ../../../mbedtls-2.2.1/library/sha256.c
+225	in ../../../mbedtls-2.2.1/library/sha256.c
+226	in ../../../mbedtls-2.2.1/library/sha256.c
+227	in ../../../mbedtls-2.2.1/library/sha256.c
+217	in ../../../mbedtls-2.2.1/library/sha256.c
+219	in ../../../mbedtls-2.2.1/library/sha256.c
+220	in ../../../mbedtls-2.2.1/library/sha256.c
+221	in ../../../mbedtls-2.2.1/library/sha256.c
+222	in ../../../mbedtls-2.2.1/library/sha256.c
+223	in ../../../mbedtls-2.2.1/library/sha256.c
+224	in ../../../mbedtls-2.2.1/library/sha256.c
+225	in ../../../mbedtls-2.2.1/library/sha256.c
+226	in ../../../mbedtls-2.2.1/library/sha256.c
+227	in ../../../mbedtls-2.2.1/library/sha256.c
+217	in ../../../mbedtls-2.2.1/library/sha256.c
+230	in ../../../mbedtls-2.2.1/library/sha256.c
+231	in ../../../mbedtls-2.2.1/library/sha256.c
+230	in ../../../mbedtls-2.2.1/library/sha256.c
+231	in ../../../mbedtls-2.2.1/library/sha256.c
+230	in ../../../mbedtls-2.2.1/library/sha256.c
+231	in ../../../mbedtls-2.2.1/library/sha256.c
+230	in ../../../mbedtls-2.2.1/library/sha256.c
+231	in ../../../mbedtls-2.2.1/library/sha256.c
+230	in ../../../mbedtls-2.2.1/library/sha256.c
+231	in ../../../mbedtls-2.2.1/library/sha256.c
+230	in ../../../mbedtls-2.2.1/library/sha256.c
+231	in ../../../mbedtls-2.2.1/library/sha256.c
+230	in ../../../mbedtls-2.2.1/library/sha256.c
+231	in ../../../mbedtls-2.2.1/library/sha256.c
+230	in ../../../mbedtls-2.2.1/library/sha256.c
+231	in ../../../mbedtls-2.2.1/library/sha256.c
+230	in ../../../mbedtls-2.2.1/library/sha256.c
+232	in ../../../mbedtls-2.2.1/library/sha256.c
+mbedtls_sha256_update (ctx=0x20003f34, input=0x20003f08 "", ilen=8) at ../../../mbedtls-2.2.1/library/sha256.c:260
+260	in ../../../mbedtls-2.2.1/library/sha256.c
+261	in ../../../mbedtls-2.2.1/library/sha256.c
+262	in ../../../mbedtls-2.2.1/library/sha256.c
+263	in ../../../mbedtls-2.2.1/library/sha256.c
+265	in ../../../mbedtls-2.2.1/library/sha256.c
+272	in ../../../mbedtls-2.2.1/library/sha256.c
+274	in ../../../mbedtls-2.2.1/library/sha256.c
+mbedtls_sha256_finish (ctx=0x20003f34, output=0x200040ee <key_in> "") at ../../../mbedtls-2.2.1/library/sha256.c:306
+306	in ../../../mbedtls-2.2.1/library/sha256.c
+307	in ../../../mbedtls-2.2.1/library/sha256.c
+308	in ../../../mbedtls-2.2.1/library/sha256.c
+309	in ../../../mbedtls-2.2.1/library/sha256.c
+310	in ../../../mbedtls-2.2.1/library/sha256.c
+311	in ../../../mbedtls-2.2.1/library/sha256.c
+312	in ../../../mbedtls-2.2.1/library/sha256.c
+314	in ../../../mbedtls-2.2.1/library/sha256.c
+315	in ../../../mbedtls-2.2.1/library/sha256.c
+316	in ../../../mbedtls-2.2.1/library/sha256.c
+mbedtls_sha256 (input=0x200040c8 <PinRxBuffer> "1234\n", ilen=5, output=0x200040ee <key_in> "\250\203\332\374H\rFn\340N\rm\251\206\275x\353\037\335!x\320F\223r=\243\250\371]", <incomplete sequence \364>, is224=0) at ../../../mbedtls-2.2.1/library/sha256.c:332
+332	in ../../../mbedtls-2.2.1/library/sha256.c
+mbedtls_sha256_free (ctx=0x20003f34) at ../../../mbedtls-2.2.1/library/sha256.c:85
+85	in ../../../mbedtls-2.2.1/library/sha256.c
+88	in ../../../mbedtls-2.2.1/library/sha256.c
+mbedtls_zeroize (v=0x20003f34, n=108) at ../../../mbedtls-2.2.1/library/sha256.c:52
+52	in ../../../mbedtls-2.2.1/library/sha256.c
+53	in ../../../mbedtls-2.2.1/library/sha256.c
+mbedtls_sha256_free (ctx=0x20003f34) at ../../../mbedtls-2.2.1/library/sha256.c:89
+89	in ../../../mbedtls-2.2.1/library/sha256.c
+mbedtls_sha256 (input=0x200040c8 <PinRxBuffer> "1234\n", ilen=5, output=0x200040ee <key_in> "\250\203\332\374H\rFn\340N\rm\251\206\275x\353\037\335!x\320F\223r=\243\250\371]", <incomplete sequence \364>, is224=0) at ../../../mbedtls-2.2.1/library/sha256.c:333
+333	in ../../../mbedtls-2.2.1/library/sha256.c
+Unlock_Task (one=1, exp=4294967295, ms=4294967293, unlock_count=0x20003fe8, unused=134219467) at ../../Src/main.c:239
+239	../../Src/main.c: No such file or directory.
+240	in ../../Src/main.c
+242	in ../../Src/main.c
+251	in ../../Src/main.c
+252	in ../../Src/main.c
+print (str=0x20004032 <Unlock_Task.incorrect> "Incorrect Pin\n", len=15) at ../../Src/main.c:511
+511	in ../../Src/main.c
+513	in ../../Src/main.c
+HAL_UART_Transmit_IT (huart=0x20004088 <UartHandle>, pData=0x20004032 <Unlock_Task.incorrect> "Incorrect Pin\n", Size=15) at ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c:787
+787	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c: No such file or directory.
+789	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+795	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+797	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+798	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+799	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+801	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+802	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+805	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+808	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+810	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+816	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+print (str=0x20004032 <Unlock_Task.incorrect> "Incorrect Pin\n", len=15) at ../../Src/main.c:517
+517	../../Src/main.c: No such file or directory.
+253	in ../../Src/main.c
+259	in ../../Src/main.c
+234	in ../../Src/main.c
+235	in ../../Src/main.c
+print (str=0x2000401c <Unlock_Task.enter> "Enter Pin:\n", len=12) at ../../Src/main.c:511
+511	../../Src/main.c: No such file or directory.
+513	in ../../Src/main.c
+HAL_UART_Transmit_IT (huart=0x20004088 <UartHandle>, pData=0x2000401c <Unlock_Task.enter> "Enter Pin:\n", Size=12) at ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c:787
+787	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+789	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+792	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+795	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+797	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+798	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+799	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+801	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+802	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+805	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+808	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+810	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+811	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+816	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+print (str=0x2000401c <Unlock_Task.enter> "Enter Pin:\n", len=12) at ../../Src/main.c:517
+517	../../Src/main.c: No such file or directory.
+236	in ../../Src/main.c
+238	in ../../Src/main.c
+mbedtls_sha256 (input=0x200040c8 <PinRxBuffer> "1995\n", ilen=5, output=0x200040ee <key_in> "\250\203\332\374H\rFn\340N\rm\251\206\275x\353\037\335!x\320F\223r=\243\250\371]", <incomplete sequence \364>, is224=0) at ../../../mbedtls-2.2.1/library/sha256.c:328
+328	../../../mbedtls-2.2.1/library/sha256.c: No such file or directory.
+mbedtls_sha256_init (ctx=0x20003f34) at ../../../mbedtls-2.2.1/library/sha256.c:80
+80	in ../../../mbedtls-2.2.1/library/sha256.c
+81	in ../../../mbedtls-2.2.1/library/sha256.c
+mbedtls_sha256 (input=0x200040c8 <PinRxBuffer> "1995\n", ilen=5, output=0x200040ee <key_in> "\250\203\332\374H\rFn\340N\rm\251\206\275x\353\037\335!x\320F\223r=\243\250\371]", <incomplete sequence \364>, is224=0) at ../../../mbedtls-2.2.1/library/sha256.c:329
+329	in ../../../mbedtls-2.2.1/library/sha256.c
+mbedtls_sha256_starts (ctx=0x20003f34, is224=0) at ../../../mbedtls-2.2.1/library/sha256.c:102
+102	in ../../../mbedtls-2.2.1/library/sha256.c
+103	in ../../../mbedtls-2.2.1/library/sha256.c
+105	in ../../../mbedtls-2.2.1/library/sha256.c
+108	in ../../../mbedtls-2.2.1/library/sha256.c
+109	in ../../../mbedtls-2.2.1/library/sha256.c
+110	in ../../../mbedtls-2.2.1/library/sha256.c
+111	in ../../../mbedtls-2.2.1/library/sha256.c
+112	in ../../../mbedtls-2.2.1/library/sha256.c
+113	in ../../../mbedtls-2.2.1/library/sha256.c
+114	in ../../../mbedtls-2.2.1/library/sha256.c
+115	in ../../../mbedtls-2.2.1/library/sha256.c
+116	in ../../../mbedtls-2.2.1/library/sha256.c
+130	in ../../../mbedtls-2.2.1/library/sha256.c
+131	in ../../../mbedtls-2.2.1/library/sha256.c
+mbedtls_sha256 (input=0x200040c8 <PinRxBuffer> "1995\n", ilen=5, output=0x200040ee <key_in> "\250\203\332\374H\rFn\340N\rm\251\206\275x\353\037\335!x\320F\223r=\243\250\371]", <incomplete sequence \364>, is224=0) at ../../../mbedtls-2.2.1/library/sha256.c:330
+330	in ../../../mbedtls-2.2.1/library/sha256.c
+mbedtls_sha256_update (ctx=0x20003f34, input=0x200040c8 <PinRxBuffer> "1995\n", ilen=5) at ../../../mbedtls-2.2.1/library/sha256.c:244
+244	in ../../../mbedtls-2.2.1/library/sha256.c
+247	in ../../../mbedtls-2.2.1/library/sha256.c
+248	in ../../../mbedtls-2.2.1/library/sha256.c
+250	in ../../../mbedtls-2.2.1/library/sha256.c
+251	in ../../../mbedtls-2.2.1/library/sha256.c
+253	in ../../../mbedtls-2.2.1/library/sha256.c
+256	in ../../../mbedtls-2.2.1/library/sha256.c
+265	in ../../../mbedtls-2.2.1/library/sha256.c
+272	in ../../../mbedtls-2.2.1/library/sha256.c
+273	in ../../../mbedtls-2.2.1/library/sha256.c
+274	in ../../../mbedtls-2.2.1/library/sha256.c
+mbedtls_sha256 (input=0x200040c8 <PinRxBuffer> "1995\n", ilen=5, output=0x200040ee <key_in> "\250\203\332\374H\rFn\340N\rm\251\206\275x\353\037\335!x\320F\223r=\243\250\371]", <incomplete sequence \364>, is224=0) at ../../../mbedtls-2.2.1/library/sha256.c:331
+331	in ../../../mbedtls-2.2.1/library/sha256.c
+mbedtls_sha256_finish (ctx=0x20003f34, output=0x200040ee <key_in> "\250\203\332\374H\rFn\340N\rm\251\206\275x\353\037\335!x\320F\223r=\243\250\371]", <incomplete sequence \364>) at ../../../mbedtls-2.2.1/library/sha256.c:293
+293	in ../../../mbedtls-2.2.1/library/sha256.c
+294	in ../../../mbedtls-2.2.1/library/sha256.c
+293	in ../../../mbedtls-2.2.1/library/sha256.c
+294	in ../../../mbedtls-2.2.1/library/sha256.c
+293	in ../../../mbedtls-2.2.1/library/sha256.c
+295	in ../../../mbedtls-2.2.1/library/sha256.c
+297	in ../../../mbedtls-2.2.1/library/sha256.c
+298	in ../../../mbedtls-2.2.1/library/sha256.c
+300	in ../../../mbedtls-2.2.1/library/sha256.c
+301	in ../../../mbedtls-2.2.1/library/sha256.c
+303	in ../../../mbedtls-2.2.1/library/sha256.c
+mbedtls_sha256_update (ctx=0x20003f34, input=0x8003530 <sha256_padding> "\200", ilen=51) at ../../../mbedtls-2.2.1/library/sha256.c:244
+244	in ../../../mbedtls-2.2.1/library/sha256.c
+247	in ../../../mbedtls-2.2.1/library/sha256.c
+248	in ../../../mbedtls-2.2.1/library/sha256.c
+250	in ../../../mbedtls-2.2.1/library/sha256.c
+251	in ../../../mbedtls-2.2.1/library/sha256.c
+253	in ../../../mbedtls-2.2.1/library/sha256.c
+256	in ../../../mbedtls-2.2.1/library/sha256.c
+265	in ../../../mbedtls-2.2.1/library/sha256.c
+272	in ../../../mbedtls-2.2.1/library/sha256.c
+273	in ../../../mbedtls-2.2.1/library/sha256.c
+274	in ../../../mbedtls-2.2.1/library/sha256.c
+mbedtls_sha256_finish (ctx=0x20003f34, output=0x200040ee <key_in> "\250\203\332\374H\rFn\340N\rm\251\206\275x\353\037\335!x\320F\223r=\243\250\371]", <incomplete sequence \364>) at ../../../mbedtls-2.2.1/library/sha256.c:304
+304	in ../../../mbedtls-2.2.1/library/sha256.c
+mbedtls_sha256_update (ctx=0x20003f34, input=0x20003f08 "", ilen=8) at ../../../mbedtls-2.2.1/library/sha256.c:244
+244	in ../../../mbedtls-2.2.1/library/sha256.c
+247	in ../../../mbedtls-2.2.1/library/sha256.c
+248	in ../../../mbedtls-2.2.1/library/sha256.c
+250	in ../../../mbedtls-2.2.1/library/sha256.c
+251	in ../../../mbedtls-2.2.1/library/sha256.c
+253	in ../../../mbedtls-2.2.1/library/sha256.c
+256	in ../../../mbedtls-2.2.1/library/sha256.c
+258	in ../../../mbedtls-2.2.1/library/sha256.c
+259	in ../../../mbedtls-2.2.1/library/sha256.c
+mbedtls_sha256_process (ctx=0x20003f34, data=0x20003f5c "1995\n\200") at ../../../mbedtls-2.2.1/library/sha256.c:185
+185	in ../../../mbedtls-2.2.1/library/sha256.c
+186	in ../../../mbedtls-2.2.1/library/sha256.c
+185	in ../../../mbedtls-2.2.1/library/sha256.c
+186	in ../../../mbedtls-2.2.1/library/sha256.c
+185	in ../../../mbedtls-2.2.1/library/sha256.c
+186	in ../../../mbedtls-2.2.1/library/sha256.c
+185	in ../../../mbedtls-2.2.1/library/sha256.c
+186	in ../../../mbedtls-2.2.1/library/sha256.c
+185	in ../../../mbedtls-2.2.1/library/sha256.c
+186	in ../../../mbedtls-2.2.1/library/sha256.c
+185	in ../../../mbedtls-2.2.1/library/sha256.c
+186	in ../../../mbedtls-2.2.1/library/sha256.c
+185	in ../../../mbedtls-2.2.1/library/sha256.c
+186	in ../../../mbedtls-2.2.1/library/sha256.c
+185	in ../../../mbedtls-2.2.1/library/sha256.c
+186	in ../../../mbedtls-2.2.1/library/sha256.c
+185	in ../../../mbedtls-2.2.1/library/sha256.c
+202	in ../../../mbedtls-2.2.1/library/sha256.c
+203	in ../../../mbedtls-2.2.1/library/sha256.c
+202	in ../../../mbedtls-2.2.1/library/sha256.c
+203	in ../../../mbedtls-2.2.1/library/sha256.c
+202	in ../../../mbedtls-2.2.1/library/sha256.c
+203	in ../../../mbedtls-2.2.1/library/sha256.c
+202	in ../../../mbedtls-2.2.1/library/sha256.c
+203	in ../../../mbedtls-2.2.1/library/sha256.c
+202	in ../../../mbedtls-2.2.1/library/sha256.c
+203	in ../../../mbedtls-2.2.1/library/sha256.c
+202	in ../../../mbedtls-2.2.1/library/sha256.c
+203	in ../../../mbedtls-2.2.1/library/sha256.c
+202	in ../../../mbedtls-2.2.1/library/sha256.c
+203	in ../../../mbedtls-2.2.1/library/sha256.c
+202	in ../../../mbedtls-2.2.1/library/sha256.c
+203	in ../../../mbedtls-2.2.1/library/sha256.c
+202	in ../../../mbedtls-2.2.1/library/sha256.c
+203	in ../../../mbedtls-2.2.1/library/sha256.c
+202	in ../../../mbedtls-2.2.1/library/sha256.c
+203	in ../../../mbedtls-2.2.1/library/sha256.c
+202	in ../../../mbedtls-2.2.1/library/sha256.c
+203	in ../../../mbedtls-2.2.1/library/sha256.c
+202	in ../../../mbedtls-2.2.1/library/sha256.c
+203	in ../../../mbedtls-2.2.1/library/sha256.c
+202	in ../../../mbedtls-2.2.1/library/sha256.c
+203	in ../../../mbedtls-2.2.1/library/sha256.c
+202	in ../../../mbedtls-2.2.1/library/sha256.c
+203	in ../../../mbedtls-2.2.1/library/sha256.c
+202	in ../../../mbedtls-2.2.1/library/sha256.c
+203	in ../../../mbedtls-2.2.1/library/sha256.c
+202	in ../../../mbedtls-2.2.1/library/sha256.c
+203	in ../../../mbedtls-2.2.1/library/sha256.c
+202	in ../../../mbedtls-2.2.1/library/sha256.c
+205	in ../../../mbedtls-2.2.1/library/sha256.c
+207	in ../../../mbedtls-2.2.1/library/sha256.c
+208	in ../../../mbedtls-2.2.1/library/sha256.c
+209	in ../../../mbedtls-2.2.1/library/sha256.c
+210	in ../../../mbedtls-2.2.1/library/sha256.c
+211	in ../../../mbedtls-2.2.1/library/sha256.c
+212	in ../../../mbedtls-2.2.1/library/sha256.c
+213	in ../../../mbedtls-2.2.1/library/sha256.c
+214	in ../../../mbedtls-2.2.1/library/sha256.c
+215	in ../../../mbedtls-2.2.1/library/sha256.c
+205	in ../../../mbedtls-2.2.1/library/sha256.c
+207	in ../../../mbedtls-2.2.1/library/sha256.c
+208	in ../../../mbedtls-2.2.1/library/sha256.c
+209	in ../../../mbedtls-2.2.1/library/sha256.c
+210	in ../../../mbedtls-2.2.1/library/sha256.c
+211	in ../../../mbedtls-2.2.1/library/sha256.c
+212	in ../../../mbedtls-2.2.1/library/sha256.c
+213	in ../../../mbedtls-2.2.1/library/sha256.c
+214	in ../../../mbedtls-2.2.1/library/sha256.c
+215	in ../../../mbedtls-2.2.1/library/sha256.c
+205	in ../../../mbedtls-2.2.1/library/sha256.c
+217	in ../../../mbedtls-2.2.1/library/sha256.c
+219	in ../../../mbedtls-2.2.1/library/sha256.c
+220	in ../../../mbedtls-2.2.1/library/sha256.c
+221	in ../../../mbedtls-2.2.1/library/sha256.c
+222	in ../../../mbedtls-2.2.1/library/sha256.c
+223	in ../../../mbedtls-2.2.1/library/sha256.c
+224	in ../../../mbedtls-2.2.1/library/sha256.c
+225	in ../../../mbedtls-2.2.1/library/sha256.c
+226	in ../../../mbedtls-2.2.1/library/sha256.c
+227	in ../../../mbedtls-2.2.1/library/sha256.c
+217	in ../../../mbedtls-2.2.1/library/sha256.c
+219	in ../../../mbedtls-2.2.1/library/sha256.c
+220	in ../../../mbedtls-2.2.1/library/sha256.c
+221	in ../../../mbedtls-2.2.1/library/sha256.c
+222	in ../../../mbedtls-2.2.1/library/sha256.c
+223	in ../../../mbedtls-2.2.1/library/sha256.c
+224	in ../../../mbedtls-2.2.1/library/sha256.c
+225	in ../../../mbedtls-2.2.1/library/sha256.c
+226	in ../../../mbedtls-2.2.1/library/sha256.c
+227	in ../../../mbedtls-2.2.1/library/sha256.c
+217	in ../../../mbedtls-2.2.1/library/sha256.c
+219	in ../../../mbedtls-2.2.1/library/sha256.c
+220	in ../../../mbedtls-2.2.1/library/sha256.c
+221	in ../../../mbedtls-2.2.1/library/sha256.c
+222	in ../../../mbedtls-2.2.1/library/sha256.c
+223	in ../../../mbedtls-2.2.1/library/sha256.c
+224	in ../../../mbedtls-2.2.1/library/sha256.c
+225	in ../../../mbedtls-2.2.1/library/sha256.c
+226	in ../../../mbedtls-2.2.1/library/sha256.c
+227	in ../../../mbedtls-2.2.1/library/sha256.c
+217	in ../../../mbedtls-2.2.1/library/sha256.c
+219	in ../../../mbedtls-2.2.1/library/sha256.c
+220	in ../../../mbedtls-2.2.1/library/sha256.c
+221	in ../../../mbedtls-2.2.1/library/sha256.c
+222	in ../../../mbedtls-2.2.1/library/sha256.c
+223	in ../../../mbedtls-2.2.1/library/sha256.c
+224	in ../../../mbedtls-2.2.1/library/sha256.c
+225	in ../../../mbedtls-2.2.1/library/sha256.c
+226	in ../../../mbedtls-2.2.1/library/sha256.c
+227	in ../../../mbedtls-2.2.1/library/sha256.c
+217	in ../../../mbedtls-2.2.1/library/sha256.c
+219	in ../../../mbedtls-2.2.1/library/sha256.c
+220	in ../../../mbedtls-2.2.1/library/sha256.c
+221	in ../../../mbedtls-2.2.1/library/sha256.c
+222	in ../../../mbedtls-2.2.1/library/sha256.c
+223	in ../../../mbedtls-2.2.1/library/sha256.c
+224	in ../../../mbedtls-2.2.1/library/sha256.c
+225	in ../../../mbedtls-2.2.1/library/sha256.c
+226	in ../../../mbedtls-2.2.1/library/sha256.c
+227	in ../../../mbedtls-2.2.1/library/sha256.c
+217	in ../../../mbedtls-2.2.1/library/sha256.c
+219	in ../../../mbedtls-2.2.1/library/sha256.c
+220	in ../../../mbedtls-2.2.1/library/sha256.c
+221	in ../../../mbedtls-2.2.1/library/sha256.c
+222	in ../../../mbedtls-2.2.1/library/sha256.c
+223	in ../../../mbedtls-2.2.1/library/sha256.c
+224	in ../../../mbedtls-2.2.1/library/sha256.c
+225	in ../../../mbedtls-2.2.1/library/sha256.c
+226	in ../../../mbedtls-2.2.1/library/sha256.c
+227	in ../../../mbedtls-2.2.1/library/sha256.c
+217	in ../../../mbedtls-2.2.1/library/sha256.c
+230	in ../../../mbedtls-2.2.1/library/sha256.c
+231	in ../../../mbedtls-2.2.1/library/sha256.c
+230	in ../../../mbedtls-2.2.1/library/sha256.c
+231	in ../../../mbedtls-2.2.1/library/sha256.c
+230	in ../../../mbedtls-2.2.1/library/sha256.c
+231	in ../../../mbedtls-2.2.1/library/sha256.c
+230	in ../../../mbedtls-2.2.1/library/sha256.c
+231	in ../../../mbedtls-2.2.1/library/sha256.c
+230	in ../../../mbedtls-2.2.1/library/sha256.c
+231	in ../../../mbedtls-2.2.1/library/sha256.c
+230	in ../../../mbedtls-2.2.1/library/sha256.c
+231	in ../../../mbedtls-2.2.1/library/sha256.c
+230	in ../../../mbedtls-2.2.1/library/sha256.c
+231	in ../../../mbedtls-2.2.1/library/sha256.c
+230	in ../../../mbedtls-2.2.1/library/sha256.c
+231	in ../../../mbedtls-2.2.1/library/sha256.c
+230	in ../../../mbedtls-2.2.1/library/sha256.c
+232	in ../../../mbedtls-2.2.1/library/sha256.c
+mbedtls_sha256_update (ctx=0x20003f34, input=0x20003f08 "", ilen=8) at ../../../mbedtls-2.2.1/library/sha256.c:260
+260	in ../../../mbedtls-2.2.1/library/sha256.c
+261	in ../../../mbedtls-2.2.1/library/sha256.c
+262	in ../../../mbedtls-2.2.1/library/sha256.c
+263	in ../../../mbedtls-2.2.1/library/sha256.c
+265	in ../../../mbedtls-2.2.1/library/sha256.c
+272	in ../../../mbedtls-2.2.1/library/sha256.c
+274	in ../../../mbedtls-2.2.1/library/sha256.c
+mbedtls_sha256_finish (ctx=0x20003f34, output=0x200040ee <key_in> "\250\203\332\374H\rFn\340N\rm\251\206\275x\353\037\335!x\320F\223r=\243\250\371]", <incomplete sequence \364>) at ../../../mbedtls-2.2.1/library/sha256.c:306
+306	in ../../../mbedtls-2.2.1/library/sha256.c
+307	in ../../../mbedtls-2.2.1/library/sha256.c
+308	in ../../../mbedtls-2.2.1/library/sha256.c
+309	in ../../../mbedtls-2.2.1/library/sha256.c
+310	in ../../../mbedtls-2.2.1/library/sha256.c
+311	in ../../../mbedtls-2.2.1/library/sha256.c
+312	in ../../../mbedtls-2.2.1/library/sha256.c
+314	in ../../../mbedtls-2.2.1/library/sha256.c
+315	in ../../../mbedtls-2.2.1/library/sha256.c
+316	in ../../../mbedtls-2.2.1/library/sha256.c
+mbedtls_sha256 (input=0x200040c8 <PinRxBuffer> "1995\n", ilen=5, output=0x200040ee <key_in> "\273\226HΣ\001\210~J\213\302\346\063?\374\260ާ\005\352\377\070Lk0\032\"\336\025\a\212=", is224=0) at ../../../mbedtls-2.2.1/library/sha256.c:332
+332	in ../../../mbedtls-2.2.1/library/sha256.c
+mbedtls_sha256_free (ctx=0x20003f34) at ../../../mbedtls-2.2.1/library/sha256.c:85
+85	in ../../../mbedtls-2.2.1/library/sha256.c
+88	in ../../../mbedtls-2.2.1/library/sha256.c
+mbedtls_zeroize (v=0x20003f34, n=108) at ../../../mbedtls-2.2.1/library/sha256.c:52
+52	in ../../../mbedtls-2.2.1/library/sha256.c
+53	in ../../../mbedtls-2.2.1/library/sha256.c
+mbedtls_sha256_free (ctx=0x20003f34) at ../../../mbedtls-2.2.1/library/sha256.c:89
+89	in ../../../mbedtls-2.2.1/library/sha256.c
+mbedtls_sha256 (input=0x200040c8 <PinRxBuffer> "1995\n", ilen=5, output=0x200040ee <key_in> "\273\226HΣ\001\210~J\213\302\346\063?\374\260ާ\005\352\377\070Lk0\032\"\336\025\a\212=", is224=0) at ../../../mbedtls-2.2.1/library/sha256.c:333
+333	in ../../../mbedtls-2.2.1/library/sha256.c
+Unlock_Task (one=1, exp=4294967295, ms=4294967293, unlock_count=0x20003fe8, unused=134219467) at ../../Src/main.c:239
+239	../../Src/main.c: No such file or directory.
+240	in ../../Src/main.c
+241	in ../../Src/main.c
+239	in ../../Src/main.c
+240	in ../../Src/main.c
+241	in ../../Src/main.c
+239	in ../../Src/main.c
+240	in ../../Src/main.c
+241	in ../../Src/main.c
+239	in ../../Src/main.c
+240	in ../../Src/main.c
+241	in ../../Src/main.c
+239	in ../../Src/main.c
+240	in ../../Src/main.c
+241	in ../../Src/main.c
+239	in ../../Src/main.c
+240	in ../../Src/main.c
+241	in ../../Src/main.c
+239	in ../../Src/main.c
+240	in ../../Src/main.c
+241	in ../../Src/main.c
+239	in ../../Src/main.c
+240	in ../../Src/main.c
+241	in ../../Src/main.c
+239	in ../../Src/main.c
+240	in ../../Src/main.c
+241	in ../../Src/main.c
+239	in ../../Src/main.c
+240	in ../../Src/main.c
+241	in ../../Src/main.c
+239	in ../../Src/main.c
+240	in ../../Src/main.c
+241	in ../../Src/main.c
+239	in ../../Src/main.c
+240	in ../../Src/main.c
+241	in ../../Src/main.c
+239	in ../../Src/main.c
+240	in ../../Src/main.c
+241	in ../../Src/main.c
+239	in ../../Src/main.c
+240	in ../../Src/main.c
+241	in ../../Src/main.c
+239	in ../../Src/main.c
+240	in ../../Src/main.c
+241	in ../../Src/main.c
+239	in ../../Src/main.c
+240	in ../../Src/main.c
+241	in ../../Src/main.c
+239	in ../../Src/main.c
+240	in ../../Src/main.c
+241	in ../../Src/main.c
+239	in ../../Src/main.c
+240	in ../../Src/main.c
+241	in ../../Src/main.c
+239	in ../../Src/main.c
+240	in ../../Src/main.c
+241	in ../../Src/main.c
+239	in ../../Src/main.c
+240	in ../../Src/main.c
+241	in ../../Src/main.c
+239	in ../../Src/main.c
+240	in ../../Src/main.c
+241	in ../../Src/main.c
+239	in ../../Src/main.c
+240	in ../../Src/main.c
+241	in ../../Src/main.c
+239	in ../../Src/main.c
+240	in ../../Src/main.c
+241	in ../../Src/main.c
+239	in ../../Src/main.c
+240	in ../../Src/main.c
+241	in ../../Src/main.c
+239	in ../../Src/main.c
+240	in ../../Src/main.c
+241	in ../../Src/main.c
+239	in ../../Src/main.c
+240	in ../../Src/main.c
+241	in ../../Src/main.c
+239	in ../../Src/main.c
+240	in ../../Src/main.c
+241	in ../../Src/main.c
+239	in ../../Src/main.c
+240	in ../../Src/main.c
+241	in ../../Src/main.c
+239	in ../../Src/main.c
+240	in ../../Src/main.c
+241	in ../../Src/main.c
+239	in ../../Src/main.c
+240	in ../../Src/main.c
+241	in ../../Src/main.c
+239	in ../../Src/main.c
+240	in ../../Src/main.c
+241	in ../../Src/main.c
+239	in ../../Src/main.c
+240	in ../../Src/main.c
+241	in ../../Src/main.c
+239	in ../../Src/main.c
+242	in ../../Src/main.c
+243	in ../../Src/main.c
+print (str=0x20004028 <Unlock_Task.unlocked> "Unlocked\n", len=10) at ../../Src/main.c:511
+511	in ../../Src/main.c
+513	in ../../Src/main.c
+HAL_UART_Transmit_IT (huart=0x20004088 <UartHandle>, pData=0x20004028 <Unlock_Task.unlocked> "Unlocked\n", Size=10) at ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c:787
+787	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c: No such file or directory.
+789	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+795	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+797	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+798	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+799	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+801	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+802	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+805	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+808	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+810	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+816	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+print (str=0x20004028 <Unlock_Task.unlocked> "Unlocked\n", len=10) at ../../Src/main.c:517
+517	../../Src/main.c: No such file or directory.
+244	in ../../Src/main.c
+248	in ../../Src/main.c
+264	in ../../Src/main.c
+do_unlock () at ../../Src/main.c:128
+128	in ../../Src/main.c
+BSP_LED_On (Led=LED4) at ../../../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c:201
+201	../../../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c: No such file or directory.
+HAL_GPIO_WritePin (GPIOx=0x40020c00, GPIO_Pin=4096, PinState=GPIO_PIN_SET) at ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c:436
+436	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c: No such file or directory.
+438	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+439	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+444	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+BSP_LED_On (Led=LED4) at ../../../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c:202
+202	../../../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c: No such file or directory.
+do_unlock () at ../../Src/main.c:129
+129	../../Src/main.c: No such file or directory.
+Unlock_Task (one=1, exp=4294967295, ms=4294967293, unlock_count=0x20003fe8, unused=134219467) at ../../Src/main.c:265
+265	in ../../Src/main.c
+main () at ../../Src/main.c:360
+360	in ../../Src/main.c
+Lock_Task () at ../../Src/main.c:271
+271	in ../../Src/main.c
+272	in ../../Src/main.c
+
+rx_from_uart (size=2) at ../../Src/main.c:132
+132	in ../../Src/main.c
+133	in ../../Src/main.c
+136	in ../../Src/main.c
+HAL_UART_Receive_IT (huart=0x20004088 <UartHandle>, pData=PinRxBuffer, Size=2) ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+829 ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+831 ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+837 ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+839 ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+840 ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+841 ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+843 ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+844 ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+847 ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+850 ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+853 ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+856 ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+858 ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+rx_from_uart (size=2) at ../../Src/main.c:141
+141	in ../../Src/main.c
+143	in ../../Src/main.c
+144	in ../../Src/main.c
+Lock_Task () at ../../Src/main.c:273
+274	in ../../Src/main.c
+print (str=0x2000405d <Lock_Task.locked> "System Final Locked\n", len=21) at ../../Src/main.c:511
+511	in ../../Src/main.c
+513	in ../../Src/main.c
+HAL_UART_Transmit_IT (huart=0x20004088 <UartHandle>, pData=0x2000405d <Lock_Task.locked> "System Final Locked\n", Size=21) at ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c:787
+787	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c: No such file or directory.
+789	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+795	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+797	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+798	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+799	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+801	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+802	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+805	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+808	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+810	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+816	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+print (str=0x2000405d <Lock_Task.locked> "System Final Locked\n", len=21) at ../../Src/main.c:517
+517	../../Src/main.c: No such file or directory.
+278	in ../../Src/main.c
+281	in ../../Src/main.c
+do_lock () at ../../Src/main.c:122
+122	in ../../Src/main.c
+123	in ../../Src/main.c
+BSP_LED_Off (Led=LED4) at ../../../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c:213
+213	../../../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c: No such file or directory.
+HAL_GPIO_WritePin (GPIOx=0x40020c00, GPIO_Pin=4096, PinState=GPIO_PIN_RESET) at ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c:436
+436	../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c: No such file or directory.
+438	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+440	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+442	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+443	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+444	in ../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+BSP_LED_Off (Led=LED4) at ../../../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c:216
+do_lock () at ../../Src/main.c:124
+124	in ../../Src/main.c
+Lock_Task () at ../../Src/main.c:281
+281	in ../../Src/main.c
+282	in ../../Src/main.c
+283	in ../../Src/main.c
+main () at ../../Src/main.c:368
+368	in ../../Src/main.c
+
+Cannot execute this command while the target is running.
+Use the "interrupt" command to stop the target
+and then try again.

@@ -1,0 +1,61 @@
+{
+	"ETHDMA" : 
+	{
+		"DMARxDscrTab" : 128,
+		"DMATxDscrTab" : 128,
+		"Rx_Buff" : 6096,
+		"Tx_Buff" : 6096
+	},
+	"FRAG_PBUF" : 
+	{
+		"memp_memory_FRAG_PBUF_base" : 360,
+		"memp_tab_FRAG_PBUF" : 4
+	},
+	"MEMHEAP" : 
+	{
+		"lfree" : 4,
+		"ram" : 4,
+		"ram_end" : 4,
+		"ram_heap" : 10260
+	},
+	"PBUF" : 
+	{
+		"memp_memory_PBUF_base" : 160,
+		"memp_tab_PBUF" : 4
+	},
+	"PBUF_POOL" : 
+	{
+		"memp_memory_PBUF_POOL_base" : 6336,
+		"memp_tab_PBUF_POOL" : 4
+	},
+	"REASSDATA" : 
+	{
+		"memp_memory_REASSDATA_base" : 160,
+		"memp_tab_REASSDATA" : 4
+	},
+	"SYS_TIMEOUT" : 
+	{
+		"memp_memory_SYS_TIMEOUT_base" : 160,
+		"memp_tab_SYS_TIMEOUT" : 4
+	},
+	"TCP_PCB" : 
+	{
+		"memp_memory_TCP_PCB_base" : 1480,
+		"memp_tab_TCP_PCB" : 4
+	},
+	"TCP_PCB_LISTEN" : 
+	{
+		"memp_memory_TCP_PCB_LISTEN_base" : 168,
+		"memp_tab_TCP_PCB_LISTEN" : 4
+	},
+	"TCP_SEG" : 
+	{
+		"memp_memory_TCP_SEG_base" : 240,
+		"memp_tab_TCP_SEG" : 4
+	},
+	"UDP_PCB" : 
+	{
+		"memp_memory_UDP_PCB_base" : 192,
+		"memp_tab_UDP_PCB" : 4
+	}
+}

@@ -1,0 +1,1462 @@
+{
+    "ADC_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "AHBPrescTable": {
+        "addr": "0800ab28",
+        "size": "00000010"
+    },
+    "APBPrescTable": {
+        "addr": "0800ab38",
+        "size": "00000008"
+    },
+    "BSP_IO_ConfigPin": {
+        "addr": "080045c0",
+        "size": "0000003a"
+    },
+    "BSP_IO_Init": {
+        "addr": "08004526",
+        "size": "0000009a"
+    },
+    "BSP_IO_ReadPin": {
+        "addr": "0800462e",
+        "size": "00000024"
+    },
+    "BSP_IO_WritePin": {
+        "addr": "080045fa",
+        "size": "00000034"
+    },
+    "BSP_LED_Init": {
+        "addr": "08008aa6",
+        "size": "00000084"
+    },
+    "BSP_LED_On": {
+        "addr": "08008b2a",
+        "size": "0000003a"
+    },
+    "BSP_SD_AbortCallback": {
+        "addr": "080092ec",
+        "size": "00000002"
+    },
+    "BSP_SD_GetCardInfo": {
+        "addr": "080092c2",
+        "size": "0000001a"
+    },
+    "BSP_SD_GetCardState": {
+        "addr": "080092aa",
+        "size": "00000018"
+    },
+    "BSP_SD_Init": {
+        "addr": "08008ea2",
+        "size": "000000be"
+    },
+    "BSP_SD_IsDetected": {
+        "addr": "08008f60",
+        "size": "0000006a"
+    },
+    "BSP_SD_MspInit": {
+        "addr": "08008fca",
+        "size": "00000254"
+    },
+    "BSP_SD_MspInit.dma_rx_handle": {
+        "addr": "200017d0",
+        "size": "00000060"
+    },
+    "BSP_SD_MspInit.dma_tx_handle": {
+        "addr": "20001830",
+        "size": "00000060"
+    },
+    "BSP_SD_ReadBlocks": {
+        "addr": "0800921e",
+        "size": "00000046"
+    },
+    "BSP_SD_ReadCpltCallback": {
+        "addr": "08009310",
+        "size": "00000002"
+    },
+    "BSP_SD_WriteBlocks": {
+        "addr": "08009264",
+        "size": "00000046"
+    },
+    "BSP_SD_WriteCpltCallback": {
+        "addr": "080092fe",
+        "size": "00000002"
+    },
+    "BusFault_Handler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "CAN1_RX0_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "CAN1_RX1_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "CAN1_SCE_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "CAN1_TX_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "CAN2_RX0_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "CAN2_RX1_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "CAN2_SCE_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "CAN2_TX_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "Compare_Data": {
+        "addr": "08000946",
+        "size": "0000002e"
+    },
+    "Create_FAT_FS": {
+        "addr": "080007e4",
+        "size": "00000036"
+    },
+    "DCMI_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "DMA1_Stream0_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "DMA1_Stream1_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "DMA1_Stream2_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "DMA1_Stream3_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "DMA1_Stream4_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "DMA1_Stream5_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "DMA1_Stream6_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "DMA1_Stream7_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "DMA2D_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "DMA2_Stream0_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "DMA2_Stream1_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "DMA2_Stream2_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "DMA2_Stream3_IRQHandler": {
+        "addr": "0800aa54",
+        "size": "00000014"
+    },
+    "DMA2_Stream4_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "DMA2_Stream5_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "DMA2_Stream6_IRQHandler": {
+        "addr": "0800aa68",
+        "size": "00000014"
+    },
+    "DMA2_Stream7_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "DMA_CalcBaseAndBitshift": {
+        "addr": "0800333c",
+        "size": "00000056"
+    },
+    "DMA_CalcBaseAndBitshift.flagBitshiftOffset": {
+        "addr": "0800ab0c",
+        "size": "00000008"
+    },
+    "DMA_CheckFifoParam": {
+        "addr": "08003244",
+        "size": "000000f8"
+    },
+    "DSI_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "DebugMon_Handler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "Default_Handler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "ETH_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "ETH_WKUP_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "EXTI0_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "EXTI15_10_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "EXTI1_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "EXTI2_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "EXTI3_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "EXTI4_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "EXTI9_5_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "Error_Handler": {
+        "addr": "080007ae",
+        "size": "0000000e"
+    },
+    "ExCvt": {
+        "addr": "0800ab40",
+        "size": "00000080"
+    },
+    "FATFS_LinkDriver": {
+        "addr": "0800472c",
+        "size": "00000018"
+    },
+    "FATFS_LinkDriverEx": {
+        "addr": "080046b0",
+        "size": "0000007c"
+    },
+    "FATFS_UnLinkDriver": {
+        "addr": "080047be",
+        "size": "00000014"
+    },
+    "FATFS_UnLinkDriverEx": {
+        "addr": "08004744",
+        "size": "0000007a"
+    },
+    "FLASH_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "FMC_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "FPU_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "FatFs": {
+        "addr": "200016c0",
+        "size": "00000008"
+    },
+    "Files": {
+        "addr": "200016cc",
+        "size": "00000020"
+    },
+    "Fsid": {
+        "addr": "200016c8",
+        "size": "00000002"
+    },
+    "GPIO_PIN": {
+        "addr": "0800abdc",
+        "size": "00000010"
+    },
+    "HAL_DMA_Abort_IT": {
+        "addr": "0800344a",
+        "size": "00000044"
+    },
+    "HAL_DMA_DeInit": {
+        "addr": "08003392",
+        "size": "000000b8"
+    },
+    "HAL_DMA_IRQHandler": {
+        "addr": "0800348e",
+        "size": "00000350"
+    },
+    "HAL_DMA_Init": {
+        "addr": "080030c8",
+        "size": "0000017a"
+    },
+    "HAL_Delay": {
+        "addr": "080079c2",
+        "size": "00000046"
+    },
+    "HAL_GPIO_Init": {
+        "addr": "08009312",
+        "size": "000003fc"
+    },
+    "HAL_GPIO_WritePin": {
+        "addr": "0800970e",
+        "size": "00000034"
+    },
+    "HAL_GetTick": {
+        "addr": "080079b6",
+        "size": "0000000c"
+    },
+    "HAL_I2C_DeInit": {
+        "addr": "08009a06",
+        "size": "00000064"
+    },
+    "HAL_I2C_GetState": {
+        "addr": "0800a8ba",
+        "size": "0000000e"
+    },
+    "HAL_I2C_Init": {
+        "addr": "08009742",
+        "size": "000002bc"
+    },
+    "HAL_I2C_Mem_Read": {
+        "addr": "0800a186",
+        "size": "0000045c"
+    },
+    "HAL_I2C_Mem_Write": {
+        "addr": "08009a72",
+        "size": "0000023a"
+    },
+    "HAL_I2C_MspDeInit": {
+        "addr": "08009a6a",
+        "size": "00000008"
+    },
+    "HAL_I2C_MspInit": {
+        "addr": "080099fe",
+        "size": "00000008"
+    },
+    "HAL_IncTick": {
+        "addr": "0800799c",
+        "size": "0000001a"
+    },
+    "HAL_Init": {
+        "addr": "080078e8",
+        "size": "0000003e"
+    },
+    "HAL_InitTick": {
+        "addr": "08007926",
+        "size": "00000074"
+    },
+    "HAL_MspInit": {
+        "addr": "0800799a",
+        "size": "00000002"
+    },
+    "HAL_NVIC_EnableIRQ": {
+        "addr": "08002f54",
+        "size": "0000001a"
+    },
+    "HAL_NVIC_SetPriority": {
+        "addr": "08002e50",
+        "size": "00000042"
+    },
+    "HAL_NVIC_SetPriorityGrouping": {
+        "addr": "08002e02",
+        "size": "00000012"
+    },
+    "HAL_PWREx_EnableOverDrive": {
+        "addr": "08003008",
+        "size": "000000c0"
+    },
+    "HAL_RCCEx_PeriphCLKConfig": {
+        "addr": "080039ca",
+        "size": "00000524"
+    },
+    "HAL_RCC_ClockConfig": {
+        "addr": "08008726",
+        "size": "00000266"
+    },
+    "HAL_RCC_GetHCLKFreq": {
+        "addr": "08008a76",
+        "size": "0000000c"
+    },
+    "HAL_RCC_GetPCLK1Freq": {
+        "addr": "08008a82",
+        "size": "00000024"
+    },
+    "HAL_RCC_GetSysClockFreq": {
+        "addr": "0800898c",
+        "size": "000000ea"
+    },
+    "HAL_RCC_OscConfig": {
+        "addr": "08003eee",
+        "size": "00000638"
+    },
+    "HAL_SD_AbortCallback": {
+        "addr": "080092dc",
+        "size": "00000010"
+    },
+    "HAL_SD_ConfigWideBusOperation": {
+        "addr": "08001e90",
+        "size": "00000110"
+    },
+    "HAL_SD_ErrorCallback": {
+        "addr": "08001c26",
+        "size": "00000008"
+    },
+    "HAL_SD_GetCardCSD": {
+        "addr": "08000de6",
+        "size": "0000028c"
+    },
+    "HAL_SD_GetCardInfo": {
+        "addr": "08001e44",
+        "size": "0000004c"
+    },
+    "HAL_SD_GetCardState": {
+        "addr": "08001db4",
+        "size": "00000038"
+    },
+    "HAL_SD_IRQHandler": {
+        "addr": "08001858",
+        "size": "00000330"
+    },
+    "HAL_SD_Init": {
+        "addr": "080009b6",
+        "size": "0000006e"
+    },
+    "HAL_SD_InitCard": {
+        "addr": "08000a2c",
+        "size": "000000d4"
+    },
+    "HAL_SD_MspInit": {
+        "addr": "08000a24",
+        "size": "00000008"
+    },
+    "HAL_SD_ReadBlocks": {
+        "addr": "08001072",
+        "size": "00000452"
+    },
+    "HAL_SD_RxCpltCallback": {
+        "addr": "08009300",
+        "size": "00000010"
+    },
+    "HAL_SD_TxCpltCallback": {
+        "addr": "080092ee",
+        "size": "00000010"
+    },
+    "HAL_SD_WriteBlocks": {
+        "addr": "080014c4",
+        "size": "00000394"
+    },
+    "HAL_SYSTICK_Config": {
+        "addr": "08002fa2",
+        "size": "00000012"
+    },
+    "HASH_RNG_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "HardFault_Handler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "I2C1_ER_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "I2C1_EV_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "I2C2_ER_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "I2C2_EV_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "I2C3_ER_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "I2C3_EV_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "I2C_IsAcknowledgeFailed": {
+        "addr": "0800a00c",
+        "size": "00000064"
+    },
+    "I2C_RequestMemoryRead": {
+        "addr": "0800a5e2",
+        "size": "0000020e"
+    },
+    "I2C_RequestMemoryWrite": {
+        "addr": "08009d72",
+        "size": "00000160"
+    },
+    "I2C_WaitOnBTFFlagUntilTimeout": {
+        "addr": "08009f6e",
+        "size": "0000009e"
+    },
+    "I2C_WaitOnFlagUntilTimeout": {
+        "addr": "08009cac",
+        "size": "000000c6"
+    },
+    "I2C_WaitOnMasterAddressFlagUntilTimeout": {
+        "addr": "0800a070",
+        "size": "00000116"
+    },
+    "I2C_WaitOnRXNEFlagUntilTimeout": {
+        "addr": "0800a7f0",
+        "size": "000000ca"
+    },
+    "I2C_WaitOnTXEFlagUntilTimeout": {
+        "addr": "08009ed2",
+        "size": "0000009c"
+    },
+    "I2Cx_Error": {
+        "addr": "08008dce",
+        "size": "00000024"
+    },
+    "I2Cx_Init": {
+        "addr": "08008b6e",
+        "size": "0000005a"
+    },
+    "I2Cx_MspInit": {
+        "addr": "08008bc8",
+        "size": "000000c4"
+    },
+    "I2Cx_Read": {
+        "addr": "08008e18",
+        "size": "00000078"
+    },
+    "I2Cx_Write": {
+        "addr": "08008d64",
+        "size": "0000006a"
+    },
+    "IoDrv": {
+        "addr": "200016ac",
+        "size": "00000004"
+    },
+    "LTDC_ER_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "LTDC_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "Link_Driver": {
+        "addr": "08000788",
+        "size": "00000026"
+    },
+    "MFX_IO_Delay": {
+        "addr": "08008e90",
+        "size": "00000012"
+    },
+    "MFX_IO_ITConfig": {
+        "addr": "08008c8c",
+        "size": "000000a2"
+    },
+    "MFX_IO_ITConfig.MFX_IO_IT_Enabled": {
+        "addr": "20001748",
+        "size": "00000001"
+    },
+    "MFX_IO_Init": {
+        "addr": "08008b64",
+        "size": "0000000a"
+    },
+    "MFX_IO_Read": {
+        "addr": "08008df2",
+        "size": "00000026"
+    },
+    "MFX_IO_Write": {
+        "addr": "08008d2e",
+        "size": "00000036"
+    },
+    "MemManage_Handler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "MyFile": {
+        "addr": "20001470",
+        "size": "00000230"
+    },
+    "NMI_Handler": {
+        "addr": "0800aa42",
+        "size": "00000002"
+    },
+    "NVIC_EncodePriority": {
+        "addr": "08002ea2",
+        "size": "0000006e"
+    },
+    "OTG_FS_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "OTG_FS_WKUP_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "OTG_HS_EP1_IN_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "OTG_HS_EP1_OUT_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "OTG_HS_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "OTG_HS_WKUP_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "Open_File": {
+        "addr": "0800081a",
+        "size": "00000028"
+    },
+    "Open_File_Read": {
+        "addr": "080008bc",
+        "size": "00000028"
+    },
+    "PVD_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "PendSV_Handler": {
+        "addr": "0800aa48",
+        "size": "00000002"
+    },
+    "QUADSPI_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "RCC_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "RTC_Alarm_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "RTC_WKUP_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "Read_File": {
+        "addr": "080008e4",
+        "size": "00000062"
+    },
+    "Register_FS": {
+        "addr": "080007bc",
+        "size": "00000028"
+    },
+    "Reset_Handler": {
+        "addr": "080005f8",
+        "size": "00000034"
+    },
+    "SAI1_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "SDFatFs": {
+        "addr": "20001040",
+        "size": "00000230"
+    },
+    "SDIO_ConfigData": {
+        "addr": "08002392",
+        "size": "00000048"
+    },
+    "SDIO_GetCommandResponse": {
+        "addr": "0800236c",
+        "size": "0000000e"
+    },
+    "SDIO_GetPowerState": {
+        "addr": "0800231a",
+        "size": "00000010"
+    },
+    "SDIO_GetResponse": {
+        "addr": "0800237a",
+        "size": "00000018"
+    },
+    "SDIO_IRQHandler": {
+        "addr": "0800aa7c",
+        "size": "00000012"
+    },
+    "SDIO_Init": {
+        "addr": "08002272",
+        "size": "0000006a"
+    },
+    "SDIO_PowerState_ON": {
+        "addr": "08002300",
+        "size": "0000001a"
+    },
+    "SDIO_ReadFIFO": {
+        "addr": "080022dc",
+        "size": "0000000e"
+    },
+    "SDIO_SendCommand": {
+        "addr": "0800232a",
+        "size": "00000042"
+    },
+    "SDIO_WriteFIFO": {
+        "addr": "080022ea",
+        "size": "00000016"
+    },
+    "SDMMC_CmdAppCommand": {
+        "addr": "080029a2",
+        "size": "00000046"
+    },
+    "SDMMC_CmdAppOperCommand": {
+        "addr": "080029e8",
+        "size": "00000042"
+    },
+    "SDMMC_CmdBlockLength": {
+        "addr": "080023da",
+        "size": "00000046"
+    },
+    "SDMMC_CmdBusWidth": {
+        "addr": "08002abe",
+        "size": "00000046"
+    },
+    "SDMMC_CmdGoIdleState": {
+        "addr": "08002820",
+        "size": "00000032"
+    },
+    "SDMMC_CmdOperCond": {
+        "addr": "080028ae",
+        "size": "0000003a"
+    },
+    "SDMMC_CmdReadMultiBlock": {
+        "addr": "080026b8",
+        "size": "00000046"
+    },
+    "SDMMC_CmdReadSingleBlock": {
+        "addr": "08002672",
+        "size": "00000046"
+    },
+    "SDMMC_CmdSelDesel": {
+        "addr": "080027ce",
+        "size": "00000052"
+    },
+    "SDMMC_CmdSendCID": {
+        "addr": "08002b44",
+        "size": "00000036"
+    },
+    "SDMMC_CmdSendCSD": {
+        "addr": "08002c26",
+        "size": "0000003a"
+    },
+    "SDMMC_CmdSendSCR": {
+        "addr": "08002b04",
+        "size": "00000040"
+    },
+    "SDMMC_CmdSendStatus": {
+        "addr": "08002dbc",
+        "size": "00000046"
+    },
+    "SDMMC_CmdSetRelAdd": {
+        "addr": "08002c60",
+        "size": "00000040"
+    },
+    "SDMMC_CmdStopTransfer": {
+        "addr": "0800278a",
+        "size": "00000044"
+    },
+    "SDMMC_CmdWriteMultiBlock": {
+        "addr": "08002744",
+        "size": "00000046"
+    },
+    "SDMMC_CmdWriteSingleBlock": {
+        "addr": "080026fe",
+        "size": "00000046"
+    },
+    "SDMMC_GetCmdError": {
+        "addr": "08002852",
+        "size": "0000005c"
+    },
+    "SDMMC_GetCmdResp1": {
+        "addr": "08002420",
+        "size": "00000252"
+    },
+    "SDMMC_GetCmdResp2": {
+        "addr": "08002b7a",
+        "size": "000000ac"
+    },
+    "SDMMC_GetCmdResp3": {
+        "addr": "08002a2a",
+        "size": "00000094"
+    },
+    "SDMMC_GetCmdResp6": {
+        "addr": "08002ca0",
+        "size": "0000011c"
+    },
+    "SDMMC_GetCmdResp7": {
+        "addr": "080028e8",
+        "size": "000000ba"
+    },
+    "SDPath": {
+        "addr": "2000103c",
+        "size": "00000004"
+    },
+    "SD_CheckStatus": {
+        "addr": "08003824",
+        "size": "00000044"
+    },
+    "SD_DMARxAbort": {
+        "addr": "08001d46",
+        "size": "0000006e"
+    },
+    "SD_DMATxAbort": {
+        "addr": "08001cd8",
+        "size": "0000006e"
+    },
+    "SD_Driver": {
+        "addr": "0800ab14",
+        "size": "00000014"
+    },
+    "SD_FindSCR": {
+        "addr": "080020e0",
+        "size": "00000192"
+    },
+    "SD_InitCard": {
+        "addr": "08000c4e",
+        "size": "00000198"
+    },
+    "SD_PowerON": {
+        "addr": "08000b00",
+        "size": "0000014e"
+    },
+    "SD_Read_IT": {
+        "addr": "08001b88",
+        "size": "0000009e"
+    },
+    "SD_SendStatus": {
+        "addr": "08001dec",
+        "size": "00000058"
+    },
+    "SD_WideBus_Disable": {
+        "addr": "08002040",
+        "size": "000000a0"
+    },
+    "SD_WideBus_Enable": {
+        "addr": "08001fa0",
+        "size": "000000a0"
+    },
+    "SD_Write_IT": {
+        "addr": "08001c2e",
+        "size": "000000aa"
+    },
+    "SD_initialize": {
+        "addr": "080037de",
+        "size": "00000046"
+    },
+    "SD_ioctl": {
+        "addr": "08003920",
+        "size": "000000aa"
+    },
+    "SD_read": {
+        "addr": "08003882",
+        "size": "0000004e"
+    },
+    "SD_status": {
+        "addr": "08003868",
+        "size": "0000001a"
+    },
+    "SD_write": {
+        "addr": "080038d0",
+        "size": "0000004e"
+    },
+    "SPI1_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "SPI2_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "SPI3_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "SPI4_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "SPI5_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "SPI6_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "SVC_Handler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "Stat": {
+        "addr": "20001000",
+        "size": "00000001"
+    },
+    "SysTick_Config": {
+        "addr": "08002fb4",
+        "size": "00000054"
+    },
+    "SysTick_Handler": {
+        "addr": "0800aa4a",
+        "size": "0000000a"
+    },
+    "SystemClock_Config": {
+        "addr": "0800068a",
+        "size": "000000fe"
+    },
+    "SystemCoreClock": {
+        "addr": "20001004",
+        "size": "00000004"
+    },
+    "SystemInit": {
+        "addr": "08004652",
+        "size": "0000005e"
+    },
+    "System_Init": {
+        "addr": "08000646",
+        "size": "00000044"
+    },
+    "TAMP_STAMP_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "TIM1_BRK_TIM9_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "TIM1_CC_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "TIM1_TRG_COM_TIM11_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "TIM1_UP_TIM10_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "TIM2_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "TIM3_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "TIM4_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "TIM5_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "TIM6_DAC_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "TIM7_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "TIM8_BRK_TIM12_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "TIM8_CC_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "TIM8_TRG_COM_TIM14_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "TIM8_UP_TIM13_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "UART4_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "UART5_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "UART7_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "UART8_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "USART1_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "USART2_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "USART3_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "USART6_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "Unlink_Driver": {
+        "addr": "08000974",
+        "size": "00000012"
+    },
+    "UsageFault_Handler": {
+        "addr": "0800aa44",
+        "size": "00000004"
+    },
+    "UseExtiModeDetection": {
+        "addr": "20001890",
+        "size": "00000001"
+    },
+    "WWDG_IRQHandler": {
+        "addr": "08000644",
+        "size": "00000002"
+    },
+    "Write_to_File": {
+        "addr": "08000842",
+        "size": "0000007a"
+    },
+    "__NVIC_EnableIRQ": {
+        "addr": "08002f6e",
+        "size": "00000034"
+    },
+    "__NVIC_GetPriorityGrouping": {
+        "addr": "08002e92",
+        "size": "00000010"
+    },
+    "__NVIC_SetPriority": {
+        "addr": "08002f10",
+        "size": "00000044"
+    },
+    "__NVIC_SetPriorityGrouping": {
+        "addr": "08002e14",
+        "size": "0000003c"
+    },
+    "__aeabi_idiv0": {
+        "addr": "080005f4",
+        "size": "00000002"
+    },
+    "__aeabi_ldiv0": {
+        "addr": "080005f4",
+        "size": "00000002"
+    },
+    "__aeabi_memcpy": {
+        "addr": "0800aa90",
+        "size": "00000004"
+    },
+    "__aeabi_memcpy4": {
+        "addr": "0800aa90",
+        "size": "00000004"
+    },
+    "__aeabi_memcpy8": {
+        "addr": "0800aa90",
+        "size": "00000004"
+    },
+    "__udivmoddi4": {
+        "addr": "08000318",
+        "size": "000002dc"
+    },
+    "buffer": {
+        "addr": "20001270",
+        "size": "00000200"
+    },
+    "bytesread": {
+        "addr": "200016a8",
+        "size": "00000004"
+    },
+    "byteswritten": {
+        "addr": "200016a0",
+        "size": "00000004"
+    },
+    "check_fs": {
+        "addr": "08004e78",
+        "size": "000000c0"
+    },
+    "chk_chr": {
+        "addr": "080065b2",
+        "size": "00000040"
+    },
+    "chk_lock": {
+        "addr": "0800557a",
+        "size": "00000102"
+    },
+    "clear_lock": {
+        "addr": "0800492e",
+        "size": "00000048"
+    },
+    "clmt_clust": {
+        "addr": "08006912",
+        "size": "0000006a"
+    },
+    "clust2sect": {
+        "addr": "08005baa",
+        "size": "00000036"
+    },
+    "create_chain": {
+        "addr": "080061a2",
+        "size": "0000016a"
+    },
+    "create_name": {
+        "addr": "0800630c",
+        "size": "0000018a"
+    },
+    "dec_lock": {
+        "addr": "08006eca",
+        "size": "00000096"
+    },
+    "dir_alloc": {
+        "addr": "08005dce",
+        "size": "000000aa"
+    },
+    "dir_find": {
+        "addr": "08006496",
+        "size": "000000c4"
+    },
+    "dir_next": {
+        "addr": "08005fdc",
+        "size": "000001c6"
+    },
+    "dir_register": {
+        "addr": "080056c8",
+        "size": "0000006c"
+    },
+    "dir_sdi": {
+        "addr": "08005eb6",
+        "size": "00000126"
+    },
+    "disk": {
+        "addr": "200016b0",
+        "size": "00000010"
+    },
+    "disk_initialize": {
+        "addr": "0800a8fc",
+        "size": "00000056"
+    },
+    "disk_ioctl": {
+        "addr": "0800a9ee",
+        "size": "00000050"
+    },
+    "disk_read": {
+        "addr": "0800a952",
+        "size": "0000004e"
+    },
+    "disk_status": {
+        "addr": "0800a8c8",
+        "size": "00000034"
+    },
+    "disk_write": {
+        "addr": "0800a9a0",
+        "size": "0000004e"
+    },
+    "enq_lock": {
+        "addr": "0800567c",
+        "size": "0000004c"
+    },
+    "f_close": {
+        "addr": "08006e6e",
+        "size": "0000005c"
+    },
+    "f_mkfs": {
+        "addr": "08006f60",
+        "size": "00000988"
+    },
+    "f_mkfs.cst": {
+        "addr": "0800abce",
+        "size": "0000000e"
+    },
+    "f_mkfs.cst32": {
+        "addr": "0800abc0",
+        "size": "0000000e"
+    },
+    "f_mount": {
+        "addr": "080047d2",
+        "size": "000000b0"
+    },
+    "f_open": {
+        "addr": "08005096",
+        "size": "000003da"
+    },
+    "f_read": {
+        "addr": "080065f2",
+        "size": "000002a2"
+    },
+    "f_sync": {
+        "addr": "08006c92",
+        "size": "000000fa"
+    },
+    "f_write": {
+        "addr": "0800697c",
+        "size": "00000316"
+    },
+    "find_volume": {
+        "addr": "08004976",
+        "size": "00000502"
+    },
+    "follow_path": {
+        "addr": "08005470",
+        "size": "0000010a"
+    },
+    "get_fat": {
+        "addr": "08005a6c",
+        "size": "0000013e"
+    },
+    "get_fattime": {
+        "addr": "0800aa3e",
+        "size": "00000004"
+    },
+    "get_ldnumber": {
+        "addr": "08004882",
+        "size": "000000ac"
+    },
+    "heval_I2c": {
+        "addr": "200016f4",
+        "size": "00000054"
+    },
+    "inc_lock": {
+        "addr": "080058e2",
+        "size": "00000160"
+    },
+    "ld_clust": {
+        "addr": "08005778",
+        "size": "00000036"
+    },
+    "ld_dword": {
+        "addr": "08004f38",
+        "size": "00000034"
+    },
+    "ld_word": {
+        "addr": "08004f6c",
+        "size": "00000024"
+    },
+    "main": {
+        "addr": "08000986",
+        "size": "00000030"
+    },
+    "mem_cmp": {
+        "addr": "0800655a",
+        "size": "00000058"
+    },
+    "mem_cpy": {
+        "addr": "08005e78",
+        "size": "0000003e"
+    },
+    "mem_set": {
+        "addr": "08005a42",
+        "size": "0000002a"
+    },
+    "memcpy": {
+        "addr": "080001b4",
+        "size": "00000134"
+    },
+    "mfxstm32l152": {
+        "addr": "200016f0",
+        "size": "00000003"
+    },
+    "mfxstm32l152_DisableITSource": {
+        "addr": "0800860c",
+        "size": "0000004e"
+    },
+    "mfxstm32l152_EnableITSource": {
+        "addr": "0800850a",
+        "size": "0000004c"
+    },
+    "mfxstm32l152_GetInstance": {
+        "addr": "08007a72",
+        "size": "0000005a"
+    },
+    "mfxstm32l152_IO_ClearIT": {
+        "addr": "080086b0",
+        "size": "00000076"
+    },
+    "mfxstm32l152_IO_Config": {
+        "addr": "08007c48",
+        "size": "0000063a"
+    },
+    "mfxstm32l152_IO_DisableIT": {
+        "addr": "080085ee",
+        "size": "0000001e"
+    },
+    "mfxstm32l152_IO_DisablePinIT": {
+        "addr": "08008282",
+        "size": "0000002e"
+    },
+    "mfxstm32l152_IO_EnableIT": {
+        "addr": "0800843c",
+        "size": "00000020"
+    },
+    "mfxstm32l152_IO_EnablePinIT": {
+        "addr": "080084dc",
+        "size": "0000002e"
+    },
+    "mfxstm32l152_IO_ITStatus": {
+        "addr": "0800865a",
+        "size": "00000056"
+    },
+    "mfxstm32l152_IO_InitPin": {
+        "addr": "080082b0",
+        "size": "0000003a"
+    },
+    "mfxstm32l152_IO_ReadPin": {
+        "addr": "08008598",
+        "size": "00000056"
+    },
+    "mfxstm32l152_IO_SetIrqEvtMode": {
+        "addr": "0800845c",
+        "size": "00000040"
+    },
+    "mfxstm32l152_IO_SetIrqTypeMode": {
+        "addr": "0800849c",
+        "size": "00000040"
+    },
+    "mfxstm32l152_IO_Start": {
+        "addr": "08007bde",
+        "size": "00000068"
+    },
+    "mfxstm32l152_IO_WritePin": {
+        "addr": "08008556",
+        "size": "00000042"
+    },
+    "mfxstm32l152_Init": {
+        "addr": "08007a08",
+        "size": "0000006a"
+    },
+    "mfxstm32l152_ReadID": {
+        "addr": "08007b88",
+        "size": "0000002e"
+    },
+    "mfxstm32l152_Reset": {
+        "addr": "08007bb6",
+        "size": "00000028"
+    },
+    "mfxstm32l152_SetIrqOutPinPolarity": {
+        "addr": "08007acc",
+        "size": "0000005e"
+    },
+    "mfxstm32l152_SetIrqOutPinType": {
+        "addr": "08007b2a",
+        "size": "0000005e"
+    },
+    "mfxstm32l152_io_drv": {
+        "addr": "20001010",
+        "size": "0000002c"
+    },
+    "mfxstm32l152_reg24_setPinValue": {
+        "addr": "080082ea",
+        "size": "00000152"
+    },
+    "move_window": {
+        "addr": "08004f90",
+        "size": "0000006a"
+    },
+    "put_fat": {
+        "addr": "08005be0",
+        "size": "000001c0"
+    },
+    "remove_chain": {
+        "addr": "080057e2",
+        "size": "00000100"
+    },
+    "res": {
+        "addr": "200016a4",
+        "size": "00000001"
+    },
+    "st_clust": {
+        "addr": "080057ae",
+        "size": "00000034"
+    },
+    "st_dword": {
+        "addr": "08005734",
+        "size": "00000044"
+    },
+    "st_word": {
+        "addr": "08005da0",
+        "size": "0000002e"
+    },
+    "sync_fs": {
+        "addr": "08006d8c",
+        "size": "000000e2"
+    },
+    "sync_window": {
+        "addr": "08004ffa",
+        "size": "0000009c"
+    },
+    "uSdHandle": {
+        "addr": "2000174c",
+        "size": "00000084"
+    },
+    "uwTick": {
+        "addr": "200016ec",
+        "size": "00000004"
+    },
+    "uwTickFreq": {
+        "addr": "20001008",
+        "size": "00000001"
+    },
+    "uwTickPrio": {
+        "addr": "2000100c",
+        "size": "00000004"
+    },
+    "validate": {
+        "addr": "08006894",
+        "size": "0000007e"
+    }
+}

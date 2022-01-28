@@ -1,0 +1,891 @@
+{
+    "MemoryPool": {},
+    "Operation": {
+        "_Operation_0_": {
+            "Entry": "Lock_Task",
+            "ExternalData": [
+                "UartHandle",
+                "GPIO_PORT",
+                "PinRxBuffer",
+                "UartReady"
+            ],
+            "ExternalDataFields": {
+                "GPIO_PORT": [
+                    0,
+                    3,
+                    4,
+                    7,
+                    8,
+                    11,
+                    12,
+                    15
+                ],
+                "PinRxBuffer": null,
+                "UartHandle": [
+                    0,
+                    3,
+                    32,
+                    35,
+                    40,
+                    43,
+                    48,
+                    51,
+                    52,
+                    55
+                ],
+                "UartReady": null
+            },
+            "ExternalDataSan": {
+                "GPIO_PORT": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "PinRxBuffer": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "UartHandle": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "UartReady": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "InternalData": [],
+            "MPU_Config": {
+                "Addr": [
+                    16,
+                    134217745,
+                    536870930,
+                    537001619,
+                    1073759252,
+                    1073875989,
+                    0,
+                    0
+                ],
+                "Attr": [
+                    302383163,
+                    100794401,
+                    319160347,
+                    319160333,
+                    319094803,
+                    319094803,
+                    0,
+                    0
+                ]
+            },
+            "MemoryHeap": [],
+            "MemoryPool": [],
+            "MemoryPoolNames": [],
+            "Peripheral_Namelist": [
+                "USART2",
+                "GPIOD"
+            ],
+            "Peripherals": [
+                [
+                    1073759232,
+                    3,
+                    "USART2",
+                    1024,
+                    1073759252,
+                    319094803
+                ],
+                [
+                    1073875968,
+                    3,
+                    "GPIOD",
+                    1024,
+                    1073875989,
+                    319094803
+                ]
+            ],
+            "Sanitization": [],
+            "Stack": [],
+            "Whitelist": {
+                "None": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "Whitelist_Namelist": [
+                "None"
+            ]
+        },
+        "_Operation_1_": {
+            "Entry": "Unlock_Task",
+            "ExternalData": [
+                "UartHandle",
+                "key_in",
+                "key",
+                "GPIO_PORT",
+                "pin",
+                "PinRxBuffer",
+                "uwTick",
+                "UartReady"
+            ],
+            "ExternalDataFields": {
+                "GPIO_PORT": [
+                    0,
+                    3,
+                    4,
+                    7,
+                    8,
+                    11,
+                    12,
+                    15
+                ],
+                "PinRxBuffer": null,
+                "UartHandle": [
+                    0,
+                    3,
+                    32,
+                    35,
+                    40,
+                    43,
+                    48,
+                    51,
+                    52,
+                    55
+                ],
+                "UartReady": null,
+                "key": null,
+                "key_in": null,
+                "pin": null,
+                "uwTick": null
+            },
+            "ExternalDataSan": {
+                "GPIO_PORT": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "PinRxBuffer": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "UartHandle": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "UartReady": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "key": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "key_in": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "pin": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "uwTick": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "InternalData": [],
+            "MPU_Config": {
+                "Addr": [
+                    16,
+                    134217745,
+                    536870930,
+                    537001747,
+                    1073759252,
+                    1073875989,
+                    3221225494,
+                    0
+                ],
+                "Attr": [
+                    302383163,
+                    100794401,
+                    319160347,
+                    319160335,
+                    319094803,
+                    319094803,
+                    319094839,
+                    0
+                ]
+            },
+            "MemoryHeap": [],
+            "MemoryPool": [],
+            "MemoryPoolNames": [],
+            "Peripheral_Namelist": [
+                "USART2",
+                "GPIOD",
+                "EXT_DEV"
+            ],
+            "Peripherals": [
+                [
+                    1073759232,
+                    3,
+                    "USART2",
+                    1024,
+                    1073759252,
+                    319094803
+                ],
+                [
+                    1073875968,
+                    3,
+                    "GPIOD",
+                    1024,
+                    1073875989,
+                    319094803
+                ],
+                [
+                    3221225472,
+                    3,
+                    "EXT_DEV",
+                    268435456,
+                    3221225494,
+                    319094839
+                ]
+            ],
+            "Sanitization": [
+                {}
+            ],
+            "Stack": [
+                {
+                    "Count": 1,
+                    "Index": 3,
+                    "Name": "unlock_count",
+                    "Size": 4
+                }
+            ],
+            "Whitelist": {
+                "None": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "Whitelist_Namelist": [
+                "None"
+            ]
+        },
+        "_Operation_2_": {
+            "Entry": "Init_Lock",
+            "ExternalData": [
+                "UartHandle",
+                "GPIO_PORT",
+                "UartReady"
+            ],
+            "ExternalDataFields": {
+                "GPIO_PORT": [
+                    0,
+                    3,
+                    4,
+                    7,
+                    8,
+                    11,
+                    12,
+                    15
+                ],
+                "UartHandle": [
+                    0,
+                    3,
+                    32,
+                    35,
+                    40,
+                    43,
+                    48,
+                    51,
+                    52,
+                    55
+                ],
+                "UartReady": null
+            },
+            "ExternalDataSan": {
+                "GPIO_PORT": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "UartHandle": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "UartReady": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "InternalData": [],
+            "MPU_Config": {
+                "Addr": [
+                    16,
+                    134217745,
+                    536870930,
+                    537001491,
+                    1073759252,
+                    1073875989,
+                    0,
+                    0
+                ],
+                "Attr": [
+                    302383163,
+                    100794401,
+                    319160347,
+                    319160333,
+                    319094803,
+                    319094803,
+                    0,
+                    0
+                ]
+            },
+            "MemoryHeap": [],
+            "MemoryPool": [],
+            "MemoryPoolNames": [],
+            "Peripheral_Namelist": [
+                "USART2",
+                "GPIOD"
+            ],
+            "Peripherals": [
+                [
+                    1073759232,
+                    3,
+                    "USART2",
+                    1024,
+                    1073759252,
+                    319094803
+                ],
+                [
+                    1073875968,
+                    3,
+                    "GPIOD",
+                    1024,
+                    1073875989,
+                    319094803
+                ]
+            ],
+            "Sanitization": [],
+            "Stack": [],
+            "Whitelist": {
+                "None": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "Whitelist_Namelist": []
+        },
+        "_Operation_3_": {
+            "Entry": "Key_Init",
+            "ExternalData": [
+                "key",
+                "key_in",
+                "pin",
+                "PinRxBuffer"
+            ],
+            "ExternalDataFields": {
+                "PinRxBuffer": null,
+                "key": null,
+                "key_in": null,
+                "pin": null
+            },
+            "ExternalDataSan": {
+                "PinRxBuffer": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "key": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "key_in": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "pin": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "InternalData": [],
+            "MPU_Config": {
+                "Addr": [
+                    16,
+                    134217745,
+                    536870930,
+                    537001363,
+                    3221225492,
+                    0,
+                    0,
+                    0
+                ],
+                "Attr": [
+                    302383163,
+                    100794401,
+                    319160347,
+                    319160333,
+                    319094839,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "MemoryHeap": [],
+            "MemoryPool": [],
+            "MemoryPoolNames": [],
+            "Peripheral_Namelist": [
+                "EXT_DEV"
+            ],
+            "Peripherals": [
+                [
+                    3221225472,
+                    3,
+                    "EXT_DEV",
+                    268435456,
+                    3221225492,
+                    319094839
+                ]
+            ],
+            "Sanitization": [],
+            "Stack": [],
+            "Whitelist": {
+                "None": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "Whitelist_Namelist": []
+        },
+        "_Operation_4_": {
+            "Entry": "Uart_Init",
+            "ExternalData": [
+                "UartHandle",
+                "GPIO_PORT",
+                "SystemCoreClock"
+            ],
+            "ExternalDataFields": {
+                "GPIO_PORT": [
+                    0,
+                    3,
+                    4,
+                    7,
+                    8,
+                    11,
+                    12,
+                    15
+                ],
+                "SystemCoreClock": null,
+                "UartHandle": [
+                    0,
+                    3,
+                    32,
+                    35,
+                    40,
+                    43,
+                    48,
+                    51,
+                    52,
+                    55
+                ]
+            },
+            "ExternalDataSan": {
+                "GPIO_PORT": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "SystemCoreClock": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "UartHandle": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "InternalData": [],
+            "MPU_Config": {
+                "Addr": [
+                    16,
+                    134217745,
+                    536870930,
+                    537001235,
+                    1073759252,
+                    1073811477,
+                    1073821718,
+                    1073881111
+                ],
+                "Attr": [
+                    302383163,
+                    100794401,
+                    319160347,
+                    319160333,
+                    319094803,
+                    319094805,
+                    319094805,
+                    319094803
+                ]
+            },
+            "MemoryHeap": [],
+            "MemoryPool": [],
+            "MemoryPoolNames": [],
+            "Peripheral_Namelist": [
+                "USART2",
+                "USART1__USART6",
+                "SYSCFG__EXTI",
+                "GPIOI",
+                "RCC",
+                "GPIOA_H"
+            ],
+            "Peripherals": [
+                [
+                    1073759232,
+                    3,
+                    "USART2",
+                    1024,
+                    1073759252,
+                    319094803
+                ],
+                [
+                    1073811456,
+                    3,
+                    "USART1__USART6",
+                    2048,
+                    1073811477,
+                    319094805
+                ],
+                [
+                    1073821696,
+                    3,
+                    "SYSCFG__EXTI",
+                    2048,
+                    1073821718,
+                    319094805
+                ],
+                [
+                    1073881088,
+                    3,
+                    "GPIOI",
+                    1024,
+                    1073881111,
+                    319094803
+                ],
+                [
+                    1073887232,
+                    3,
+                    "RCC",
+                    1024,
+                    1073887248,
+                    319094803
+                ],
+                [
+                    1073872896,
+                    3,
+                    "GPIOA_H",
+                    8192,
+                    1073872912,
+                    319094809
+                ]
+            ],
+            "Sanitization": [],
+            "Stack": [],
+            "Whitelist": {
+                "SCB": [
+                    3758157056,
+                    144,
+                    3
+                ],
+                "SysTick": [
+                    3758153744,
+                    368,
+                    3
+                ]
+            },
+            "Whitelist_Namelist": [
+                "SysTick",
+                "SCB"
+            ]
+        },
+        "_Operation_5_": {
+            "Entry": "System_Init",
+            "ExternalData": [
+                "GPIO_PORT",
+                "uwTick",
+                "SystemCoreClock"
+            ],
+            "ExternalDataFields": {
+                "GPIO_PORT": [
+                    0,
+                    3,
+                    4,
+                    7,
+                    8,
+                    11,
+                    12,
+                    15
+                ],
+                "SystemCoreClock": null,
+                "uwTick": null
+            },
+            "ExternalDataSan": {
+                "GPIO_PORT": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "SystemCoreClock": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "uwTick": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "InternalData": [],
+            "MPU_Config": {
+                "Addr": [
+                    16,
+                    134217745,
+                    536870930,
+                    537001203,
+                    1073770516,
+                    1073821717,
+                    1073881110,
+                    1073887255
+                ],
+                "Attr": [
+                    302383163,
+                    100794401,
+                    319160347,
+                    319160329,
+                    319094803,
+                    319094805,
+                    319094803,
+                    319094805
+                ]
+            },
+            "MemoryHeap": [],
+            "MemoryPool": [],
+            "MemoryPoolNames": [],
+            "Peripheral_Namelist": [
+                "PWR",
+                "SYSCFG__EXTI",
+                "GPIOI",
+                "RCC__FLASH-Inte",
+                "RCC_bit_band",
+                "GPIOA_H"
+            ],
+            "Peripherals": [
+                [
+                    1073770496,
+                    3,
+                    "PWR",
+                    1024,
+                    1073770516,
+                    319094803
+                ],
+                [
+                    1073821696,
+                    3,
+                    "SYSCFG__EXTI",
+                    2048,
+                    1073821717,
+                    319094805
+                ],
+                [
+                    1073881088,
+                    3,
+                    "GPIOI",
+                    1024,
+                    1073881110,
+                    319094803
+                ],
+                [
+                    1073887232,
+                    3,
+                    "RCC__FLASH-Inte",
+                    2048,
+                    1073887255,
+                    319094805
+                ],
+                [
+                    1111949312,
+                    3,
+                    "RCC_bit_band",
+                    65536,
+                    1111949328,
+                    319094815
+                ],
+                [
+                    1073872896,
+                    3,
+                    "GPIOA_H",
+                    8192,
+                    1073872912,
+                    319094809
+                ]
+            ],
+            "Sanitization": [],
+            "Stack": [],
+            "Whitelist": {
+                "SCB": [
+                    3758157056,
+                    144,
+                    3
+                ],
+                "SysTick": [
+                    3758153744,
+                    368,
+                    3
+                ]
+            },
+            "Whitelist_Namelist": [
+                "SysTick",
+                "SCB"
+            ]
+        },
+        "_default_": {
+            "Entry": "main",
+            "ExternalData": [],
+            "ExternalDataFields": {},
+            "ExternalDataSan": {},
+            "InternalData": [],
+            "MPU_Config": {
+                "Addr": [
+                    16,
+                    134217745,
+                    536870930,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "Attr": [
+                    302383163,
+                    100794401,
+                    319160347,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "MemoryHeap": [],
+            "MemoryPool": [],
+            "MemoryPoolNames": [],
+            "Peripheral_Namelist": [
+                "NONE"
+            ],
+            "Peripherals": [
+                [
+                    0,
+                    3,
+                    "0",
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "Sanitization": [],
+            "Stack": [],
+            "Whitelist": {
+                "None": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "Whitelist_Namelist": [
+                "None"
+            ]
+        }
+    },
+    "OperationDataSectionInfo": [
+        [
+            537001728,
+            256,
+            1
+        ],
+        [
+            537001600,
+            128,
+            0
+        ],
+        [
+            537001472,
+            128,
+            2
+        ],
+        [
+            537001344,
+            128,
+            3
+        ],
+        [
+            537001216,
+            128,
+            4
+        ],
+        [
+            537001184,
+            32,
+            5
+        ],
+        [
+            0,
+            0,
+            68
+        ]
+    ]
+}

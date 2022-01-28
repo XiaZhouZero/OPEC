@@ -1,0 +1,99 @@
+--- svf_patch/PointerAnalysis.cpp	2021-01-26 14:29:27.615507941 +0000
++++ svf_patch/PointerAnalysis_orig.cpp	2021-01-26 07:42:47.173789124 +0000
+@@ -269,10 +269,8 @@
+         pag->dump("pag_final");
+ 
+     // dump ICFG
+-    if (DumpICFG) {
+-    	pag->getICFG()->updateCallGraph(ptaCallGraph);
++    if (DumpICFG)
+     	pag->getICFG()->dump("icfg_final");
+-    }
+ 
+     if (!DumpPAGFunctions.empty()) ExternalPAG::dumpFunctions(DumpPAGFunctions);
+ 
+@@ -295,10 +293,8 @@
+ 
+     getPTACallGraph()->verifyCallGraph();
+ 
+-	if (CallGraphDotGraph) {
+-        getPTACallGraph()->verifyCallGraph();
++	if (CallGraphDotGraph)
+ 		getPTACallGraph()->dump("callgraph_final");
+-    }
+ 
+     // FSTBHC has its own TBHC-specific test validation.
+     if(!pag->isBuiltFromFile() && alias_validation
+@@ -368,60 +364,19 @@
+ 			outs() << "Source Loc: " << getSourceLoc(node->getValue());
+ 		}
+ 	}
+-    outs() << "\nPtr " << node->getId() << "(";
+-    if(const Function *func = node->getFunction()) {
+-        outs() << func->getName();
+-    }
+-    outs() << ")";
+-
++    outs() << "\nPtr " << node->getId() << " ";
+ 
+     if (pts.empty())
+     {
+-        outs() << "\t\tPointsTo: {empty}\n";
++        outs() << "\t\tPointsTo: {empty}\n\n";
+     }
+     else
+     {
+         outs() << "\t\tPointsTo: { ";
+         for (PointsTo::iterator it = pts.begin(), eit = pts.end(); it != eit;
+                 ++it)
+-        {
+-            PAGNode* _node = pag->getPAGNode(*it);
+-            std::string _node_kind;
+-            switch (_node->getNodeKind())
+-            {
+-            case 0:
+-                _node_kind = "ValNode";
+-                break;
+-            case 1:
+-                _node_kind = "ObjNode";
+-                break;
+-            case 2:
+-                _node_kind = "RetNode";
+-                break;
+-            case 3:
+-                _node_kind = "VarargNode";
+-                break;
+-            case 4:
+-                _node_kind = "GepValNode";
+-                break;
+-            case 5:
+-                _node_kind = "GepObjNode";
+-                break;
+-            case 6:
+-                _node_kind = "FIObjNode";
+-                break;
+-            case 7:
+-                _node_kind = "DummyValNode";
+-                break;
+-            case 8:
+-                _node_kind = "DummyObjNode";
+-                break;
+-            default:
+-                break;
+-            }
+-            outs() << *it << "(" << _node_kind << ") ";
+-        }
+-        outs() << "}\n";
++            outs() << *it << " ";
++        outs() << "}\n\n";
+     }
+ 
+     outs() << "";
+@@ -448,7 +403,6 @@
+ 			}
+ 		}
+     }
+-    outs() << "\n";
+ }
+ 
+ /*!

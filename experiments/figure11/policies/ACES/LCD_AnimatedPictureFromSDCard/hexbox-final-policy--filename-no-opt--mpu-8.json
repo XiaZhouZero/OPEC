@@ -1,0 +1,1883 @@
+{
+    "Compartments": {
+        ".CODE_REGION_0_": {
+            "Data": [],
+            "Peripherals": [
+                {
+                    "Addr": 1109753856,
+                    "Size": 12
+                }
+            ],
+            "Priv": false
+        },
+        ".CODE_REGION_10_": {
+            "Data": [],
+            "Peripherals": [
+                {
+                    "Addr": 1073887232,
+                    "Size": 10
+                },
+                {
+                    "Addr": 1111949312,
+                    "Size": 16
+                },
+                {
+                    "Addr": 1073770496,
+                    "Size": 10
+                }
+            ],
+            "Priv": false
+        },
+        ".CODE_REGION_11_": {
+            "Data": [
+                ".DATA_REGION_14_"
+            ],
+            "Peripherals": [],
+            "Priv": false
+        },
+        ".CODE_REGION_12_": {
+            "Data": [],
+            "Peripherals": [
+                {
+                    "Addr": 1073917952,
+                    "Size": 12
+                }
+            ],
+            "Priv": false
+        },
+        ".CODE_REGION_13_": {
+            "Data": [
+                ".DATA_REGION_7_"
+            ],
+            "Peripherals": [
+                {
+                    "Addr": 1073898496,
+                    "Size": 10
+                },
+                {
+                    "Addr": 1073872896,
+                    "Size": 14
+                },
+                {
+                    "Addr": 2684354560,
+                    "Size": 12
+                }
+            ],
+            "Priv": false
+        },
+        ".CODE_REGION_14_": {
+            "Data": [],
+            "Peripherals": [],
+            "Priv": false
+        },
+        ".CODE_REGION_15_": {
+            "Data": [
+                ".DATA_REGION_3_"
+            ],
+            "Peripherals": [
+                {
+                    "Addr": 1073818624,
+                    "Size": 10
+                },
+                {
+                    "Addr": 1073872896,
+                    "Size": 15
+                }
+            ],
+            "Priv": false
+        },
+        ".CODE_REGION_16_": {
+            "Data": [
+                ".DATA_REGION_9_"
+            ],
+            "Peripherals": [
+                {
+                    "Addr": 1073887232,
+                    "Size": 10
+                },
+                {
+                    "Addr": 1073831936,
+                    "Size": 13
+                },
+                {
+                    "Addr": 1073770496,
+                    "Size": 10
+                }
+            ],
+            "Priv": false
+        },
+        ".CODE_REGION_17_": {
+            "Data": [
+                ".DATA_REGION_5_"
+            ],
+            "Peripherals": [],
+            "Priv": false
+        },
+        ".CODE_REGION_18_": {
+            "Data": [],
+            "Peripherals": [
+                {
+                    "Addr": 3758096384,
+                    "Size": 20
+                },
+                {
+                    "Addr": 1073887232,
+                    "Size": 10
+                }
+            ],
+            "Priv": true
+        },
+        ".CODE_REGION_19_": {
+            "Data": [],
+            "Peripherals": [
+                {
+                    "Addr": 1073818624,
+                    "Size": 10
+                }
+            ],
+            "Priv": false
+        },
+        ".CODE_REGION_1_": {
+            "Data": [],
+            "Peripherals": [],
+            "Priv": false
+        },
+        ".CODE_REGION_20_": {
+            "Data": [],
+            "Peripherals": [
+                {
+                    "Addr": 1073887232,
+                    "Size": 10
+                },
+                {
+                    "Addr": 1073770496,
+                    "Size": 10
+                }
+            ],
+            "Priv": false
+        },
+        ".CODE_REGION_21_": {
+            "Data": [],
+            "Peripherals": [
+                {
+                    "Addr": 1073833984,
+                    "Size": 10
+                }
+            ],
+            "Priv": false
+        },
+        ".CODE_REGION_22_": {
+            "Data": [],
+            "Peripherals": [],
+            "Priv": false
+        },
+        ".CODE_REGION_23_": {
+            "Data": [
+                ".DATA_REGION_11_"
+            ],
+            "Peripherals": [
+                {
+                    "Addr": 1073873920,
+                    "Size": 10
+                },
+                {
+                    "Addr": 1073881088,
+                    "Size": 13
+                },
+                {
+                    "Addr": 1073763328,
+                    "Size": 10
+                }
+            ],
+            "Priv": false
+        },
+        ".CODE_REGION_24_": {
+            "Data": [],
+            "Peripherals": [
+                {
+                    "Addr": 3758096384,
+                    "Size": 20
+                }
+            ],
+            "Priv": true
+        },
+        ".CODE_REGION_25_": {
+            "Data": [
+                ".DATA_REGION_6_",
+                ".DATA_REGION_12_"
+            ],
+            "Peripherals": [
+                {
+                    "Addr": 1073888256,
+                    "Size": 10
+                }
+            ],
+            "Priv": false
+        },
+        ".CODE_REGION_26_": {
+            "Data": [
+                ".DATA_REGION_14_",
+                ".DATA_REGION_15_"
+            ],
+            "Peripherals": [],
+            "Priv": false
+        },
+        ".CODE_REGION_27_": {
+            "Data": [],
+            "Peripherals": [
+                {
+                    "Addr": 1073821696,
+                    "Size": 11
+                },
+                {
+                    "Addr": 1073887232,
+                    "Size": 10
+                },
+                {
+                    "Addr": 1073872896,
+                    "Size": 13
+                },
+                {
+                    "Addr": 1073881088,
+                    "Size": 12
+                }
+            ],
+            "Priv": false
+        },
+        ".CODE_REGION_28_": {
+            "Data": [],
+            "Peripherals": [],
+            "Priv": false
+        },
+        ".CODE_REGION_29_": {
+            "Data": [
+                ".DATA_REGION_16_"
+            ],
+            "Peripherals": [],
+            "Priv": false
+        },
+        ".CODE_REGION_2_": {
+            "Data": [
+                ".DATA_REGION_5_"
+            ],
+            "Peripherals": [],
+            "Priv": false
+        },
+        ".CODE_REGION_30_": {
+            "Data": [
+                ".DATA_REGION_1_",
+                ".DATA_REGION_12_"
+            ],
+            "Peripherals": [
+                {
+                    "Addr": 1073898496,
+                    "Size": 10
+                },
+                {
+                    "Addr": 1073897472,
+                    "Size": 10
+                }
+            ],
+            "Priv": false
+        },
+        ".CODE_REGION_31_": {
+            "Data": [
+                ".DATA_REGION_18_"
+            ],
+            "Peripherals": [],
+            "Priv": false
+        },
+        ".CODE_REGION_3_": {
+            "Data": [
+                ".DATA_REGION_9_"
+            ],
+            "Peripherals": [
+                {
+                    "Addr": 1073887232,
+                    "Size": 10
+                },
+                {
+                    "Addr": 1073917952,
+                    "Size": 12
+                },
+                {
+                    "Addr": 1073883136,
+                    "Size": 10
+                }
+            ],
+            "Priv": false
+        },
+        ".CODE_REGION_4_": {
+            "Data": [],
+            "Peripherals": [
+                {
+                    "Addr": 1073764352,
+                    "Size": 11
+                },
+                {
+                    "Addr": 1073763328,
+                    "Size": 10
+                }
+            ],
+            "Priv": false
+        },
+        ".CODE_REGION_5_": {
+            "Data": [
+                ".DATA_REGION_4_"
+            ],
+            "Peripherals": [],
+            "Priv": false
+        },
+        ".CODE_REGION_6_": {
+            "Data": [
+                ".DATA_REGION_9_"
+            ],
+            "Peripherals": [],
+            "Priv": false
+        },
+        ".CODE_REGION_7_": {
+            "Data": [
+                ".DATA_REGION_12_",
+                ".DATA_REGION_10_"
+            ],
+            "Peripherals": [
+                {
+                    "Addr": 1073887232,
+                    "Size": 10
+                },
+                {
+                    "Addr": 1073888256,
+                    "Size": 10
+                }
+            ],
+            "Priv": false
+        },
+        ".CODE_REGION_8_": {
+            "Data": [],
+            "Peripherals": [
+                {
+                    "Addr": 2684354560,
+                    "Size": 12
+                }
+            ],
+            "Priv": false
+        },
+        ".CODE_REGION_9_": {
+            "Data": [
+                ".DATA_REGION_13_"
+            ],
+            "Peripherals": [],
+            "Priv": false
+        },
+        ".IRQ_CODE_REGION": {
+            "Data": [
+                ".DATA_REGION_8_"
+            ],
+            "Peripherals": [
+                {
+                    "Addr": 3758096384,
+                    "Size": 20
+                }
+            ],
+            "Priv": true
+        }
+    },
+    "MPU_CONFIG": {
+        ".CODE_REGION_0_": {
+            "Addrs": [
+                16,
+                134217745,
+                536870930,
+                135233555,
+                1109753876,
+                0,
+                0,
+                0
+            ],
+            "Attrs": [
+                302416191,
+                100794399,
+                319160343,
+                100794395,
+                319094807,
+                0,
+                0,
+                0
+            ]
+        },
+        ".CODE_REGION_10_": {
+            "Addrs": [
+                16,
+                134217745,
+                536870930,
+                135225363,
+                1073887252,
+                1111949333,
+                1073770518,
+                0
+            ],
+            "Attrs": [
+                302416191,
+                100794399,
+                319160343,
+                100794393,
+                319094803,
+                319094815,
+                319094803,
+                0
+            ]
+        },
+        ".CODE_REGION_11_": {
+            "Addrs": [
+                16,
+                134217745,
+                536870930,
+                135192595,
+                536981780,
+                0,
+                0,
+                0
+            ],
+            "Attrs": [
+                302416191,
+                100794399,
+                319160343,
+                100794391,
+                319160333,
+                0,
+                0,
+                0
+            ]
+        },
+        ".CODE_REGION_12_": {
+            "Addrs": [
+                16,
+                134217745,
+                536870930,
+                135213075,
+                1073917972,
+                0,
+                0,
+                0
+            ],
+            "Attrs": [
+                302416191,
+                100794399,
+                319160343,
+                100794391,
+                319094807,
+                0,
+                0,
+                0
+            ]
+        },
+        ".CODE_REGION_13_": {
+            "Addrs": [
+                16,
+                134217745,
+                536870930,
+                135168019,
+                536982292,
+                1073898517,
+                1073872918,
+                2684354583
+            ],
+            "Attrs": [
+                302416191,
+                100794399,
+                319160343,
+                100794389,
+                319160335,
+                319094803,
+                319094811,
+                319094807
+            ]
+        },
+        ".CODE_REGION_14_": {
+            "Addrs": [
+                16,
+                134217745,
+                536870930,
+                135160083,
+                0,
+                0,
+                0,
+                0
+            ],
+            "Attrs": [
+                302416191,
+                100794399,
+                319160343,
+                100794383,
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        ".CODE_REGION_15_": {
+            "Addrs": [
+                16,
+                134217745,
+                536870930,
+                135170067,
+                536983060,
+                1073818645,
+                1073872918,
+                0
+            ],
+            "Attrs": [
+                302416191,
+                100794399,
+                319160343,
+                100794389,
+                319160337,
+                319094803,
+                319094813,
+                0
+            ]
+        },
+        ".CODE_REGION_16_": {
+            "Addrs": [
+                16,
+                134217745,
+                536870930,
+                135200787,
+                536985620,
+                1073887253,
+                1073831958,
+                1073770519
+            ],
+            "Attrs": [
+                302416191,
+                100794399,
+                319160343,
+                100794391,
+                319160347,
+                319094803,
+                319094809,
+                319094803
+            ]
+        },
+        ".CODE_REGION_17_": {
+            "Addrs": [
+                16,
+                134217745,
+                536870930,
+                135159827,
+                536981652,
+                0,
+                0,
+                0
+            ],
+            "Attrs": [
+                302416191,
+                100794399,
+                319160343,
+                100794383,
+                319160329,
+                0,
+                0,
+                0
+            ]
+        },
+        ".CODE_REGION_18_": {
+            "Addrs": [
+                16,
+                134217745,
+                536870930,
+                135159571,
+                3758096404,
+                1073887253,
+                0,
+                0
+            ],
+            "Attrs": [
+                302416191,
+                100794399,
+                319160343,
+                100794381,
+                319094823,
+                319094803,
+                0,
+                0
+            ]
+        },
+        ".CODE_REGION_19_": {
+            "Addrs": [
+                16,
+                134217745,
+                536870930,
+                135172115,
+                1073818644,
+                0,
+                0,
+                0
+            ],
+            "Attrs": [
+                302416191,
+                100794399,
+                319160343,
+                100794389,
+                319094803,
+                0,
+                0,
+                0
+            ]
+        },
+        ".CODE_REGION_1_": {
+            "Addrs": [
+                16,
+                134217745,
+                536870930,
+                135160339,
+                0,
+                0,
+                0,
+                0
+            ],
+            "Attrs": [
+                302416191,
+                100794399,
+                319160343,
+                100794385,
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        ".CODE_REGION_20_": {
+            "Addrs": [
+                16,
+                134217745,
+                536870930,
+                135162387,
+                1073887252,
+                1073770517,
+                0,
+                0
+            ],
+            "Attrs": [
+                302416191,
+                100794399,
+                319160343,
+                100794385,
+                319094803,
+                319094803,
+                0,
+                0
+            ]
+        },
+        ".CODE_REGION_21_": {
+            "Addrs": [
+                16,
+                134217745,
+                536870930,
+                135208979,
+                1073834004,
+                0,
+                0,
+                0
+            ],
+            "Attrs": [
+                302416191,
+                100794399,
+                319160343,
+                100794391,
+                319094803,
+                0,
+                0,
+                0
+            ]
+        },
+        ".CODE_REGION_22_": {
+            "Addrs": [
+                16,
+                134217745,
+                536870930,
+                135188499,
+                0,
+                0,
+                0,
+                0
+            ],
+            "Attrs": [
+                302416191,
+                100794399,
+                319160343,
+                100794391,
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        ".CODE_REGION_23_": {
+            "Addrs": [
+                16,
+                134217745,
+                536870930,
+                135174163,
+                536981908,
+                1073873941,
+                1073881110,
+                1073763351
+            ],
+            "Attrs": [
+                302416191,
+                100794399,
+                319160343,
+                100794389,
+                319160333,
+                319094803,
+                319094809,
+                319094803
+            ]
+        },
+        ".CODE_REGION_24_": {
+            "Addrs": [
+                16,
+                134217745,
+                536870930,
+                135160851,
+                3758096404,
+                0,
+                0,
+                0
+            ],
+            "Attrs": [
+                302416191,
+                100794399,
+                319160343,
+                100794385,
+                319094823,
+                0,
+                0,
+                0
+            ]
+        },
+        ".CODE_REGION_25_": {
+            "Addrs": [
+                16,
+                134217745,
+                536870930,
+                135163411,
+                536981684,
+                536981749,
+                1073888278,
+                0
+            ],
+            "Attrs": [
+                302416191,
+                100794399,
+                319160343,
+                100794385,
+                319160329,
+                319160329,
+                319094803,
+                0
+            ]
+        },
+        ".CODE_REGION_26_": {
+            "Addrs": [
+                16,
+                134217745,
+                536870930,
+                135161363,
+                536981780,
+                536981621,
+                0,
+                0
+            ],
+            "Attrs": [
+                302416191,
+                100794399,
+                319160343,
+                100794385,
+                319160333,
+                319160329,
+                0,
+                0
+            ]
+        },
+        ".CODE_REGION_27_": {
+            "Addrs": [
+                16,
+                134217745,
+                536870930,
+                135196691,
+                1073821716,
+                1073887253,
+                1073872918,
+                1073881111
+            ],
+            "Attrs": [
+                302416191,
+                100794399,
+                319160343,
+                100794391,
+                319094805,
+                319094803,
+                319094809,
+                319094807
+            ]
+        },
+        ".CODE_REGION_28_": {
+            "Addrs": [
+                16,
+                134217745,
+                536870930,
+                135161875,
+                0,
+                0,
+                0,
+                0
+            ],
+            "Attrs": [
+                302416191,
+                100794399,
+                319160343,
+                100794385,
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        ".CODE_REGION_29_": {
+            "Addrs": [
+                16,
+                134217745,
+                536870930,
+                135249939,
+                536982036,
+                0,
+                0,
+                0
+            ],
+            "Attrs": [
+                302416191,
+                100794399,
+                319160343,
+                100794395,
+                319160335,
+                0,
+                0,
+                0
+            ]
+        },
+        ".CODE_REGION_2_": {
+            "Addrs": [
+                16,
+                134217745,
+                536870930,
+                135162899,
+                536981652,
+                0,
+                0,
+                0
+            ],
+            "Attrs": [
+                302416191,
+                100794399,
+                319160343,
+                100794385,
+                319160329,
+                0,
+                0,
+                0
+            ]
+        },
+        ".CODE_REGION_30_": {
+            "Addrs": [
+                16,
+                134217745,
+                536870930,
+                135176211,
+                536981588,
+                536981749,
+                1073898518,
+                1073897495
+            ],
+            "Attrs": [
+                302416191,
+                100794399,
+                319160343,
+                100794391,
+                319160329,
+                319160329,
+                319094803,
+                319094803
+            ]
+        },
+        ".CODE_REGION_31_": {
+            "Addrs": [
+                16,
+                134217745,
+                536870930,
+                135184403,
+                536982548,
+                0,
+                0,
+                0
+            ],
+            "Attrs": [
+                302416191,
+                100794399,
+                319160343,
+                100794391,
+                319160337,
+                0,
+                0,
+                0
+            ]
+        },
+        ".CODE_REGION_3_": {
+            "Addrs": [
+                16,
+                134217745,
+                536870930,
+                135180307,
+                536985620,
+                1073887253,
+                1073917974,
+                1073883159
+            ],
+            "Attrs": [
+                302416191,
+                100794399,
+                319160343,
+                100794391,
+                319160347,
+                319094803,
+                319094807,
+                319094803
+            ]
+        },
+        ".CODE_REGION_4_": {
+            "Addrs": [
+                16,
+                134217745,
+                536870930,
+                135217171,
+                1073764372,
+                1073763349,
+                0,
+                0
+            ],
+            "Attrs": [
+                302416191,
+                100794399,
+                319160343,
+                100794393,
+                319094805,
+                319094803,
+                0,
+                0
+            ]
+        },
+        ".CODE_REGION_5_": {
+            "Addrs": [
+                16,
+                134217745,
+                536870930,
+                135163923,
+                536983572,
+                0,
+                0,
+                0
+            ],
+            "Attrs": [
+                302416191,
+                100794399,
+                319160343,
+                100794387,
+                319160341,
+                0,
+                0,
+                0
+            ]
+        },
+        ".CODE_REGION_6_": {
+            "Addrs": [
+                16,
+                134217745,
+                536870930,
+                135164947,
+                536985620,
+                0,
+                0,
+                0
+            ],
+            "Attrs": [
+                302416191,
+                100794399,
+                319160343,
+                100794387,
+                319160347,
+                0,
+                0,
+                0
+            ]
+        },
+        ".CODE_REGION_7_": {
+            "Addrs": [
+                16,
+                134217745,
+                536870930,
+                135165971,
+                536981748,
+                536981557,
+                1073887254,
+                1073888279
+            ],
+            "Attrs": [
+                302416191,
+                100794399,
+                319160343,
+                100794389,
+                319160329,
+                319160329,
+                319094803,
+                319094803
+            ]
+        },
+        ".CODE_REGION_8_": {
+            "Addrs": [
+                16,
+                134217745,
+                536870930,
+                135204883,
+                2684354580,
+                0,
+                0,
+                0
+            ],
+            "Attrs": [
+                302416191,
+                100794399,
+                319160343,
+                100794391,
+                319094807,
+                0,
+                0,
+                0
+            ]
+        },
+        ".CODE_REGION_9_": {
+            "Addrs": [
+                16,
+                134217745,
+                536870930,
+                135159507,
+                536981716,
+                0,
+                0,
+                0
+            ],
+            "Attrs": [
+                302416191,
+                100794399,
+                319160343,
+                100794379,
+                319160329,
+                0,
+                0,
+                0
+            ]
+        },
+        ".IRQ_CODE_REGION": {
+            "Addrs": [
+                16,
+                134217745,
+                536870930,
+                135159699,
+                536981556,
+                3758096405,
+                0,
+                0
+            ],
+            "Attrs": [
+                302416191,
+                100794399,
+                319160343,
+                100794381,
+                319160320,
+                319094823,
+                0,
+                0
+            ]
+        },
+        "__hexbox_default": {
+            "Addrs": [
+                16,
+                134217745,
+                536870930,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "Attrs": [
+                302416191,
+                100794399,
+                319160343,
+                0,
+                0,
+                0,
+                0,
+                0
+            ]
+        }
+    },
+    "NUM_MPU_REGIONS": 8,
+    "Regions": {
+        ".CODE_REGION_0_": {
+            "Align": 1,
+            "Objects": [
+                "SD_Select_Deselect",
+                "HAL_SD_XferErrorCallback",
+                "SD_CmdResp6Error",
+                "HAL_SD_Init",
+                "SD_CmdResp2Error",
+                "SD_WideBus_Disable",
+                "HAL_SD_GetStatus",
+                "SD_CmdResp1Error",
+                "HAL_SD_WideBusOperation_Config",
+                "SD_SendStatus",
+                "HAL_SD_WriteBlocks",
+                "HAL_SD_IRQHandler",
+                "SD_IsCardProgramming",
+                "SD_CmdResp7Error",
+                "SD_CmdError",
+                "HAL_SD_StopTransfer",
+                "SD_PowerON",
+                "HAL_SD_ReadBlocks",
+                "SD_Initialize_Cards",
+                "HAL_SD_MspInit",
+                "HAL_SD_XferCpltCallback",
+                "SD_CmdResp3Error",
+                "HAL_SD_Get_CardInfo",
+                "SD_GetState",
+                "SD_WideBus_Enable",
+                "SD_FindSCR"
+            ],
+            "Size": 0,
+            "Type": "Code"
+        },
+        ".CODE_REGION_10_": {
+            "Align": 1,
+            "Objects": [
+                "HAL_RCCEx_PeriphCLKConfig",
+                "HAL_RCC_OscConfig"
+            ],
+            "Size": 0,
+            "Type": "Code"
+        },
+        ".CODE_REGION_11_": {
+            "Align": 1,
+            "Objects": [
+                "mfxstm32l152_ReadID",
+                "mfxstm32l152_reg24_setPinValue",
+                "mfxstm32l152_Init",
+                "mfxstm32l152_IO_SetIrqEvtMode",
+                "mfxstm32l152_IO_EnablePinIT",
+                "mfxstm32l152_IO_DisableIT",
+                "mfxstm32l152_IO_ITStatus",
+                "mfxstm32l152_IO_EnableIT",
+                "mfxstm32l152_IO_Start",
+                "mfxstm32l152_IO_WritePin",
+                "mfxstm32l152_IO_DisablePinIT",
+                "mfxstm32l152_IO_InitPin",
+                "mfxstm32l152_IO_Config",
+                "mfxstm32l152_SetIrqOutPinPolarity",
+                "mfxstm32l152_SetIrqOutPinType",
+                "mfxstm32l152_IO_ReadPin",
+                "mfxstm32l152_IO_ClearIT",
+                "mfxstm32l152_Reset",
+                "mfxstm32l152_DisableITSource",
+                "mfxstm32l152_GetInstance",
+                "mfxstm32l152_EnableITSource",
+                "mfxstm32l152_IO_SetIrqTypeMode"
+            ],
+            "Size": 0,
+            "Type": "Code"
+        },
+        ".CODE_REGION_12_": {
+            "Align": 1,
+            "Objects": [
+                "DMA2D_SetConfig",
+                "HAL_DMA2D_Init",
+                "HAL_DMA2D_Start",
+                "HAL_DMA2D_MspInit",
+                "HAL_DMA2D_PollForTransfer",
+                "HAL_DMA2D_ConfigLayer"
+            ],
+            "Size": 0,
+            "Type": "Code"
+        },
+        ".CODE_REGION_13_": {
+            "Align": 1,
+            "Objects": [
+                "BSP_SDRAM_MspInit",
+                "BSP_SDRAM_Initialization_sequence",
+                "BSP_SDRAM_Init"
+            ],
+            "Size": 0,
+            "Type": "Code"
+        },
+        ".CODE_REGION_14_": {
+            "Align": 1,
+            "Objects": [
+                "HAL_LTDC_StructInitFromVideoConfig"
+            ],
+            "Size": 0,
+            "Type": "Code"
+        },
+        ".CODE_REGION_15_": {
+            "Align": 1,
+            "Objects": [
+                "BSP_SD_DMA_Rx_IRQHandler",
+                "BSP_SD_GetCardInfo",
+                "BSP_SD_IsDetected",
+                "BSP_SD_WriteBlocks",
+                "BSP_SD_Init",
+                "BSP_SD_MspInit",
+                "BSP_SD_IRQHandler",
+                "BSP_SD_GetStatus",
+                "BSP_SD_ReadBlocks"
+            ],
+            "Size": 0,
+            "Type": "Code"
+        },
+        ".CODE_REGION_16_": {
+            "Align": 1,
+            "Objects": [
+                "Turn_On_Display",
+                "Error_Handler",
+                "main",
+                "Infinite_Loop",
+                "SystemClock_Config",
+                "LCD_Init",
+                "Init_Directory_File_Pointers",
+                "Display_Foreground",
+                "LCD_Config",
+                "System_Init",
+                "Link_Driver",
+                "Display_Background",
+                "assert_failed"
+            ],
+            "Size": 0,
+            "Type": "Code"
+        },
+        ".CODE_REGION_17_": {
+            "Align": 1,
+            "Objects": [
+                "FATFS_LinkDriver",
+                "FATFS_LinkDriverEx"
+            ],
+            "Size": 0,
+            "Type": "Code"
+        },
+        ".CODE_REGION_18_": {
+            "Align": 1,
+            "Objects": [
+                "SystemInit"
+            ],
+            "Size": 0,
+            "Type": "Code"
+        },
+        ".CODE_REGION_19_": {
+            "Align": 1,
+            "Objects": [
+                "SDIO_DataConfig",
+                "SDIO_PowerState_ON",
+                "SDIO_SendCommand",
+                "SDIO_WriteFIFO",
+                "SDIO_ReadFIFO",
+                "SDIO_GetCommandResponse",
+                "SDIO_GetResponse",
+                "SDIO_Init",
+                "SDIO_GetPowerState"
+            ],
+            "Size": 0,
+            "Type": "Code"
+        },
+        ".CODE_REGION_1_": {
+            "Align": 1,
+            "Objects": [
+                "HAL_SYSTICK_Config",
+                "HAL_NVIC_SetPriority",
+                "HAL_NVIC_SetPriorityGrouping",
+                "HAL_NVIC_EnableIRQ"
+            ],
+            "Size": 0,
+            "Type": "Code"
+        },
+        ".CODE_REGION_20_": {
+            "Align": 1,
+            "Objects": [
+                "HAL_PWREx_EnableOverDrive"
+            ],
+            "Size": 0,
+            "Type": "Code"
+        },
+        ".CODE_REGION_21_": {
+            "Align": 1,
+            "Objects": [
+                "HAL_LTDC_ConfigColorKeying",
+                "HAL_LTDC_ConfigLayer",
+                "HAL_LTDC_Init",
+                "HAL_LTDC_MspInit",
+                "LTDC_SetConfig",
+                "HAL_LTDC_SetAlpha",
+                "HAL_LTDC_EnableColorKeying"
+            ],
+            "Size": 0,
+            "Type": "Code"
+        },
+        ".CODE_REGION_22_": {
+            "Align": 1,
+            "Objects": [
+                "HAL_DSI_DeInit",
+                "HAL_DSI_Start",
+                "DSI_ConfigPacketHeader",
+                "HAL_DSI_LongWrite",
+                "HAL_DSI_ShortWrite",
+                "HAL_DSI_ConfigPhyTimer",
+                "HAL_DSI_Init",
+                "HAL_DSI_MspDeInit",
+                "HAL_DSI_ConfigVideoMode",
+                "HAL_DSI_MspInit"
+            ],
+            "Size": 0,
+            "Type": "Code"
+        },
+        ".CODE_REGION_23_": {
+            "Align": 1,
+            "Objects": [
+                "OTM8009A_IO_Delay",
+                "MFX_IO_Delay",
+                "MFX_IO_Init",
+                "MFX_IO_ITConfig",
+                "I2Cx_Read",
+                "BSP_LED_On",
+                "I2Cx_Init",
+                "MFX_IO_Write",
+                "BSP_LED_Init",
+                "I2Cx_Error",
+                "MFX_IO_Read",
+                "I2Cx_MspInit",
+                "I2Cx_Write"
+            ],
+            "Size": 0,
+            "Type": "Code"
+        },
+        ".CODE_REGION_24_": {
+            "Align": 1,
+            "Objects": [
+                "NVIC_SetPriority",
+                "NVIC_SetPriorityGrouping",
+                "NVIC_GetPriorityGrouping",
+                "NVIC_EncodePriority",
+                "SysTick_Config",
+                "NVIC_EnableIRQ"
+            ],
+            "Size": 0,
+            "Type": "Code"
+        },
+        ".CODE_REGION_25_": {
+            "Align": 1,
+            "Objects": [
+                "HAL_Init",
+                "HAL_InitTick",
+                "HAL_IncTick",
+                "HAL_MspInit",
+                "HAL_Delay",
+                "HAL_GetTick"
+            ],
+            "Size": 0,
+            "Type": "Code"
+        },
+        ".CODE_REGION_26_": {
+            "Align": 1,
+            "Objects": [
+                "BSP_IO_Init",
+                "BSP_IO_ConfigPin",
+                "BSP_IO_WritePin",
+                "BSP_IO_ReadPin"
+            ],
+            "Size": 0,
+            "Type": "Code"
+        },
+        ".CODE_REGION_27_": {
+            "Align": 1,
+            "Objects": [
+                "HAL_GPIO_WritePin",
+                "HAL_GPIO_Init"
+            ],
+            "Size": 0,
+            "Type": "Code"
+        },
+        ".CODE_REGION_28_": {
+            "Align": 1,
+            "Objects": [
+                "HAL_SDRAM_Init",
+                "HAL_SDRAM_ProgramRefreshRate",
+                "HAL_SDRAM_SendCommand",
+                "HAL_SDRAM_MspInit"
+            ],
+            "Size": 0,
+            "Type": "Code"
+        },
+        ".CODE_REGION_29_": {
+            "Align": 1,
+            "Objects": [
+                "enq_lock",
+                "f_opendir",
+                "find_volume",
+                "put_fat",
+                "follow_path",
+                "ld_clust",
+                "sync_window",
+                "clmt_clust",
+                "dir_next",
+                "remove_chain",
+                "mem_cpy",
+                "dir_alloc",
+                "f_read",
+                "sync_fs",
+                "mem_cmp",
+                "mem_set",
+                "dec_lock",
+                "create_name",
+                "chk_lock",
+                "move_window",
+                "f_readdir",
+                "check_fs",
+                "inc_lock",
+                "clust2sect",
+                "f_sync",
+                "st_clust",
+                "get_fat",
+                "f_open",
+                "dir_find",
+                "get_ldnumber",
+                "validate",
+                "dir_read",
+                "f_mount",
+                "chk_chr",
+                "create_chain",
+                "clear_lock",
+                "dir_sdi",
+                "dir_register",
+                "get_fileinfo",
+                "f_close"
+            ],
+            "Size": 0,
+            "Type": "Code"
+        },
+        ".CODE_REGION_2_": {
+            "Align": 1,
+            "Objects": [
+                "disk_write",
+                "disk_read",
+                "get_fattime",
+                "disk_ioctl",
+                "disk_initialize",
+                "disk_status"
+            ],
+            "Size": 0,
+            "Type": "Code"
+        },
+        ".CODE_REGION_30_": {
+            "Align": 1,
+            "Objects": [
+                "HAL_DMA_DeInit",
+                "HAL_DMA_Init",
+                "DMA_CalcBaseAndBitshift",
+                "DMA_CheckFifoParam",
+                "HAL_DMA_IRQHandler"
+            ],
+            "Size": 0,
+            "Type": "Code"
+        },
+        ".CODE_REGION_31_": {
+            "Align": 1,
+            "Objects": [
+                "OTM8009A_Init"
+            ],
+            "Size": 0,
+            "Type": "Code"
+        },
+        ".CODE_REGION_3_": {
+            "Align": 1,
+            "Objects": [
+                "BSP_LCD_DisplayStringAt",
+                "BSP_LCD_SetTransparency",
+                "BSP_LCD_SelectLayer",
+                "BSP_LCD_GetYSize",
+                "BSP_LCD_DrawBitmap",
+                "BSP_LCD_SetColorKeying",
+                "BSP_LCD_DrawPixel",
+                "LL_FillBuffer",
+                "BSP_LCD_SetFont",
+                "DrawChar",
+                "BSP_LCD_Clear",
+                "LL_ConvertLineToARGB8888",
+                "DSI_IO_WriteCmd",
+                "BSP_LCD_Reset",
+                "BSP_LCD_GetFont",
+                "BSP_LCD_DisplayOn",
+                "BSP_LCD_DisplayChar",
+                "BSP_LCD_LayerDefaultInit",
+                "BSP_LCD_DisplayStringAtLine",
+                "BSP_LCD_DisplayOff",
+                "BSP_LCD_SetTextColor",
+                "BSP_LCD_GetXSize",
+                "BSP_LCD_MspInit"
+            ],
+            "Size": 0,
+            "Type": "Code"
+        },
+        ".CODE_REGION_4_": {
+            "Align": 1,
+            "Objects": [
+                "I2C_RequestMemoryWrite",
+                "I2C_WaitOnMasterAddressFlagUntilTimeout",
+                "HAL_I2C_Mem_Write",
+                "HAL_I2C_GetState",
+                "I2C_WaitOnTXEFlagUntilTimeout",
+                "HAL_I2C_DeInit",
+                "I2C_RequestMemoryRead",
+                "HAL_I2C_MspInit",
+                "HAL_I2C_Mem_Read",
+                "HAL_I2C_MspDeInit",
+                "I2C_WaitOnFlagUntilTimeout",
+                "HAL_I2C_Init",
+                "I2C_WaitOnRXNEFlagUntilTimeout",
+                "I2C_WaitOnBTFFlagUntilTimeout",
+                "I2C_IsAcknowledgeFailed"
+            ],
+            "Size": 0,
+            "Type": "Code"
+        },
+        ".CODE_REGION_5_": {
+            "Align": 1,
+            "Objects": [
+                "Storage_CheckBitmapFile",
+                "Storage_GetDirectoryBitmapFiles",
+                "Storage_OpenReadFile",
+                "Buffercmp"
+            ],
+            "Size": 0,
+            "Type": "Code"
+        },
+        ".CODE_REGION_6_": {
+            "Align": 1,
+            "Objects": [
+                "SD_read",
+                "SD_initialize",
+                "SD_status",
+                "SD_write",
+                "SD_ioctl"
+            ],
+            "Size": 0,
+            "Type": "Code"
+        },
+        ".CODE_REGION_7_": {
+            "Align": 1,
+            "Objects": [
+                "HAL_RCC_GetPCLK1Freq",
+                "HAL_RCC_GetHCLKFreq",
+                "HAL_RCC_GetSysClockFreq",
+                "HAL_RCC_ClockConfig"
+            ],
+            "Size": 0,
+            "Type": "Code"
+        },
+        ".CODE_REGION_8_": {
+            "Align": 1,
+            "Objects": [
+                "FMC_SDRAM_ProgramRefreshRate",
+                "FMC_SDRAM_Timing_Init",
+                "FMC_SDRAM_SendCommand",
+                "FMC_SDRAM_Init"
+            ],
+            "Size": 0,
+            "Type": "Code"
+        },
+        ".CODE_REGION_9_": {
+            "Align": 1,
+            "Objects": [
+                "_init",
+                "_getpid",
+                "_kill",
+                "_exit"
+            ],
+            "Size": 0,
+            "Type": "Code"
+        },
+        ".DATA_REGION_10_": {
+            "Align": 1,
+            "Objects": [
+                "APBAHBPrescTable"
+            ],
+            "Size": 0,
+            "Type": "Data"
+        },
+        ".DATA_REGION_11_": {
+            "Align": 1,
+            "Objects": [
+                "heval_I2c",
+                "MFX_IO_ITConfig.MFX_IO_IT_Enabled",
+                "GPIO_PIN"
+            ],
+            "Size": 0,
+            "Type": "Data"
+        },
+        ".DATA_REGION_12_": {
+            "Align": 1,
+            "Objects": [
+                "SystemCoreClock"
+            ],
+            "Size": 0,
+            "Type": "Data"
+        },
+        ".DATA_REGION_13_": {
+            "Align": 1,
+            "Objects": [
+                "_sbrk.heap_end"
+            ],
+            "Size": 0,
+            "Type": "Data"
+        },
+        ".DATA_REGION_14_": {
+            "Align": 1,
+            "Objects": [
+                "mfxstm32l152_io_drv",
+                "mfxstm32l152"
+            ],
+            "Size": 0,
+            "Type": "Data"
+        },
+        ".DATA_REGION_15_": {
+            "Align": 1,
+            "Objects": [
+                "IoDrv"
+            ],
+            "Size": 0,
+            "Type": "Data"
+        },
+        ".DATA_REGION_16_": {
+            "Align": 1,
+            "Objects": [
+                "FatFs",
+                "ExCvt",
+                "Files",
+                "Fsid"
+            ],
+            "Size": 0,
+            "Type": "Data"
+        },
+        ".DATA_REGION_18_": {
+            "Align": 1,
+            "Objects": [
+                "lcdRegData9",
+                "lcdRegData4",
+                "lcdRegData5",
+                "lcdRegData6",
+                "lcdRegData1",
+                "lcdRegData2",
+                "lcdRegData3",
+                "lcdRegData15",
+                "lcdRegData8",
+                "lcdRegData7",
+                "ShortRegData31",
+                "ShortRegData2",
+                "ShortRegData42",
+                "ShortRegData43",
+                "ShortRegData40",
+                "ShortRegData41",
+                "ShortRegData46",
+                "ShortRegData47",
+                "ShortRegData44",
+                "ShortRegData45",
+                "ShortRegData48",
+                "ShortRegData49",
+                "ShortRegData17",
+                "lcdRegData18",
+                "lcdRegData19",
+                "lcdRegData16",
+                "lcdRegData17",
+                "lcdRegData14",
+                "lcdRegData12",
+                "lcdRegData13",
+                "lcdRegData10",
+                "lcdRegData11",
+                "ShortRegData19",
+                "ShortRegData18",
+                "ShortRegData15",
+                "ShortRegData14",
+                "ShortRegData16",
+                "ShortRegData11",
+                "ShortRegData10",
+                "ShortRegData12",
+                "lcdRegData28",
+                "ShortRegData9",
+                "ShortRegData8",
+                "ShortRegData5",
+                "ShortRegData4",
+                "ShortRegData7",
+                "ShortRegData6",
+                "ShortRegData1",
+                "ShortRegData3",
+                "ShortRegData28",
+                "ShortRegData29",
+                "ShortRegData20",
+                "ShortRegData21",
+                "ShortRegData22",
+                "ShortRegData23",
+                "ShortRegData24",
+                "ShortRegData25",
+                "ShortRegData26",
+                "ShortRegData27",
+                "lcdRegData24",
+                "ShortRegData13",
+                "ShortRegData37",
+                "ShortRegData36",
+                "ShortRegData35",
+                "ShortRegData34",
+                "ShortRegData33",
+                "ShortRegData32",
+                "ShortRegData30",
+                "ShortRegData39",
+                "ShortRegData38",
+                "lcdRegData23",
+                "lcdRegData22",
+                "lcdRegData21",
+                "lcdRegData20",
+                "lcdRegData27",
+                "lcdRegData25"
+            ],
+            "Size": 0,
+            "Type": "Data"
+        },
+        ".DATA_REGION_1_": {
+            "Align": 1,
+            "Objects": [
+                "DMA_CalcBaseAndBitshift.flagBitshiftOffset"
+            ],
+            "Size": 0,
+            "Type": "Data"
+        },
+        ".DATA_REGION_3_": {
+            "Align": 1,
+            "Objects": [
+                "uSdHandle",
+                "UseExtiModeDetection",
+                "uSdCardInfo",
+                "BSP_SD_MspInit.dma_rx_handle",
+                "BSP_SD_MspInit.dma_tx_handle"
+            ],
+            "Size": 0,
+            "Type": "Data"
+        },
+        ".DATA_REGION_4_": {
+            "Align": 1,
+            "Objects": [
+                "F",
+                "fs",
+                "SlidesCheck",
+                "sector",
+                "BytesRead"
+            ],
+            "Size": 0,
+            "Type": "Data"
+        },
+        ".DATA_REGION_5_": {
+            "Align": 1,
+            "Objects": [
+                "disk"
+            ],
+            "Size": 0,
+            "Type": "Data"
+        },
+        ".DATA_REGION_6_": {
+            "Align": 1,
+            "Objects": [
+                "uwTick"
+            ],
+            "Size": 0,
+            "Type": "Data"
+        },
+        ".DATA_REGION_7_": {
+            "Align": 1,
+            "Objects": [
+                "BSP_SDRAM_MspInit.dma_handle",
+                "sdramHandle",
+                "BSP_SDRAM_Init.sdramstatus",
+                "Command",
+                "Timing"
+            ],
+            "Size": 0,
+            "Type": "Data"
+        },
+        ".DATA_REGION_8_": {
+            "Align": 1,
+            "Objects": [
+                "runtime"
+            ],
+            "Size": 0,
+            "Type": "Data"
+        },
+        ".DATA_REGION_9_": {
+            "Align": 1,
+            "Objects": [
+                "Stat",
+                "SD_Driver",
+                "pDirectoryFiles",
+                "pDirectoryFileNames",
+                "counter",
+                "SD_Path",
+                "SD_FatFs",
+                "uwBmplen",
+                "LCD_Init.PeriphClkInitStruct",
+                "uwInternalBuffer",
+                "ubNumberOfFiles",
+                "hdsivideo_handle_0",
+                "directory",
+                "hdsi_eval",
+                "hdsivideo_handle",
+                "DrawProp",
+                "lcd_x_size",
+                "hdma2d_eval",
+                "hltdc_eval",
+                "lcd_y_size",
+                "ActiveLayer",
+                "Font24_Table",
+                "Font24"
+            ],
+            "Size": 0,
+            "Type": "Data"
+        },
+        ".IRQ_CODE_REGION": {
+            "Align": 1,
+            "Objects": [
+                "SVC_Handler",
+                "DMA2_Stream3_IRQHandler",
+                "PendSV_Handler",
+                "BusFault_Handler",
+                "SysTick_Handler",
+                "SDIO_IRQHandler",
+                "UsageFault_Handler",
+                "NMI_Handler",
+                "HardFault_Handler"
+            ],
+            "Size": 0,
+            "Type": "Code"
+        }
+    }
+}

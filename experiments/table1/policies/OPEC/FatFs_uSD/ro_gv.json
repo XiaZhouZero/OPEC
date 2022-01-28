@@ -1,0 +1,21 @@
+[
+	".str",
+	".str",
+	"__const.Write_to_File.wtext",
+	"DMA_CalcBaseAndBitshift.flagBitshiftOffset",
+	"SD_Driver",
+	"AHBPrescTable",
+	"APBPrescTable",
+	"ExCvt",
+	".str.3",
+	"f_mkfs.cst32",
+	"f_mkfs.cst32",
+	"f_mkfs.cst",
+	"f_mkfs.cst",
+	".str.83",
+	".str.1",
+	".str.2",
+	"GPIO_PIN",
+	"GPIO_PIN",
+	"GPIO_PIN"
+]

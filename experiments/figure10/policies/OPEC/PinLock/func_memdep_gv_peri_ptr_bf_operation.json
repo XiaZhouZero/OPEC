@@ -1,0 +1,764 @@
+{
+    "BSP_LED_Init": {
+        "Peripherals": [
+            [
+                "0x40023800",
+                "rw",
+                "RCC",
+                "0x400"
+            ]
+        ],
+        "Variables": [
+            "GPIO_PORT"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "BSP_LED_Off": {
+        "Peripherals": [],
+        "Variables": [
+            "GPIO_PORT"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "BSP_LED_On": {
+        "Peripherals": [],
+        "Variables": [
+            "GPIO_PORT"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "Error_Handler": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_DMA_Abort_IT": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_Delay": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_GPIO_Init": {
+        "Peripherals": [
+            [
+                "0x40013800",
+                "rw",
+                "SYSCFG",
+                "0x400"
+            ],
+            [
+                "0x40020000",
+                "rw",
+                "GPIOA",
+                "0x400"
+            ],
+            [
+                "0x40021400",
+                "rw",
+                "GPIOF",
+                "0x400"
+            ],
+            [
+                "0x40021000",
+                "rw",
+                "GPIOE",
+                "0x400"
+            ],
+            [
+                "0x40021800",
+                "rw",
+                "GPIOG",
+                "0x400"
+            ],
+            [
+                "0x40021c00",
+                "rw",
+                "GPIOH",
+                "0x400"
+            ],
+            [
+                "0x40023800",
+                "rw",
+                "RCC",
+                "0x400"
+            ],
+            [
+                "0x40020800",
+                "rw",
+                "GPIOC",
+                "0x400"
+            ],
+            [
+                "0x40022000",
+                "rw",
+                "GPIOI",
+                "0x400"
+            ],
+            [
+                "0x40020400",
+                "rw",
+                "GPIOB",
+                "0x400"
+            ],
+            [
+                "0x40013c00",
+                "rw",
+                "EXTI",
+                "0x400"
+            ],
+            [
+                "0x40020c00",
+                "rw",
+                "GPIOD",
+                "0x400"
+            ]
+        ],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": [],
+        "caller": {
+            "HAL_UART_MspInit": {
+                "Peripherals": [
+                    [
+                        "0x40020000",
+                        "rw",
+                        "GPIOA",
+                        "0x400"
+                    ],
+                    [
+                        "0x40020000",
+                        "rw",
+                        "GPIOA",
+                        "0x400"
+                    ]
+                ],
+                "Whitelist": {},
+                "Whitelist_Namelist": []
+            }
+        }
+    },
+    "HAL_GPIO_WritePin": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_GetREVID": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_GetTick": {
+        "Peripherals": [],
+        "Variables": [
+            "uwTick"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_IncTick": {
+        "Peripherals": [],
+        "Variables": [
+            "uwTick"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_Init": {
+        "Peripherals": [
+            [
+                "0x40023c00",
+                "rw",
+                "FLASH-Inte",
+                "0x400"
+            ]
+        ],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_InitTick": {
+        "Peripherals": [],
+        "Variables": [
+            "SystemCoreClock"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_MspInit": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_NVIC_EnableIRQ": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_NVIC_SetPriority": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_NVIC_SetPriorityGrouping": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_RCC_ClockConfig": {
+        "Peripherals": [
+            [
+                "0x40023c00",
+                "rw",
+                "FLASH-Inte",
+                "0x400"
+            ],
+            [
+                "0x40023800",
+                "rw",
+                "RCC",
+                "0x400"
+            ]
+        ],
+        "Variables": [
+            "SystemCoreClock"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_RCC_GetHCLKFreq": {
+        "Peripherals": [],
+        "Variables": [
+            "SystemCoreClock"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_RCC_GetPCLK1Freq": {
+        "Peripherals": [
+            [
+                "0x40023800",
+                "rw",
+                "RCC",
+                "0x400"
+            ]
+        ],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_RCC_GetPCLK2Freq": {
+        "Peripherals": [
+            [
+                "0x40023800",
+                "rw",
+                "RCC",
+                "0x400"
+            ]
+        ],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_RCC_GetSysClockFreq": {
+        "Peripherals": [
+            [
+                "0x40023800",
+                "rw",
+                "RCC",
+                "0x400"
+            ]
+        ],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_RCC_OscConfig": {
+        "Peripherals": [
+            [
+                "0x40007000",
+                "rw",
+                "PWR",
+                "0x400"
+            ],
+            [
+                "0x42470000",
+                "rw",
+                "RCC_bit_band",
+                "0x10000"
+            ],
+            [
+                "0x40023800",
+                "rw",
+                "RCC",
+                "0x400"
+            ]
+        ],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_SYSTICK_Config": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_UART_ErrorCallback": {
+        "Peripherals": [],
+        "Variables": [
+            "UartHandle"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_UART_IRQHandler": {
+        "Peripherals": [],
+        "Variables": [
+            "UartHandle"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_UART_Init": {
+        "Peripherals": [],
+        "Variables": [
+            "UartHandle"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_UART_MspInit": {
+        "Peripherals": [
+            [
+                "0x40023800",
+                "rw",
+                "RCC",
+                "0x400"
+            ]
+        ],
+        "Variables": [
+            "UartHandle"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_UART_Receive_IT": {
+        "Peripherals": [],
+        "Variables": [
+            "PinRxBuffer",
+            "UartHandle"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_UART_RxCpltCallback": {
+        "Peripherals": [],
+        "Variables": [
+            "UartReady",
+            "UartHandle"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_UART_Transmit_IT": {
+        "Peripherals": [],
+        "Variables": [
+            "UartHandle"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "HAL_UART_TxCpltCallback": {
+        "Peripherals": [],
+        "Variables": [
+            "UartReady",
+            "UartHandle"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "Init_Lock": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "Key_Init": {
+        "Peripherals": [],
+        "Variables": [
+            "key",
+            "pin"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "Lock_Task": {
+        "Peripherals": [],
+        "Variables": [
+            "PinRxBuffer"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "NVIC_EnableIRQ": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {
+            "SysTick": [
+                3758153744,
+                368,
+                3
+            ]
+        },
+        "Whitelist_Namelist": [
+            "SysTick"
+        ]
+    },
+    "NVIC_EncodePriority": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "NVIC_GetPriorityGrouping": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {
+            "SCB": [
+                3758157056,
+                144,
+                3
+            ]
+        },
+        "Whitelist_Namelist": [
+            "SCB"
+        ]
+    },
+    "NVIC_SetPriority": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {
+            "SCB": [
+                3758157056,
+                144,
+                3
+            ],
+            "SysTick": [
+                3758153744,
+                368,
+                3
+            ]
+        },
+        "Whitelist_Namelist": [
+            "SCB",
+            "SysTick"
+        ]
+    },
+    "NVIC_SetPriorityGrouping": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {
+            "SCB": [
+                3758157056,
+                144,
+                3
+            ]
+        },
+        "Whitelist_Namelist": [
+            "SCB"
+        ]
+    },
+    "SysTick_Config": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {
+            "SysTick": [
+                3758153744,
+                368,
+                3
+            ]
+        },
+        "Whitelist_Namelist": [
+            "SysTick",
+            "SysTick",
+            "SysTick"
+        ]
+    },
+    "SystemClock_Config": {
+        "Peripherals": [
+            [
+                "0x40023c00",
+                "rw",
+                "FLASH-Inte",
+                "0x400"
+            ],
+            [
+                "0x40007000",
+                "rw",
+                "PWR",
+                "0x400"
+            ],
+            [
+                "0x40023800",
+                "rw",
+                "RCC",
+                "0x400"
+            ]
+        ],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "SystemInit": {
+        "Peripherals": [
+            [
+                "0x40023800",
+                "rw",
+                "RCC",
+                "0x400"
+            ]
+        ],
+        "Variables": [],
+        "Whitelist": {
+            "SCB": [
+                3758157056,
+                144,
+                3
+            ]
+        },
+        "Whitelist_Namelist": [
+            "SCB"
+        ]
+    },
+    "System_Init": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "UART_DMAAbortOnError": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "UART_EndRxTransfer": {
+        "Peripherals": [],
+        "Variables": [
+            "UartHandle"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "UART_EndTransmit_IT": {
+        "Peripherals": [],
+        "Variables": [
+            "UartHandle"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "UART_Receive_IT": {
+        "Peripherals": [],
+        "Variables": [
+            "PinRxBuffer",
+            "UartHandle"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "UART_SetConfig": {
+        "Peripherals": [
+            [
+                "0x40011000",
+                "rw",
+                "USART1",
+                "0x400"
+            ],
+            [
+                "0x40011400",
+                "rw",
+                "USART6",
+                "0x400"
+            ]
+        ],
+        "Variables": [
+            "UartHandle"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "UART_Transmit_IT": {
+        "Peripherals": [],
+        "Variables": [
+            "UartHandle"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "Uart_Init": {
+        "Peripherals": [
+            [
+                "0x40004400",
+                "rw",
+                "USART2",
+                "0x400"
+            ]
+        ],
+        "Variables": [
+            "UartHandle"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "Unlock_Task": {
+        "Peripherals": [],
+        "Variables": [
+            "key_in",
+            "key",
+            "PinRxBuffer"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "do_lock": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "do_unlock": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "llvm.memcpy.p0i8.p0i8.i32": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "main": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "mbedtls_sha256": {
+        "Peripherals": [],
+        "Variables": [
+            "PinRxBuffer",
+            "key_in",
+            "pin",
+            "key"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "mbedtls_sha256_finish": {
+        "Peripherals": [],
+        "Variables": [
+            "key_in",
+            "key"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "mbedtls_sha256_free": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "mbedtls_sha256_init": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "mbedtls_sha256_process": {
+        "Peripherals": [],
+        "Variables": [
+            "pin",
+            "PinRxBuffer"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "mbedtls_sha256_starts": {
+        "Peripherals": [
+            [
+                "0xc0000000",
+                "rw",
+                "EXT_DEV",
+                "0x10000000"
+            ]
+        ],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "mbedtls_sha256_update": {
+        "Peripherals": [],
+        "Variables": [
+            "pin",
+            "PinRxBuffer"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "mbedtls_zeroize": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "memcpy": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "memset": {
+        "Peripherals": [],
+        "Variables": [],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "print": {
+        "Peripherals": [],
+        "Variables": [
+            "UartReady",
+            "UartHandle"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    },
+    "rx_from_uart": {
+        "Peripherals": [],
+        "Variables": [
+            "UartReady",
+            "PinRxBuffer",
+            "UartHandle"
+        ],
+        "Whitelist": {},
+        "Whitelist_Namelist": []
+    }
+}
