@@ -1,0 +1,11 @@
+{
+    "HAL_Init": {},
+    "SystemClock_Config": {},
+    "BSP_Config": {},
+    "lwip_init": {},
+    "Netif_Config": {},
+    "tcp_echoserver_init": {},
+    "User_notification_0": {},
+    "ethernetif_input_0": {},
+    "sys_check_timeouts": {}
+}
