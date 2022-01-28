@@ -70,11 +70,11 @@ sudo apt install zlib1g-dev git build-essential gcc-arm-none-eabi make texinfo b
 Set python virtual environment if needed
 
 ```bash
-$ pip3 install pip -U
-$ pip3 config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 $ sudo apt install virtualenv
 $ virtualenv -p python3.6.9 py3
 $ source py3/bin/active
+$ pip3 install pip -U
+$ pip3 config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 
 Install python libriries
