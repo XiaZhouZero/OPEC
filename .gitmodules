@@ -1,3 +1,6 @@
 [submodule "SVF"]
 	path = SVF
-	url = https://github.com/SVF-tools/SVF
+	# SVF mirror
+	url = https://gitee.com/zhouxia_zju/SVF.git
+	# SVF original repo
+	# url = https://github.com/SVF-tools/SVF

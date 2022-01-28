@@ -127,7 +127,8 @@ echo "LLVM_DIR =" $LLVM_DIR
 
 if [ ! -d "$SVFTests" ]
 then
-   git clone "https://github.com/SVF-tools/Test-Suite.git"
+   # git clone "https://github.com/SVF-tools/Test-Suite.git"
+   git clone "https://gitee.com/zhouxia_zju/Test-Suite.git"
    if [[ $sysOS == "Linux" ]] ; then
    	cd ./$SVFTests
    	./generate_bc.sh
