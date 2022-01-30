@@ -1,5 +1,4 @@
 export
-OI_DIR := /home/eurosys22/OPEC/
 TOP_DIR := ${OI_DIR}/experiments/
 PY=python
 SH=bash

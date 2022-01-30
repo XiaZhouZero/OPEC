@@ -172,3 +172,58 @@ For exmaple, to build Camera
 ```bash
 OPEC/stm32469I$ ./build_app.sh Camera_To_USBDisk
 ```
+
+## 0x04 Run Applications
+Open a terminal to runs the gdb-server
+```bash
+$ openocd -f /usr/share/openocd/scripts/interface/stlink-v2-1.cfg -f /usr/share/openocd/scripts/target/stm32f4x.cfg
+```
+
+### Run Baseline Applications
+The baseline binary of each application is in the `build9/` directory. Take Camera as an example:
+```bash
+OPEC/stm32469I$ ./arm-none-eabi-gdb-py -iex "target remote :3333" -iex "monitor reset halt" Camera_To_USBDisk/SW4STM32/STM32469I_EVAL/build9/Camera_To_USBDisk.elf
+...
+(gdb) load
+```
+
+To test the used clock cycles of each baseline appliction:
++ First, add the marco `DTIMER_BASELINE` to the `C_DEFS` variable in Makefile9.mk file of each application.
++ Second, rebuild the tested application.
++ Third, run the baseline binary, the used clock cycles of each baseline operation are recorded in the `ExeTime` array. Read this value in gdb.
+
+
+### Run Applications Built with OPEC
+The binary built with OPEC of each application is in the `build4/` directory. Take Camera as an example
+```bash
+OPEC/stm32469I$ ./arm-none-eabi-gdb-py -iex "target remote :3333" -iex "monitor reset halt" Camera_To_USBDisk/SW4STM32/STM32469I_EVAL/build4/Camera_To_USBDisk--oi--final.elf
+...
+(gdb) load
+```
+
+To test the used clock cycles of each appliction built with OPEC:
++ First, add the marco `DTIMER_OPEC` to the `CFLAGS` variable in the Makefile file in `compiler/operation-rt` directory.
++ Second, rebuild the tested application.
++ Third, run the agumented binary, the used clock cycles of each operation are recorded in the `ExeTime` array. Read this value in gdb and caculate the runtime overhead incurred by OPEC.
+
+
+### Use GDB to Record Executed Functions
+Run this command to launch gdb. Take PinLock as example:
+```bash
+$ ./arm-none-eabi-gdb-py -x commands/PinLock_Commands.txt stm32f407/PinLock/Decode/SW4STM32/STM32F4-DISCO/build9/PinLock.elf
+```
+
+File `PinLock_Commands.txt` contains the commands gdb runs. For example:
+```txt
+load
+set logging file ./logs/PinLock.log
+set pagination off
+set logging on
+
+b main.c:274
+
+c
+while 1
+step
+```
+File `PinLock.log` records the executed source code lines.
