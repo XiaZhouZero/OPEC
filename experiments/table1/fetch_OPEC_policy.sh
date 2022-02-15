@@ -54,6 +54,16 @@ cp ${OI_DIR}stm32469I/LCD_AnimatedPictureFromSDCard/SW4STM32/STM32469I_EVAL/buil
 cp ${OI_DIR}stm32469I/LCD_AnimatedPictureFromSDCard/SW4STM32/STM32469I_EVAL/build9/memory_pool.json ./policies/OPEC/LCD_AnimatedPictureFromSDCard
 
 
+# LCD_PicturesFromSDCard
+echo "[+] LCD_PicturesFromSDCard: OPEC"
+mkdir -p ./policies/OPEC/LCD_PicturesFromSDCard
+cp ${OI_DIR}stm32469I/LCD_PicturesFromSDCard/SW4STM32/STM32469I_EVAL/build9/LCD_PicturesFromSDCard_operation_subfunc.json ./policies/OPEC/LCD_PicturesFromSDCard
+cp ${OI_DIR}stm32469I/LCD_PicturesFromSDCard/SW4STM32/STM32469I_EVAL/build9/LCD_PicturesFromSDCard_final_policy.json ./policies/OPEC/LCD_PicturesFromSDCard
+cp ${OI_DIR}stm32469I/LCD_PicturesFromSDCard/SW4STM32/STM32469I_EVAL/build9/all_gv.json ./policies/OPEC/LCD_PicturesFromSDCard
+cp ${OI_DIR}stm32469I/LCD_PicturesFromSDCard/SW4STM32/STM32469I_EVAL/build9/ro_gv.json ./policies/OPEC/LCD_PicturesFromSDCard
+cp ${OI_DIR}stm32469I/LCD_PicturesFromSDCard/SW4STM32/STM32469I_EVAL/build9/memory_pool.json ./policies/OPEC/LCD_PicturesFromSDCard
+
+
 # LwIP_TCP_Echo_Server
 echo "[+] LwIP_TCP_Echo_Server: OPEC"
 mkdir -p ./policies/OPEC/LwIP_TCP_Echo_Server

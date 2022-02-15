@@ -11,8 +11,25 @@ import argparse
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
-apps = ["PinLock", "FatFs_uSD", "LCD_AnimatedPictureFromSDCard", "LCD_PicturesFromSDCard", "LwIP_TCP_Echo_Server"]
-policies = ["filename", "filename-no-opt", "peripheral"]
+# apps = ["PinLock", "FatFs_uSD", "LCD_AnimatedPictureFromSDCard", "LCD_PicturesFromSDCard", "LwIP_TCP_Echo_Server"]
+# policies = ["filename", "filename-no-opt", "peripheral"]
+
+apps = ["PinLock", "Animation", "FatFs-uSD", "LCD-uSD", "TCP-Echo"]
+app_name_mappings = {
+    "PinLock": "PinLock", 
+    "Animation": "LCD_AnimatedPictureFromSDCard", 
+    "FatFs-uSD": "FatFs_uSD", 
+    "LCD-uSD": "LCD_PicturesFromSDCard", 
+    "TCP-Echo": "LwIP_TCP_Echo_Server", 
+}
+
+
+policies = ["ACES1", "ACES2", "ACES3"]
+policy_name_mappings = {
+    "ACES1": "filename",
+    "ACES2": "filename-no-opt",
+    "ACES3": "peripheral"
+}
 
 FLASH_SIZE_1 = 1 * 1024 * 1024
 FLASH_SIZE_2 = 2 * 1024 * 1024
@@ -298,6 +315,59 @@ def calc_sram_overhead(BASELINE_binary_section_data, ACES_binary_section_data):
     return result
 
 
+def parse_symbol_file(symbol_file):
+    func_symbol_info = {}
+    with open(symbol_file, "r") as f_map:
+        lines = f_map.readlines()
+        for line in lines:
+            info = line.split(" ")
+            if len(info) < 4:
+                continue
+
+            # symbol_type
+            if info[2].strip() != "T" and info[2].strip() != "t":
+                continue
+
+            function_name = info[3].strip()
+            function_size = int(info[1].strip(), 16)
+            func_symbol_info[function_name] = function_size
+
+    return func_symbol_info
+
+
+def calc_functions_size(functions, func_symbol_info):
+    results = 0
+    print(functions)
+
+    for function in functions:
+        if function not in func_symbol_info.keys():
+            print("Unknown function: {}".format(function))
+            continue
+
+        results += func_symbol_info[function]
+
+    return results
+
+
+def calc_privileged_app_code_ratio(BASELINE_binary_section_data, ACES_Policy, func_symbol_info):
+    privileged_app_code_size = 0
+    ratio = 0
+
+    all_code_size = BASELINE_binary_section_data[".text"]["section_size"]
+
+    privileged_functions = []
+    for compartment_name, compartment_content in ACES_Policy["Compartments"].items():
+        if compartment_content["Priv"] == True and compartment_name != ".IRQ_CODE_REGION":
+            code_compartment_info = ACES_Policy["Regions"][compartment_name]
+            privileged_functions.extend(code_compartment_info["Objects"])
+    
+    privileged_app_code_size = calc_functions_size(privileged_functions, func_symbol_info)
+
+    ratio = round(privileged_app_code_size*1.00/all_code_size*100, 2)
+
+    return privileged_app_code_size, ratio
+
+
 def calc_privileged_code_ratio(BASELINE_binary_section_data, ACES_binary_section_data):
     # OPEC-Monitor code size计算方式: 通过ghidra查看
     opec_monitor_section_size = 0x080269F4 - 0x08024A7A
@@ -347,24 +417,8 @@ def main():
     args = parser.parse_args()
     dir_name = args.CUR_DIR
 
-    apps = ["PinLock", "Animation", "FatFs-uSD", "LCD-uSD", "TCP-Echo"]
-    app_name_mappings = {
-        "PinLock": "PinLock", 
-        "Animation": "LCD_AnimatedPictureFromSDCard", 
-        "FatFs-uSD": "FatFs_uSD", 
-        "LCD-uSD": "LCD_PicturesFromSDCard", 
-        "TCP-Echo": "LwIP_TCP_Echo_Server", 
-    }
-
-
-    policies = ["ACES1", "ACES2", "ACES3"]
-    policy_name_mappings = {
-        "ACES1": "filename",
-        "ACES2": "filename-no-opt",
-        "ACES3": "peripheral"
-    }
-
-    Total_privileged_code = {}
+    # Total_privileged_code = {}
+    Total_privileged_app_code = {}
     Total_Flash = {}
     Total_SRAM = {}
     for app in apps:
@@ -375,6 +429,9 @@ def main():
         baseline_file = dir_name + "/bins/baseline/" + app_complex + "--baseline.elf"
         format_baseline_data = parse_readelf_data(readelf(baseline_file))
         store_json_to_file(format_baseline_data, dir_name + "/" + "BASELINE_" + app + "_bin_sections.json")
+        symbol_file = dir_name + "/maps/" + app_complex + ".map"
+        func_symbol_info = parse_symbol_file(symbol_file)
+        Total_privileged_app_code[app] = {}
         for policy in policies:
             policy_complex = policy_name_mappings[policy]
             Total_Flash[app][policy] = {}
@@ -386,6 +443,12 @@ def main():
             # evaluate privileged code ratio
             # privileged_code_size, privileged_code_ratio = calc_privileged_code_ratio(format_baseline_data, format_aces_data)
             # Total_privileged_code[app] = {"size": privileged_code_size, "ratio": round(privileged_code_ratio*100, 3)}
+
+            # evaluate privileged application code ratio
+            aces_app_policy_file = dir_name + "/policies/ACES/" + app_complex + "/" + "hexbox-final-policy--" + policy_complex + "--mpu-8.json"
+            aces_app_policy = load_json_from_file(aces_app_policy_file)
+            privileged_app_code_size, privileged_app_code_ratio = calc_privileged_app_code_ratio(format_baseline_data, aces_app_policy, func_symbol_info)
+            Total_privileged_app_code[app][policy] = {"size": privileged_app_code_size, "ratio": privileged_app_code_ratio}
 
             # evaluate flash overhead
             flash_overhead_ = calc_flash_overhead(format_baseline_data, format_aces_data)
@@ -417,7 +480,8 @@ def main():
         # print(json.dumps(Total_SRAM, indent=4, sort_keys=True))
 
 
-    store_json_to_file(transfer_bytes_to_kb(Total_privileged_code), dir_name + "/" + "privileged_code.json")
+    # store_json_to_file(transfer_bytes_to_kb(Total_privileged_code), dir_name + "/" + "privileged_code.json")
+    store_json_to_file(transfer_bytes_to_kb(Total_privileged_app_code), dir_name + "/" + "ACES_privileged_app_code.json")
     store_json_to_file(transfer_bytes_to_kb(Total_Flash), dir_name + "/" + "ACES_flash_overhead.json")
     store_json_to_file(transfer_bytes_to_kb(Total_SRAM), dir_name + "/" + "ACES_sram_overhead.json")
 
