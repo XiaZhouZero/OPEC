@@ -99,13 +99,16 @@ static void Error_Handler(void);
 
 /* Private functions ---------------------------------------------------------*/
 
-void System_Init() {
+void System_Init(uint32_t arg0, uint32_t arg1, uint32_t arg2, uint32_t arg3, char *buf1, unsigned int buf1_size) {
+// void System_Init(char *buf1, unsigned int buf1_size) {
+// void System_Init() {
   /* STM32F4xx HAL library initialization:
       - Configure the Flash prefetch, instruction and Data caches
       - Configure the Systick to generate an interrupt each 1 msec
       - Set NVIC Group Priority to 4
       - Global MSP (MCU Support Package) initialization
    */
+  memset(buf1, 'B', buf1_size);
   HAL_Init();
   
   /* Configure the system clock to 180 MHz */
@@ -232,11 +235,14 @@ void Unlink_Driver() {
   */
 int main(void)
 {
+  char main_buf1[10] = "AAAAAAAAA";
+  // char main_buf2[10] = "AAAAAAAAA";
 #ifdef TIMER_BASELINE
 	reset_timer();
 	start_timer();
 #endif
-  System_Init();
+  System_Init(0, 1, 2, 3, main_buf1, sizeof(main_buf1));
+  // System_Init(main_buf1, sizeof(main_buf1));
 #ifdef TIMER_BASELINE
 	stop_timer();
 	ExeTime[1] = get_cycles();

@@ -8,14 +8,18 @@
 #define UPPER_ALIGNMENT(num, size) (((num) + (size) - 1) & ~((size)-1))
 #define LOWER_ALIGNMENT(num, size) ((num) & ~((size)-1))
 
-#define SCB_SHCSR_BUSFAULTENA_Pos          17U                                            /*!< SCB SHCSR: BUSFAULTENA Position */
-#define SCB_SHCSR_BUSFAULTENA_Msk          (1UL << SCB_SHCSR_BUSFAULTENA_Pos)             /*!< SCB SHCSR: BUSFAULTENA Mask */
-
-#define SCB_SHCSR_MEMFAULTENA_Pos          16U                                            /*!< SCB SHCSR: MEMFAULTENA Position */
-#define SCB_SHCSR_MEMFAULTENA_Msk          (1UL << SCB_SHCSR_MEMFAULTENA_Pos)             /*!< SCB SHCSR: MEMFAULTENA Mask */
 
 #define SHCSR *((volatile uint32_t *)0xE000ED24)
-#define DEMCR *((volatile uint32_t *) 0xE000EDFC)
+#define SCB_SHCSR_BUSFAULTENA_SHIFT         17U                                            /*!< SCB SHCSR: BUSFAULTENA Position */
+#define SCB_SHCSR_BUSFAULTENA_MSK           (1UL << SCB_SHCSR_BUSFAULTENA_SHIFT)           /*!< SCB SHCSR: BUSFAULTENA Mask */
+#define SCB_SHCSR_MEMFAULTENA_SHIFT         16U                                            /*!< SCB SHCSR: MEMFAULTENA Position */
+#define SCB_SHCSR_MEMFAULTENA_MSK           (1UL << SCB_SHCSR_MEMFAULTENA_SHIFT)           /*!< SCB SHCSR: MEMFAULTENA Mask */
+
+
+#define DEMCR *((volatile uint32_t *)0xE000EDFC)
+
+#define SCS_CCR_STKALIGN_SHIFT              9U
+#define SCS_CCR_STKALIGN_MSK                1U
 
 
 //#define DROP_PRIVILEGES __asm("mrs %[reg], CONTROL" "orr %[reg], %[reg], #1" "msr CONTROL, %[reg]" : : [reg]"r": "memory")
@@ -76,6 +80,9 @@
 
 #define OPERATION_MAX   32
 
+
+#define STACK_ALIGNMENT_8   8
+#define STACK_ALIGNMENT_4   4
 
 struct Operation_Data_Section {         // From policy file
     uint32_t addr;

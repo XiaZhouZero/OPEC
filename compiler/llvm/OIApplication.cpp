@@ -220,7 +220,7 @@ namespace {
 		Constant *get_ptr_info(Module & M, StructType * PtrInfoTy, int Type, unsigned int Count, unsigned int Size) {
 			SmallVector<Constant *, 5> PtrInfoVec;
 
-			DEBUG(errs() << "[ShadowStack] Ptr info. Type: "<< Type << ", Count: " << Count << ", Size: " << Size << "\n");
+			DEBUG(errs() << "[ShadowStack] Ptr info: Type: "<< Type << ", Count: " << Count << ", Size: " << Size << "\n");
 			APInt type = APInt(32, Type);
 			APInt count = APInt(32, Count);
 			APInt size = APInt(32, Size);
@@ -585,7 +585,7 @@ namespace {
 				Json::Value stack_info = operations[operation_name]["Stack"];
 				Json::Value::iterator arg_info = stack_info.begin();
 				/* add ArgInfoArrayTy to ShadowStackTy */
-				ArrayType * ArgInfoArrayTy = ArrayType::get(ArgInfoTy, stack_info.size());
+				ArrayType * ArgInfoArrayTy = ArrayType::get(ArgInfoTy, stack_info.size());		// Get the number of annotated point-type arguments
 				if(ShadowStackTyVec.size() == 3) {
 					ShadowStackTyVec[2] = ArgInfoArrayTy;
 				} else {
@@ -595,7 +595,7 @@ namespace {
 				for(Function::arg_iterator it = Fn->arg_begin(); it != Fn->arg_end(); it++) {
 					DEBUG(errs() << "[ShadowStack] Status: " << status << "\n");
 					if(arg_info != stack_info.end() && it->getType()->isPtrOrPtrVectorTy() && (it->getArgNo() == (*arg_info)["Index"].asUInt())) {
-						DEBUG(errs() << "[ShadowStack] Name: " << (*arg_info)["Name"].asString() << " Index: " << (*arg_info)["Index"].asUInt() << "ArgNo: " << it->getArgNo() << "\n");
+						DEBUG(errs() << "[ShadowStack] Name: " << (*arg_info)["Name"].asString() << ", Index: " << (*arg_info)["Index"].asUInt() << ", ArgNo: " << it->getArgNo() << "\n");
 						Constant *ptr_value;
 						if(status < 4) {
 							/* 说明指针保存在寄存器内 */
@@ -1631,6 +1631,6 @@ char OIApplication::ID = 0;
 INITIALIZE_PASS(OIApplication, "OIApplication", "Applies specified operation isolation policy", false, false)
 
 ModulePass *llvm::createOIApplicationPass() {
-	DEBUG(errs() << "Operation isolation Application Pass" <<"\n");
+	DEBUG(errs() << "OPEC Application Pass" <<"\n");
 	return new OIApplication();
 }

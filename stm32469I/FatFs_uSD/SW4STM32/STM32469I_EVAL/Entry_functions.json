@@ -1,5 +1,17 @@
 {
-    "System_Init": {},
+    "System_Init": {
+        "Stack": [
+            {
+                "Name": "buf1",
+                "Index": 4,
+                "Count": 1,
+                "Size": 10
+            }
+        ],
+        "Sanitization": [
+            {}
+        ]
+    },
     "Link_Driver": {},
     "Register_FS": {},
     "Create_FAT_FS": {},
