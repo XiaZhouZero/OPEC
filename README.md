@@ -1,6 +1,6 @@
 # OPEC
 
-This package includes the source codes and evaluatoin scritpts in the paper "[OPEC: Operation-based Security Isolation for Bare-metal Embedded Systems](#)" presented at EuroSys 2022.
+This package includes the source codes and evaluation scripts in the paper "[OPEC: Operation-based Security Isolation for Bare-metal Embedded Systems](#)" presented at EuroSys 2022.
 
 ```
 .
@@ -11,7 +11,7 @@ This package includes the source codes and evaluatoin scritpts in the paper "[OP
 │   ├── pinlock_serial.py
 │   └── tcp_connect.py
 ├── compiler
-│   ├── project_init_scripts		# Scritpts used to build the OPEC
+│   ├── project_init_scripts		# Scripts used to build the OPEC
 │   ├── 3rd_party					# Source code of third party tools including gcc-arm-none-eabi, LLVM4, and LLVM9
 │   ├── analysis					# LLVM9 patch files for operation resource dependency analysis and operation policy generation
 │   ├── llvm						# LLVM4 patch files for instruction instrumentation
@@ -77,7 +77,7 @@ $ pip3 install pip -U
 $ pip3 config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 
-Install python libriries
+Install python libraries
 
 ```bash
 $ pip3 install networkx==2.5 pydot matplotlib serial pydotplus prettytable
@@ -167,7 +167,7 @@ OPEC/stm32469I$ vim ./clean_app.sh				# change OI_DIR to your OI path
 OPEC/stm32469I$ ./clean_app.sh <app_name>		# get the app list by running `./build_app.sh help`
 ```
 
-For exmaple, to build Camera
+For example, to build Camera
 
 ```bash
 OPEC/stm32469I$ ./build_app.sh Camera_To_USBDisk
@@ -187,8 +187,11 @@ OPEC/stm32469I$ ./arm-none-eabi-gdb-py -iex "target remote :3333" -iex "monitor 
 (gdb) load
 ```
 
-To test the used clock cycles of each baseline appliction:
-+ First, add the marco `DTIMER_BASELINE` to the `C_DEFS` variable in Makefile9.mk file of each application.
+To test the used clock cycles of each baseline application:
++ First, add the marco `DTIMER_BASELINE` to the `C_DEFS` variable in Makefile9.mk file of each application. For example, in PinLock's [Makefile9.mk](https://github.com/XiaZhouZero/OPEC/blob/a76e061e4c30c195b683d8ccdca01db88ef641cd/stm32f407/PinLock/Decode/SW4STM32/STM32F4-DISCO/Makefile9.mk#L90)
+```makefile
+C_DEFS = -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_STM32F4_DISCO -DTIMER_BASELINE
+```
 + Second, rebuild the tested application.
 + Third, run the baseline binary, the used clock cycles of each baseline operation are recorded in the `ExeTime` array. Read this value in gdb.
 
@@ -201,10 +204,15 @@ OPEC/stm32469I$ ./arm-none-eabi-gdb-py -iex "target remote :3333" -iex "monitor 
 (gdb) load
 ```
 
-To test the used clock cycles of each appliction built with OPEC:
-+ First, add the marco `DTIMER_OPEC` to the `CFLAGS` variable in the Makefile file in `compiler/operation-rt` directory.
-+ Second, rebuild the tested application.
-+ Third, run the agumented binary, the used clock cycles of each operation are recorded in the `ExeTime` array. Read this value in gdb and caculate the runtime overhead incurred by OPEC.
+To test the used clock cycles of each application built with OPEC:
++ First, add the marco `DTIMER_OPEC` to the `CFLAGS` variable in the [Makefile](https://github.com/XiaZhouZero/OPEC/blob/a76e061e4c30c195b683d8ccdca01db88ef641cd/compiler/operation-rt/Makefile#L12) file in the `compiler/operation-rt` directory:
+```makefile
+CFLAGS += -gdwarf-2 -fdata-sections -DTIMER_OPEC
+```
++ Second, rebuild the OPEC-Monitor
++ Third, rebuild the tested application.
++ Fourth, run the augmented binary, the used clock cycles of each operation are recorded in the `ExeTime` array. Read this value in gdb and calculate the runtime overhead incurred by OPEC.
++ **Warning**: please do not add `DTIMER_BASELINE` to each application's Makefile9.mk file when building the augmented binary used for OPEC runtime evaluation.
 
 
 ### Use GDB to Record Executed Functions
