@@ -6,10 +6,8 @@ set -x
 app_list=("
 	Camera_To_USBDisk
 	FatFs_uSD
-	FatFs_RAMDisk
 	LCD_AnimatedPictureFromSDCard
 	LCD_PicturesFromSDCard
-	LCD_FileNamesFromSDCard
 	LwIP_TCP_Echo_Server
 	CoreMark
 ")
