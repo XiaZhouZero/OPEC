@@ -336,7 +336,7 @@ namespace {
 			MPUConfigVec.push_back(Type::getInt32Ty(M.getContext()));
 			MPUConfigVec.push_back(Type::getInt32Ty(M.getContext()));
 			StructType *RegionTy = StructType::create(MPUConfigVec, "__operation_mpu_regions");
-        	ArrayType *MPURegionTy = ArrayType::get(RegionTy, num_mpu_regions.asUInt());
+			ArrayType *MPURegionTy = ArrayType::get(RegionTy, num_mpu_regions.asUInt());
 
 			/* Create struct shadow_data_table *tbl
 				struct Pointer_Field {
@@ -754,7 +754,7 @@ namespace {
 
 				ArrayType *ShadowSectionTy = ArrayType::get(ShadowTblTy, external_variable_names.size());
 
-				/* if extends/deletes policy struct fields, needs to modify 1) right value of the if condition; 2) index of the if taken branch
+				/* if extends/deletes policy struct fields, needs to modify 1) right value of the if condition; 2) index of the if taken branch */
 				if(OpeTyVec.size() == 11) {
 					DEBUG(errs() << "[ShadowData] If taken, OpeTyVec.size()==" << OpeTyVec.size() << "\n");
 					OpeTyVec[10] = ShadowSectionTy;
@@ -789,13 +789,13 @@ namespace {
 					}
 					MPURegionVec.push_back(Region);
 				}
-				Constant *MPRegions = ConstantArray::get(MPURegionTy, MPURegionVec);
+				Constant *MPURegions = ConstantArray::get(MPURegionTy, MPURegionVec);
 				uint32_t operation_name_len = operation_name.length();
 				uint32_t ope_id = (uint32_t)(operation_name[operation_name_len-2] - '0');		/* e.g., _Operation_0_ */
 				APInt operation_id = APInt(32, ope_id);
 				DEBUG(errs() << ope_id << "\n");
 
-				OpeValue.push_back(MPRegions);
+				OpeValue.push_back(MPURegions);
 				OpeValue.push_back(Constant::getIntegerValue(Type::getInt32Ty(M.getContext()), operation_id));
 				OpeValue.push_back(ope_data_sec_info_ptr);
 				OpeValue.push_back(Constant::getIntegerValue(Type::getInt32Ty(M.getContext()), APInt(32, copy_size)));
