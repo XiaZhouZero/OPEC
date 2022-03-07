@@ -409,7 +409,7 @@ def get_mpu_rasr(peripherals, peripheral_index):
 
 
 def generate_mpu_configs(src_policy, mpu_config_filename, default_sections, isr_text_rodata_section, new_shadow_sections):
-    # 设置aligned text section addr, size
+    # set aligned text section addr, size
     aligned_text_size = oi_utils.next_power_2(default_sections['.isr_vector']['size']+default_sections['.text']['size'])
     executable_isr_vector_text_addr = 0x8000000
     mpu_config = {}

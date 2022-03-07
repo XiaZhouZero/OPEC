@@ -212,7 +212,7 @@ namespace {
 			APInt attr = APInt(32,Attr);
 			RegionsVec.push_back(Constant::getIntegerValue(Type::getInt32Ty(M.getContext()), addr));
 			RegionsVec.push_back(Constant::getIntegerValue(Type::getInt32Ty(M.getContext()), attr));
-			Constant *Region = ConstantStruct::get(RegionTy, RegionsVec);		// 这个函数是什么作用？
+			Constant *Region = ConstantStruct::get(RegionTy, RegionsVec);
 			return Region;
 		}
 
@@ -325,8 +325,8 @@ namespace {
 			Json::Value operation_data_section_info = Root.get("OperationDataSectionInfo", "");
 			Json::Value num_mpu_regions = Root.get("NUM_MPU_REGIONS", 8);
 
-			/* (0) 构造数据结构 */
-			/* 构造 MPU_region 结构体
+			/* (0) Create metadata structures */
+			/* Create MPU_region
 				struct MPU_region {
 					uint32_t addr;
 					uint32_t attr;
@@ -335,11 +335,10 @@ namespace {
 			SmallVector<Type *,8> MPUConfigVec;
 			MPUConfigVec.push_back(Type::getInt32Ty(M.getContext()));
 			MPUConfigVec.push_back(Type::getInt32Ty(M.getContext()));
-			// MPU_region 结构体 addr+size
 			StructType *RegionTy = StructType::create(MPUConfigVec, "__operation_mpu_regions");
-        	ArrayType *MPURegionTy = ArrayType::get(RegionTy, num_mpu_regions.asUInt());        //num_mpu_regions占一个Type
+        	ArrayType *MPURegionTy = ArrayType::get(RegionTy, num_mpu_regions.asUInt());
 
-			/* 构造 struct shadow_data_table *tbl
+			/* Create struct shadow_data_table *tbl
 				struct Pointer_Field {
 					uint32_t first_index;
 					uint32_t second_index;
@@ -369,7 +368,7 @@ namespace {
 
 			SmallVector<Type *, 8> ShadowTblVec;
 			ShadowTblVec.push_back(Type::getInt32Ty(M.getContext()));
-			ShadowTblVec.push_back(Type::getInt8PtrTy(M.getContext()));		// llvm 没有 void*，用int8 *代替
+			ShadowTblVec.push_back(Type::getInt8PtrTy(M.getContext()));		// we use int8* to represent void*
 			ShadowTblVec.push_back(Type::getInt8PtrTy(M.getContext()));
 			ShadowTblVec.push_back(Type::getInt8PtrTy(M.getContext()));
 			ShadowTblVec.push_back(Type::getInt32Ty(M.getContext()));		// size
@@ -378,14 +377,14 @@ namespace {
 			ShadowTblVec.push_back(Type::getInt32Ty(M.getContext()));		// offset_of_the_var_to_check
 			ShadowTblVec.push_back(Type::getInt32Ty(M.getContext()));		// min_value
 			ShadowTblVec.push_back(Type::getInt32Ty(M.getContext()));		// max_value
-			ShadowTblVec.push_back(Type::getInt32Ty(M.getContext()));
-			ShadowTblVec.push_back(Type::getInt8PtrTy(M.getContext()));
+			ShadowTblVec.push_back(Type::getInt32Ty(M.getContext()));		// pointer_fields_num
+			ShadowTblVec.push_back(Type::getInt8PtrTy(M.getContext()));		// *pointer_fields_ptr
 
 			// shaodow_data_table, addr+size
 			StructType *ShadowTblTy = StructType::create(ShadowTblVec, "__operation_shadow_tables");
 			// ArrayType * ShadowSectionTy = ArrayType::get(ShadowTblTy, num_shadow_variables);
 
-			/* 构造 Perpheral_Regionlist 结构体
+			/* Create Perpheral_Regionlist
 				struct Peripheral_Regionlist_Array {
 					struct Peripheral_MPU_Region {
 						uint32_t start_addr;
@@ -405,7 +404,7 @@ namespace {
 			StructType *PeripheralRegionTy = StructType::create(PeripheralRegionTyVec, "__operation_peripheral_region");
 			SmallVector<Type *, 1> PeripheralRegionlistStructTyVec;
 
-			/* 构造 PPB_Register_Whitelist 结构体
+			/* Create PPB_Register_Whitelist
 				struct Whitelist_Struct {
 					struct PPB_Register_Whitelist {
 						uint32_t start_addr;
@@ -423,14 +422,14 @@ namespace {
 			SmallVector<Type *, 1> PPBWhitelistStructTyVec;
 
 
-			/* 构造struct shadow_stack_table
+			/* Create shadow_stack_table
 			    struct shadow_stack_table {
 					uint32_t total_size;
 					uint32_t ptr_num;
 					struct {
-						int type;		// type为正表示为offset，为负表示寄存器-1到-4表示寄存器r0-r3
-						int count;		// count表示个数，负数表示跟其他参数关联，绝对值为索引
-				   		int size;		// size表示每个的大小，负数表示和其他参数关联，绝对值为索引
+						int type;		// type>=0, means that args are on stack, type is the arg's offset to psp; type<0, means that args are in regs, -1~-4, r0~r3
+						int count;		// number of elements
+						int size;		// size of each element
 						char *org_addr;
 						char *new_addr;
 					}arg[0];
@@ -449,7 +448,7 @@ namespace {
 			ArgInfoVec.push_back(Type::getInt8PtrTy(M.getContext()));
 			StructType *ArgInfoTy = StructType::create(ArgInfoVec, "PtrInfo");
 
-			/* 需要构建的mpu region
+			/* Build mpu region
 				struct Operation_Policy {
 					struct MPU_Region region[8];	// 8 MPU regions for Cortex-M4 MCU
 					uint32_t current_operation_id;
@@ -581,7 +580,7 @@ namespace {
 				uint32_t size, copy_size = 0, total_size = 0;
 				DEBUG(errs() << "[+] Start " << operation_name << "\n");
 
-				/* (2) 根据Function的参数信息, 填入stack_copy_size和stbl */
+				/* (2) According to Function arguments info, fill stack_copy_size & stbl */
 				Json::Value stack_info = operations[operation_name]["Stack"];
 				Json::Value::iterator arg_info = stack_info.begin();
 				/* add ArgInfoArrayTy to ShadowStackTy */
@@ -598,17 +597,17 @@ namespace {
 						DEBUG(errs() << "[ShadowStack] Name: " << (*arg_info)["Name"].asString() << ", Index: " << (*arg_info)["Index"].asUInt() << ", ArgNo: " << it->getArgNo() << "\n");
 						Constant *ptr_value;
 						if(status < 4) {
-							/* 说明指针保存在寄存器内 */
+							/* pointer-type args are saved in regs */
 							ptr_value = get_ptr_info(M, ArgInfoTy, ~status, (*arg_info)["Count"].asUInt(), (*arg_info)["Size"].asUInt());
 						} else {
-							/* 说明指针保存在栈上 */
+							/* pointer-type args are saved on stack */
 							ptr_value = get_ptr_info(M, ArgInfoTy, copy_size, (*arg_info)["Count"].asUInt(), (*arg_info)["Size"].asUInt());
 						}
 						total_size += (*arg_info)["Size"].asUInt();
 						OpeValue.push_back(ptr_value);
 						arg_info++;
 					}
-/* 这里很有可能有问题，else分支会比较稳妥一点，TODO: 换LLVM版本后使用else */
+/* use eles branch if migrates to LLVM 10 */
 #if 1
 					if(it->hasByValAttr()) {
 						size =  M.getDataLayout().getTypeAllocSize(it->getType()->getPointerElementType());
@@ -649,7 +648,7 @@ namespace {
 				OpeValue.clear();
 
 
-				/* (3) 填入peripheral_mpu_region_list */
+				/* (3) Fill peripheral_mpu_region_list */
 				Constant *peripheral_regionlist_ptr;
 				Json::Value peripheral_region_list = operations[operation_name].get("Peripherals", "");
 				uint32_t peripehral_region_num = peripheral_region_list.size();
@@ -699,7 +698,7 @@ namespace {
 				DEBUG(errs() << "[PeripheralRegion] Finish adding peripehral region list items!\n");
 
 
-				/* (4) 填入whitelist_size和ppbl, 参考shadow_stack_table */
+				/* (4) Fill whitelist_size and ppbl, refer to shadow_stack_table */
 				Constant *ppb_whitelist_ptr;
 				Json::Value whitelist_names = operations[operation_name].get("Whitelist_Namelist", "");
 				uint32_t whitelist_size_per_operation = whitelist_names.size();
@@ -747,15 +746,15 @@ namespace {
 				DEBUG(errs() << "[PPBWhitelist] Finish adding whitelist items!\n");
 
 
-				/* (5) 遍历JSON得到信息，往policy结构中填shadowdata数据 */
-				/* 读json中的shadowdata的name，在IR全局变量中找对应的地址 */
+				/* (5) traverse JSON policy file, fill policy structure */
+				/* get global variable name of shadowdata */
 				Json::Value external_variable_names = operations[operation_name]["ExternalData"];
 				Json::Value external_variable_fields_info = operations[operation_name]["ExternalDataFields"];
 				Json::Value external_variable_san_info = operations[operation_name]["ExternalDataSan"];
 
 				ArrayType *ShadowSectionTy = ArrayType::get(ShadowTblTy, external_variable_names.size());
 
-				/* 如果policy struct扩展或者删除成员类型，需要修改1) if条件==右侧的值; 2) if taken branch的index */
+				/* if extends/deletes policy struct fields, needs to modify 1) right value of the if condition; 2) index of the if taken branch
 				if(OpeTyVec.size() == 11) {
 					DEBUG(errs() << "[ShadowData] If taken, OpeTyVec.size()==" << OpeTyVec.size() << "\n");
 					OpeTyVec[10] = ShadowSectionTy;
@@ -763,7 +762,7 @@ namespace {
 					DEBUG(errs() << "[ShadowData] If not taken, OpeTyVec.size()==" << OpeTyVec.size() << "\n");
 					OpeTyVec.push_back(ShadowSectionTy);
 				}
-				/* 创建每个operation自己的operation_type, 因为每个operation的ShadowSectionType size不同 */
+				/* create operation_type for each operation, since the size of each operaiton's ShadowSectionType is different  */
 				StructType * OpeTy = StructType::create(OpeTyVec, "__operations");
 
 				DEBUG(errs() << "[ShadowData] Building ShadowData Region\n");
@@ -777,7 +776,7 @@ namespace {
 
 				/* (6) Build MPU Regions */
 				DEBUG(errs() << "Building MPU regions\n");
-				/* 读json中的MPU配置信息 */
+				/* Read MPU configuration information from JSON file */
 				Json::Value Attrs = operations[operation_name]["MPU_Config"]["Attr"];
 				Json::Value Addrs = operations[operation_name]["MPU_Config"]["Addr"];
 				SmallVector<Constant *, 16> MPURegionVec;
@@ -912,7 +911,6 @@ namespace {
 			// }
 			// errs()<<"Finish setting the value of default_operation_policy!\n";
 			
-			/* 修改了module，所以返回true */
 			return true;
 		}
 
@@ -957,42 +955,7 @@ namespace {
 			return usesConstAddress;
 		}
 
-#if 0
-		void print_global_use(Module &M) {
-			for(Module::global_iterator it=M.global_begin(); it!=M.global_end(); it++) {
-				for(User::use_iterator uit=it->use_begin(); uit!=it->use_end(); uit++) {
-					uit->dump();
-				}
-			}
-		}
-#endif
-#if 0
-		 void getAnalysisUsage(AnalysisUsage &AU) const override {
-			AU.addRequiredTransitive<AliasAnalysis>();
-			AU.addPreserved<AliasAnalysis>();
-		}
-#endif
-#if 0
-		/**
-		 * @brief 如果原来的Operation不是一个function，我们需要将原来的code wapper成为一个Operation的function。
-		 * 如果原来的我们先假设用户的operation就是function。后面对Operation的操作，就是对Operation function的操作。
-		 * 这里我们的wrapper函数名称是唯一的。
-		 * 对于entry已经是一个function的，我们会创建另外一个全局变量为function的别名，然后调用这个别名。
-		 * 
-		 * @param M 
-		 * @param Root 
-		 * @param operation_name 
-		 * @return Function* 
-		 */
-		Function *generate_operation_function(Module &M, Json::Value &Root, stringRef operation_name) {
-			//默认为一个完整的function
-			Function *entry; 
-			Json::Value OperationRegion = Root.get("Operation", "");
-			Json::Value Region = OperationRegion[operation_name];
-			
-			entry = M.getFunction()
-		}
-#endif
+
 		/**
 		 * @brief interceptMain
 		 * This initializes operation.  It does it by renaming main to __original_main and then creates a new main.
@@ -1044,7 +1007,7 @@ namespace {
 				Args.push_back(&arg);
 			}
 			DEBUG(errs()<<"Create call to old main\n");
-			/* 调用old_main */
+			/* call old_main */
 			V = IRB->CreateCall(OrgMain, Args);
 			//SmallVector<Function *, 12> Callees;
 			//Callees.push_back(OrgMain);
@@ -1141,7 +1104,7 @@ namespace {
 			Function *func_init_operation_datasec = M.getFunction("__operation_init_data_section");
 			assert(func_init_operation_datasec && "Can't find initialization routine check RT Lib");
 #if 1
-			/* 由于pass在run的时候，还没有这个global的存在(这个global在链接脚本中)，所以这里需要insert一个。这也行宏else中代码会出错的原因 */
+			/* when running this pass, the global vars are in Linker scripts, we need to insert them. else branch will report an error */
 			Type *arg0Type = Type::getInt32Ty(M.getContext());
 			Type *arg1Type = Type::getInt32Ty(M.getContext());
 			Type *arg2Type = Type::getInt32Ty(M.getContext());
@@ -1250,7 +1213,7 @@ namespace {
 
 
 		/**
-		 * @brief 为operation需要访问的external global data创建shadow data, 并将所有的external and internal data放在特定section
+		 * @brief build shadow copies. Place shadow copies/internl ones at a specific data section.
 		 * 
 		 * @param M 
 		 * @param Root 
@@ -1315,7 +1278,7 @@ namespace {
 		}
 
 
-		/* 遍历程序所有IR Instruction，如果一个Instruction访问了External global data，则在Instruction之前insert一条LoadInst, 改为对external global data ptr的先load后访问 */
+		/* if one Instruction accesses External global var, insert an LoadInst before it. i.e., 1) load from ptr, 2) access the shadow copy */
 		LoadInst *find_and_replace(Instruction &I,  GlobalVariable *GV, DenseMap<GlobalVariable *, GlobalVariable *> *GVptr)
 		{
 			DenseMap<GlobalVariable *, GlobalVariable *>::iterator it;
@@ -1428,26 +1391,18 @@ namespace {
 						for (unsigned i=0; i < I.getNumOperands(); i++) {
 							Value *V = I.getOperand(i);
 							if (GlobalVariable *GV = dyn_cast_or_null<GlobalVariable>(V)) {
-								// DEBUG(errs() << "#1.0\n");
 								LoadInst *LI = find_and_replace(I, GV, GVPtrMap);
-								// DEBUG(errs() << "#1.1\n");
 								if (LI) {
-									// DEBUG(errs() << "#1.2\n");
 									I.setOperand(i, LI);
-									// DEBUG(errs() << "#1.3\n");
 								}
 							}
 
 							else if (GEPOperator* gepo = dyn_cast<GEPOperator>(V)) {
-								/* 看指针是否指向全局变量 */
-								// DEBUG(errs() << "#2.0\n");
+								/* if pointer to global vars */
 								if (GlobalVariable *GV = dyn_cast_or_null<GlobalVariable>(gepo->getPointerOperand())) {
 									gepo->dump();
-									// DEBUG(errs() << "#2.1\n");
 									if (GetElementPtrInst *GI = gepo_find_and_replace(I, gepo, GV, GVPtrMap)) {
-										// DEBUG(errs() << "#2.2\n");
 										I.setOperand(i, GI);
-										// DEBUG(errs() << "#2.3\n");
 									}
 								}
 								/**
@@ -1455,10 +1410,8 @@ namespace {
 								 * 
 								 */
 								else if (BitCastOperator *BCO = dyn_cast<BitCastOperator>(gepo->getPointerOperand())) {
-									// DEBUG(errs() << "#3.4\n");
 									BCO->dump();
 									if (GlobalVariable *GV = dyn_cast<GlobalVariable>(gepo->getPointerOperand()->stripPointerCasts())) {
-										// DEBUG(errs() << "#3.5\n");
 										LoadInst *LI = find_and_replace(I, GV, GVPtrMap);
 										if (LI) {
 											if (BitCastInst *BCI = new BitCastInst(LI, BCO->getDestTy(), GV->getName()+"_bitcast", &I)) {
@@ -1473,62 +1426,45 @@ namespace {
 									}
 
 								}
-								/* 看索引是否是全局变量 */
+								/* if index is global var */
 								for(unsigned j=1; j<gepo->getNumOperands(); j++) {
-									// DEBUG(errs() << "#3.0\n");
 									if (GlobalVariable* GV = dyn_cast<GlobalVariable>(gepo->getOperand(j))) {
 										//DEBUG(errs() << "find global variables from index\n");
-										// DEBUG(errs() << "#3.1\n");
 										GetElementPtrInst *GI = gepo_index_find_and_replace(I, j, gepo, GV, GVPtrMap);
 										if (GI) {
-											// DEBUG(errs() << "#3.2\n");
 											I.setOperand(i, GI);
-											// DEBUG(errs() << "#3.3\n");
 										}
 									}
 								}
 							}
 
 							else if (BitCastOperator *BCO = dyn_cast<BitCastOperator>(V)) {
-								// DEBUG(errs() << "#4.0\n");
 								if (GlobalVariable *GV = dyn_cast<GlobalVariable>(V->stripPointerCasts())) {
-									// DEBUG(errs() << "#4.1\n");
 									I.dump();
 									if (GV->hasName() && !(GV->getName().endswith("_ptr"))) {
-										// DEBUG(errs() << "#4.2\n");
 										LoadInst *LI = find_and_replace(I, GV, GVPtrMap);
-										// DEBUG(errs() << "#4.3\n");
 										if (LI) {
-											// DEBUG(errs() << "#4.4\n");
 											BitCastInst *BCI = new BitCastInst(LI, BCO->getDestTy(), GV->getName()+"_bitcast", &I);
 											I.setOperand(i, BCI);
-											// DEBUG(errs() << "#4.5\n");
 										}
 									}
 								}
 							}
 
 							else if (PtrToIntOperator *PTIO = dyn_cast<PtrToIntOperator>(V)) {
-								// DEBUG(errs() << "#5.0\n");
 								Value *v_ptr = PTIO->getPointerOperand();
-								// DEBUG(errs() << "#5.1\n");
 								if (GlobalVariable *GV = dyn_cast<GlobalVariable>(v_ptr)) {
-									// DEBUG(errs() << "#5.2\n");
 									if (GV->hasName() && !(GV->getName().endswith("_ptr"))) {
-										// DEBUG(errs() << "#5.3\n");
 										LoadInst *LI = find_and_replace(I, GV, GVPtrMap);
-										// DEBUG(errs() << "#5.4\n");
 										if (LI) {
-											// DEBUG(errs() << "#5.5\n");
 											PtrToIntInst *PTII = new PtrToIntInst(LI, PTIO->getType(), GV->getName()+"_ptrtoint", &I);
 											I.setOperand(i, PTII);
-											// DEBUG(errs() << "#5.6\n");
 										}
 									}
 								}
 							}
 
-						#if 0
+#if 0
 						if (CallInst *CI = dyn_cast<CallInst>(&I)) {
 							Function *callee_func;
 							if ((callee_func=CI->getCalledFunction()) || (callee_func=dyn_cast<Function>(CI->getCalledValue()->stripPointerCasts()))) {
@@ -1565,11 +1501,9 @@ namespace {
 								}
 							}
 						}
-						#endif
-						#if 0
+#endif
+#if 0
 						else if (StoreInst *SI = dyn_cast<StoreInst>(&I)) {
-							/* 全局变量取址用的store指令, opcode0是指针类型 */
-							/* 替换为对GV_ptr的先load后store，保证在operation内的取址操作是对shadow的取址操作 */
 							Value *V = I.getOperand(0);
 							if (GlobalVariable *GV = dyn_cast<GlobalVariable>(V)) {
 								/* Case 1: Directly store value to a GV */
@@ -1617,7 +1551,7 @@ namespace {
 								}
 							}
 						}
-						#endif
+#endif
 						}
 					}
 				}

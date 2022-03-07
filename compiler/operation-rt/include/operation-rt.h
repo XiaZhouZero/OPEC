@@ -91,7 +91,7 @@ struct Operation_Data_Section {         // From policy file
 };
 
 
-struct Operations_Data_Section_Info {                               // 按照地址从高到低排序, 从policy文件中读取start_address+size, id由OIApplication生成
+struct Operations_Data_Section_Info {
     uint32_t operation_data_section_num;
     struct Operation_Data_Section *operation_data_section_ptr;
 };
@@ -103,7 +103,7 @@ struct Operation_Policy_Info {
 };
 
 
-struct Operation_Policies {                                         // policy_addr&operation_id由OIApplication生成
+struct Operation_Policies {
     uint32_t operation_policy_num;
     struct Operation_Policy_Info *operation_policy_info_ptr;
 };
@@ -141,9 +141,9 @@ struct Shadow_Stack_TBL {
 	uint32_t total_size;
 	uint32_t ptr_num;
 	struct {
-		int type;		// type为正表示为offset，为负表示寄存器-1到-4表示寄存器r0-r3
-		int count;		// count表示个数，负数表示跟其他参数关联，绝对值为索引
-		int size;		// size表示每个的大小，负数表示和其他参数关联，绝对值为索引
+		int type;		// type>=0, means that args are on stack, type is the arg's offset to psp; type<0, means that args are in regs, -1~-4, r0~r3
+		int count;		// number of elements
+		int size;		// size of each element
 		char *org_addr;
 		char *new_addr;
 	}arg[0];

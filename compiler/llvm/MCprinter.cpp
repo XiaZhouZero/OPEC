@@ -46,14 +46,14 @@ namespace {
                 for(MachineInstr &MI: BB) {
                     if(MI.isCall()) {
                         //MI.print(errs());
-                        /*遍历查找call target，这里只能找到direct call，我们必须保证Operation的entry function是通过direct call的形式*/
+                        /* Find direct call targets. We can only find direct calls here. Therefore, operation entry functoin must be called directly */
                         for(auto MO = MI.operands_begin(); MO != MI.operands_end(); MO++) {
                             if(MO->isGlobal()) {
                                 func = dyn_cast_or_null<Function>(MO->getGlobal());
                                 assert(func && "change globalvalue to function fail!");
                                 if(func->hasFnAttribute("OperationEntry")) {
                                     auto DbgLoc = MI.getDebugLoc();
-                                    /*在函数调用之前位置插入SVC指令和Metadata的地址来进入operation*/
+                                    /* Before calling the operation entry function, insert one SVC instruction and two pointers to operation's metadata */
                                     auto  I = MI.getIterator();
                                     std::string *cmd = new std::string(".long __operation_");
                                     cmd->append(func->getFnAttribute("OperationEntry").getValueAsString());
@@ -70,7 +70,7 @@ namespace {
                                     std::string *cmd2 = new std::string(".long Policies_Info");
                                     MIB.addOperand(MachineOperand::CreateES(cmd2->c_str()));
                                     MIB.addOperand(MachineOperand::CreateImm(InlineAsm::AD_ATT));
-                                    /*在函数调用之后插入SVC指令来退出Operation*/
+                                    /* After executing operation entry functions, insert SVC instruction used for exiting one operation */
                                     I = std::next(I);
                                     MIB = BuildMI(BB,I,DbgLoc,TII.get(ARM::tSVC));
                                     MIB.addImm(101);

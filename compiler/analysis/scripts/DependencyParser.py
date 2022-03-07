@@ -228,8 +228,7 @@ def add_peripheral_dependency(peripheral_json, func_memdep):
 
 def parse_load_store_inst(load_store_filename):
     """
-    需要处理getelmentptr指令的offset
-    解析指令
+    Parse load/store IR instructions. Need to handle the offset in getelementptr instructions
     """
     func_memdep = {}
     Start_LLVM_DEF_USE = False
@@ -359,7 +358,7 @@ def parse_load_store_inst(load_store_filename):
 
                 elif (getelementptr_inst_pattern in line) and (primary_peripheral_pattern in line) and ((load_inst_pattern not in line) and (store_inst_pattern not in line)):
                     """
-                    getelementptr 之计算了地址，但是没有去store, load
+                    getelementptr only calculates the target address without running load/store the value to this address
                     %arrayidx = getelementptr inbounds [16 x i8], [16 x i8]* @APBAHBPrescTable, i32 0, i32 %shr, !dbg !3965
                     """
                     target = line.split(primary_peripheral_pattern)[1].split()
@@ -406,7 +405,7 @@ def parse_load_store_inst(load_store_filename):
                     """
                     # gv = line.split()[1].strip()
                     gv = line.split()[1].split("[")[0]
-                    if gv == "@":   #空
+                    if gv == "@":   #empty
                         continue
                     func = line.split("function:")[1].strip()
                     func_memdep[func]["Variables"].add(gv)

@@ -178,7 +178,7 @@ int do_region_switch(struct Peripheral_MPU_Region* regions_ptr, struct Periphera
 		return -1;
 #endif
 
-	/*关中断*/
+	/* disable interrupts */
 	__asm volatile ("cpsid i" : : : "memory");
 	__asm volatile ("cpsid f" : : : "memory");
 
@@ -192,7 +192,7 @@ int do_region_switch(struct Peripheral_MPU_Region* regions_ptr, struct Periphera
 	/* update next_region_id, range 4-7, round-robin */
 	next_region_id = (next_region_id - BASIC_REGIONS + 1) % PERIPHERAL_REGIONS + BASIC_REGIONS;
 
-	/*开中断*/
+	/* enable interrupts */
 	__asm volatile ("cpsie f" : : : "memory");
 	__asm volatile ("cpsie i" : : : "memory");
 	return 0;
@@ -629,34 +629,11 @@ void mpu_switch(int type, uint8_t sub_mask, struct MPU_Region region[REGION_NUM]
 }
 
 
-void modify_stack_pointer(uint32_t psp) {
-	/*这时候我们还没有修改栈指针，栈指针的修改只能在线程模式下，完成*/
-	/*开中断*/
-	__asm volatile ("cpsie f" : : : "memory");
-	__asm volatile ("cpsie i" : : : "memory");
-
-	/*修改PSP的栈内容和指针，用于返回*/
-	__asm volatile (
-		//copy psp stack to new position
-		"push {r4-r7, r11, r12}\n"	//保存其寄存器
-		"Mov r11, %0\n"
-		"MRS r12, psp\n"
-		"ldmia r12, {r0-r7}\n"		//读取原来压入栈中的上下文	pop
-		"stmdb r11!, {r0-r7}\n"		//将原来stacking的数据移动压入新的栈中 push
-		"MSR psp, r11\n"			//修改psp的值		
-		"pop{r4-r7, r11, r12}\n"
-		:
-		:"r"(psp)
-		:"r0","memory"
-	);
-}
-
-
 void HardFault_Handler(void) {
 	__asm volatile (
 		".global HardFault_Handler_Main\n\t"
 		"ldr r12, =__opec_syscall_registers \n\t"
-		"stmia r12!, {r0-r11} \n\t"					// __opec_syscall_registers保存了r0-r11
+		"stmia r12!, {r0-r11} \n\t"					// save r0-r11 to __opec_syscall_registers
 		"mrs r0, psp \n\t"							// r0 point to stack frame
 		"ldr r1, =__opec_syscall_registers \n\t"	// r1 point to reg frame
 		"push {lr} \n\t"
@@ -677,36 +654,9 @@ void HardFault_Handler_Main(struct Exception_Frame *Stack, struct Reg_Frame *Reg
 
 void BusFault_Handler(void)
 {
-#if 0
-	__asm volatile (
-		"mrs sp, psp\n\t"
-		"pop {r0-r3}\n\t" 							//restore IRQ stack frame r0-r3
-		"ldr r12, =__opec_syscall_registers \n\t"
-		"stmia r12!, {r0-r11} \n\t"   				// __opec_syscall_registers保存了r0-r11
-		"pop {r0,r2,r3,r4} \n\t"  					// r0=hard_args[r12], r2=hard_args[LR], r3=hard_args[pc], r4=hard_args[xPSR]
-		"mrs r1, msp \n\t"							// r1=hard_args[sp]=msp
-		"stmia r12!, {r0-r4} \n\t"  				// r0=hard_args[r12], r1=hard_args[sp]=msp, r2=hard_args[LR], r3=hard_args[pc], r4=hard_args[xPSR], where 现在的r12保存的__opec_syscall_registers, 一共Push了17 regs
-		"mov r0, r3 \n\t"							// r3 points to pc i.e., instruction to be executed, stored during exception entry
-		"ldr r1, =__opec_syscall_registers \n\t"			// r1保存的是stack frame值等同于R12
-		"ldr sp, =__opec_syscall_stack+(100*4) \n\t"		// sp保存的是exception stack的位置
-		"push {lr} \n\t"
-		"bl BusFault_Handler_Main\n\t"
-		"pop {lr} \n\t"
-		"ldr r12, =__opec_syscall_registers+(13*4)\n\t"		// regs top
-		"ldmia r12, {r0-r3} \n\t"
-		"mov sp, r0 \n\t"									// recover sp
-		"push {r1-r3}\n\t"									// 将xPSR, PC, LR压入hard_args的栈上
-		"ldr r12, =__opec_syscall_registers \n\t"
-		"ldmia r12!, {r0-r11} \n\t"
-		"ldr r12, [r12] \n\t"
-		"push {r0-r3,r12} \n\t"								// 将r0-r3, r12压入hard_args的栈上
-		"bx lr\n\t"
-	);
-#endif
-
 	__asm volatile (
 		"ldr r12, =__opec_syscall_registers \n\t"
-		"stmia r12!, {r0-r11} \n\t"					// __opec_syscall_registers保存了r0-r11
+		"stmia r12!, {r0-r11} \n\t"					// save r0-r11 to __opec_syscall_registers
 		"mrs r0, psp \n\t"							// r0 point to stack frame
 		"ldr r1, =__opec_syscall_registers \n\t"	// r1 point to reg frame
 		"push {lr} \n\t"
@@ -768,7 +718,7 @@ void MemManage_Handler(void)
 	__asm volatile (
 		".global MemManage_Handler_Main\n\t"
 		"ldr r12, =__opec_syscall_registers \n\t"
-		"stmia r12!, {r0-r11} \n\t"					// __opec_syscall_registers保存了r0-r11
+		"stmia r12!, {r0-r11} \n\t"					// save r0-r11 to __opec_syscall_registers
 		"mrs r0, psp \n\t"							// r0 point to stack frame
 		"ldr r1, =__opec_syscall_registers \n\t"	// r1 point to reg frame
 		"push {lr} \n\t"
@@ -871,7 +821,7 @@ void SVC_Handler(void)
 	__asm volatile (
 		".global SVC_Handler_Main\n\t"
 		"ldr r12, =__opec_syscall_registers \n\t"
-		"stmia r12!, {r0-r11} \n\t"					// __opec_syscall_registers保存了r0-r11
+		"stmia r12!, {r0-r11} \n\t"					// save r0-r11 to __opec_syscall_registers
 		"mrs r0, psp \n\t"							// r0 point to stack frame
 		"ldr r1, =__opec_syscall_registers \n\t"	// r1 point to reg frame
 		"push {lr} \n\t"
@@ -911,8 +861,7 @@ void SVC_Handler_Main(struct Exception_Frame *Stack, struct Reg_Frame *Regs) {
 	uint32_t *arg_org_pos;
 	uint8_t svc_number = *(((uint8_t *)Stack->pc)-2);
 
-	//svc_number = (( char * )svc_args[ 6 ])[-2];
-	/* 关中断 */
+	/* disable interrupts */
 	__asm volatile ("cpsid i" : : : "memory");
 	__asm volatile ("cpsid f" : : : "memory");
 
@@ -925,7 +874,7 @@ void SVC_Handler_Main(struct Exception_Frame *Stack, struct Reg_Frame *Regs) {
 	switch(svc_number) {
 		/* Operation Entry */
 		case 100:
-			/* step 1: 保存unprivileged mode的stack pointer(psp) */
+			/* step 1: save unprivileged mode stack pointer, i.e., psp */
 			Operation_Stack.policy = policy = (struct Operation_Policy *)(*(Stack->pc));
 			if (Stack->xPSR & 0x200)
 				psp = __get_PSP() + 36;
@@ -935,22 +884,22 @@ void SVC_Handler_Main(struct Exception_Frame *Stack, struct Reg_Frame *Regs) {
 			OpeDataSecInfo = *Operation_Stack.policy->OpeDataSecInfo_ptr;
 			PoliciesInfo_ptr = (struct Operation_Policies *)(*(Stack->pc+1));
 			org_sp = (char *)psp;
-			/* 因为在svc指令之后插入了2个指针, 所以pc长度需要加4*2 */
+			/* PC needs to add 4*2, since we have inserted two pointers after this kind of SVC instructions */
 			Stack->pc += 2;
 
-			/* step 2: 同步shadow data, 修改ptr指针. TODO: copy on write */
+			/* step 2: synchorize shadow data copies, update pointers. TODO: copy on write */
 			shadow_data_copy(policy->shadowdata_tbl_size, policy->shadowdata_tbl);
 
-			/* step 3: 计算新的栈指针 */
-			sub_number = (stack_top - psp + ((stack_size >> 3) - 1)) / (stack_size >> 3);	//总共8个sub region，计算消耗掉几个
+			/* step 3: calculate a new stack pointer */
+			sub_number = (stack_top - psp + ((stack_size >> 3) - 1)) / (stack_size >> 3);	// There are 8 sub regions，we need to calculate how many have been consumed.
 			sub_mask = ~(sub_mask >> sub_number);
 			new_sp = (char *)(stack_top - (stack_size >> 3) * sub_number);
 
-			/* step4: 拷贝pointer-type argument指向的buffer (如果是字符串数组怎么办?参考SGX方法) */
+			/* step4: copy buffers pointed to by pointer-type arguments (for buffer arrays, refer to SGX) */
 			stack_table = policy->stbl;
 			if (stack_table) {
 				for (i=0; i<stack_table->ptr_num; i++) {
-					/* 获取pointer-type argument的值 */
+					/* get the value of the pointer-type argument */
 					if (stack_table->arg[i].type < 0) {
 						/* the pointer-type argument is in r0~r3 */
 						stack_table->arg[i].org_addr = *(char **)((uint32_t *)Stack + (~stack_table->arg[i].type));
@@ -963,7 +912,7 @@ void SVC_Handler_Main(struct Exception_Frame *Stack, struct Reg_Frame *Regs) {
 					new_sp -= stack_table->total_size;
 					new_sp = (char *)LOWER_ALIGNMENT((uint32_t)new_sp, stack_alignment);
 
-					/* addjust buffer address according to the stack alignment */
+					/* adjust the buffer address according to the stack alignment */
 					org_buf = stack_table->arg[i].org_addr;
 					if ((uint32_t)org_buf % stack_alignment) {
 						new_sp = new_sp - stack_alignment + (uint32_t)org_buf % stack_alignment;
@@ -979,13 +928,13 @@ void SVC_Handler_Main(struct Exception_Frame *Stack, struct Reg_Frame *Regs) {
 					tmp_sp += buffer_copy_size;
 				}
 
-				/* step5: 拷贝超过4个参数以后压到栈上的参数 */
+				/* step5: copy arguments saved on stack if the number of arguments exceed 4 */
 				new_sp -= policy->stack_copy_size;
 				memcpy(new_sp, org_sp, policy->stack_copy_size);
 				// for (i=0; i<policy->stack_copy_size; i++)
 				// 	new_sp[i] = org_sp[i];
 
-				/* step6: 修改pointer-type argument的值 */
+				/* step6: modify the value of pointer-type argument */
 				for (i=0; i<stack_table->ptr_num; i++) {
 					if (stack_table->arg[i].type < 0) {
 						/* r0/r1/r2/r3 holds the address of the pointer-type argument, get the address of r0/r1/r2/r3 */
@@ -1006,27 +955,28 @@ void SVC_Handler_Main(struct Exception_Frame *Stack, struct Reg_Frame *Regs) {
 
 			new_sp = (char *)LOWER_ALIGNMENT((uint32_t)new_sp, stack_alignment);
 			psp = (uint32_t)new_sp;
-			/* 切换MPU配置，计算新的栈指针位置 */
+			/* reconfigure MPU */
 			mpu_switch(1, sub_mask, policy->region);
-			// modify_stack_pointer(psp);
 			break;
 
 		/* Operation Exit */
 		case 101:
-			/* step 1: 获取当前Operation的shadow table */
-			policy = Operation_Stack.policy;		// svc_number = operation_id
+			/* step 1: get current operation policy */
+			policy = Operation_Stack.policy;
 
-			/* step 2: 用户指定的数据进行value check */
+			/* step 2: value check */
 
-			/* step 3: 同步shadow data和修改ptr指针 */
+			/* step 3: synchronize shadow copies and update pointers */
 			shadow_data_writeback(policy->shadowdata_tbl_size, policy->shadowdata_tbl);
-			/* step 4: 恢复到之前的栈 */
+
+			/* step 4: recover to the previous stack, be careful about the stack alignment */
 			if (Stack->xPSR & 0x200) {
 				psp = Operation_Stack.stack_pointer - 4;
 			} else {
 				psp = Operation_Stack.stack_pointer;
 			}
-			/* step 5: 将拷贝的pointer-type argument 拷贝回去 */
+
+			/* step 5: write back the copied pointer-type arguments */
 			stack_table = policy->stbl;
 			if (stack_table) {
 				for (i=0; i<stack_table->ptr_num; i++) {
@@ -1034,13 +984,13 @@ void SVC_Handler_Main(struct Exception_Frame *Stack, struct Reg_Frame *Regs) {
 				}
 			}
 
-			/* step 6: 切换MPU配置，计算新的栈指针位置 */
+			/* step 6: re-configure MPU */
 			mpu_switch(0, sub_mask, policy->region);
 			clear_regs(Regs);
-			// modify_stack_pointer(psp);
 			break;
 
-		default:	// unknow SVC number
+		default:
+			/* unknow SVC number */
 			OPEC_FAULT
 			break;
 	}
@@ -1055,7 +1005,7 @@ void SVC_Handler_Main(struct Exception_Frame *Stack, struct Reg_Frame *Regs) {
 	new_ef = (struct Exception_Frame *)psp;
 	copy_exception_frame(new_ef, Stack);
 
-	/* 开中断 */
+	/* enable interrupts */
 	__asm volatile ("cpsie f" : : : "memory");
 	__asm volatile ("cpsie i" : : : "memory");
 
@@ -1065,28 +1015,14 @@ void SVC_Handler_Main(struct Exception_Frame *Stack, struct Reg_Frame *Regs) {
 		(2) perform an exception return and uses the correct return value 0xFFFFFFFD
 	*/
 
+	/* Modify PSP */
 	__asm volatile (
 		"mov r0, %0\n"
-		"msr psp, r0\n"			// 修改psp的值
+		"msr psp, r0\n"
 		:
 		:"r"(psp)
 		:"r0","memory"
 	);
-
-	/* 修改PSP的栈内容和指针，用于返回 */
-	// __asm volatile (
-	// 	//copy psp stack to new position
-	// 	"push {r4-r7, r11, r12}\n"	// 保存其寄存器
-	// 	"mov r11, %0\n"
-	// 	"mrs r12, psp\n"
-	// 	"ldmia r12, {r0-r7}\n"		// 读取原来压入栈中的上下文	pop
-	// 	"stmdb r11!, {r0-r7}\n"		// 将原来stacking的数据移动压入新的栈中 push
-	// 	"msr psp, r11\n"			// 修改psp的值
-	// 	"pop{r4-r7, r11, r12}\n"
-	// 	:
-	// 	:"r"(psp)
-	// 	:"r0","memory"
-	// );
 }
 
 
@@ -1120,7 +1056,6 @@ void __operation_start(struct Operation_Policy *default_operation)
 	_stop_timer();
 	__operation_start_EXE_time[__operation_start_CALL_count++] = _get_cycles();
 #endif
-	//to be fulfilled
 }
 
 

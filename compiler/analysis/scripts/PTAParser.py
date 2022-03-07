@@ -2,12 +2,6 @@
 # -*- coding: UTF-8 -*-
 
 
-"""
-测试通过
-+ 通过指针传递的全局变量（除结构体变量）
-+ 通过指针传递的全局结构体变量（对指针传递的局部结构体变量不会产生误报）
-"""
-
 import argparse
 import logging
 import traceback

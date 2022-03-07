@@ -198,7 +198,7 @@ namespace {
 						GVField.append(base+type_size-1);
 					}
 				}
-				// 只支持2层数组
+				// suppport two levels arrays
 				else if (EleType->isArrayTy() && EleType->getArrayElementType()->isPointerTy()) {
 					ArrayType *array_ty = dyn_cast<ArrayType>(EleType);
 					uint64_t array_num = array_ty->getArrayNumElements();
@@ -648,7 +648,7 @@ namespace {
 				for(Function::iterator BBIt=FunIt->begin(); BBIt!=FunIt->end(); ++BBIt) {
 					for(BasicBlock::iterator InstIt=BBIt->begin(); InstIt!=BBIt->end(); ++InstIt) {
 						if(Instruction *Inst = dyn_cast<Instruction>(InstIt)) {
-							// 输出所有的LoadInst&StoreInst
+							// echos all LoadInst/StoreInst
 							if(isa<LoadInst>(Inst) || isa<StoreInst>(Inst) || isa<CallInst>(Inst) || isa<GetElementPtrInst>(Inst)) {
 								errs() << *Inst << "\n";
 							}
@@ -658,7 +658,7 @@ namespace {
 			}
 			errs() << "########################################ALL LOAD & STORE & GETELEMENTPTR########################################\n";
 			#endif
-			// 输出所有的全局变量名称，用于指针分析时对变量进行verify
+			// echo names of all global vars, used to verify during point-to analysis
 			errs() << "########################################ALL GLOBALVARIABLES########################################\n";
 			// OICounter = 0;
 			// for(auto GV=M.global_begin(); GV!=M.global_end(); GV++) {
