@@ -2,6 +2,16 @@
 
 This package includes the source codes and evaluation scripts in the paper "[OPEC: Operation-based Security Isolation for Bare-metal Embedded Systems](#)" presented at EuroSys 2022.
 
+Authors
++ Xia Zhou (Zhejiang University)
++ Jiaqi Li (Zhejiang University)
++ Wenlong Zhang (Zhejiang University)
++ Yajin Zhou (Zhejiang University)
++ Wenbo Shen (Zhejiang University)
++ Kui Ren (Zhejiang University)
+
+Repo Structure
+
 ```
 .
 ├── experiments						# scripts and raw data for experiments
