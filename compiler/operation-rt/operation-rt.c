@@ -413,7 +413,7 @@ void write_stack_frame(struct Exception_Frame *Stack, struct Reg_Frame *Regs) {
 }
 
 
-uint32_t do_value_sanitize(struct Shadow_Data_TBL shadowdata_tbl)
+int do_value_sanitize(struct Shadow_Data_TBL shadowdata_tbl)
 {
 	if ((shadowdata_tbl.min_value > shadowdata_tbl.sha_addr[shadowdata_tbl.offset_of_the_var_to_check]) || (shadowdata_tbl.sha_addr[shadowdata_tbl.offset_of_the_var_to_check] > shadowdata_tbl.max_value)) {
 		return -1;
