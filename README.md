@@ -2,7 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/452701528.svg)](https://zenodo.org/badge/latestdoi/452701528)
 
-This package includes the source codes and evaluation scripts in the paper "[OPEC: Operation-based Security Isolation for Bare-metal Embedded Systems](#)" presented at EuroSys 2022.
+This package includes the source code and evaluation scripts in the paper "[OPEC: Operation-based Security Isolation for Bare-metal Embedded Systems](#)" presented at EuroSys 2022.
 
 
 Authors
@@ -30,14 +30,14 @@ Repo Structure
 │   ├── llvm						# LLVM4 patch files for instruction instrumentation
 │   ├── operation-rt				# OPEC-Monitor source code
 │   └── svf_patch					# SVF patch files used to format the point-to analysis output and add additional output
-├── stm32f407						# Tested applications (PinLock) runs on the STM32F407 board
+├── stm32f407						# Tested applications that run on the STM32F407 board
 │   ├── Drivers -> ../STM32Cube_FW_F4_V1.25.0/Drivers
 │   ├── Middlewares -> ../STM32Cube_FW_F4_V1.25.0/Middlewares
 │   ├── Utilities -> ../STM32Cube_FW_F4_V1.25.0/Utilities
 │   ├── PinLock
 │   ├── build_app.sh				# Script for building tested applications
 │   └── clean_app.sh				# Script for cleaning tested applications
-└── stm32f469I						# Tested applications (PinLock) runs on the STM32469I-EVAL board
+└── stm32f469I						# Tested applications that run on the STM32469I-EVAL board
     ├── Drivers -> ../STM32Cube_FW_F4_V1.25.0/Drivers
     ├── Middlewares -> ../STM32Cube_FW_F4_V1.25.0/Middlewares
     ├── Utilities -> ../STM32Cube_FW_F4_V1.25.0/Utilities
